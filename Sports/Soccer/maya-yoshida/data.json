@@ -1103,10 +1103,10 @@
         "url": "https://www.videogamer.com/news/southamptons-maya-yoshida-to-feature-on-fifa-14s-japanese-cover/"
       },
       {
-        "what": "Vera&John free version (ambassador, TV ad, sponsored podcast). See 'Controversies'.",
-        "when": "2021–2023",
+        "what": "Vera&John free version (ambassador, TV ads, sponsored podcast). See 'Controversies' and the deep dive.",
+        "when": "Aug 2021 – June 2023",
         "status": "Confirmed",
-        "url": "https://www.soccer-king.jp/news/japan/national/20210811/1558316.html"
+        "url": "https://www.dailyshincho.jp/article/2025/02280605/?all=1&page=3"
       },
       {
         "what": "Parmigiani Fleurier (Swiss watch brand partner)",
@@ -1164,7 +1164,10 @@
     "Rumours linking him with V-Varen Nagasaki or Nagoya are fan talk and one tabloid report. Nothing official.",
     "Direct YouTube links were not confirmed; the appendix uses YouTube search links by exact title.",
     "A YouTube channel exists under his name, but I could not confirm it is official, so it is not linked.",
-    "Vera&John deal end date: Soccer King shows the start (Aug 2021); the end year 2023 comes from one weekly-magazine article."
+    "Vera&John: I found no public comment from Yoshida himself, only his office's statement. The office statement was read through reports quoting Daily Shincho.",
+    "Who his agent is today: not confirmed. 'Agent since November 2007' and 'introduced by Honda' come from English Wikipedia.",
+    "The agency name 'Shootribe' for Kiyooka's clients comes from a university lecture note and Japanese Wikipedia links, not from an official page.",
+    "FIFA agent fee limits: introduced in 2023 and challenged in courts; current status not checked."
   ],
   "videos": {
     "intro": "I could not confirm direct YouTube links from my tools, so the YouTube rows are SEARCH links: click and the video with that exact title should be at or near the top. The other rows are direct links to official pages.",
@@ -1283,12 +1286,12 @@
     "intro": "No real scandal was found: no report of a crime, doping, match-fixing or a personal-life scandal in Japanese or English news (searched 21 Nov 2026). A search cannot prove nothing exists, so this section lists everything that did come up, big or small. Each row says what his part was.",
     "items": [
       {
-        "date": "2021–2023 (criticised in 2025)",
+        "date": "Aug 2021 – June 2023 (criticised in 2025)",
         "kind": "🟠 Criticised",
         "title": "Advertising for Vera&John 'free version' (an online casino brand)",
         "what": "He was the ambassador and appeared in its TV ads. In 2025, when Japanese comedians were questioned by police over online casino gambling, some people online said he, Shinji Okazaki and DAZN should be blamed, because free versions can lead people to the illegal real-money sites.",
-        "outcome": "The free version takes no real-money bets and is treated as a 'game' in Japan, so the ad was not illegal. No report of any action against him. A reputation question, not a legal one.",
-        "url": "https://www.jprime.jp/articles/-/35503"
+        "outcome": "The free version takes no real-money bets and is treated as a 'game' in Japan, so the ad was not illegal. In Feb 2025 his management office said its understanding at the time was not enough and apologised. No action against him. See the deep dive below.",
+        "url": "https://www.dailyshincho.jp/article/2025/02280605/?all=1&page=3"
       },
       {
         "date": "2021-07-17",
@@ -1331,5 +1334,458 @@
         "url": "https://en.wikipedia.org/wiki/Maya_Yoshida"
       }
     ]
-  }
+  },
+  "deep_dives": [
+    {
+      "emoji": "🎰",
+      "title": "The Vera&John ad deal: how a sports sponsorship really works",
+      "intro": "Short version: Yoshida was the face, but four kinds of companies were involved besides him: the casino brand, an ad agency, his management office and the media. Each treated it the same way: 'it is only the free version, so it is legal.' That was true at the time. It still hurt his reputation four years later. No report says he gambled or broke any law.",
+      "parts": [
+        {
+          "heading": "Who was involved (the chain)",
+          "kind": "table",
+          "headers": [
+            "Role",
+            "Who",
+            "What they did"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "1. The brand",
+                "Vera&John, an online casino licensed in Curaçao (a Caribbean island)",
+                "Its real-money casino is illegal to use from Japan. A police survey found it was the most-used online casino among Japanese users. It also ran a separate 'free version' site with no real money."
+              ],
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2025/03/14/online-casinos-believed-to-have-been-used-by-more-than-3mil-in-japan-with-influencers-driving-people-to-bet"
+            },
+            {
+              "cells": [
+                "2. The ad agency",
+                "A+E Networks Japan (the company behind the History Channel in Japan)",
+                "Won the 'free version' account. Bought the ad space, made the commercial, did the PR, and announced the ambassador contract."
+              ],
+              "url": "https://www.excite.co.jp/news/article/Prtimes_2021-08-12-3963-76/"
+            },
+            {
+              "cells": [
+                "3. The athlete's office",
+                "Universal Music LLC (his management office in Japan for ads and media)",
+                "Received the offer and said yes on his behalf. In 2025 it said: 'our company accepted the request.'"
+              ],
+              "url": "https://www.dailyshincho.jp/article/2025/02280605/?all=1&page=3"
+            },
+            {
+              "cells": [
+                "4. The athlete",
+                "Maya Yoshida",
+                "Filmed the commercial in Italy in May 2021, became 'ambassador', hosted a sponsored podcast from April 2022, filmed a second commercial in 2023."
+              ],
+              "url": "https://www.soccer-king.jp/news/release/20220415/1639981.html"
+            },
+            {
+              "cells": [
+                "5. The media",
+                "DAZN, TV Asahi network, BS TV Tokyo, BS-TBS, AbemaTV, Spotify",
+                "Checked the ad against their own rules, passed it because it was a free game, and aired it."
+              ],
+              "url": "https://www.dailyshincho.jp/article/2025/02280605/?all=1&page=3"
+            }
+          ]
+        },
+        {
+          "heading": "Timeline",
+          "kind": "table",
+          "headers": [
+            "When",
+            "What happened"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "May 2021",
+                "Commercial filmed in Italy while he played for Sampdoria. Japanese crew directed remotely because of COVID."
+              ],
+              "url": "https://www.football-zone.net/archives/336293"
+            },
+            {
+              "cells": [
+                "11 Aug 2021",
+                "Ambassador contract announced. Ads start on DAZN, then on TV nationwide."
+              ],
+              "url": "https://www.excite.co.jp/news/article/Prtimes_2021-08-12-3963-76/"
+            },
+            {
+              "cells": [
+                "16 Apr 2022",
+                "Sponsored Spotify podcast starts: 吉田麻也のオフサイドトーク! Supported by ベラジョン無料版."
+              ],
+              "url": "https://www.soccer-king.jp/news/release/20220415/1639981.html"
+            },
+            {
+              "cells": [
+                "June 2023",
+                "Contract ends (according to his office). In the same month the Japanese government publicly warned that using even a legally-run overseas casino from Japan can be a crime."
+              ],
+              "url": "https://chambers.com/practice-guides/guides/gaming-law-2025/japan/trends-and-developments"
+            },
+            {
+              "cells": [
+                "Feb 2025",
+                "Comedians and baseball players are investigated for online casino gambling. Some say they thought it was legal because they saw ads. Old pictures of Yoshida's commercial spread online."
+              ],
+              "url": "https://www.excite.co.jp/news/article/ben54_jp_news_2026/"
+            },
+            {
+              "cells": [
+                "19 Feb 2025",
+                "Weekly magazine site Daily Shincho asks whether Yoshida is 'OK' as the face of the ads. An unnamed ad-agency source says celebrities were blinded by quick money."
+              ],
+              "url": "https://news.livedoor.com/article/detail/28183115/"
+            },
+            {
+              "cells": [
+                "28 Feb 2025",
+                "His office answers Daily Shincho: it saw the job as a free online game with no cash; the contract covered only the free service and is not a gambling crime; but its understanding at the time 'was not enough'. It apologises to Yoshida and others for the trouble."
+              ],
+              "url": "https://www.dailyshincho.jp/article/2025/02280605/?all=1&page=3"
+            },
+            {
+              "cells": [
+                "Mar 2025",
+                "Asahi Shimbun reports the legal blind spot for 'free version' ads. DAZN says it allowed them because they were free games. Vera&John says it no longer runs the ads."
+              ],
+              "url": "https://www.vegasslotsonline.com/news/2025/03/17/japan-reveals-regulatory-weakness-in-policing-free-to-play-online-casino-marketing/"
+            },
+            {
+              "cells": [
+                "18 June 2025 → 25 Sep 2025",
+                "Japan changes the law: advertising or guiding people to online casinos is now banned. First arrests of casino-ad website operators follow."
+              ],
+              "url": "https://www.dlapiper.com/en-am/insights/publications/2025/10/online-gambling-in-japan---recent-regulatory-developments"
+            }
+          ]
+        },
+        {
+          "heading": "What we can learn about the sports business (my analysis)",
+          "kind": "list",
+          "rows": [
+            [
+              "'Legal' and 'safe for your name' are different things. Everyone in the chain checked the law. Nobody's job was to ask 'how will this look in five years?'",
+              ""
+            ],
+            [
+              "The athlete is the only face. Several companies earned money, but the public remembers one person. The risk and the reward are not shared equally.",
+              ""
+            ],
+            [
+              "An athlete has two kinds of helpers. The agent handles clubs and contracts. A separate management office handles ads and TV. The ad deal came through the second one, not through his football agent.",
+              ""
+            ],
+            [
+              "Timing matters. The deal was made during COVID, when sport lost income and gambling brands had large ad budgets. That is context, not an excuse.",
+              "https://www.sportmediarights.tokyo/posts/56427674"
+            ],
+            [
+              "Rules change later. In 2021 these ads passed every TV station's checks. From September 2025 the same kind of promotion is banned. Old deals get judged by new standards.",
+              ""
+            ],
+            [
+              "The office took the blame in public. Its statement says the company accepted the job and apologises to him. I found no public comment from Yoshida himself.",
+              "https://www.dailyshincho.jp/article/2025/02280605/?all=1&page=3"
+            ],
+            [
+              "It connects to his union work. As players' union president he has pushed for players to control their own image rights. This case shows why who decides how a player's face is used matters.",
+              "https://www.soccer-king.jp/news/japan/20251117/2088713.html"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "emoji": "🎯",
+      "title": "When he was a target, and how he came through it",
+      "intro": "A sports magazine wrote in 2022 that he may be the most criticised player in Japan national team history. A centre-back's mistakes become goals, so he was blamed often. The pattern in how he answered is the same each time.",
+      "parts": [
+        {
+          "heading": "The hard moments",
+          "kind": "table",
+          "headers": [
+            "When",
+            "What happened",
+            "How he answered"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "June 2013",
+                "Confederations Cup vs Italy: his mistake led to a goal. Media and fans treated him as the one to blame, and coach Zaccheroni said he was not at international level. He admitted it hurt, joking that in his next life he would be a forward.",
+                "Kept his place over time; four years later he became the first Japanese player to reach 100 Premier League matches."
+              ],
+              "url": "https://number.bunshun.jp/articles/-/828364"
+            },
+            {
+              "cells": [
+                "2014",
+                "After the World Cup a tabloid named him among those to blame for Japan's failure; he was also a reserve at Southampton.",
+                "Stayed, fought for his place, signed a new contract in January 2015."
+              ],
+              "url": "https://www.nikkan-gendai.com/articles/view/sports/151837"
+            },
+            {
+              "cells": [
+                "Feb 2019",
+                "Asian Cup final: his handball gave Qatar a penalty.",
+                "Blamed himself in public for the team's complacency and changed how he led."
+              ],
+              "url": "https://www.soccer-king.jp/news/japan/national/20190204/902335.html"
+            },
+            {
+              "cells": [
+                "Oct 2021",
+                "Saudi fans made a discriminatory gesture during his interview.",
+                "Confronted it on the spot, named it as discrimination to the media. Apologies followed, and the players' world union used his story in an anti-racism campaign."
+              ],
+              "url": "https://fifpro.org/en/articles/2022/04/maya-yoshida-everybody-needs-to-work-together"
+            },
+            {
+              "cells": [
+                "Mar 2022",
+                "Japan under heavy criticism in World Cup qualifying.",
+                "Said the team 'planted the seeds' itself, that the national team is where you take the arrows, and told younger players to turn criticism into energy. Japan qualified the next day."
+              ],
+              "url": "https://www.tokyo-sports.co.jp/articles/-/165015"
+            },
+            {
+              "cells": [
+                "Nov 2022",
+                "World Cup: his pass led to Costa Rica's winning goal. Harsh abuse online; his Wikipedia page was vandalised.",
+                "Four days later he captained Japan to a win over Spain."
+              ],
+              "url": "https://number.bunshun.jp/premier/articles/16025"
+            },
+            {
+              "cells": [
+                "Aug 2024",
+                "Rising online abuse and privacy attacks on players.",
+                "As union president he issued a public statement asking media and social networks to respect players' and families' privacy."
+              ],
+              "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/2024-0813-maya-yoshida/blt5381651b60c5c4cf"
+            }
+          ]
+        },
+        {
+          "heading": "His method, in five steps (my reading of the pattern)",
+          "kind": "list",
+          "rows": [
+            [
+              "1. Say it first. He names his own mistake before critics do.",
+              ""
+            ],
+            [
+              "2. Do not feed on it. He says to focus on the job, not on 'sticky' online criticism.",
+              "https://www.tokyo-sports.co.jp/articles/-/165015"
+            ],
+            [
+              "3. Answer in the next match. The reply to Costa Rica was Spain.",
+              ""
+            ],
+            [
+              "4. Draw a line at discrimination. Criticism of his play he accepts; racism he confronts in public.",
+              ""
+            ],
+            [
+              "5. Turn it into rules. He used the union to speak for all players, so the next player has more protection than he had.",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "emoji": "🤝",
+      "title": "Sports agents and Japanese players abroad",
+      "intro": "An agent is the person who finds clubs and negotiates contracts for a player. For a Japanese player, the agent is also the bridge to a football market on the other side of the world. Yoshida says he tells younger players there are two choices they must never get wrong: their wife and their agent.",
+      "parts": [
+        {
+          "heading": "Yoshida's own path",
+          "kind": "table",
+          "headers": [
+            "Step",
+            "What happened"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "The introduction",
+                "Keisuke Honda, his teammate at Nagoya, introduced him to his agent, Tetsuro Kiyooka (per English Wikipedia)."
+              ],
+              "url": "https://en.wikipedia.org/wiki/Maya_Yoshida"
+            },
+            {
+              "cells": [
+                "The agent",
+                "Kiyooka became a FIFA-licensed agent in 2006, registered in Japan, England and the Netherlands. Clients included Honda, Yoshida and Eiji Kawashima."
+              ],
+              "url": "https://ja.wikipedia.org/wiki/清岡哲朗"
+            },
+            {
+              "cells": [
+                "The gateway club",
+                "Both Honda and Yoshida went first to VVV-Venlo, a small Dutch club whose chairman, Hai Berden, did business with Japan and welcomed Japanese players. Sef Vergoossen, who coached both at Nagoya, was a Dutch link too."
+              ],
+              "url": "https://number.bunshun.jp/articles/-/830227"
+            },
+            {
+              "cells": [
+                "The step up",
+                "From VVV he moved to Southampton in 2012 for about £3 million, later called one of the club's best pieces of business."
+              ],
+              "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/maya-yoshida-saints/blt22801bb776d61a11"
+            },
+            {
+              "cells": [
+                "Agent and union",
+                "Kiyooka was also chief operating officer of the Japanese players' association from 2009. In December 2010 he negotiated for all national team players with the Japan FA over match fees and image rights, and a boycott was hinted. The association became a labour union in 2011."
+              ],
+              "url": "https://ja.wikipedia.org/wiki/清岡哲朗"
+            },
+            {
+              "cells": [
+                "The circle closes",
+                "Yoshida became president of that same union in 2022 and in 2025 pushed again for players' image rights. (My observation: his agent helped build the body he now leads.)"
+              ],
+              "url": "https://www.soccer-king.jp/news/japan/20251117/2088713.html"
+            },
+            {
+              "cells": [
+                "Today",
+                "Japanese Wikipedia now calls Kiyooka a former agent; he founded a tech company (SpecTip) in Vancouver in 2016. Who represents Yoshida now is not confirmed."
+              ],
+              "url": "https://ja.wikipedia.org/wiki/清岡哲朗"
+            }
+          ]
+        },
+        {
+          "heading": "How the agent business works for Japanese players",
+          "kind": "table",
+          "headers": [
+            "Topic",
+            "In simple words"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Who pays the agent?",
+                "In Japan, usually the player: about 5–10% of salary. In Germany, by custom the club pays. A newer model (the agency CAA Base) charges the player nothing and is paid by clubs."
+              ],
+              "url": "https://football-tribe.com/japan/2025/01/30/323839/2/"
+            },
+            {
+              "cells": [
+                "Why a local partner matters",
+                "A German agent, Thomas Kroth, handled almost every Japanese move to Germany's Bundesliga from 2002. He said selling directly from Japan is hard: Asia is far, and clubs look at nearby countries first."
+              ],
+              "url": "https://number.bunshun.jp/articles/-/72063"
+            },
+            {
+              "cells": [
+                "Japanese pioneers",
+                "Nobuaki Tanabe got his FIFA licence in 1999, when Japan had only about 10 agents, and took Junichi Inamoto to Arsenal in 2001."
+              ],
+              "url": "https://www.soccer-king.jp/news/japan/20160517/441783.html"
+            },
+            {
+              "cells": [
+                "The real work",
+                "Tanabe says negotiating is only one or two days a year. The rest is helping the player improve, for example with match video and data."
+              ],
+              "url": "https://plus.tver.jp/news/80698/detail/"
+            },
+            {
+              "cells": [
+                "The rules keep changing",
+                "Until 2015: FIFA licence. 2015–2023: no licence, anyone could register as an 'intermediary'. Since October 2023: FIFA licence and exam again, with about 4,500 licences worldwide. A Japanese report puts the exam pass rate near 8%."
+              ],
+              "url": "https://jfa.jp/football_family/agent/"
+            },
+            {
+              "cells": [
+                "Fee limits",
+                "FIFA's 2023 rules set a limit of 3% on bigger deals and 5% on smaller ones. These limits have been challenged in courts; I did not confirm their status today."
+              ],
+              "url": "https://global.espn.com/football/story/_/id/37635315/fifa-set-agent-fee-caps-new-widespread-rule-changes"
+            }
+          ]
+        },
+        {
+          "heading": "What Yoshida says about agents (radio, August 2026)",
+          "kind": "list",
+          "rows": [
+            [
+              "A club usually contacts the agent first, saying which position it needs. The agent offers names.",
+              "https://qoly.jp/q1/17857240/p2"
+            ],
+            [
+              "When the news says a club is 'interested', the player is often the third or fourth choice.",
+              "https://qoly.jp/q1/17857240"
+            ],
+            [
+              "Beware of agents who invent 'interest' to keep a player calm when there are no real offers.",
+              "https://qoly.jp/q1/17857240/p2"
+            ],
+            [
+              "Once a real offer comes, years, salary and bonuses are mostly set; extras like a car or house are negotiated after.",
+              "https://qoly.jp/q1/17857240/p2"
+            ],
+            [
+              "He says he nearly moved to China and the Middle East several times; some clubs asked him to write down the amount he wanted. He chose not to go.",
+              "https://qoly.jp/q1/17857240/p2"
+            ],
+            [
+              "His advice to younger players: choosing a wife and choosing an agent are the two decisions you cannot get wrong, because a footballer's career is short.",
+              "https://qoly.jp/q1/17813172"
+            ]
+          ]
+        },
+        {
+          "heading": "People who helped him along the way",
+          "kind": "list",
+          "rows": [
+            [
+              "Honami, his eldest brother: found the Nagoya trial and trained him.",
+              "https://www.footballchannel.jp/2015/01/23/post67776/2/"
+            ],
+            [
+              "Keisuke Honda: Nagoya teammate who introduced the agent and went to VVV first.",
+              "https://en.wikipedia.org/wiki/Maya_Yoshida"
+            ],
+            [
+              "Tetsuro Kiyooka: agent who took him to Europe.",
+              "https://ja.wikipedia.org/wiki/清岡哲朗"
+            ],
+            [
+              "Hai Berden: VVV chairman who backed Japanese players.",
+              "https://number.bunshun.jp/articles/-/830795"
+            ],
+            [
+              "Toshiya Fujita: senior at Nagoya, later head of the players' association and a coach at VVV.",
+              "https://number.bunshun.jp/articles/-/830795"
+            ],
+            [
+              "Makoto Hasebe: the captain before him, who handed over the job.",
+              "https://number.bunshun.jp/articles/-/828172"
+            ],
+            [
+              "Atsuto Uchida: former Schalke favourite he called before joining Schalke.",
+              "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/bundesliga-schalke-04-maya-yoshida-20220706/blt099649f157bbffa9"
+            ],
+            [
+              "Hajime Moriyasu: Japan coach who worked with him as captain and arranged his 2026 farewell.",
+              "https://www.soccer-king.jp/news/japan/national/20260530/2165095.html"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
 }

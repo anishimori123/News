@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.1.2 — 2026-11-21
+**Time spent:** about 25 minutes
+
+**What changed**
+- Added a "Deep dives" section to Maya Yoshida's profile with three topics:
+  1. The Vera&John ad deal: who was involved, a timeline from 2021 to the 2025 law change, and lessons about the sports business.
+  2. When he was a target (2013 to 2024) and how he came through it.
+  3. Sports agents and Japanese players abroad: his own path, how the agent business works, his advice on agents, and the people who helped him.
+- Updated the Vera&John entry with his management office's February 2025 statement and the contract end date (June 2023).
+- `tools/build.py` and the player template now support deep dives.
+
+**Why**
+- To understand the pro sports industry: how sponsorship decisions are made, who carries the risk, and how agents shape a career abroad.
+
 ## v0.1.1 — 2026-11-21
 **Time spent:** about 10 minutes
 

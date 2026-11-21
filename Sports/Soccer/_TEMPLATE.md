@@ -42,6 +42,9 @@ Always check this, even if the answer is "none found". Say what the person's par
 | When | Their part | What happened | How it ended | Source |
 |---|---|---|---|---|
 
+## 8c. Deep dives (optional)
+One topic each, when something deserves a closer look. Good standing topics: a controversy explained step by step (who was involved, timeline, lessons), times the person was a target and how they came through, and the people around them (agent, management office, mentors).
+
 ## 9. Money (contracts, salary, sponsors)
 | Period | Club | Reported pay | OFFICIAL or ESTIMATE | Source |
 |---|---|---|---|---|

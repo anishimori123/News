@@ -186,9 +186,19 @@ def build_html(d, sport):
         b.append(f'<h2>⚠️ 7. Controversies and criticism</h2><div class="box">{E(c["intro"])}</div>')
         b.append(table(["When", "His part", "What happened", "How it ended"],
                        [[E(i["date"]), E(i["kind"]), f'<b>{E(i["title"])}</b><br>{E(i["what"])} {link("[source]", i["url"])}', E(i["outcome"])] for i in c["items"]]))
+    for n, dd in enumerate(d.get("deep_dives", []), 1):
+        if n == 1:
+            b.append("<h2>🔎 8. Deep dives</h2>")
+        b.append(f'<h3 style="font-size:1.25rem">{dd["emoji"]} 8.{n} {E(dd["title"])}</h3><div class="box">{E(dd["intro"])}</div>')
+        for part in dd["parts"]:
+            b.append(f'<h3>{E(part["heading"])}</h3>')
+            if part["kind"] == "table":
+                b.append(table(part["headers"], [[E(x) for x in r["cells"][:-1]] + [f'{E(r["cells"][-1])} {link("[source]", r.get("url"))}' if r.get("url") else E(r["cells"][-1])] for r in part["rows"]]))
+            else:
+                b.append("<ul>" + "".join(f'<li>{E(t)} {link("[source]", u) if u else ""}</li>' for t, u in part["rows"]) + "</ul>")
     m = d.get("money")
     if m:
-        b.append("<h2>💰 8. Money: contracts, salary, sponsors</h2>")
+        b.append("<h2>💰 9. Money: contracts, salary, sponsors</h2>")
         b.append(f'<div class="box">{E(m["intro"])}</div><h3>LA Galaxy salary (official union figures, guaranteed pay per year)</h3>')
         b.append(chart_hbars(m["salary_chart"], "US dollars", fmt=lambda v: f"${v:,.0f}"))
         b.append(table(["Period", "Club", "Reported pay", "How sure?", "Where from"],
@@ -199,7 +209,7 @@ def build_html(d, sport):
         b.append(table(["What", "When", "Status"], [[link(e["what"], e["url"]), E(e["when"]), E(e["status"])] for e in m["endorsements"]]))
         b.append("<ul>" + "".join(f"<li>{E(n)}</li>" for n in m["notes"]) + "</ul>")
 
-    b.append("<h2>❓ 9. Not verified / sources disagree</h2><ul>" + "".join(f"<li>{E(u)}</li>" for u in d["unverified"]) + "</ul>")
+    b.append("<h2>❓ 10. Not verified / sources disagree</h2><ul>" + "".join(f"<li>{E(u)}</li>" for u in d["unverified"]) + "</ul>")
 
     v = d.get("videos")
     if v:
@@ -254,14 +264,24 @@ def build_md(d, sport):
     if c:
         o += ["## ⚠️ 7. Controversies and criticism", c["intro"], "",
               md_table(["When", "His part", "What happened", "How it ended", "Source"], [[i["date"], i["kind"], f'**{i["title"]}**: {i["what"]}', i["outcome"], mdl("link", i["url"])] for i in c["items"]]), ""]
+    for n, dd in enumerate(d.get("deep_dives", []), 1):
+        if n == 1:
+            o += ["## 🔎 8. Deep dives", ""]
+        o += [f'### {dd["emoji"]} 8.{n} {dd["title"]}', dd["intro"], ""]
+        for part in dd["parts"]:
+            o += [f'#### {part["heading"]}']
+            if part["kind"] == "table":
+                o += [md_table(part["headers"] + ["Source"], [r["cells"] + [mdl("link", r["url"]) if r.get("url") else ""] for r in part["rows"]]), ""]
+            else:
+                o += [f"- {t}" + (f" ({mdl('source', u)})" if u else "") for t, u in part["rows"]] + [""]
     m = d.get("money")
     if m:
-        o += ["## 💰 8. Money: contracts, salary, sponsors", m["intro"], "",
+        o += ["## 💰 9. Money: contracts, salary, sponsors", m["intro"], "",
               md_table(["Period", "Club", "Reported pay", "How sure?", "Where from"], [[s["period"], s["club"], s["figure"], f'**{s["label"]}**', mdl(s["note"] or "–", s["url"])] for s in m["salary"]]), "",
               "### Contracts and transfers", md_table(["Date", "Event", "Source"], [[c["date"], c["event"], mdl("link", c["url"])] for c in m["contracts"]]), "",
               "### Sponsors, advertising and other public income", md_table(["What", "When", "Status", "Source"], [[e["what"], e["when"], e["status"], mdl("link", e["url"])] for e in m["endorsements"]]), ""]
         o += [f"- {n}" for n in m["notes"]] + [""]
-    o += ["## ❓ 9. Not verified / sources disagree"] + [f"- {u}" for u in d["unverified"]] + [""]
+    o += ["## ❓ 10. Not verified / sources disagree"] + [f"- {u}" for u in d["unverified"]] + [""]
     v = d.get("videos")
     if v:
         o += ["## 🎥 Appendix: videos and interviews", v["intro"], "",
