@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.1.1 — 2026-11-21
+**Time spent:** about 10 minutes
+
+**What changed**
+- Added a new section to Maya Yoshida's profile: "Controversies and criticism" (6 items, each with a source and how it ended).
+- Corrected the Vera&John sponsor years to 2021–2023 and linked it to the new section.
+- Added the same section to the player template, so every future person gets a controversy check.
+- `tools/build.py` now builds the new section for the profile and the web page.
+
+**Why**
+- A profile that only shows the good side is not honest. Result of the check: no real scandal found; the closest item is criticism of an online-casino-brand ad deal.
+
 ## v0.1.0 — 2026-11-21
 **Time spent:** about 1 hour (one Claude session, with 5 research helpers running in parallel)
 

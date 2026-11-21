@@ -1103,8 +1103,8 @@
         "url": "https://www.videogamer.com/news/southamptons-maya-yoshida-to-feature-on-fifa-14s-japanese-cover/"
       },
       {
-        "what": "Vera&John free version (ambassador, TV ad, sponsored podcast)",
-        "when": "2021–2022",
+        "what": "Vera&John free version (ambassador, TV ad, sponsored podcast). See 'Controversies'.",
+        "when": "2021–2023",
         "status": "Confirmed",
         "url": "https://www.soccer-king.jp/news/japan/national/20210811/1558316.html"
       },
@@ -1163,7 +1163,8 @@
     "GM Will Kuntz's 20 Nov 2026 comments were read through Japanese reports, so wording is a translation.",
     "Rumours linking him with V-Varen Nagasaki or Nagoya are fan talk and one tabloid report. Nothing official.",
     "Direct YouTube links were not confirmed; the appendix uses YouTube search links by exact title.",
-    "A YouTube channel exists under his name, but I could not confirm it is official, so it is not linked."
+    "A YouTube channel exists under his name, but I could not confirm it is official, so it is not linked.",
+    "Vera&John deal end date: Soccer King shows the start (Aug 2021); the end year 2023 comes from one weekly-magazine article."
   ],
   "videos": {
     "intro": "I could not confirm direct YouTube links from my tools, so the YouTube rows are SEARCH links: click and the video with that exact title should be at or near the top. The other rows are direct links to official pages.",
@@ -1275,6 +1276,59 @@
         "why": "Weekly talk show; shows his interests outside football (business, marketing).",
         "url": "https://podcasts.apple.com/ca/podcast/id1876106628",
         "link": "Direct"
+      }
+    ]
+  },
+  "controversies": {
+    "intro": "No real scandal was found: no report of a crime, doping, match-fixing or a personal-life scandal in Japanese or English news (searched 21 Nov 2026). A search cannot prove nothing exists, so this section lists everything that did come up, big or small. Each row says what his part was.",
+    "items": [
+      {
+        "date": "2021–2023 (criticised in 2025)",
+        "kind": "🟠 Criticised",
+        "title": "Advertising for Vera&John 'free version' (an online casino brand)",
+        "what": "He was the ambassador and appeared in its TV ads. In 2025, when Japanese comedians were questioned by police over online casino gambling, some people online said he, Shinji Okazaki and DAZN should be blamed, because free versions can lead people to the illegal real-money sites.",
+        "outcome": "The free version takes no real-money bets and is treated as a 'game' in Japan, so the ad was not illegal. No report of any action against him. A reputation question, not a legal one.",
+        "url": "https://www.jprime.jp/articles/-/35503"
+      },
+      {
+        "date": "2021-07-17",
+        "kind": "🟠 Divided opinion",
+        "title": "Asked for fans to be allowed at the Tokyo Olympics",
+        "what": "During the pandemic he publicly asked for the no-spectator decision to be reconsidered. Public opinion in Japan was split at the time.",
+        "outcome": "A public stance, not a scandal. Most Olympic venues stayed without spectators.",
+        "url": "https://www.footballchannel.jp/2021/07/18/post429576/"
+      },
+      {
+        "date": "2021-10-07",
+        "kind": "🔵 He was the target",
+        "title": "Confrontation with fans in Saudi Arabia",
+        "what": "After a 1–0 loss he pointed angrily at the stands and said fans had made a discriminatory gesture. In 2026 he said he had been angry enough to try to throw the microphone, and only its wind cover came off.",
+        "outcome": "Saudi fans and a former Saudi international apologised; the Japan FA said the Saudi federation apologised and punished the fans. The players' world union FIFPRO later used his case in an anti-racism campaign.",
+        "url": "https://thedigestweb.com/football/detail/id=47471"
+      },
+      {
+        "date": "2022-03-29",
+        "kind": "🔵 He was the target",
+        "title": "AFC social media post with a monkey emoji",
+        "what": "Asia's football body posted a clip of his missed shot with a monkey emoji. Fans called it racist.",
+        "outcome": "The AFC removed the emoji and changed the caption.",
+        "url": "https://news.yahoo.co.jp/articles/77bfae6ddad72ea6951ae8ab3efdcd81e74bd4a4"
+      },
+      {
+        "date": "2022-06 and 2022-11",
+        "kind": "🔵 He was the target",
+        "title": "Online abuse and Wikipedia vandalism",
+        "what": "His Wikipedia page was vandalised during a loss to Tunisia (he gave away a penalty) and again after the World Cup loss to Costa Rica.",
+        "outcome": "The page was protected. As union president he later spoke out against online abuse of players.",
+        "url": "https://football-tribe.com/japan/2022/06/14/245592/"
+      },
+      {
+        "date": "2011–2023",
+        "kind": "⚪ On the pitch",
+        "title": "Red cards, mistakes and the Schalke relegation",
+        "what": "Sent off at the 2011 Asian Cup, in the Netherlands in 2012 and against Everton in 2018. Famous errors in 2015, 2019 and 2022. Strong criticism from German media at Schalke.",
+        "outcome": "Normal football criticism. He answered it by taking the blame in public (see the leadership section).",
+        "url": "https://en.wikipedia.org/wiki/Maya_Yoshida"
       }
     ]
   }

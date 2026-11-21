@@ -226,7 +226,19 @@ _Matches in all competitions (league, cups, continental). Source: English Wikipe
 | 2026 | Reported to hold a UEFA B coaching licence and to be working toward the A licence. | [link](https://www.lagalaxy.com/news/maya-yoshida-finds-a-new-way-to-lead-through-2026-world-cup-experience) |
 | 2026-11-10 | Said he is still in talks about his future, that passion for a project matters more than money, and that he believes he can still play once his knee heals. | [link](https://www.football-zone.net/archives/684175) |
 
-## 💰 7. Money: contracts, salary, sponsors
+## ⚠️ 7. Controversies and criticism
+No real scandal was found: no report of a crime, doping, match-fixing or a personal-life scandal in Japanese or English news (searched 21 Nov 2026). A search cannot prove nothing exists, so this section lists everything that did come up, big or small. Each row says what his part was.
+
+| When | His part | What happened | How it ended | Source |
+|---|---|---|---|---|
+| 2021–2023 (criticised in 2025) | 🟠 Criticised | **Advertising for Vera&John 'free version' (an online casino brand)**: He was the ambassador and appeared in its TV ads. In 2025, when Japanese comedians were questioned by police over online casino gambling, some people online said he, Shinji Okazaki and DAZN should be blamed, because free versions can lead people to the illegal real-money sites. | The free version takes no real-money bets and is treated as a 'game' in Japan, so the ad was not illegal. No report of any action against him. A reputation question, not a legal one. | [link](https://www.jprime.jp/articles/-/35503) |
+| 2021-07-17 | 🟠 Divided opinion | **Asked for fans to be allowed at the Tokyo Olympics**: During the pandemic he publicly asked for the no-spectator decision to be reconsidered. Public opinion in Japan was split at the time. | A public stance, not a scandal. Most Olympic venues stayed without spectators. | [link](https://www.footballchannel.jp/2021/07/18/post429576/) |
+| 2021-10-07 | 🔵 He was the target | **Confrontation with fans in Saudi Arabia**: After a 1–0 loss he pointed angrily at the stands and said fans had made a discriminatory gesture. In 2026 he said he had been angry enough to try to throw the microphone, and only its wind cover came off. | Saudi fans and a former Saudi international apologised; the Japan FA said the Saudi federation apologised and punished the fans. The players' world union FIFPRO later used his case in an anti-racism campaign. | [link](https://thedigestweb.com/football/detail/id=47471) |
+| 2022-03-29 | 🔵 He was the target | **AFC social media post with a monkey emoji**: Asia's football body posted a clip of his missed shot with a monkey emoji. Fans called it racist. | The AFC removed the emoji and changed the caption. | [link](https://news.yahoo.co.jp/articles/77bfae6ddad72ea6951ae8ab3efdcd81e74bd4a4) |
+| 2022-06 and 2022-11 | 🔵 He was the target | **Online abuse and Wikipedia vandalism**: His Wikipedia page was vandalised during a loss to Tunisia (he gave away a penalty) and again after the World Cup loss to Costa Rica. | The page was protected. As union president he later spoke out against online abuse of players. | [link](https://football-tribe.com/japan/2022/06/14/245592/) |
+| 2011–2023 | ⚪ On the pitch | **Red cards, mistakes and the Schalke relegation**: Sent off at the 2011 Asian Cup, in the Netherlands in 2012 and against Everton in 2018. Famous errors in 2015, 2019 and 2022. Strong criticism from German media at Schalke. | Normal football criticism. He answered it by taking the blame in public (see the leadership section). | [link](https://en.wikipedia.org/wiki/Maya_Yoshida) |
+
+## 💰 8. Money: contracts, salary, sponsors
 Most footballer salary numbers are guesses by websites. The only official numbers here are from the MLS Players Association (MLSPA), the players' union in the USA, which publishes every player's pay. Each row is labelled OFFICIAL or ESTIMATE.
 
 | Period | Club | Reported pay | How sure? | Where from |
@@ -260,7 +272,7 @@ Most footballer salary numbers are guesses by websites. The only official number
 |---|---|---|---|
 | Mizuno (football boots, brand ambassador) | since 2007; renewed 2018 | Confirmed | [link](https://www.soccer-king.jp/news/youthstudent/football-kit/20180828/799353.html) |
 | EA Sports FIFA 14 video game: on the Japanese cover | 2013 | Confirmed | [link](https://www.videogamer.com/news/southamptons-maya-yoshida-to-feature-on-fifa-14s-japanese-cover/) |
-| Vera&John free version (ambassador, TV ad, sponsored podcast) | 2021–2022 | Confirmed | [link](https://www.soccer-king.jp/news/japan/national/20210811/1558316.html) |
+| Vera&John free version (ambassador, TV ad, sponsored podcast). See 'Controversies'. | 2021–2023 | Confirmed | [link](https://www.soccer-king.jp/news/japan/national/20210811/1558316.html) |
 | Parmigiani Fleurier (Swiss watch brand partner) | 2026 | Confirmed | [link](https://www.wwdjapan.com/?p=2412527) |
 | DAZN: 'chief captain' of its 2026 World Cup coverage | 2026 | Confirmed (pay not published) | [link](https://web.gekisaka.jp/news/worldcup/detail/?449895-449895-fl) |
 | TV commercials: Volvic (2013), Budweiser Brasil (2014), Asahi Intecc (2018–), Japanet Water (2019) | 2013–2021 | Wikipedia only, not confirmed | [link](https://ja.wikipedia.org/wiki/吉田麻也) |
@@ -273,7 +285,7 @@ Most footballer salary numbers are guesses by websites. The only official number
 - 'Guaranteed compensation' in MLS means base salary plus guaranteed bonuses, averaged per year. It is not exactly the cash paid in that year.
 - The 2023 to 2025 MLS numbers were seen through Spotrac and news reports, not read from the union's own files. The 2026 number was read directly.
 
-## ❓ 8. Not verified / sources disagree
+## ❓ 9. Not verified / sources disagree
 - Catholic faith and a rosary from the Vatican: found only on English Wikipedia. Not treated as fact here.
 - 'I feel 25 percent English': the Japanese report of that interview has him joking that he understands about 25% of English. Exact wording unconfirmed.
 - Baseball pitcher Tsuyoshi Shimoyanagi as his 'uncle': Japanese Wikipedia describes a more distant relative.
@@ -290,6 +302,7 @@ Most footballer salary numbers are guesses by websites. The only official number
 - Rumours linking him with V-Varen Nagasaki or Nagoya are fan talk and one tabloid report. Nothing official.
 - Direct YouTube links were not confirmed; the appendix uses YouTube search links by exact title.
 - A YouTube channel exists under his name, but I could not confirm it is official, so it is not linked.
+- Vera&John deal end date: Soccer King shows the start (Aug 2021); the end year 2023 comes from one weekly-magazine article.
 
 ## 🎥 Appendix: videos and interviews
 I could not confirm direct YouTube links from my tools, so the YouTube rows are SEARCH links: click and the video with that exact title should be at or near the top. The other rows are direct links to official pages.

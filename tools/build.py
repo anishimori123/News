@@ -95,7 +95,7 @@ h3{font-size:1.08rem;margin:1.2em 0 .3em}.ja{color:var(--ink2);font-weight:400;f
 .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0}
 .tile{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px}.tile b{display:block;font-size:1.9rem;line-height:1.1}.tile span{color:var(--ink2);font-size:.85rem}
 table{border-collapse:collapse;width:100%;font-size:.92rem;margin:10px 0}th,td{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}
-th{background:#f3f1ea;font-weight:600}td.n,th.n{text-align:right;white-space:nowrap}td:first-child{white-space:nowrap}
+th{background:#f3f1ea;font-weight:600}td.n,th.n{text-align:right;white-space:nowrap}
 .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:12px 0;break-inside:avoid}
 .card h3{margin-top:0}.card ul{margin:.4em 0 0;padding-left:1.2em}.card li{margin:.25em 0}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
@@ -181,9 +181,14 @@ def build_html(d, sport):
     b.append("</div><h3>Personal events</h3>")
     b.append(table(["Date", "Event"], [[E(p["date"]), f'{E(p["event"])} {link("[source]", p["url"])}'] for p in d["personal"]]))
 
+    c = d.get("controversies")
+    if c:
+        b.append(f'<h2>⚠️ 7. Controversies and criticism</h2><div class="box">{E(c["intro"])}</div>')
+        b.append(table(["When", "His part", "What happened", "How it ended"],
+                       [[E(i["date"]), E(i["kind"]), f'<b>{E(i["title"])}</b><br>{E(i["what"])} {link("[source]", i["url"])}', E(i["outcome"])] for i in c["items"]]))
     m = d.get("money")
     if m:
-        b.append("<h2>💰 7. Money: contracts, salary, sponsors</h2>")
+        b.append("<h2>💰 8. Money: contracts, salary, sponsors</h2>")
         b.append(f'<div class="box">{E(m["intro"])}</div><h3>LA Galaxy salary (official union figures, guaranteed pay per year)</h3>')
         b.append(chart_hbars(m["salary_chart"], "US dollars", fmt=lambda v: f"${v:,.0f}"))
         b.append(table(["Period", "Club", "Reported pay", "How sure?", "Where from"],
@@ -194,7 +199,7 @@ def build_html(d, sport):
         b.append(table(["What", "When", "Status"], [[link(e["what"], e["url"]), E(e["when"]), E(e["status"])] for e in m["endorsements"]]))
         b.append("<ul>" + "".join(f"<li>{E(n)}</li>" for n in m["notes"]) + "</ul>")
 
-    b.append("<h2>❓ 8. Not verified / sources disagree</h2><ul>" + "".join(f"<li>{E(u)}</li>" for u in d["unverified"]) + "</ul>")
+    b.append("<h2>❓ 9. Not verified / sources disagree</h2><ul>" + "".join(f"<li>{E(u)}</li>" for u in d["unverified"]) + "</ul>")
 
     v = d.get("videos")
     if v:
@@ -245,14 +250,18 @@ def build_md(d, sport):
           "## 🌱 6. Roots: where he comes from"]
     o += [f'- **{r["emoji"]} {r["title"]}:** {r["text"]} ({mdl("source", r["url"])})' for r in d["roots"]]
     o += ["", "### Personal events", md_table(["Date", "Event", "Source"], [[p["date"], p["event"], mdl("link", p["url"])] for p in d["personal"]]), ""]
+    c = d.get("controversies")
+    if c:
+        o += ["## ⚠️ 7. Controversies and criticism", c["intro"], "",
+              md_table(["When", "His part", "What happened", "How it ended", "Source"], [[i["date"], i["kind"], f'**{i["title"]}**: {i["what"]}', i["outcome"], mdl("link", i["url"])] for i in c["items"]]), ""]
     m = d.get("money")
     if m:
-        o += ["## 💰 7. Money: contracts, salary, sponsors", m["intro"], "",
+        o += ["## 💰 8. Money: contracts, salary, sponsors", m["intro"], "",
               md_table(["Period", "Club", "Reported pay", "How sure?", "Where from"], [[s["period"], s["club"], s["figure"], f'**{s["label"]}**', mdl(s["note"] or "–", s["url"])] for s in m["salary"]]), "",
               "### Contracts and transfers", md_table(["Date", "Event", "Source"], [[c["date"], c["event"], mdl("link", c["url"])] for c in m["contracts"]]), "",
               "### Sponsors, advertising and other public income", md_table(["What", "When", "Status", "Source"], [[e["what"], e["when"], e["status"], mdl("link", e["url"])] for e in m["endorsements"]]), ""]
         o += [f"- {n}" for n in m["notes"]] + [""]
-    o += ["## ❓ 8. Not verified / sources disagree"] + [f"- {u}" for u in d["unverified"]] + [""]
+    o += ["## ❓ 9. Not verified / sources disagree"] + [f"- {u}" for u in d["unverified"]] + [""]
     v = d.get("videos")
     if v:
         o += ["## 🎥 Appendix: videos and interviews", v["intro"], "",

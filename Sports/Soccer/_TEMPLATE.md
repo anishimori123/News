@@ -37,6 +37,11 @@
 | Date | Event | Source |
 |---|---|---|
 
+## 8b. Controversies and criticism
+Always check this, even if the answer is "none found". Say what the person's part was (criticised / was the target / on the pitch) and how it ended.
+| When | Their part | What happened | How it ended | Source |
+|---|---|---|---|---|
+
 ## 9. Money (contracts, salary, sponsors)
 | Period | Club | Reported pay | OFFICIAL or ESTIMATE | Source |
 |---|---|---|---|---|
