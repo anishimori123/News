@@ -1,6 +1,42 @@
 # Changelog
 
+<!-- SUMMARY:START (this block is rebuilt by tools/build.py; do not edit by hand) -->
+## At a glance
+
+![Pages on the site after each version](docs/changelog-chart.svg)
+
+| Version | Date | What changed, in one line | Pages on site | Time spent |
+|---|---|---|---|---|
+| **v0.2.5** | 2026-11-21 | Chart and summary table added at the top of this changelog. | 6 | about 10 minutes |
+| **v0.2.4** | 2026-11-21 | Left-side chapter menu on every page. | 6 | about 10 minutes |
+| **v0.2.3** | 2026-11-21 | 'In his own words' section from Yoshida's X account. | 6 | about 10 minutes |
+| **v0.2.2** | 2026-11-21 | 'What fans are saying' section from Yahoo! News Japan comments. | 6 | about 10 minutes |
+| **v0.2.1** | 2026-11-21 | Agents overview gets the story, trends and 2026 outlook; new pages for Hai Berden and Kees Ploegsma Jr. | 6 | about 20 minutes |
+| **v0.2.0** | 2026-11-21 | New Agents folder: overview, Tetsuro Kiyooka and Thomas Kroth; Yoshida's agent details corrected. | 4 | about 45 minutes (5 research helpers running in parallel) |
+| **v0.1.2** | 2026-11-21 | Three deep dives for Yoshida: the Vera&John ad deal, being a target, sports agents. | 1 | about 25 minutes |
+| **v0.1.1** | 2026-11-21 | Controversies and criticism section added to Yoshida and to the template. | 1 | about 10 minutes |
+| **v0.1.0** | 2026-11-21 | First person added: Maya Yoshida profile, printable web page, build tool and template. | 1 | about 1 hour (one Claude session, with 5 research helpers running in parallel) |
+
+🤖 = found by the weekly scheduled check. Full details for each version are below.
+<!-- SUMMARY:END -->
+
+How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence), `**Pages on site:**` (a number), `**Time spent:**`, `**What changed**` and `**Why**`. The chart and table above update when `python tools/build.py` runs.
+
+## v0.2.5 — 2026-11-21
+**Summary:** Chart and summary table added at the top of this changelog.  
+**Pages on site:** 6  
+**Time spent:** about 10 minutes
+
+**What changed**
+- The top of `CHANGELOG.md` now has a line chart (pages on the site after each version) and a table with one line per version.
+- Both are rebuilt automatically by `tools/build.py` from the entries below, so they stay up to date.
+
+**Why**
+- To see the history at a glance before reading the details.
+
 ## v0.2.4 — 2026-11-21
+**Summary:** Left-side chapter menu on every page.  
+**Pages on site:** 6  
 **Time spent:** about 10 minutes
 
 **What changed**
@@ -12,6 +48,8 @@
 - Profiles are getting long. This gives a quick snapshot of what is on the page and a fast way to move around.
 
 ## v0.2.3 — 2026-11-21
+**Summary:** 'In his own words' section from Yoshida's X account.  
+**Pages on site:** 6  
 **Time spent:** about 10 minutes
 
 **What changed**
@@ -22,6 +60,8 @@
 - A person's own posts are first-hand statements and often come before news reports. They are kept apart from fan comments.
 
 ## v0.2.2 — 2026-11-21
+**Summary:** 'What fans are saying' section from Yahoo! News Japan comments.  
+**Pages on site:** 6  
 **Time spent:** about 10 minutes
 
 **What changed**
@@ -33,6 +73,8 @@
 - To see how ordinary fans react, without mixing their opinions with reported facts.
 
 ## v0.2.1 — 2026-11-21
+**Summary:** Agents overview gets the story, trends and 2026 outlook; new pages for Hai Berden and Kees Ploegsma Jr.  
+**Pages on site:** 6  
 **Time spent:** about 20 minutes
 
 **What changed**
@@ -44,6 +86,8 @@
 - To understand the gateway people behind Honda and Yoshida, and where the market is heading after the J.League's 2026 calendar change.
 
 ## v0.2.0 — 2026-11-21
+**Summary:** New Agents folder: overview, Tetsuro Kiyooka and Thomas Kroth; Yoshida's agent details corrected.  
+**Pages on site:** 4  
 **Time spent:** about 45 minutes (5 research helpers running in parallel)
 
 **What changed**
@@ -58,6 +102,8 @@
 - Agents are a key part of the story for Japanese athletes who play overseas, and the research showed that some popular beliefs about them are not supported by sources.
 
 ## v0.1.2 — 2026-11-21
+**Summary:** Three deep dives for Yoshida: the Vera&John ad deal, being a target, sports agents.  
+**Pages on site:** 1  
 **Time spent:** about 25 minutes
 
 **What changed**
@@ -72,6 +118,8 @@
 - To understand the pro sports industry: how sponsorship decisions are made, who carries the risk, and how agents shape a career abroad.
 
 ## v0.1.1 — 2026-11-21
+**Summary:** Controversies and criticism section added to Yoshida and to the template.  
+**Pages on site:** 1  
 **Time spent:** about 10 minutes
 
 **What changed**
@@ -84,6 +132,8 @@
 - A profile that only shows the good side is not honest. Result of the check: no real scandal found; the closest item is criticism of an online-casino-brand ad deal.
 
 ## v0.1.0 — 2026-11-21
+**Summary:** First person added: Maya Yoshida profile, printable web page, build tool and template.  
+**Pages on site:** 1  
 **Time spent:** about 1 hour (one Claude session, with 5 research helpers running in parallel)
 
 **What changed**

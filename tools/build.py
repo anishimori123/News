@@ -415,6 +415,61 @@ def build_generic_md(d, folder):
         o += ["## ❓ Not verified / sources disagree"] + [f"- {u}" for u in d["unverified"]] + [""]
     return "\n".join(o) + "\n"
 
+# ---------------------------------------------------------------- changelog summary (chart + table)
+def update_changelog():
+    """Rebuild the chart and the summary table at the top of CHANGELOG.md from its entries."""
+    import re
+    path = ROOT / "CHANGELOG.md"
+    text = path.read_text(encoding="utf-8")
+    if "<!-- SUMMARY:START" not in text:
+        return
+    entries = []
+    for block in re.split(r"(?m)^(?=## v)", text)[1:]:
+        head = re.match(r"## (v[\d.]+) — ([\d-]+)", block)
+        if not head:
+            continue
+
+        def field(name):
+            m = re.search(rf"\*\*{name}:\*\*\s*(.+)", block)
+            return m.group(1).strip() if m else ""
+
+        summary = field("Summary")
+        if not summary:  # fall back to the first bullet under "What changed"
+            m = re.search(r"(?m)^- (.+)", block)
+            summary = (m.group(1).strip() if m else "")[:140]
+        pages = re.match(r"\d+", field("Pages on site"))
+        entries.append({"v": head.group(1), "date": head.group(2), "time": field("Time spent"), "summary": summary,
+                        "pages": int(pages.group()) if pages else None, "auto": "weekly scheduled check" in block})
+    entries.reverse()  # oldest first
+    last = 0
+    for e in entries:  # an entry without a page count keeps the previous one
+        e["pages"] = last = e["pages"] if e["pages"] is not None else last
+    # line chart (SVG file, so it shows on GitHub in light and dark mode)
+    w, h, left, top, bottom = 760, 250, 46, 34, 44
+    n = max(len(entries), 2)
+    mx = max(5, max(e["pages"] for e in entries) + 1)
+    xs = [left + i * (w - left - 30) / (n - 1) for i in range(len(entries))]
+    ys = [top + (h - top - bottom) * (1 - e["pages"] / mx) for e in entries]
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" font-family="sans-serif" role="img" aria-label="Pages on the site after each version">',
+           f'<rect width="{w}" height="{h}" fill="#fcfcfb"/><text x="{left}" y="18" font-size="13" font-weight="700" fill="#0b0b0b">Pages on the site after each version</text>']
+    for t in range(0, mx + 1, max(1, mx // 5)):
+        y = top + (h - top - bottom) * (1 - t / mx)
+        out.append(f'<line x1="{left}" x2="{w - 20}" y1="{y:.1f}" y2="{y:.1f}" stroke="#e3e1da"/><text x="{left - 8}" y="{y + 4:.1f}" font-size="10" fill="#52514e" text-anchor="end">{t}</text>')
+    out.append('<polyline fill="none" stroke="#2a78d6" stroke-width="2" points="' + " ".join(f"{x:.1f},{y:.1f}" for x, y in zip(xs, ys)) + '"/>')
+    for e, x, y in zip(entries, xs, ys):
+        out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>{E(e["v"])} ({E(e["date"])}): {e["pages"]} pages</title></circle>'
+                   f'<text x="{x:.1f}" y="{y - 10:.1f}" font-size="11" font-weight="700" fill="#0b0b0b" text-anchor="middle">{e["pages"]}</text>'
+                   f'<text x="{x:.1f}" y="{h - 24}" font-size="10" fill="#52514e" text-anchor="middle">{E(e["v"])}</text>')
+    out.append(f'<text x="{w / 2}" y="{h - 6}" font-size="10" fill="#52514e" text-anchor="middle">Version (oldest on the left)</text></svg>')
+    (ROOT / "docs" / "changelog-chart.svg").write_text("".join(out), encoding="utf-8")
+    rows = [[("🤖 " if e["auto"] else "") + f'**{e["v"]}**', e["date"], e["summary"], e["pages"], e["time"]] for e in reversed(entries)]
+    block = ("<!-- SUMMARY:START (this block is rebuilt by tools/build.py; do not edit by hand) -->\n"
+             "## At a glance\n\n![Pages on the site after each version](docs/changelog-chart.svg)\n\n"
+             + md_table(["Version", "Date", "What changed, in one line", "Pages on site", "Time spent"], rows)
+             + "\n\n🤖 = found by the weekly scheduled check. Full details for each version are below.\n<!-- SUMMARY:END -->")
+    text = re.sub(r"<!-- SUMMARY:START.*?<!-- SUMMARY:END -->", lambda m: block, text, flags=re.S)
+    path.write_text(text, encoding="utf-8")
+
 
 def main():
     people, others = [], []
@@ -448,6 +503,7 @@ def main():
         body += f"<h2>🤝 Agents</h2>{ocards}"
     (ROOT / "docs" / "index.html").write_text(page("News: people I follow", body, 0), encoding="utf-8")
     (ROOT / "docs" / ".nojekyll").write_text("", encoding="utf-8")
+    update_changelog()
 
 
 if __name__ == "__main__":
