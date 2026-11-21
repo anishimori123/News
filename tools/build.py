@@ -454,6 +454,22 @@ def count_site():
     return pages, words
 
 
+SPORT_EMOJI = {"Soccer": "⚽", "Baseball": "⚾", "Basketball": "🏀", "Tennis": "🎾", "Golf": "⛳", "Rugby": "🏉", "Volleyball": "🏐",
+               "Boxing": "🥊", "Figure-Skating": "⛸️", "Swimming": "🏊", "Athletics": "🏃", "Sumo": "🤼", "Judo": "🥋", "Racing": "🏎️"}
+
+
+def site_pages():
+    """Every page on the site as 'emoji Name', for the changelog's New pages column."""
+    labels = []
+    for data in sorted(ROOT.glob("Sports/*/*/data.json")):
+        d = json.loads(data.read_text(encoding="utf-8"))
+        labels.append(f'{SPORT_EMOJI.get(data.parent.parent.name, "🏅")} {d["name"]}')
+    for data in sorted(ROOT.glob("Agents/*/data.json")):
+        d = json.loads(data.read_text(encoding="utf-8"))
+        labels.append(f'{d.get("emoji") or "🤝"} {d["name"]}')
+    return labels
+
+
 def update_changelog():
     """Fill in page/word counts for the newest entry, then rebuild the chart and table at the top of CHANGELOG.md."""
     import re
@@ -476,6 +492,13 @@ def update_changelog():
                 m = re.search(r"\*\*Summary:\*\*.*\n", block)
                 pos = m.end() if m else 0
                 block = block[:pos] + line + "\n" + block[pos:]
+        if "**New pages:**" not in block:  # pages whose name no older entry lists as new
+            older = " ".join(re.findall(r"\*\*New pages:\*\*(.*)", text[end:]))
+            fresh = [lab for lab in site_pages() if lab.split(" ", 1)[1] not in older]
+            if fresh:
+                m = re.search(r"\*\*Summary:\*\*.*\n", block)
+                pos = m.end() if m else 0
+                block = block[:pos] + "**New pages:** " + ", ".join(fresh) + "  \n" + block[pos:]
         text = text[:newest.end()] + block + text[end:]
     entries = []
     for block in re.split(r"(?m)^(?=## v)", text)[1:]:
@@ -496,7 +519,7 @@ def update_changelog():
             m = re.search(r"(?m)^- (.+)", block)
             summary = (m.group(1).strip() if m else "")[:140]
         entries.append({"v": head.group(1), "date": head.group(2), "time": field("Time spent"), "summary": summary,
-                        "pages": num("Pages on site"), "words": num("Words on site"), "auto": "weekly scheduled check" in block})
+                        "pages": num("Pages on site"), "words": num("Words on site"), "new": field("New pages"), "auto": "weekly scheduled check" in block})
     entries.reverse()  # oldest first
     lp = lw = 0
     for e in entries:  # an entry without a count keeps the previous one
@@ -574,11 +597,12 @@ def update_changelog():
     out.append(f'<text x="{w / 2}" y="{h - 22}" font-size="10" fill="#52514e" text-anchor="middle">1x = the size on the first day. 2x = twice as big. One point per day with an update.</text>'
                f'<text x="{w / 2}" y="{h - 8}" font-size="10" fill="#52514e" text-anchor="middle">Latest: {d0.isoformat()}, {E(v["versions"][-1])}, {v["pages"]} pages, {v["words"]:,} words.</text></svg>')
     (ROOT / "docs" / "changelog-chart.svg").write_text("".join(out), encoding="utf-8")
-    rows = [[("🤖 " if e["auto"] else "") + f'**{e["v"]}**', e["date"], e["summary"], e["pages"], f'{e["words"]:,}', e["time"]] for e in reversed(entries)]
+    rows = [[("🤖 " if e["auto"] else "") + f'**{e["v"]}**', e["date"], ("🆕 **" + e["new"] + "**") if e["new"] else "",
+             e["summary"], e["pages"], f'{e["words"]:,}', e["time"]] for e in reversed(entries)]
     block = ("<!-- SUMMARY:START (this block is rebuilt by tools/build.py; do not edit by hand) -->\n"
              "## At a glance\n\n![Growth of pages and total words on the site since the first day](docs/changelog-chart.svg)\n\n"
-             + md_table(["Version", "Date", "What changed, in one line", "Pages on site", "Words on site", "Time spent"], rows)
-             + "\n\n🤖 = found by the weekly scheduled check. Words are counted in the profile text, without link addresses. Full details for each version are below.\n<!-- SUMMARY:END -->")
+             + md_table(["Version", "Date", "🆕 New people / pages", "What changed, in one line", "Pages on site", "Words on site", "Time spent"], rows)
+             + "\n\n🆕 = this version added a new person or page. 🤖 = found by the weekly scheduled check. Words are counted in the profile text, without link addresses. Full details for each version are below.\n<!-- SUMMARY:END -->")
     text = re.sub(r"<!-- SUMMARY:START.*?<!-- SUMMARY:END -->", lambda m: block, text, flags=re.S)
     path.write_text(text, encoding="utf-8")
 

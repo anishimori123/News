@@ -5,26 +5,40 @@
 
 ![Growth of pages and total words on the site since the first day](docs/changelog-chart.svg)
 
-| Version | Date | What changed, in one line | Pages on site | Words on site | Time spent |
-|---|---|---|---|---|---|
-| **v0.3.1** | 2026-11-21 | Changelog chart now shows the blue pages line and the grey words line together on one graph. | 8 | 26,723 | about 10 minutes |
-| **v0.3.0** | 2026-11-21 | New sport and person: Hideo Nomo (baseball), plus a page for his agent Don Nomura; the build tool now works for any sport. | 8 | 26,723 | about 50 minutes (6 research helpers running in parallel) |
-| **v0.2.7** | 2026-11-21 | Changelog chart gains a grey line for total words on the site; page and word counts are now filled in automatically. | 6 | 16,701 | about 15 minutes |
-| **v0.2.6** | 2026-11-21 | Changelog chart now runs by date, to show progress over months and years. | 6 | 16,701 | about 10 minutes |
-| **v0.2.5** | 2026-11-21 | Chart and summary table added at the top of this changelog. | 6 | 16,701 | about 10 minutes |
-| **v0.2.4** | 2026-11-21 | Left-side chapter menu on every page. | 6 | 16,701 | about 10 minutes |
-| **v0.2.3** | 2026-11-21 | 'In his own words' section from Yoshida's X account. | 6 | 16,701 | about 10 minutes |
-| **v0.2.2** | 2026-11-21 | 'What fans are saying' section from Yahoo! News Japan comments. | 6 | 16,519 | about 10 minutes |
-| **v0.2.1** | 2026-11-21 | Agents overview gets the story, trends and 2026 outlook; new pages for Hai Berden and Kees Ploegsma Jr. | 6 | 16,079 | about 20 minutes |
-| **v0.2.0** | 2026-11-21 | New Agents folder: overview, Tetsuro Kiyooka and Thomas Kroth; Yoshida's agent details corrected. | 4 | 13,216 | about 45 minutes (5 research helpers running in parallel) |
-| **v0.1.2** | 2026-11-21 | Three deep dives for Yoshida: the Vera&John ad deal, being a target, sports agents. | 1 | 7,170 | about 25 minutes |
-| **v0.1.1** | 2026-11-21 | Controversies and criticism section added to Yoshida and to the template. | 1 | 5,100 | about 10 minutes |
-| **v0.1.0** | 2026-11-21 | First person added: Maya Yoshida profile, printable web page, build tool and template. | 1 | 4,618 | about 1 hour (one Claude session, with 5 research helpers running in parallel) |
+| Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
+|---|---|---|---|---|---|---|
+| **v0.3.2** | 2026-11-21 |  | Changelog table now highlights versions that add a new person or page with 🆕. | 8 | 26,723 | about 10 minutes |
+| **v0.3.1** | 2026-11-21 |  | Changelog chart now shows the blue pages line and the grey words line together on one graph. | 8 | 26,723 | about 10 minutes |
+| **v0.3.0** | 2026-11-21 | 🆕 **⚾ Hideo Nomo, 🤝 Don Nomura** | New sport and person: Hideo Nomo (baseball), plus a page for his agent Don Nomura; the build tool now works for any sport. | 8 | 26,723 | about 50 minutes (6 research helpers running in parallel) |
+| **v0.2.7** | 2026-11-21 |  | Changelog chart gains a grey line for total words on the site; page and word counts are now filled in automatically. | 6 | 16,701 | about 15 minutes |
+| **v0.2.6** | 2026-11-21 |  | Changelog chart now runs by date, to show progress over months and years. | 6 | 16,701 | about 10 minutes |
+| **v0.2.5** | 2026-11-21 |  | Chart and summary table added at the top of this changelog. | 6 | 16,701 | about 10 minutes |
+| **v0.2.4** | 2026-11-21 |  | Left-side chapter menu on every page. | 6 | 16,701 | about 10 minutes |
+| **v0.2.3** | 2026-11-21 |  | 'In his own words' section from Yoshida's X account. | 6 | 16,701 | about 10 minutes |
+| **v0.2.2** | 2026-11-21 |  | 'What fans are saying' section from Yahoo! News Japan comments. | 6 | 16,519 | about 10 minutes |
+| **v0.2.1** | 2026-11-21 | 🆕 **🚪 Hai Berden, 🇳🇱 Kees Ploegsma Jr.** | Agents overview gets the story, trends and 2026 outlook; new pages for Hai Berden and Kees Ploegsma Jr. | 6 | 16,079 | about 20 minutes |
+| **v0.2.0** | 2026-11-21 | 🆕 **🧭 How Japanese players get overseas: agents explained, 🤝 Tetsuro Kiyooka, 🇩🇪 Thomas Kroth** | New Agents folder: overview, Tetsuro Kiyooka and Thomas Kroth; Yoshida's agent details corrected. | 4 | 13,216 | about 45 minutes (5 research helpers running in parallel) |
+| **v0.1.2** | 2026-11-21 |  | Three deep dives for Yoshida: the Vera&John ad deal, being a target, sports agents. | 1 | 7,170 | about 25 minutes |
+| **v0.1.1** | 2026-11-21 |  | Controversies and criticism section added to Yoshida and to the template. | 1 | 5,100 | about 10 minutes |
+| **v0.1.0** | 2026-11-21 | 🆕 **⚽ Maya Yoshida** | First person added: Maya Yoshida profile, printable web page, build tool and template. | 1 | 4,618 | about 1 hour (one Claude session, with 5 research helpers running in parallel) |
 
-🤖 = found by the weekly scheduled check. Words are counted in the profile text, without link addresses. Full details for each version are below.
+🆕 = this version added a new person or page. 🤖 = found by the weekly scheduled check. Words are counted in the profile text, without link addresses. Full details for each version are below.
 <!-- SUMMARY:END -->
 
-How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.3.2 — 2026-11-21
+**Summary:** Changelog table now highlights versions that add a new person or page with 🆕.  
+**Pages on site:** 8  
+**Words on site:** 26723  
+**Time spent:** about 10 minutes
+
+**What changed**
+- The summary table has a new column, "🆕 New people / pages". A version that adds someone shows 🆕 and their names, each with an emoji for the kind of page (⚽ soccer, ⚾ baseball, 🤝 agent and so on).
+- The build tool works out the new names for the newest version by itself.
+
+**Why**
+- To spot at a glance which versions added a new person and which only improved existing pages.
 
 ## v0.3.1 — 2026-11-21
 **Summary:** Changelog chart now shows the blue pages line and the grey words line together on one graph.  
@@ -41,6 +55,7 @@ How to add an entry: put it directly below this line, newest first. Start with `
 
 ## v0.3.0 — 2026-11-21
 **Summary:** New sport and person: Hideo Nomo (baseball), plus a page for his agent Don Nomura; the build tool now works for any sport.  
+**New pages:** ⚾ Hideo Nomo, 🤝 Don Nomura  
 **Pages on site:** 8  
 **Words on site:** 26723  
 **Time spent:** about 50 minutes (6 research helpers running in parallel)
@@ -142,6 +157,7 @@ How to add an entry: put it directly below this line, newest first. Start with `
 
 ## v0.2.1 — 2026-11-21
 **Summary:** Agents overview gets the story, trends and 2026 outlook; new pages for Hai Berden and Kees Ploegsma Jr.  
+**New pages:** 🚪 Hai Berden, 🇳🇱 Kees Ploegsma Jr.  
 **Pages on site:** 6  
 **Words on site:** 16079  
 **Time spent:** about 20 minutes
@@ -156,6 +172,7 @@ How to add an entry: put it directly below this line, newest first. Start with `
 
 ## v0.2.0 — 2026-11-21
 **Summary:** New Agents folder: overview, Tetsuro Kiyooka and Thomas Kroth; Yoshida's agent details corrected.  
+**New pages:** 🧭 How Japanese players get overseas: agents explained, 🤝 Tetsuro Kiyooka, 🇩🇪 Thomas Kroth  
 **Pages on site:** 4  
 **Words on site:** 13216  
 **Time spent:** about 45 minutes (5 research helpers running in parallel)
@@ -205,6 +222,7 @@ How to add an entry: put it directly below this line, newest first. Start with `
 
 ## v0.1.0 — 2026-11-21
 **Summary:** First person added: Maya Yoshida profile, printable web page, build tool and template.  
+**New pages:** ⚽ Maya Yoshida  
 **Pages on site:** 1  
 **Words on site:** 4618  
 **Time spent:** about 1 hour (one Claude session, with 5 research helpers running in parallel)
