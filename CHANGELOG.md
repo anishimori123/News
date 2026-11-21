@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.2.1 — 2026-11-21
+**Time spent:** about 20 minutes
+
+**What changed**
+- Overview page: added the story of how Japanese players went overseas (seven steps, 1977 to today), the main trends pulling them to Europe, how agents and clubs find players in Japan, and what changes from 2026.
+- New page: Hai Berden, the VVV-Venlo chairman who opened the Dutch door.
+- New page: Kees Ploegsma Jr., the Dutch agent named in Honda's 2009 sale to CSKA Moscow.
+
+**Why**
+- To understand the gateway people behind Honda and Yoshida, and where the market is heading after the J.League's 2026 calendar change.
+
 ## v0.2.0 — 2026-11-21
 **Time spent:** about 45 minutes (5 research helpers running in parallel)
 

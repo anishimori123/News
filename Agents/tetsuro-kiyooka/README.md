@@ -52,6 +52,8 @@ A player is listed as his client only when a source says so. 'Confirmed' means a
 | Yuki Otsu | Mönchengladbach → VVV-Venlo 🇳🇱 | 2012 | No agent named in any source found | ⚪ Unverified | [link](https://sportiva.shueisha.co.jp/clm/football/wfootball/2012/10/24/post_184/) |
 
 ## 🚪 4. How the Netherlands door really opened
+See also the pages on Hai Berden (the chairman) and Kees Ploegsma Jr. (the Dutch agent).
+
 - The chairman came to Japan. Hai Berden, VVV-Venlo's chairman, ran a logistics business with long ties to Japan. He asked for a Japanese player. ([source](https://number.bunshun.jp/articles/-/813731))
 - A coach made the recommendation. Sef Vergoossen, a Dutchman then coaching Nagoya, proposed Honda. ([source](https://www.vi.nl/nieuws/hoe-vvv-kennismaakte-met-een-onvergetelijk-japans-fenomeen))
 - The contract allowed it. Honda's Nagoya contract reportedly had a clause permitting a move if an overseas offer came. Who negotiated that clause is not stated. ([source](https://www.nikkan-gendai.com/articles/view/sports/151218))

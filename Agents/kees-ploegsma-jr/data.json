@@ -1,0 +1,151 @@
+{
+  "id": "kees-ploegsma-jr",
+  "name": "Kees Ploegsma Jr.",
+  "name_ja": "",
+  "emoji": "🇳🇱",
+  "order": 4,
+  "updated": "2026-11-21",
+  "status": "Active Dutch football agent (as of early 2026). The public record on him in connection with Japan is small: one player, Keisuke Honda.",
+  "summary": "Dutch agent named in Keisuke Honda's 2009 sale from VVV-Venlo to CSKA Moscow, and quoted as Honda's agent through 2010. An example of a local agent taking over for the big sale.",
+  "quick_facts": [
+    [
+      "Country",
+      "Netherlands (Eindhoven area)"
+    ],
+    [
+      "Background",
+      "Youth player at PSV and FC Eindhoven, then amateur football; followed his father into agent work"
+    ],
+    [
+      "Father",
+      "Kees Ploegsma Sr., also a football agent, quoted in Dutch media on PSV players"
+    ],
+    [
+      "Agency",
+      "Named with SEG, a large Dutch agency, in a 2009 report"
+    ],
+    [
+      "Japan connection",
+      "Keisuke Honda, 2009 to at least mid-2010"
+    ]
+  ],
+  "sections": [
+    {
+      "emoji": "📌",
+      "title": "In short",
+      "intro": "When Honda was ready to leave Venlo for a big club, the agent named in the deal was a Dutchman with local contacts, not the Japanese agent from his arrival. Nothing found says whether Ploegsma replaced Tetsuro Kiyooka or worked with him.",
+      "parts": []
+    },
+    {
+      "emoji": "🗓️",
+      "title": "What is on the record",
+      "parts": [
+        {
+          "kind": "table",
+          "headers": [
+            "When",
+            "What happened"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Dec 2009",
+                "A Japanese sports site names him as Honda's agent in the CSKA Moscow talks."
+              ],
+              "url": "https://sports.yahoo.co.jp/column/detail/200912180006-spnavi"
+            },
+            {
+              "cells": [
+                "30–31 Dec 2009",
+                "VVV and CSKA agree the transfer. Chairman Hai Berden publicly credits the talks between the two clubs and 'player agent Kees Ploegsma junior'. Reported fee: €9 million."
+              ],
+              "url": "https://www.voetbalzone.nl/nieuws/honda-vertrekt-voor-vier-jaar-naar-cska-moskou/93778"
+            },
+            {
+              "cells": [
+                "Mid-2010",
+                "After Honda's World Cup, he tells media there have been no approaches, that Honda stays in Moscow, but that they would listen to a big club."
+              ],
+              "url": "https://www.irishexaminer.com/sport/soccer/arid-30464322.html"
+            },
+            {
+              "cells": [
+                "2010",
+                "Says the same to a Dutch site: no news, Honda is a CSKA player."
+              ],
+              "url": "https://www.soccernews.nl/news/118975/europese-topclubs-kunnen-komst-honda-vergeten"
+            },
+            {
+              "cells": [
+                "June 2013",
+                "By now Honda's brother Hiroyuki is named as his agent in the AC Milan talks."
+              ],
+              "url": "https://www.daily.co.jp/soccer/2013/06/26/0006108634.shtml"
+            },
+            {
+              "cells": [
+                "2013",
+                "PSV winger Zakaria Bakkali switches to him during a contract stand-off with the club."
+              ],
+              "url": "https://www.omroepbrabant.nl/tag/kees%20ploegsma"
+            },
+            {
+              "cells": [
+                "Early 2026",
+                "Guest on an Eindhoven football podcast, described as a player agent in professional football for some years."
+              ],
+              "url": "https://amateurvoetbaleindhoven.nl/podcast-vanaf-de-eerste-minuut-met-kees-ploegsma-jr-en-bernd-kleuters-komende-week-online"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "emoji": "⚠️",
+      "title": "Controversies and criticism",
+      "intro": "Two items came up. Neither could be fully confirmed.",
+      "parts": [
+        {
+          "kind": "list",
+          "rows": [
+            [
+              "A 2009 Dutch report says he was among agents accused, in a case before the Dutch FA, of approaching players younger than 16. I did not find the outcome.",
+              "https://www.elfvoetbal.nl/Overige/187531/PSV-nu-juist-zelf-aangeklaagd-in-zaak-jeugdspelers"
+            ],
+            [
+              "An agent-directory website says his work with Honda at CSKA Moscow led to a sports-court case over unpaid commission and oral agreements. I found no court document or news report to confirm it.",
+              "https://www.footballagencies.com/football-agent/kees-ploegsma-jr/"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "emoji": "💡",
+      "title": "What we can learn (my analysis)",
+      "parts": [
+        {
+          "kind": "list",
+          "rows": [
+            [
+              "The agent who gets you in is not always the agent who gets you up. A big sale needs someone the buying clubs already know.",
+              ""
+            ],
+            [
+              "Honda changed representation at each stage: a Japanese agent to arrive, a Dutch agent for the sale, his own brother later. Yoshida's advice to choose an agent carefully fits this pattern.",
+              ""
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "unverified": [
+    "Whether he replaced Kiyooka as Honda's agent or worked alongside him.",
+    "When and why Honda stopped working with him.",
+    "How he and Honda met. One low-quality site says at a dinner about 18 months before mid-2010.",
+    "His current agency and client list. One podcast page mentions well-known clients but the names could not be read.",
+    "Do not confuse him with his father, Kees Ploegsma Sr., who is also quoted as an agent.",
+    "The outcome of the 2009 Dutch FA case, and whether the sports-court commission case existed as described."
+  ]
+}

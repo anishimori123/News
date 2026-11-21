@@ -46,6 +46,8 @@ My interest, my news, my curiosity. I dig into the roots and the "why" behind ne
 | 🧭 How Japanese players get overseas | [Profile](Agents/overview/README.md) | `docs/agents/overview.html` |
 | Tetsuro Kiyooka 清岡哲朗 | [Profile](Agents/tetsuro-kiyooka/README.md) | `docs/agents/tetsuro-kiyooka.html` |
 | Thomas Kroth トーマス・クロート | [Profile](Agents/thomas-kroth/README.md) | `docs/agents/thomas-kroth.html` |
+| Hai Berden ハイ・ベルデン (gateway chairman) | [Profile](Agents/hai-berden/README.md) | `docs/agents/hai-berden.html` |
+| Kees Ploegsma Jr. | [Profile](Agents/kees-ploegsma-jr/README.md) | `docs/agents/kees-ploegsma-jr.html` |
 
 ## 📷 Add your own photo
 
