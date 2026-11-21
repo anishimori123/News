@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.2.4 — 2026-11-21
+**Time spent:** about 10 minutes
+
+**What changed**
+- Every page with three or more chapters now has a "Chapters" menu on the left side. Click a chapter to jump to it. The menu stays in view while you scroll and highlights the chapter you are reading.
+- On a narrow screen or phone the menu moves to the top and can be folded away. It is hidden when printing.
+- The menu is built automatically from each page's chapter headings, so new people and new sections get it with no extra work.
+
+**Why**
+- Profiles are getting long. This gives a quick snapshot of what is on the page and a fast way to move around.
+
 ## v0.2.3 — 2026-11-21
 **Time spent:** about 10 minutes
 

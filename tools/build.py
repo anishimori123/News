@@ -105,15 +105,53 @@ th{background:#f3f1ea;font-weight:600}td.n,th.n{text-align:right;white-space:now
 .grid{stroke:#e3e1da;stroke-width:1}.tick{font-size:10px;fill:#52514e}.val{font-size:11px;fill:#0b0b0b;font-weight:600}.leg{font-size:12px;fill:#0b0b0b}
 .small{color:var(--ink2);font-size:.85rem}nav.top{font-size:.9rem;margin-bottom:10px}
 .printbtn{float:right;border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 12px;cursor:pointer;font-size:.9rem}
-@media(max-width:720px){.hero,.grid2{grid-template-columns:1fr}.tiles{grid-template-columns:repeat(2,1fr)}}
-@media print{body{font-size:11.5pt;background:#fff}main{max-width:none;padding:0}.printbtn,nav.top{display:none}h2{break-after:avoid}tr,.card,.tile{break-inside:avoid}a{color:inherit;text-decoration:none}
+.layout{display:grid;grid-template-columns:250px minmax(0,980px);gap:8px;justify-content:center;align-items:start}
+.layout main{margin:0;max-width:none}
+.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:24px 8px 24px 16px;font-size:.88rem}
+.toc summary{font-weight:700;font-size:1rem;cursor:pointer;margin-bottom:8px;list-style:none}
+.toc ol{list-style:none;margin:0;padding:0;border-left:2px solid var(--line)}
+.toc li a{display:block;padding:5px 10px;margin-left:-2px;border-left:2px solid transparent;color:var(--ink2);text-decoration:none;line-height:1.3}
+.toc li a:hover{color:var(--ink);background:#f3f1ea}
+.toc li a.on{color:var(--ink);font-weight:600;border-left-color:var(--blue);background:var(--soft)}
+.toc p{margin:12px 0 0 10px}
+html{scroll-behavior:smooth}h2[id]{scroll-margin-top:12px}
+@media(max-width:1000px){.layout{display:block}.toc{position:static;max-height:none;padding:12px 20px 0}.toc details:not([open]) summary{margin-bottom:0}.toc ol{columns:2}}
+@media(max-width:720px){.hero,.grid2{grid-template-columns:1fr}.tiles{grid-template-columns:repeat(2,1fr)}.toc ol{columns:1}}
+@media print{body{font-size:11.5pt;background:#fff}main{max-width:none;padding:0}.layout{display:block}.printbtn,nav.top,.toc{display:none}h2{break-after:avoid}tr,.card,.tile{break-inside:avoid}a{color:inherit;text-decoration:none}
 *{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 """
 
 
+TOC_JS = """<script>
+(function(){var d=document.querySelector('.toc details');if(d&&window.innerWidth<=1000)d.removeAttribute('open');})();
+(function(){var links=[].slice.call(document.querySelectorAll('.toc a'));if(!links.length||!('IntersectionObserver' in window))return;
+var map={};links.forEach(function(a){map[a.getAttribute('href').slice(1)]=a;});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.remove('on');});
+var a=map[e.target.id];if(a)a.classList.add('on');}});},{rootMargin:'-10% 0px -80% 0px'});
+document.querySelectorAll('main h2[id]').forEach(function(h){io.observe(h);});})();
+</script>"""
+
+
 def page(title, body, depth):
-    return (f'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            f'<title>{E(title)}</title><style>{CSS}</style></head><body><main>{body}</main></body></html>')
+    """Wrap a page. Every <h2> becomes a chapter in a jump menu on the left side."""
+    import re
+    chapters = []
+
+    def add_id(m):
+        label = re.sub(r"<[^>]+>", "", m.group(1)).strip()
+        cid = f"ch{len(chapters) + 1}"
+        chapters.append((cid, label))
+        return f'<h2 id="{cid}">{m.group(1)}</h2>'
+
+    body = re.sub(r"<h2>(.*?)</h2>", add_id, body, flags=re.S)
+    head = (f'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+            f'<title>{E(title)}</title><style>{CSS}</style></head><body>')
+    if len(chapters) < 3:
+        return f'{head}<main>{body}</main></body></html>'
+    items = "".join(f'<li><a href="#{cid}">{label}</a></li>' for cid, label in chapters)
+    toc = (f'<nav class="toc" aria-label="Chapters"><details open><summary>📑 Chapters</summary>'
+           f'<ol>{items}</ol><p><a href="#top">↑ Back to top</a></p></details></nav>')
+    return f'{head}<div class="layout" id="top">{toc}<main>{body}</main></div>{TOC_JS}</body></html>'
 
 
 def table(headers, rows, num_cols=()):
