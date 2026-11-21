@@ -1,6 +1,6 @@
 # Agents
 
-The people behind the moves: football agents, and how Japanese players get overseas.
+The people behind the moves: football and baseball agents, and how Japanese players get overseas.
 
 | Page | What it is | Updated |
 |---|---|---|
@@ -9,6 +9,7 @@ The people behind the moves: football agents, and how Japanese players get overs
 | 🇩🇪 [Thomas Kroth トーマス・クロート](thomas-kroth/README.md) | German agent behind the first wave of Japanese players in the Bundesliga | 2026-11-21 |
 | 🚪 [Hai Berden ハイ・ベルデン](hai-berden/README.md) | Not an agent: the VVV-Venlo chairman who opened the Dutch door for Honda and Yoshida | 2026-11-21 |
 | 🇳🇱 [Kees Ploegsma Jr.](kees-ploegsma-jr/README.md) | Dutch agent named in Honda's 2009 sale to CSKA Moscow | 2026-11-21 |
+| ⚾ [Don Nomura 団野村](don-nomura/README.md) | Baseball: the agent who got Hideo Nomo out of Japan in 1995 through a gap in the rules; also Irabu, Soriano, Darvish | 2026-11-21 |
 
 Rules for this folder:
 - Professional role and public sources only.

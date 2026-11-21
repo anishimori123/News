@@ -23,15 +23,30 @@ def link(text, url):
     return f'<a href="{E(url, quote=True)}">{E(text)}</a>' if url else E(text)
 
 
+# Words that differ by sport. A data file can override any of them with a "labels" block.
+DEFAULT_LABELS = {
+    "apps": "matches", "goals": "goals", "apps_title": "Matches", "goals_title": "Goals",
+    "chart_heading": "Matches played each season", "country_heading": "Matches by country",
+    "seasons_heading": "Season by season (all competitions)",
+    "leadership_title": "What makes his leadership special?",
+    "club_title": "Career by club",
+}
+
+
+def labels_of(d):
+    return {**DEFAULT_LABELS, **d.get("labels", {})}
+
+
 # ---------------------------------------------------------------- charts (SVG)
 def chart_seasons(d):
+    lb = labels_of(d)
     clubs = {c["id"]: (c, SERIES[i]) for i, c in enumerate(d["clubs"])}
     rows = d["seasons"]
     bw, gap, left, top, h = 26, 8, 40, 18, 220
     width = left + len(rows) * (bw + gap) + 10
-    mx = 50
-    out = [f'<svg viewBox="0 0 {width} {h + 130}" role="img" aria-label="Matches played per season, coloured by club" class="chart">']
-    for t in (0, 10, 20, 30, 40, 50):
+    mx = d.get("chart_max", 50)
+    out = [f'<svg viewBox="0 0 {width} {h + 130}" role="img" aria-label="{E(lb["chart_heading"])}, coloured by club" class="chart">']
+    for t in [mx * k // 5 for k in range(6)]:
         y = top + h - t / mx * h
         out.append(f'<line x1="{left}" x2="{width - 5}" y1="{y:.1f}" y2="{y:.1f}" class="grid"/>'
                    f'<text x="{left - 6}" y="{y + 4:.1f}" class="tick" text-anchor="end">{t}</text>')
@@ -41,7 +56,7 @@ def chart_seasons(d):
         bh = max(r["apps"] / mx * h, 1.5)
         y = top + h - bh
         out.append(f'<path d="M{x},{top + h} V{y + 4:.1f} q0,-4 4,-4 h{bw - 8} q4,0 4,4 V{top + h} Z" fill="{col}">'
-                   f'<title>{E(r["season"])} {E(c["name"])}: {r["apps"]} matches, {r["goals"]} goals</title></path>')
+                   f'<title>{E(r["season"])} {E(c["name"])}: {r["apps"]} {E(lb["apps"])}, {r["goals"]} {E(lb["goals"])}</title></path>')
         out.append(f'<text x="{x + bw / 2}" y="{y - 4:.1f}" class="val" text-anchor="middle">{r["apps"]}</text>')
         out.append(f'<text transform="translate({x + bw / 2 + 4},{top + h + 10}) rotate(60)" class="tick">{E(r["season"])}</text>')
     per_row = 3
@@ -165,33 +180,38 @@ def build_html(d, sport):
     clubs = {c["id"]: c for c in d["clubs"]}
     apps = sum(c["apps"] for c in d["clubs"])
     goals = sum(c["goals"] for c in d["clubs"])
+    lb = labels_of(d)
     b = []
     b.append('<nav class="top"><a href="../../index.html">← All people</a><button class="printbtn" onclick="window.print()">🖨️ Print this page</button></nav>')
     b.append('<div class="hero"><div>'
              f'<h1>{E(d["name"])} <span class="ja">{E(d["name_ja"])}</span></h1>'
              f'<p>{E(d["summary"])}</p>'
              f'<div class="status"><b>📌 Status ({E(d["updated"])}):</b> {E(d["status"])}</div></div>'
-             f'<div class="photo"><img src="{E(d["photo"])}" alt="" onerror="this.remove()">{FIGURE}'
-             '<div>Generic drawing, not a portrait.<br>📷 Add your own photo: see README.</div></div></div>')
-    b.append('<div class="tiles">'
-             f'<div class="tile"><b>{len({c["country"] for c in d["clubs"]})}</b><span>countries, all in the top division</span></div>'
-             f'<div class="tile"><b>{apps}</b><span>club matches ({goals} goals)</span></div>'
-             '<div class="tile"><b>127</b><span>matches for Japan (12 goals)</span></div>'
-             '<div class="tile"><b>3 + 3</b><span>World Cups + Olympics</span></div></div>')
+             f'<div class="photo"><img src="{E(d["photo"])}" alt="" onerror="this.remove()">'
+             + (f'{FIGURE}<div>Generic drawing, not a portrait.<br>📷 Add your own photo: see README.</div>' if d.get("figure", "captain") == "captain"
+                else '<div>📷 Add your own photo: see README.</div>') + '</div></div>')
+    if d.get("tiles"):
+        b.append('<div class="tiles">' + "".join(f'<div class="tile"><b>{E(str(big))}</b><span>{E(small)}</span></div>' for big, small in d["tiles"]) + '</div>')
+    else:
+        b.append('<div class="tiles">'
+                 f'<div class="tile"><b>{len({c["country"] for c in d["clubs"]})}</b><span>countries, all in the top division</span></div>'
+                 f'<div class="tile"><b>{apps}</b><span>club matches ({goals} goals)</span></div>'
+                 '<div class="tile"><b>127</b><span>matches for Japan (12 goals)</span></div>'
+                 '<div class="tile"><b>3 + 3</b><span>World Cups + Olympics</span></div></div>')
     b.append(table(["Quick fact", "Detail"], [[f"<b>{E(k)}</b>", E(v)] for k, v in d["quick_facts"]]))
 
-    b.append("<h2>🧭 1. What makes his leadership special?</h2>")
+    b.append(f"<h2>🧭 1. {E(lb['leadership_title'])}</h2>")
     b.append(f'<div class="box">{E(d["leadership_intro"])}</div>')
     for i, L in enumerate(d["leadership"], 1):
         ev = "".join(f"<li>{E(t)} {link('[source]', u)}</li>" for t, u in L["evidence"])
         b.append(f'<div class="card"><h3>{L["emoji"]} {i}. {E(L["title"])}</h3><p>{E(L["simple"])}</p><ul>{ev}</ul></div>')
     b.append('<h3>⚖️ The honest view</h3><div class="honest"><ul>' + "".join(f"<li>{E(x)}</li>" for x in d["honest_view"]) + "</ul></div>")
 
-    b.append("<h2>📊 2. Career in charts</h2><h3>Matches played each season</h3>")
+    b.append(f"<h2>📊 2. Career in charts</h2><h3>{E(lb['chart_heading'])}</h3>")
     b.append(chart_seasons(d))
-    b.append(f'<p class="small">{E(d["seasons_note"])}</p><h3>Matches by country</h3>')
-    b.append(chart_hbars([(f'{c["country"]}: {c["name"]}', c["apps"]) for c in d["clubs"]], "matches", colors=SERIES))
-    b.append(table(["", "Club", "Country", "League", "Years", "Matches", "Goals"],
+    b.append(f'<p class="small">{E(d["seasons_note"])}</p><h3>{E(lb["country_heading"])}</h3>')
+    b.append(chart_hbars([(f'{c["country"]}: {c["name"]}', c["apps"]) for c in d["clubs"]], lb["apps"], colors=SERIES))
+    b.append(table(["", "Club", "Country", "League", "Years", lb["apps_title"], lb["goals_title"]],
                    [[c["flag"], E(c["name"]), E(c["country"]), E(c["league"]), E(c["years"]), c["apps"], c["goals"]] for c in d["clubs"]]
                    + [["", "<b>Total</b>", "", "", "", f"<b>{apps}</b>", f"<b>{goals}</b>"]], num_cols=(5, 6)))
 
@@ -199,9 +219,11 @@ def build_html(d, sport):
     icon = {"club": "🏟️ Club", "japan": "🎌 Japan", "life": "🌱 Life"}
     b.append(table(["Year", "Age", "", "Type", "What happened"],
                    [[f'<b>{E(t["year"])}</b>', t["age"], t["flag"], icon[t["tag"]], E(t["event"])] for t in d["timeline"]], num_cols=(1,)))
-    b.append("<h3>Season by season (all competitions)</h3>")
-    b.append(table(["Season", "Club", "Matches", "Goals"],
-                   [[E(s["season"]), f'{clubs[s["club"]]["flag"]} {E(clubs[s["club"]]["name"])}', s["apps"], s["goals"]] for s in d["seasons"]], num_cols=(2, 3)))
+    b.append(f"<h3>{E(lb['seasons_heading'])}</h3>")
+    cols = d.get("season_columns") or [["apps", lb["apps_title"]], ["goals", lb["goals_title"]]]
+    b.append(table(["Season", "Club"] + [t for _, t in cols],
+                   [[E(s["season"]), f'{clubs[s["club"]]["flag"]} {E(clubs[s["club"]]["name"])}'] + [E(str(s.get(k, "")))for k, _ in cols] for s in d["seasons"]],
+                   num_cols=tuple(range(2, 2 + len(cols)))))
 
     b.append("<h2>🏆 4. What he achieved</h2>")
     b.append(table(["Type", "Achievement", "Year"], [[E(a["type"]), E(a["item"]), E(a["year"])] for a in d["achievements"]]))
@@ -237,7 +259,7 @@ def build_html(d, sport):
     m = d.get("money")
     if m:
         b.append("<h2>💰 9. Money: contracts, salary, sponsors</h2>")
-        b.append(f'<div class="box">{E(m["intro"])}</div><h3>LA Galaxy salary (official union figures, guaranteed pay per year)</h3>')
+        b.append(f'<div class="box">{E(m["intro"])}</div><h3>{E(m.get("chart_heading", "LA Galaxy salary (official union figures, guaranteed pay per year)"))}</h3>')
         b.append(chart_hbars(m["salary_chart"], "US dollars", fmt=lambda v: f"${v:,.0f}"))
         b.append(table(["Period", "Club", "Reported pay", "How sure?", "Where from"],
                        [[E(s["period"]), E(s["club"]), E(s["figure"]), f'<span class="tag {s["label"]}">{s["label"]}</span>', link(s["note"] or "–", s["url"])] for s in m["salary"]]))
@@ -286,23 +308,25 @@ def mdl(text, url):
 def build_md(d, sport):
     clubs = {c["id"]: c for c in d["clubs"]}
     apps = sum(c["apps"] for c in d["clubs"]); goals = sum(c["goals"] for c in d["clubs"])
+    lb = labels_of(d)
+    cols = d.get("season_columns") or [["apps", lb["apps_title"]], ["goals", lb["goals_title"]]]
     o = [f'# {d["name"]} ({d["name_ja"]})', "", f'> {d["summary"]}', "",
          f'**Last updated:** {d["updated"]}  ', f'**📌 Status:** {d["status"]}', "",
          f'🖨️ **Colour web page (best for printing):** `docs/sports/{sport.lower()}/{d["id"]}.html`', "",
          "_This file is generated from `data.json` by `tools/build.py`. Edit `data.json`, not this file._", "",
          "## Quick facts", md_table(["Item", "Detail"], d["quick_facts"]), "",
-         "## 🧭 1. What makes his leadership special?", d["leadership_intro"], ""]
+         f"## 🧭 1. {lb['leadership_title']}", d["leadership_intro"], ""]
     for i, L in enumerate(d["leadership"], 1):
         o += [f'### {L["emoji"]} {i}. {L["title"]}', L["simple"], ""] + [f"- {t} ({mdl('source', u)})" for t, u in L["evidence"]] + [""]
     o += ["### ⚖️ The honest view"] + [f"- {x}" for x in d["honest_view"]] + [""]
-    o += ["## 📊 2. Career by club",
-          md_table(["", "Club", "Country", "League", "Years", "Matches", "Goals"],
+    o += [f"## 📊 2. {lb['club_title']}",
+          md_table(["", "Club", "Country", "League", "Years", lb["apps_title"], lb["goals_title"]],
                    [[c["flag"], c["name"], c["country"], c["league"], c["years"], c["apps"], c["goals"]] for c in d["clubs"]] + [["", "**Total**", "", "", "", f"**{apps}**", f"**{goals}**"]]),
           "", "_" + d["seasons_note"] + "_", "",
           "## 🗓️ 3. Year-by-year timeline",
           md_table(["Year", "Age", "", "What happened"], [[t["year"], t["age"], t["flag"], t["event"]] for t in d["timeline"]]), "",
-          "### Season by season (all competitions)",
-          md_table(["Season", "Club", "Matches", "Goals"], [[s["season"], clubs[s["club"]]["name"], s["apps"], s["goals"]] for s in d["seasons"]]), "",
+          f"### {lb['seasons_heading']}",
+          md_table(["Season", "Club"] + [t for _, t in cols], [[s["season"], clubs[s["club"]]["name"]] + [s.get(k, "") for k, _ in cols] for s in d["seasons"]]), "",
           "## 🏆 4. What he achieved", md_table(["Type", "Achievement", "Year"], [[a["type"], a["item"], a["year"]] for a in d["achievements"]]), "",
           "## 📰 5. Headline news",
           md_table(["Date", "Lang", "Headline (original)", "English", "Why it matters"],
@@ -566,12 +590,12 @@ def main():
             out.write_text(build_generic_html(d, folder), encoding="utf-8")
             others.append((folder, d))
             print("built", out.relative_to(ROOT))
-    cards = "".join(f'<div class="card"><h3>⚽ <a href="sports/{s.lower()}/{d["id"]}.html">{E(d["name"])} {E(d["name_ja"])}</a></h3>'
+    cards = "".join(f'<div class="card"><h3>{d.get("emoji", "⚽")} <a href="sports/{s.lower()}/{d["id"]}.html">{E(d["name"])} {E(d["name_ja"])}</a></h3>'
                     f'<p>{E(d["summary"])}</p><p class="small">{E(s)} · updated {E(d["updated"])}</p></div>' for s, d in people)
     others.sort(key=lambda x: (x[1].get("order", 5), x[1]["name"]))
     ocards = "".join(f'<div class="card"><h3>{d.get("emoji", "🤝")} <a href="{f.lower()}/{d["id"]}.html">{E(d["name"])} {E(d.get("name_ja", ""))}</a></h3>'
                      f'<p>{E(d["summary"])}</p><p class="small">{E(f)} · updated {E(d["updated"])}</p></div>' for f, d in others)
-    body = f"<h1>📚 People I follow</h1><p>My own database: athletes, the people around them, and how the sports business works.</p><h2>⚽ Sports</h2>{cards}"
+    body = f"<h1>📚 People I follow</h1><p>My own database: athletes, the people around them, and how the sports business works.</p><h2>🏅 Sports</h2>{cards}"
     if ocards:
         body += f"<h2>🤝 Agents</h2>{ocards}"
     (ROOT / "docs" / "index.html").write_text(page("News: people I follow", body, 0), encoding="utf-8")

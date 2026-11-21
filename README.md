@@ -6,7 +6,8 @@ My interest, my news, my curiosity. I dig into the roots and the "why" behind ne
 
 - Home page: `docs/index.html`
 - Maya Yoshida: `docs/sports/soccer/maya-yoshida.html`
-- Agents: `docs/agents/overview.html`, `docs/agents/tetsuro-kiyooka.html`, `docs/agents/thomas-kroth.html`
+- Hideo Nomo: `docs/sports/baseball/hideo-nomo.html`
+- Agents: `docs/agents/overview.html`, `docs/agents/tetsuro-kiyooka.html`, `docs/agents/thomas-kroth.html`, `docs/agents/don-nomura.html`
 
 **To see it on your PC:** download the repo (green **Code** button → **Download ZIP**), unzip it, open the `docs` folder, and double-click `index.html`. It opens in your browser.
 
@@ -27,7 +28,7 @@ My interest, my news, my curiosity. I dig into the roots and the "why" behind ne
 | `Sports/` | One folder per sport, one folder per person |
 | `Sports/Soccer/maya-yoshida/data.json` | The "database" for one person: all facts in one file |
 | `Sports/Soccer/maya-yoshida/README.md` | The profile, readable on GitHub (made automatically) |
-| `Agents/` | Football agents and an explainer on how Japanese players get overseas; one folder and one `data.json` each |
+| `Agents/` | Football and baseball agents and an explainer on how Japanese players get overseas; one folder and one `data.json` each |
 | `Sports/Soccer/_TEMPLATE.md` | The standard sections every profile should have |
 | `docs/` | The web pages (made automatically) |
 | `tools/build.py` | The small program that turns `data.json` into the README and the web page |
@@ -38,6 +39,7 @@ My interest, my news, my curiosity. I dig into the roots and the "why" behind ne
 | Sport | Person | Profile | Web page |
 |---|---|---|---|
 | ⚽ Soccer | Maya Yoshida 吉田麻也 | [Profile](Sports/Soccer/maya-yoshida/README.md) | `docs/sports/soccer/maya-yoshida.html` |
+| ⚾ Baseball | Hideo Nomo 野茂英雄 | [Profile](Sports/Baseball/hideo-nomo/README.md) | `docs/sports/baseball/hideo-nomo.html` |
 
 ## 🤝 Agents
 
@@ -48,11 +50,12 @@ My interest, my news, my curiosity. I dig into the roots and the "why" behind ne
 | Thomas Kroth トーマス・クロート | [Profile](Agents/thomas-kroth/README.md) | `docs/agents/thomas-kroth.html` |
 | Hai Berden ハイ・ベルデン (gateway chairman) | [Profile](Agents/hai-berden/README.md) | `docs/agents/hai-berden.html` |
 | Kees Ploegsma Jr. | [Profile](Agents/kees-ploegsma-jr/README.md) | `docs/agents/kees-ploegsma-jr.html` |
+| ⚾ Don Nomura 団野村 (Hideo Nomo's agent) | [Profile](Agents/don-nomura/README.md) | `docs/agents/don-nomura.html` |
 
 ## 📷 Add your own photo
 
-1. Save your photo with exactly this name: `maya-yoshida.jpg`
-2. Put it in the folder `docs/sports/soccer/images/`
+1. Save your photo with exactly the person's id as its name: `maya-yoshida.jpg` or `hideo-nomo.jpg`
+2. Put it in that sport's images folder: `docs/sports/soccer/images/` or `docs/sports/baseball/images/`
 3. Open the page again. Success looks like: your photo appears in the dashed box at the top right.
 
 Only use photos you are allowed to use (for example, ones you took yourself).

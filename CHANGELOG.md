@@ -7,6 +7,7 @@
 
 | Version | Date | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|
+| **v0.3.0** | 2026-11-21 | New sport and person: Hideo Nomo (baseball), plus a page for his agent Don Nomura; the build tool now works for any sport. | 8 | 26,723 | about 50 minutes (6 research helpers running in parallel) |
 | **v0.2.7** | 2026-11-21 | Changelog chart gains a grey line for total words on the site; page and word counts are now filled in automatically. | 6 | 16,701 | about 15 minutes |
 | **v0.2.6** | 2026-11-21 | Changelog chart now runs by date, to show progress over months and years. | 6 | 16,701 | about 10 minutes |
 | **v0.2.5** | 2026-11-21 | Chart and summary table added at the top of this changelog. | 6 | 16,701 | about 10 minutes |
@@ -23,6 +24,27 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.3.0 — 2026-11-21
+**Summary:** New sport and person: Hideo Nomo (baseball), plus a page for his agent Don Nomura; the build tool now works for any sport.  
+**Pages on site:** 8  
+**Words on site:** 26723  
+**Time spent:** about 50 minutes (6 research helpers running in parallel)
+
+**What changed**
+- New sport folder `Sports/Baseball/` and a new person: **Hideo Nomo (野茂英雄)**. Full profile: why "going his own way" worked (six patterns with evidence) and what it cost, career charts and season table (Japan and USA; totals checked: 201 wins, 3,122 strikeouts), timeline, headline news in Japanese, English and Spanish, roots, controversies, money, and what he is doing in November 2026.
+- Five deep dives in his profile: the 1994–95 escape step by step, the people around him (agent, gateway, mentors), what changed after him (posting system), what he does now, and his own words from interviews.
+- "What fans are saying": first sample, the top 30 Yahoo! News Japan comments under the 17 Nov 2026 article about his Asian Hall of Fame photo, grouped into seven themes.
+- New agent page: **Don Nomura (団野村)**, with timeline, a confidence-marked client table, method, criticism and defence, and his two American partners (Arn Tellem, Jean Afterman).
+- `tools/build.py` now works for sports other than soccer. A data file can set its own table words (`labels`), summary tiles (`tiles`), chart scale (`chart_max`), extra season columns (`season_columns`), money chart title and home-page icon. Maya Yoshida's page is unchanged.
+
+**Why**
+- Nomo is the player who reopened the door from Japanese baseball to MLB, and his story is mostly about an agent finding a gap in the rules. It is the baseball mirror of the soccer gateway stories already here.
+
+**Corrections to common beliefs**
+- He was the second Japanese major leaguer, not the first (Masanori Murakami, 1964).
+- A "six years, 2 billion yen" contract demand could not be found in any source; three different sourced versions are listed.
+- Who paid Don Nomura, and how much, is not public.
 
 ## v0.2.7 — 2026-11-21
 **Summary:** Changelog chart gains a grey line for total words on the site; page and word counts are now filled in automatically.  

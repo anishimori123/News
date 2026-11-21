@@ -1,0 +1,1984 @@
+{
+ "id": "hideo-nomo",
+ "name": "Hideo Nomo",
+ "name_ja": "野茂 英雄",
+ "sport": "Baseball",
+ "emoji": "⚾",
+ "figure": "none",
+ "updated": "2026-11-21",
+ "status": "Retired as a player since July 2008. Today (Nov 2026, age 58) he works for the San Diego Padres in the USA: the club's front-office page lists him as 'Special Assistant, Baseball Operations'. In Japan he heads the non-profit NOMO Baseball Club. In November 2026 he was inducted into the Asian Hall of Fame in Los Angeles with its first 'Sports Pioneer Medal'. Where he lives is not confirmed by any reliable source.",
+ "summary": "Japanese pitcher with the twisting 'Tornado' windup. In January 1995, at 26, he 'retired' from the Kintetsu Buffaloes to get out of his Japanese contract, signed with the Los Angeles Dodgers and became the first Japanese player to move to Major League Baseball (MLB) for good. He was called a traitor at home, then won Rookie of the Year. The route was planned with agent Don Nomura. Every Japanese major leaguer since has walked through the door he reopened.",
+ "photo": "images/hideo-nomo.jpg",
+ "tiles": [
+  [
+   "201",
+   "wins in Japan + USA (78 + 123)"
+  ],
+  [
+   "3,122",
+   "strikeouts in Japan + USA (1,204 + 1,918)"
+  ],
+  [
+   "2",
+   "MLB no-hitters (1996 and 2001), one in each league"
+  ],
+  [
+   "1995",
+   "NL Rookie of the Year and All-Star Game starter"
+  ]
+ ],
+ "labels": {
+  "apps": "strikeouts",
+  "goals": "wins",
+  "apps_title": "Strikeouts",
+  "goals_title": "Wins",
+  "chart_heading": "Strikeouts each season",
+  "country_heading": "Strikeouts by team",
+  "seasons_heading": "Season by season (regular season, top league only)",
+  "leadership_title": "Going his own way: stubborn, or right?",
+  "club_title": "Career by team"
+ },
+ "chart_max": 300,
+ "season_columns": [
+  [
+   "goals",
+   "Wins"
+  ],
+  [
+   "l",
+   "Losses"
+  ],
+  [
+   "era",
+   "ERA"
+  ],
+  [
+   "ip",
+   "Innings"
+  ],
+  [
+   "apps",
+   "Strikeouts"
+  ]
+ ],
+ "quick_facts": [
+  [
+   "Born",
+   "31 August 1968, Osaka, Japan (age 58)"
+  ],
+  [
+   "Position",
+   "Starting pitcher, right-handed. Known for the 'Tornado' windup and the forkball (a pitch that drops sharply)"
+  ],
+  [
+   "Japan (NPB)",
+   "Kintetsu Buffaloes 1990 to 1994: 78 wins, 46 losses, 1,204 strikeouts"
+  ],
+  [
+   "USA (MLB)",
+   "1995 to 2008, 7 teams (Dodgers twice): 123 wins, 109 losses, ERA 4.24, 1,918 strikeouts"
+  ],
+  [
+   "Combined",
+   "201 wins and 3,122 strikeouts (my addition of the two tables below)"
+  ],
+  [
+   "Is he really 'the pioneer'?",
+   "Almost. Masanori Murakami pitched for the San Francisco Giants in 1964 and 1965, so Nomo was the SECOND Japanese major leaguer. He was the first in 30 years and the first to leave Japan for good against his club's wishes."
+  ],
+  [
+   "Agent in 1994 to 1998",
+   "Don Nomura (confirmed). Agent after 1998: not confirmed"
+  ],
+  [
+   "National team",
+   "Silver medal at the 1988 Seoul Olympics (baseball was a demonstration sport). Never played in the World Baseball Classic"
+  ],
+  [
+   "Halls of Fame",
+   "Japanese Baseball Hall of Fame 2014 (first year on the ballot). Cooperstown (USA): 1.1% of votes in 2014, dropped from the ballot"
+  ],
+  [
+   "Now",
+   "San Diego Padres front office (since Feb 2016); head of NOMO Baseball Club (founded 2003)"
+  ]
+ ],
+ "clubs": [
+  {
+   "id": "kintetsu",
+   "name": "Kintetsu Buffaloes",
+   "country": "Japan",
+   "flag": "🇯🇵",
+   "league": "NPB Pacific League",
+   "years": "1990–1994",
+   "apps": 1204,
+   "goals": 78
+  },
+  {
+   "id": "dodgers",
+   "name": "Los Angeles Dodgers",
+   "country": "USA",
+   "flag": "🇺🇸",
+   "league": "MLB National League",
+   "years": "1995–1998, 2002–2004",
+   "apps": 1200,
+   "goals": 81
+  },
+  {
+   "id": "mets",
+   "name": "New York Mets",
+   "country": "USA",
+   "flag": "🇺🇸",
+   "league": "MLB National League",
+   "years": "1998",
+   "apps": 94,
+   "goals": 4
+  },
+  {
+   "id": "brewers",
+   "name": "Milwaukee Brewers",
+   "country": "USA",
+   "flag": "🇺🇸",
+   "league": "MLB National League",
+   "years": "1999",
+   "apps": 161,
+   "goals": 12
+  },
+  {
+   "id": "tigers",
+   "name": "Detroit Tigers",
+   "country": "USA",
+   "flag": "🇺🇸",
+   "league": "MLB American League",
+   "years": "2000",
+   "apps": 181,
+   "goals": 8
+  },
+  {
+   "id": "redsox",
+   "name": "Boston Red Sox",
+   "country": "USA",
+   "flag": "🇺🇸",
+   "league": "MLB American League",
+   "years": "2001",
+   "apps": 220,
+   "goals": 13
+  },
+  {
+   "id": "rays",
+   "name": "Tampa Bay Devil Rays",
+   "country": "USA",
+   "flag": "🇺🇸",
+   "league": "MLB American League",
+   "years": "2005",
+   "apps": 59,
+   "goals": 5
+  },
+  {
+   "id": "royals",
+   "name": "Kansas City Royals",
+   "country": "USA",
+   "flag": "🇺🇸",
+   "league": "MLB American League",
+   "years": "2008",
+   "apps": 3,
+   "goals": 0
+  }
+ ],
+ "seasons": [
+  {
+   "season": "1990",
+   "club": "kintetsu",
+   "goals": 18,
+   "l": 8,
+   "era": "2.91",
+   "ip": "235.0",
+   "apps": 287
+  },
+  {
+   "season": "1991",
+   "club": "kintetsu",
+   "goals": 17,
+   "l": 11,
+   "era": "3.05",
+   "ip": "242.1",
+   "apps": 287
+  },
+  {
+   "season": "1992",
+   "club": "kintetsu",
+   "goals": 18,
+   "l": 8,
+   "era": "2.66",
+   "ip": "216.2",
+   "apps": 228
+  },
+  {
+   "season": "1993",
+   "club": "kintetsu",
+   "goals": 17,
+   "l": 12,
+   "era": "3.70",
+   "ip": "243.1",
+   "apps": 276
+  },
+  {
+   "season": "1994",
+   "club": "kintetsu",
+   "goals": 8,
+   "l": 7,
+   "era": "3.63",
+   "ip": "114.0",
+   "apps": 126
+  },
+  {
+   "season": "1995",
+   "club": "dodgers",
+   "goals": 13,
+   "l": 6,
+   "era": "2.54",
+   "ip": "191.1",
+   "apps": 236
+  },
+  {
+   "season": "1996",
+   "club": "dodgers",
+   "goals": 16,
+   "l": 11,
+   "era": "3.19",
+   "ip": "228.1",
+   "apps": 234
+  },
+  {
+   "season": "1997",
+   "club": "dodgers",
+   "goals": 14,
+   "l": 12,
+   "era": "4.25",
+   "ip": "207.1",
+   "apps": 233
+  },
+  {
+   "season": "1998",
+   "club": "dodgers",
+   "goals": 2,
+   "l": 7,
+   "era": "5.05",
+   "ip": "67.2",
+   "apps": 73
+  },
+  {
+   "season": "1998",
+   "club": "mets",
+   "goals": 4,
+   "l": 5,
+   "era": "4.82",
+   "ip": "89.2",
+   "apps": 94
+  },
+  {
+   "season": "1999",
+   "club": "brewers",
+   "goals": 12,
+   "l": 8,
+   "era": "4.54",
+   "ip": "176.1",
+   "apps": 161
+  },
+  {
+   "season": "2000",
+   "club": "tigers",
+   "goals": 8,
+   "l": 12,
+   "era": "4.74",
+   "ip": "190.0",
+   "apps": 181
+  },
+  {
+   "season": "2001",
+   "club": "redsox",
+   "goals": 13,
+   "l": 10,
+   "era": "4.50",
+   "ip": "198.0",
+   "apps": 220
+  },
+  {
+   "season": "2002",
+   "club": "dodgers",
+   "goals": 16,
+   "l": 6,
+   "era": "3.39",
+   "ip": "220.1",
+   "apps": 193
+  },
+  {
+   "season": "2003",
+   "club": "dodgers",
+   "goals": 16,
+   "l": 13,
+   "era": "3.09",
+   "ip": "218.1",
+   "apps": 177
+  },
+  {
+   "season": "2004",
+   "club": "dodgers",
+   "goals": 4,
+   "l": 11,
+   "era": "8.25",
+   "ip": "84.0",
+   "apps": 54
+  },
+  {
+   "season": "2005",
+   "club": "rays",
+   "goals": 5,
+   "l": 8,
+   "era": "7.24",
+   "ip": "100.2",
+   "apps": 59
+  },
+  {
+   "season": "2008",
+   "club": "royals",
+   "goals": 0,
+   "l": 0,
+   "era": "18.69",
+   "ip": "4.1",
+   "apps": 3
+  }
+ ],
+ "seasons_note": "Source: Baseball-Reference (MLB page for 1995 to 2008, register page for Japan 1990 to 1994). ERA = earned run average, the runs a pitcher gives up per 9 innings; lower is better. Innings like '191.1' mean 191 and one third. I added every row: Japan gives 78 wins, 46 losses, 1,204 strikeouts; MLB gives 123 wins, 109 losses, 1,918 strikeouts. Both match the official career lines. He did not pitch in MLB in 2006 or 2007 (minor leagues and Venezuelan winter ball only). The Japan rows could not be cross-checked on NPB's own site.",
+ "timeline": [
+  {
+   "year": "1968",
+   "age": 0,
+   "flag": "🇯🇵",
+   "tag": "life",
+   "event": "Born 31 August in Osaka, into a working-class family. His father is described as a former fisherman who became a postal worker."
+  },
+  {
+   "year": "1970s",
+   "age": 10,
+   "flag": "🇯🇵",
+   "tag": "life",
+   "event": "Starts twisting his body to throw harder as a boy. His father tells him to throw with his whole body."
+  },
+  {
+   "year": "1984",
+   "age": 15,
+   "flag": "🇯🇵",
+   "tag": "life",
+   "event": "Not wanted by the famous baseball high schools (Kindai Fuzoku is the one named). Enters Seijo Industrial High School, an ordinary public school."
+  },
+  {
+   "year": "1985",
+   "age": 16,
+   "flag": "🇯🇵",
+   "tag": "club",
+   "event": "Pitches a perfect game (no batter reaches base) in the Osaka summer tournament. Gets little press. Never reaches Koshien, the national high school tournament."
+  },
+  {
+   "year": "1987",
+   "age": 18,
+   "flag": "🇯🇵",
+   "tag": "club",
+   "event": "No pro team drafts him. Joins the company team Shin-Nittetsu Sakai (Nippon Steel). Learns the forkball there."
+  },
+  {
+   "year": "1988",
+   "age": 20,
+   "flag": "🇯🇵",
+   "tag": "japan",
+   "event": "Silver medal with Japan at the Seoul Olympics (baseball was a demonstration sport)."
+  },
+  {
+   "year": "1989",
+   "age": 21,
+   "flag": "🇯🇵",
+   "tag": "club",
+   "event": "A record 8 teams pick him first in the draft. Kintetsu wins the lottery. He signs on condition that the club will not change his pitching form."
+  },
+  {
+   "year": "1990",
+   "age": 21,
+   "flag": "🇯🇵",
+   "tag": "club",
+   "event": "Rookie season: 18 wins, 287 strikeouts. Wins MVP, the Sawamura Award (best starting pitcher), Rookie of the Year and the pitching triple crown."
+  },
+  {
+   "year": "1990–93",
+   "age": 24,
+   "flag": "🇯🇵",
+   "tag": "club",
+   "event": "Leads the Pacific League in wins and strikeouts four years in a row, under easygoing manager Akira Ogi (to 1992)."
+  },
+  {
+   "year": "1993",
+   "age": 24,
+   "flag": "🇯🇵",
+   "tag": "club",
+   "event": "Keishi Suzuki, a 317-win legend with old-school ideas (throw more, run more), becomes manager. Friction begins."
+  },
+  {
+   "year": "1994",
+   "age": 25,
+   "flag": "🇯🇵",
+   "tag": "club",
+   "event": "Sore shoulder. On 1 July he throws 191 pitches and walks 16 in one complete game. Season ends early at 8 wins, 7 losses. Tells teammate Masato Yoshii he is going to America. Meets agent Don Nomura."
+  },
+  {
+   "year": "Dec 1994",
+   "age": 26,
+   "flag": "🇯🇵",
+   "tag": "club",
+   "event": "9 Dec: the Japanese commissioner's office confirms by fax that a 'voluntarily retired' player is only tied to his old club inside Japan. 13 Dec: he asks Kintetsu for a multi-year contract with Nomura at his side; the club throws Nomura out and refuses."
+  },
+  {
+   "year": "Jan 1995",
+   "age": 26,
+   "flag": "🇯🇵",
+   "tag": "club",
+   "event": "9 Jan: announces voluntary retirement and his plan to play in MLB. Kintetsu takes its flag down before the press conference. Called a traitor and an ingrate in Japan."
+  },
+  {
+   "year": "Feb 1995",
+   "age": 26,
+   "flag": "🇺🇸",
+   "tag": "club",
+   "event": "13 Feb: signs a minor-league contract with the Los Angeles Dodgers, with a $2 million signing bonus, after meeting owner Peter O'Malley."
+  },
+  {
+   "year": "1995",
+   "age": 26,
+   "flag": "🇺🇸",
+   "tag": "club",
+   "event": "2 May: MLB debut. Starts the All-Star Game in July. 13 wins, 236 strikeouts (best in the National League), Rookie of the Year. 'Nomomania' in both countries."
+  },
+  {
+   "year": "1996",
+   "age": 28,
+   "flag": "🇺🇸",
+   "tag": "club",
+   "event": "17 Sept: no-hitter at Coors Field in Denver, the hardest park for pitchers. Still the only one ever thrown there."
+  },
+  {
+   "year": "1998",
+   "age": 29,
+   "flag": "🇺🇸",
+   "tag": "club",
+   "event": "Struggles (2 wins, 7 losses). Asks the Dodgers for a change of team through Nomura; traded to the New York Mets on 4 June."
+  },
+  {
+   "year": "1999–2000",
+   "age": 31,
+   "flag": "🇺🇸",
+   "tag": "club",
+   "event": "Released by the Mets, minor leagues with the Cubs, then 12 wins for Milwaukee. Detroit in 2000."
+  },
+  {
+   "year": "2001",
+   "age": 32,
+   "flag": "🇺🇸",
+   "tag": "club",
+   "event": "4 April: second no-hitter, for Boston at Baltimore, in his first game for the team. Leads the American League in strikeouts (220)."
+  },
+  {
+   "year": "2002–03",
+   "age": 34,
+   "flag": "🇺🇸",
+   "tag": "club",
+   "event": "Back with the Dodgers: 16 wins in each season. In 2003 founds NOMO Baseball Club in Sakai for young players with nowhere to play. Shoulder surgery in October 2003."
+  },
+  {
+   "year": "2004–05",
+   "age": 36,
+   "flag": "🇺🇸",
+   "tag": "club",
+   "event": "Never the same after surgery (ERA 8.25 in 2004). 15 June 2005: 200th win of his Japan + USA career, with Tampa Bay. Released in July."
+  },
+  {
+   "year": "2006–07",
+   "age": 39,
+   "flag": "🇺🇸",
+   "tag": "club",
+   "event": "Refuses to quit: minor leagues with the White Sox, elbow rehab, then winter ball in Venezuela in late 2007."
+  },
+  {
+   "year": "2008",
+   "age": 39,
+   "flag": "🇺🇸",
+   "tag": "club",
+   "event": "Makes the Kansas City Royals in April, pitches 3 games, is released. 17 July: retirement announced, with no press conference and no farewell game."
+  },
+  {
+   "year": "2009–11",
+   "age": 41,
+   "flag": "🇯🇵",
+   "tag": "life",
+   "event": "Short coaching and adviser jobs with Orix and Hiroshima in Japan; starts TV commentary; starts taking a Japanese junior team to play in California."
+  },
+  {
+   "year": "2013",
+   "age": 44,
+   "flag": "🇯🇵",
+   "tag": "life",
+   "event": "NOMO Baseball Club moves from Sakai to Toyooka, Hyogo."
+  },
+  {
+   "year": "2014",
+   "age": 45,
+   "flag": "🇯🇵",
+   "tag": "life",
+   "event": "Elected to the Japanese Baseball Hall of Fame in his first year on the ballot. In the USA he gets only 6 votes (1.1%) for Cooperstown."
+  },
+  {
+   "year": "2016",
+   "age": 47,
+   "flag": "🇺🇸",
+   "tag": "club",
+   "event": "11 Feb: joins the San Diego Padres as Advisor, Baseball Operations."
+  },
+  {
+   "year": "2025",
+   "age": 57,
+   "flag": "🇺🇸",
+   "tag": "life",
+   "event": "30 years since his debut. Ichiro thanks him in his Hall of Fame speech (27 July). Throws the ceremonial first pitch before World Series Game 3 at Dodger Stadium (27 Oct)."
+  },
+  {
+   "year": "2026",
+   "age": 58,
+   "flag": "🇺🇸",
+   "tag": "life",
+   "event": "Still with the Padres. Appears at Seibu veteran Takumi Kuriyama's retirement ceremony in Japan (30 Aug). Inducted into the Asian Hall of Fame in Los Angeles with its first Sports Pioneer Medal (Nov)."
+  }
+ ],
+ "achievements": [
+  {
+   "type": "🏅 Award",
+   "item": "National League Rookie of the Year (MLB)",
+   "year": "1995"
+  },
+  {
+   "type": "🏅 Award",
+   "item": "Started the MLB All-Star Game for the National League (2 scoreless innings, 3 strikeouts)",
+   "year": "1995"
+  },
+  {
+   "type": "📈 Title",
+   "item": "Strikeout leader: National League (236)",
+   "year": "1995"
+  },
+  {
+   "type": "📈 Title",
+   "item": "Strikeout leader: American League (220)",
+   "year": "2001"
+  },
+  {
+   "type": "⭐ Feat",
+   "item": "No-hitter at Coors Field, Denver (Dodgers). Still the only one in that park",
+   "year": "1996"
+  },
+  {
+   "type": "⭐ Feat",
+   "item": "No-hitter at Camden Yards, Baltimore (Red Sox). Still the only one in that park",
+   "year": "2001"
+  },
+  {
+   "type": "🏅 Award",
+   "item": "Japan: Pacific League MVP, Sawamura Award, Rookie of the Year, pitching triple crown (wins, ERA, strikeouts)",
+   "year": "1990"
+  },
+  {
+   "type": "📈 Title",
+   "item": "Japan: most wins and most strikeouts in the Pacific League, four years in a row",
+   "year": "1990–1993"
+  },
+  {
+   "type": "🥈 Medal",
+   "item": "Silver medal, Seoul Olympics (demonstration sport)",
+   "year": "1988"
+  },
+  {
+   "type": "⭐ Feat",
+   "item": "200th combined win in Japan and the USA",
+   "year": "2005"
+  },
+  {
+   "type": "🏛️ Honour",
+   "item": "Japanese Baseball Hall of Fame, first year on the ballot; youngest inductee up to then",
+   "year": "2014"
+  },
+  {
+   "type": "🏛️ Honour",
+   "item": "Asian Hall of Fame (Los Angeles), first 'Sports Pioneer Medal'",
+   "year": "2026"
+  }
+ ],
+ "leadership_intro": "Short answer: he was stubborn about a very small number of things (his pitching form, how to care for his arm, and where he wanted to play) and flexible about almost everything else, including money and comfort. Each time, he first proved the point with results, and he let other people do the talking. Six patterns show up again and again. The 'honest view' below shows what it cost.",
+ "leadership": [
+  {
+   "emoji": "🌪️",
+   "title": "He never let anyone change the Tornado",
+   "simple": "From boyhood he twisted his back to the batter to throw harder. Scouts and coaches said it would never work. He kept it, and wherever a coach left it alone he gave everything back.",
+   "evidence": [
+    [
+     "According to Robert Whiting, he began twisting as a boy to throw harder and to impress his father. (The 'fifth grade' detail rests on one author.)",
+     "https://sabr.org/bioproject/person/hideo-nomo/"
+    ],
+    [
+     "University and company scouts dismissed him; one line reported in Number: 'With that form, we won't take him.'",
+     "https://number.bunshun.jp/articles/-/860808"
+    ],
+    [
+     "A senior at his company team told him a man may keep one thing he never changes. He decided that for him it was the form. (One article, speaker not named.)",
+     "https://number.bunshun.jp/articles/-/860808"
+    ],
+    [
+     "He signed with Kintetsu on condition that the club would not alter his delivery (Whiting, via SABR).",
+     "https://sabr.org/bioproject/person/hideo-nomo/"
+    ],
+    [
+     "Company-team manager Mitsushige Hamasaki says he saw the value of the twist early and recruited him anyway.",
+     "https://gendai.media/articles/-/43540"
+    ]
+   ]
+  },
+  {
+   "emoji": "🩹",
+   "title": "He treated his arm as something that wears out",
+   "simple": "In 1990s Japan the common belief was 'throw more to get stronger'. He believed, as American teams already did, that a pitcher's shoulder is a consumable. This was the real root of the clash with manager Keishi Suzuki.",
+   "evidence": [
+    [
+     "A beat writer who covered the team says Nomo arrived at 1994 spring camp with shoulder trouble and did not throw in the bullpen at first, while Suzuki demanded 200 to 300 practice pitches.",
+     "https://number.bunshun.jp/articles/-/861472?page=3"
+    ],
+    [
+     "1 July 1994: a complete-game win with 16 walks and 191 pitches.",
+     "https://number.bunshun.jp/articles/-/865749?page=3"
+    ],
+    [
+     "His innings fell from 243 in 1993 to 114 in 1994 as the shoulder broke down.",
+     "https://sabr.org/bioproject/person/hideo-nomo/"
+    ],
+    [
+     "Teammates later said the 'Nomo hates practice' image was a misunderstanding caused by poor communication.",
+     "https://number.bunshun.jp/articles/-/866100"
+    ]
+   ]
+  },
+  {
+   "emoji": "🎯",
+   "title": "He chose the dream over the money, and took the risk himself",
+   "simple": "He gave up a salary of about 140 million yen in Japan for a minor-league contract in the USA with no guarantee he would ever pitch in the majors.",
+   "evidence": [
+    [
+     "Number's headline calls him the man who gave up 140 million yen and chose a salary of 9.8 million yen.",
+     "https://number.bunshun.jp/articles/-/860810"
+    ],
+    [
+     "Dodgers general manager Fred Claire told Nomura a major-league contract had to be earned, so the deal was a minor-league one.",
+     "https://www.walteromalley.com/international/courageous-warrior-hideo-nomo-made-the-ultimate-leap-to-change-baseball/"
+    ],
+    [
+     "In January 1995 Kintetsu offered incentives worth close to 100 million yen to stay. He refused.",
+     "https://number.bunshun.jp/articles/-/860810"
+    ],
+    [
+     "Dodgers pitching coach Dave Wallace said he had everything to lose and nothing to gain (via SABR).",
+     "https://sabr.org/bioproject/person/hideo-nomo/"
+    ]
+   ]
+  },
+  {
+   "emoji": "🤐",
+   "title": "He let them talk, and answered on the mound",
+   "simple": "While Japan called him a traitor, he did not argue back in public. He said almost nothing, went to America and pitched.",
+   "evidence": [
+    [
+     "When Nomura worried about the attacks, Nomo shrugged and told him to let people talk (Whiting).",
+     "https://robertwhiting.substack.com/p/the-book-of-nomo-chapter-5-the-nomo"
+    ],
+    [
+     "He later said he worried about daily life without English, but had no anxiety at all about pitching: 「全く不安がなかった」.",
+     "https://number.bunshun.jp/articles/-/844702"
+    ],
+    [
+     "Dodgers owner Peter O'Malley said he had the heart of a lion.",
+     "https://www.walteromalley.com/international/courageous-warrior-hideo-nomo-made-the-ultimate-leap-to-change-baseball/"
+    ],
+    [
+     "Manager Tommy Lasorda said he represented himself and Japan with class, dignity and character.",
+     "https://japantimes.co.jp/sports/2008/07/19/general/now-retired-nomo-made-huge-impact-on-baseball"
+    ]
+   ]
+  },
+  {
+   "emoji": "🤝",
+   "title": "He picked people, not just teams",
+   "simple": "He was loyal to the few people who believed in him and worked hardest for them: manager Ogi, agent Nomura, owner O'Malley.",
+   "evidence": [
+    [
+     "At his signing he said the other interested clubs did not have a Peter O'Malley.",
+     "https://www.walteromalley.com/international/courageous-warrior-hideo-nomo-made-the-ultimate-leap-to-change-baseball/"
+    ],
+    [
+     "In the first Kintetsu meeting he insisted that Nomura come into the room with him.",
+     "https://bunshun.jp/articles/-/90543"
+    ],
+    [
+     "A later manager, Phil Garner, noticed that he seemed to do well for people he liked (via SABR).",
+     "https://sabr.org/bioproject/person/hideo-nomo/"
+    ],
+    [
+     "Under Ogi, who left him alone, he led the league in wins and strikeouts four years running.",
+     "https://www.baseball-reference.com/register/player.fcgi?id=nomo--001hid"
+    ]
+   ]
+  },
+  {
+   "emoji": "🔁",
+   "title": "He would not stop until his body made him",
+   "simple": "After surgery and release he kept trying for three more years: minor leagues, rehab, winter ball in Venezuela, one last month with Kansas City at 39.",
+   "evidence": [
+    [
+     "In Venezuela in 2007 he dropped the full windup because it strained his elbow, and kept pitching.",
+     "https://number.bunshun.jp/articles/-/857554"
+    ],
+    [
+     "He made the Royals in April 2008 and said he was very happy to pitch in the majors again.",
+     "https://number.bunshun.jp/articles/-/857553"
+    ],
+    [
+     "His retirement was announced through Don Nomura on 17 July 2008, with no press conference.",
+     "https://archives-new.honoluluadvertiser.com/article/2008/Jul/17/br/hawaii80717061.html"
+    ],
+    [
+     "Twelve years later he still said that if his body recovered he would want to play again.",
+     "https://number.bunshun.jp/articles/-/844702"
+    ]
+   ]
+  }
+ ],
+ "honest_view": [
+  "He did not leave by a door the league meant to be open. The 'voluntary retirement' route was legal, but many in Japan saw it as getting around the spirit of the rules. Kintetsu lost its best pitcher and received nothing.",
+  "The same stubbornness that people admire also hurt him. He stayed on the mound for 191 pitches out of pride, and his shoulder failed in 1994 and again in 2003.",
+  "Manager Keishi Suzuki deserves fairness. His methods were normal for his generation and had won him 317 games. The reporter who covered the feud now says the press, himself included, built up the 'manager against ace' story, and one teammate says Nomo wanted to keep pitching in the 191-pitch game.",
+  "He was hard on the media. An American writer called him a lousy interview, and Whiting reports he shut out an NHK crew for three years.",
+  "His later numbers are ordinary. After 1997 his ERA was above 4.00 in most seasons, and his MLB career ERA is 4.24. American Hall of Fame voters gave him 1.1%. His importance is what he opened, more than his totals.",
+  "'First Japanese major leaguer' is wrong. Masanori Murakami was first, in 1964. The accurate claim is: first in 30 years, and first to move for good.",
+  "My analysis: he was right about the things he was stubborn about (the form, arm care, his own ability), and he had expert help exactly where he was weak (rules, law, English). Stubbornness alone would not have got him out of Japan. The plan came from Don Nomura."
+ ],
+ "headlines": [
+  {
+   "date": "2026-11-17",
+   "lang": "🇯🇵 Japanese",
+   "source": "Nishi Sports WEB OTTO! (via Yahoo! News Japan)",
+   "original": "「野茂？！全然わからない…」58歳・野茂英雄さん、最新スーツ姿に驚きの声「変わりすぎ」「貫禄あるな」",
+   "english": "'Nomo?! I didn't recognise him...' Surprise at 58-year-old Hideo Nomo's latest look in a suit: 'so changed', 'what presence'",
+   "why": "The newest news: his Asian Hall of Fame induction, pictured with former Dodgers owner Peter O'Malley.",
+   "url": "https://news.yahoo.co.jp/articles/c0d933292473e60ba795d82f4c5e9a64ce6f7e78"
+  },
+  {
+   "date": "2026-11-04",
+   "lang": "🇺🇸 English",
+   "source": "Dodgers Nation",
+   "original": "Dodgers Legend Hideo Nomo Set to Receive Prestigious Honor",
+   "english": "(same)",
+   "why": "First 'Sports Pioneer Medal' of the Asian Hall of Fame, presented by Peter O'Malley.",
+   "url": "https://dodgersnation.com/dodgers-legend-hideo-nomo-set-to-receive-prestigious-honor/2026/11/04/"
+  },
+  {
+   "date": "2026-09-26",
+   "lang": "🇯🇵 Japanese",
+   "source": "Number Web",
+   "original": "「ノモを訪ねるように」石井浩郎二軍監督からの指令にキョトン…若き日の西武・栗山巧が\"伝説の人\"から得たもの",
+   "english": "'Go and visit Nomo': puzzled by his farm manager's order... what the young Takumi Kuriyama gained from 'the legend'",
+   "why": "Shows him quietly mentoring Japanese players; he appeared at Kuriyama's retirement ceremony on 30 Aug 2026.",
+   "url": "https://number.bunshun.jp/articles/-/872070"
+  },
+  {
+   "date": "2026-09-18",
+   "lang": "🇯🇵 Japanese",
+   "source": "MLB.com Japan",
+   "original": "「不可能」と言われた快挙――野茂英雄、クアーズフィールドでのノーヒットノーランから30年",
+   "english": "The feat they called 'impossible': 30 years since Hideo Nomo's no-hitter at Coors Field",
+   "why": "His greatest single game, remembered by teammates and opponents.",
+   "url": "https://www.mlb.com/ja/news/hideo-nomo-coors-field-no-hitter-30-years-later"
+  },
+  {
+   "date": "2026-08-02",
+   "lang": "🇯🇵 Japanese",
+   "source": "Bunshun Online (excerpt from Don Nomura's 2026 book)",
+   "original": "「日本で野球をできなくするぞ」近鉄のエース・野茂英雄はなぜ全盛期に\"任意引退\"しなければならなかったのか？",
+   "english": "'We'll make sure you can't play baseball in Japan': why did Kintetsu's ace Hideo Nomo have to 'voluntarily retire' in his prime?",
+   "why": "The agent's own account of the December 1994 meetings, published 31 years later.",
+   "url": "https://bunshun.jp/articles/-/90543"
+  },
+  {
+   "date": "2025-10-27",
+   "lang": "🇪🇸 Spanish",
+   "source": "MLB.com",
+   "original": "Antes de Ohtani y todos, estuvo Nomo, quien lanzó la 1ra bola",
+   "english": "Before Ohtani and all the others there was Nomo, who threw the first pitch",
+   "why": "Ceremonial first pitch at World Series Game 3 in Los Angeles.",
+   "url": "https://www.mlb.com/es/news/antes-de-ohtani-y-todos-estuvo-nomo-quien-lanzo-la-1ra-bola"
+  },
+  {
+   "date": "2025-07-31",
+   "lang": "🇯🇵 Japanese",
+   "source": "TV Tokyo Sports",
+   "original": "「野茂さんが言っているならいける」ダルビッシュ有 日米通算204勝達成を支えた野茂英雄への感謝語る",
+   "english": "'If Nomo-san says so, I can do it': Yu Darvish thanks Hideo Nomo for the support behind his 204th combined win",
+   "why": "What his Padres job looks like in practice: advising pitcher Yu Darvish.",
+   "url": "https://www.tv-tokyo.co.jp/sports/articles/2025/07/038531.html"
+  },
+  {
+   "date": "2025-07",
+   "lang": "🇯🇵 Japanese",
+   "source": "livedoor News",
+   "original": "イチローが唯一日本語で感謝を述べた、日本野球を世界に届けた「野茂英雄」の現在",
+   "english": "The only thanks Ichiro gave in Japanese went to him: Hideo Nomo, who took Japanese baseball to the world, today",
+   "why": "Ichiro thanked him by name in his Cooperstown speech.",
+   "url": "https://news.livedoor.com/article/detail/29267682/"
+  },
+  {
+   "date": "2025-03-18",
+   "lang": "🇺🇸 English",
+   "source": "Yahoo Sports (Jake Mintz)",
+   "original": "How star pitcher Hideo Nomo and his agent found a loophole and changed baseball",
+   "english": "(same)",
+   "why": "Best recent English telling of the escape, with lawyer Jean Afterman's part. (Headline shortened from the AOL copy; check wording on the page.)",
+   "url": "https://www.aol.com/star-pitcher-hideo-nomo-agent-195302074.html"
+  },
+  {
+   "date": "2024-05-02",
+   "lang": "🇯🇵 Japanese",
+   "source": "Number Web (Masanori Kise)",
+   "original": "野茂英雄の会見直前、近鉄は球団旗を外した…「メジャー挑戦」電撃発表の舞台裏",
+   "english": "Just before Nomo's press conference, Kintetsu took down the club flag: behind the surprise 'major league challenge' announcement",
+   "why": "How the club treated him on the day he left.",
+   "url": "https://number.bunshun.jp/articles/-/861475"
+  },
+  {
+   "date": "2024-03-03",
+   "lang": "🇯🇵 Japanese",
+   "source": "Number Web (Yasutaka Nakamizo)",
+   "original": "「どうせメジャーでは通用せん」批判も…近鉄も予想外だった、野茂英雄26歳の\"任意引退\"「1億4000万円を捨て、年俸980万円を選んだ男」",
+   "english": "'He won't cut it in the majors anyway': Nomo's 'voluntary retirement' at 26, which even Kintetsu did not expect; 'the man who gave up 140 million yen and chose a 9.8 million yen salary'",
+   "why": "The money he walked away from.",
+   "url": "https://number.bunshun.jp/articles/-/860810"
+  },
+  {
+   "date": "2016-02-11",
+   "lang": "🇺🇸 English",
+   "source": "San Diego Padres press release",
+   "original": "Padres name Hideo Nomo Advisor, Baseball Operations",
+   "english": "(same)",
+   "why": "The start of the job he still holds.",
+   "url": "https://www.mlb.com/press-release/padres-name-hideo-nomo-advisor-baseball-operations-164265888"
+  },
+  {
+   "date": "2010-10-10",
+   "lang": "🇺🇸 English",
+   "source": "Japan Times (Robert Whiting), mirrored",
+   "original": "Contract loophole opened door for Nomo's jump",
+   "english": "(same)",
+   "why": "The classic account of the loophole and the commissioner's fax.",
+   "url": "https://japanesebaseball.com/writers/display.gsp?id=34924"
+  },
+  {
+   "date": "2008-07-19",
+   "lang": "🇺🇸 English",
+   "source": "Japan Times / AP",
+   "original": "Now-retired Nomo made huge impact on baseball",
+   "english": "(same)",
+   "why": "Retirement, with Tommy Lasorda's tribute.",
+   "url": "https://japantimes.co.jp/sports/2008/07/19/general/now-retired-nomo-made-huge-impact-on-baseball"
+  }
+ ],
+ "roots": [
+  {
+   "emoji": "🏠",
+   "title": "A working-class Osaka home",
+   "text": "Born in Osaka in 1968. His father Shizuo is described as a former fisherman who became a postal worker; his mother worked part-time at a supermarket. He started by playing catch with his father at about age five.",
+   "url": "https://www.walteromalley.com/international/courageous-warrior-hideo-nomo-made-the-ultimate-leap-to-change-baseball/"
+  },
+  {
+   "emoji": "🌪️",
+   "title": "Where the twist came from",
+   "text": "His father told him to throw with his whole body, like the famous pitcher Minoru Murayama. The twist grew from there during elementary and junior high school. Whiting adds that he wanted to throw harder and impress his father.",
+   "url": "https://number.bunshun.jp/articles/-/860808"
+  },
+  {
+   "emoji": "🚪",
+   "title": "Turned away by the big schools",
+   "text": "He tried for a strong baseball high school (Kindai Fuzoku is the one named) and was not taken. He went to Seijo Industrial High School, a public school with no baseball fame, where the coaches did not touch his form.",
+   "url": "https://www.baseballchannel.jp/npb/134923/4/"
+  },
+  {
+   "emoji": "💯",
+   "title": "A perfect game nobody noticed",
+   "text": "In July 1985, as a second-year student, he pitched a perfect game in the Osaka summer tournament. The papers were busy with the stars of PL Gakuen. He lost 0-1 in the last 16 the next year and never played at Koshien.",
+   "url": "https://number.bunshun.jp/articles/-/854435"
+  },
+  {
+   "emoji": "🏭",
+   "title": "The company team that took a chance",
+   "text": "Manager Mitsushige Hamasaki of Shin-Nittetsu Sakai (Nippon Steel's team) had been asked by a Seijo coach to look at the boy. He says he promised to make him a first-round draft pick in three years.",
+   "url": "https://gendai.media/articles/-/43540"
+  },
+  {
+   "emoji": "🥎",
+   "title": "Learning the forkball",
+   "text": "He could not get a slider to work, so in his first company year he learned the forkball. Hamasaki says he taught it. Whiting says Nomo slept with a ball taped between two fingers to widen his grip.",
+   "url": "https://gendai.media/articles/-/43540"
+  },
+  {
+   "emoji": "🥈",
+   "title": "From outsider to Olympian in one year",
+   "text": "He was not in the first list of 30 candidates for the 1988 Seoul Olympic team. A coach who was there says he made the final 20 by improving through camps and the national company tournament, and that he never complained.",
+   "url": "https://www.nikkan-gendai.com/articles/view/sports/276576"
+  },
+  {
+   "emoji": "🧢",
+   "title": "The manager who left him alone",
+   "text": "At Kintetsu, manager Akira Ogi and pitching coach Toshio Kanbe did not touch the delivery and let him train his own way. Under them he won 18, 17 and 18 games in his first three seasons.",
+   "url": "https://gendai.media/articles/-/43540"
+  }
+ ],
+ "personal": [
+  {
+   "date": "1968-08-31",
+   "event": "Born in Osaka.",
+   "url": "https://sabr.org/bioproject/person/hideo-nomo/"
+  },
+  {
+   "date": "2003",
+   "event": "Founded NOMO Baseball Club in Sakai, Osaka, at his own cost, because company teams were closing and young players had nowhere to play.",
+   "url": "https://www.japantimes.co.jp/sports/2003/03/07/baseball/mlb/nomo-to-fund-amateur-baseball-team-in-osaka"
+  },
+  {
+   "date": "2003-10",
+   "event": "Shoulder surgery.",
+   "url": "https://sabr.org/bioproject/person/hideo-nomo/"
+  },
+  {
+   "date": "2008-07-17",
+   "event": "Retirement announced.",
+   "url": "https://archives-new.honoluluadvertiser.com/article/2008/Jul/17/br/hawaii80717061.html"
+  },
+  {
+   "date": "2012-05",
+   "event": "Announced an agreement to move NOMO Baseball Club to Toyooka, Hyogo.",
+   "url": "https://www.kobe-np.co.jp/rentoku/heiseimoyou/201805/0011897815.shtml"
+  },
+  {
+   "date": "2014-01-17",
+   "event": "Elected to the Japanese Baseball Hall of Fame.",
+   "url": "https://www.mlb.com/news/hideo-nomo-and-kazuhiro-sasaki-were-elected-to-japans-baseball-hall-of-fame/c-66781598"
+  },
+  {
+   "date": "2015",
+   "event": "His eldest son Takahiro began working as an interpreter for the Hokkaido Nippon-Ham Fighters (reported by Daily Sports). No other family details are public or recorded here.",
+   "url": "https://www.daily.co.jp/newsflash/baseball/2015/09/09/0008379009.shtml"
+  },
+  {
+   "date": "2016-02-11",
+   "event": "Joined the San Diego Padres front office.",
+   "url": "https://www.mlb.com/press-release/padres-name-hideo-nomo-advisor-baseball-operations-164265888"
+  },
+  {
+   "date": "2026-11",
+   "event": "Inducted into the Asian Hall of Fame (Class of 2026) in Los Angeles.",
+   "url": "https://www.nomo-radiant.jp/news/"
+  }
+ ],
+ "controversies": {
+  "intro": "No scandal was found: no report of a crime, doping, gambling or a personal-life scandal in Japanese or English (searched 21 Nov 2026). The controversies are all about HOW he left Japan and how he dealt with authority and the press. In most of them he was the target.",
+  "items": [
+   {
+    "date": "Jan 1995 onward",
+    "kind": "🔵 Was the target",
+    "title": "Called a traitor and an ingrate for leaving Japan",
+    "what": "Media and baseball people attacked him. Whiting names Sadaharu Oh, Shigeo Nagashima and Senichi Hoshino among the critics, and reports that Yomiuri owner Tsuneo Watanabe called him and Nomura 'bad people'. He and Nomura received threatening calls and mail. Whiting also reports that his father did not speak to him for a time.",
+    "outcome": "He said almost nothing and pitched. By the summer of 1995 he was an All-Star starter and a national hero in Japan. The US ambassador wrote that he had done more for the two countries' relations than the diplomats.",
+    "url": "https://japanesebaseball.com/writers/display.gsp?id=34924"
+   },
+   {
+    "date": "1993–1994",
+    "kind": "🟠 Both sides",
+    "title": "Clash with manager Keishi Suzuki",
+    "what": "Suzuki believed in heavy throwing and running. Nomo believed in protecting the arm and training his own way. On 1 July 1994 he threw 191 pitches in one game. Some media called it punishment by the manager.",
+    "outcome": "It ended with Nomo leaving. The reporter who covered it now says the press exaggerated the feud; teammate Yoshinori Sano says Nomo would have kept pitching out of pride anyway. Suzuki, now elderly, has not given his side recently.",
+    "url": "https://number.bunshun.jp/articles/-/865749?page=3"
+   },
+   {
+    "date": "1994–1995",
+    "kind": "🟠 Criticised",
+    "title": "Using the 'voluntary retirement' loophole",
+    "what": "A retired player was only bound to his old club inside Japan. He and Nomura used this to leave without Kintetsu's permission. An NPB official complained of being tricked. Kintetsu got no payment.",
+    "outcome": "Legal, and confirmed in writing by the Japanese commissioner's office beforehand. NPB then closed the route, and after two more Nomura cases (Irabu, Soriano) the posting system was created in December 1998.",
+    "url": "https://japanesebaseball.com/writers/display.gsp?id=34924"
+   },
+   {
+    "date": "June 1998",
+    "kind": "🟠 His own request",
+    "title": "Asked to leave the Dodgers",
+    "what": "At 2 wins and 7 losses, booed at home and named in trade talks, he had Nomura ask the general manager for a change of team.",
+    "outcome": "Designated for assignment (taken off the roster) on 1 June and traded to the New York Mets on 4 June. He returned to the Dodgers in 2002 and won 16 games twice.",
+    "url": "https://www.cbsnews.com/news/nomo-out-but-not-down-in-la/"
+   },
+   {
+    "date": "1995–2008",
+    "kind": "🟠 Criticised",
+    "title": "Cold relations with the media",
+    "what": "A New York writer called him a lousy interview with no sense of humour. Whiting reports he refused an NHK crew for three years after they ignored his request to keep their distance. A Japanese writer says the 1995 bashing made him wary of the press.",
+    "outcome": "No incident of misconduct was found. Writers say he had softened by 2008.",
+    "url": "https://robertwhiting.substack.com/p/the-book-of-nomo-chapter-5-the-nomo"
+   },
+   {
+    "date": "Checked 2026-11-21",
+    "kind": "⚪ None found",
+    "title": "Sponsors, business and NOMO Baseball Club",
+    "what": "No sponsor deal or business matter that drew criticism was found, and nothing negative about NOMO Baseball Club. The Japanese search on the club was light.",
+    "outcome": "None found as of 21 Nov 2026.",
+    "url": ""
+   }
+  ]
+ },
+ "deep_dives": [
+  {
+   "emoji": "🕳️",
+   "title": "The escape, step by step (1994 to 1995)",
+   "intro": "Short version: Japanese players could not simply move to America. Nomura found one gap in the rules: a player who 'voluntarily retired' was only tied to his old club INSIDE Japan. So the plan was to make Kintetsu itself push Nomo into retirement, by asking for a contract the club was sure to refuse. It worked in under a month.",
+   "parts": [
+    {
+     "heading": "Who did what",
+     "kind": "table",
+     "headers": [
+      "Person",
+      "Role",
+      "What they did"
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Hideo Nomo",
+        "The player",
+        "Decided during 1994 that he wanted to go. Asked for the multi-year contract, signed the retirement form, and took the risk of a minor-league deal."
+       ],
+       "url": "https://number.bunshun.jp/articles/-/860810"
+      },
+      {
+       "cells": [
+        "Don Nomura",
+        "Agent (not officially recognised in Japan)",
+        "Found the clause, planned the 'ask for what they will refuse' strategy, was thrown out of the Kintetsu meeting, then talked to MLB clubs."
+       ],
+       "url": "https://bunshun.jp/articles/-/90543"
+      },
+      {
+       "cells": [
+        "Arn Tellem",
+        "American lawyer and agent",
+        "Checked the clause with Nomura on the US side. His own biography credits him with finding it; most accounts credit Nomura."
+       ],
+       "url": "https://japanesebaseball.com/writers/display.gsp?id=34924"
+      },
+      {
+       "cells": [
+        "Jean Afterman",
+        "Young American lawyer",
+        "Went through Nomura's translation of the rules and the letters between the two leagues. Later became assistant general manager of the New York Yankees."
+       ],
+       "url": "https://www.aol.com/star-pitcher-hideo-nomo-agent-195302074.html"
+      },
+      {
+       "cells": [
+        "Yasuo Maeda",
+        "Kintetsu club president",
+        "Refused to recognise an agent, refused the multi-year deal, and in the end handed over the retirement form."
+       ],
+       "url": "https://bunshun.jp/articles/-/90544"
+      },
+      {
+       "cells": [
+        "Peter O'Malley",
+        "Dodgers owner",
+        "Had the club call on the first day talks were allowed and closed the deal himself in his office."
+       ],
+       "url": "https://www.walteromalley.com/international/courageous-warrior-hideo-nomo-made-the-ultimate-leap-to-change-baseball/"
+      },
+      {
+       "cells": [
+        "Fred Claire",
+        "Dodgers general manager",
+        "Insisted on a minor-league contract: a big-league one had to be earned."
+       ],
+       "url": "https://www.cbssports.com/mlb/news/happy-20th-anniversary-dodgers-officially-sign-hideo-nomo"
+      }
+     ]
+    },
+    {
+     "heading": "Timeline",
+     "kind": "table",
+     "headers": [
+      "When",
+      "What happened"
+     ],
+     "rows": [
+      {
+       "cells": [
+        "During 1994",
+        "Nomo tells teammate Masato Yoshii he is going to America. He hears about Nomura through a mutual friend; they meet in late 1994 (Nomura says at a hotel or coffee shop) and talk about MLB."
+       ],
+       "url": "https://www.aol.com/star-pitcher-hideo-nomo-agent-195302074.html"
+      },
+      {
+       "cells": [
+        "9 Dec 1994",
+        "After a question from the MLB commissioner's office, Yoshiaki Kanai of the Japanese commissioner's office replies by fax: a voluntarily retired player may only return to his former club within Japan. Nothing about abroad."
+       ],
+       "url": "https://japanesebaseball.com/writers/display.gsp?id=34924"
+      },
+      {
+       "cells": [
+        "13 Dec 1994",
+        "First contract meeting at the Miyako Hotel, Osaka. Nomura walks in with Nomo and is told to leave. Nomo asks for a multi-year contract; the club says no and offers a pay cut because of his shoulder. It lasts about 10 minutes."
+       ],
+       "url": "https://bunshun.jp/articles/-/90544"
+      },
+      {
+       "cells": [
+        "Early Jan 1995",
+        "Kintetsu offers incentives worth close to 100 million yen. He still refuses. Pitching coach Michio Sato tells the club to let him go. By Nomo's account he was in effect told 'then quit', said he would, and was handed the form."
+       ],
+       "url": "https://number.bunshun.jp/articles/-/860810"
+      },
+      {
+       "cells": [
+        "9 Jan 1995",
+        "Press conference: voluntary retirement and the move to the majors. The club flag is removed from the room first."
+       ],
+       "url": "https://number.bunshun.jp/articles/-/861475"
+      },
+      {
+       "cells": [
+        "11 Feb 1995",
+        "US press lists six interested clubs: Dodgers, Yankees, Mariners, Braves, Giants, Rockies."
+       ],
+       "url": "https://www.spokesman.com/stories/1995/feb/11/nomo-hot-prospect"
+      },
+      {
+       "cells": [
+        "13 Feb 1995",
+        "Signs with the Dodgers at a hotel in Little Tokyo: minor-league contract, $2 million signing bonus (REPORTED)."
+       ],
+       "url": "https://www.mlb.com/news/hideo-nomo-pioneered-path-to-mlb-in-1995"
+      },
+      {
+       "cells": [
+        "2 May 1995",
+        "MLB debut at San Francisco: 5 innings, 1 hit, 7 strikeouts, no runs. First pitch at 4:33 a.m. Tokyo time."
+       ],
+       "url": "https://www.walteromalley.com/international/30th-anniversary-of-hideo-nomos-may-2-1995-major-league-debut-and-nomomania/"
+      }
+     ]
+    },
+    {
+     "heading": "How big was the contract he asked Kintetsu for? Sources disagree",
+     "kind": "list",
+     "rows": [
+      [
+       "Whiting: his 1994 salary doubled, on a three-year contract.",
+       "https://japanesebaseball.com/writers/display.gsp?id=34924"
+      ],
+      [
+       "Yahoo Sports: a guaranteed multi-year deal of more than $5 million a season.",
+       "https://www.aol.com/star-pitcher-hideo-nomo-agent-195302074.html"
+      ],
+      [
+       "JapanBall interview with Nomura: six years, $30 million.",
+       "https://japanball.com/articles-features/japanese-baseball-historical-profiles/negotiations-nomo-and-nomura-how-one-agent-changed-the-landscape-of-international-baseball/"
+      ],
+      [
+       "Nomura's 2026 book: a term long enough to cover the roughly five seasons until free agency. No amount in the pages that could be read.",
+       "https://bunshun.jp/articles/-/90543"
+      ],
+      [
+       "My note: all versions agree on the point that matters. It was a demand designed to be refused.",
+       ""
+      ]
+     ]
+    },
+    {
+     "heading": "Lessons (my analysis)",
+     "kind": "list",
+     "rows": [
+      [
+       "Read the actual rule, not what everyone 'knows' the rule is. The whole system rested on one word: 'active' players.",
+       ""
+      ],
+      [
+       "Get the other side's confirmation in writing BEFORE acting. The 9 December fax made the plan safe.",
+       ""
+      ],
+      [
+       "Let the other side close the door themselves. Kintetsu handed him the form; he did not have to break a contract.",
+       ""
+      ],
+      [
+       "The player has to be good enough to make the risk pay. Without the 1995 season this would be remembered as a failure.",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "emoji": "👥",
+   "title": "The people around him: agent, gateway, money, mentors",
+   "intro": "Short version: one agent (Don Nomura) planned the exit; one owner (Peter O'Malley) opened the American door; nobody knows publicly what the agent was paid.",
+   "parts": [
+    {
+     "heading": "Agent, gateway and management",
+     "kind": "table",
+     "headers": [
+      "Question",
+      "Answer",
+      "How sure?"
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Who was the agent?",
+        "Don Nomura (団野村), based in Los Angeles. See his page under Agents.",
+        "✅ Confirmed for 1994 to 1998"
+       ],
+       "url": "https://www.cbsnews.com/news/nomo-out-but-not-down-in-la/"
+      },
+      {
+       "cells": [
+        "How did they meet?",
+        "Through a mutual friend, in late 1994. Nomo first asked about arm care and training in the USA.",
+        "🟡 Nomura's own account"
+       ],
+       "url": "https://japanball.com/articles-features/japanese-baseball-historical-profiles/negotiations-nomo-and-nomura-how-one-agent-changed-the-landscape-of-international-baseball/"
+      },
+      {
+       "cells": [
+        "Which moves did Nomura handle?",
+        "The 1995 Dodgers signing and the June 1998 request to leave the Dodgers. His 2008 retirement was also announced through Nomura.",
+        "✅ Confirmed"
+       ],
+       "url": "https://archives-new.honoluluadvertiser.com/article/2008/Jul/17/br/hawaii80717061.html"
+      },
+      {
+       "cells": [
+        "Agent for the 1999 to 2008 contracts?",
+        "Not confirmed. No source says he left Nomura, and none names the agent for the later deals.",
+        "⚪ Not confirmed"
+       ],
+       "url": "https://www.japantimes.co.jp/sports/2008/01/05/baseball/mlb/nomo-eyes-another-comeback"
+      },
+      {
+       "cells": [
+        "The gateway: why the Dodgers?",
+        "The O'Malley family had built ties with Japanese baseball since a 1956 tour, helped for decades by their Japanese aide Akihiro 'Ike' Ikuhara. O'Malley met Nomo in person and Nomo cancelled the rest of his trip.",
+        "✅ Confirmed (note: the main source is the O'Malley family's own site)"
+       ],
+       "url": "https://www.walteromalley.com/international/courageous-warrior-hideo-nomo-made-the-ultimate-leap-to-change-baseball/"
+      },
+      {
+       "cells": [
+        "Who paid the agent, and how much?",
+        "Not confirmed. No source states Nomura's fee or who paid it. Japan had no agent system at all until 2000.",
+        "⚪ Not confirmed"
+       ],
+       "url": "https://bunshun.jp/articles/-/90543"
+      },
+      {
+       "cells": [
+        "Management office for ads and media?",
+        "Not confirmed. No source says which company handled his commercials.",
+        "⚪ Not confirmed"
+       ],
+       "url": ""
+      }
+     ]
+    },
+    {
+     "heading": "Mentors and helpers",
+     "kind": "list",
+     "rows": [
+      [
+       "Father Shizuo: first catch partner; 'throw with your whole body'.",
+       "https://number.bunshun.jp/articles/-/860808"
+      ],
+      [
+       "Mitsushige Hamasaki, company-team manager: recruited him when others would not, and taught the forkball by his own account.",
+       "https://gendai.media/articles/-/43540"
+      ],
+      [
+       "Masatake Yamanaka, Olympic team coach: backed his late selection for Seoul 1988.",
+       "https://www.nikkan-gendai.com/articles/view/sports/276576"
+      ],
+      [
+       "Akira Ogi, Kintetsu manager to 1992: left the form alone.",
+       "https://sabr.org/bioproject/person/hideo-nomo/"
+      ],
+      [
+       "Masato Yoshii, older Kintetsu teammate: shared the dream of America; they were reunited on the 1998 Mets.",
+       "https://sabr.org/bioproject/person/hideo-nomo/"
+      ],
+      [
+       "Peter O'Malley, Dodgers owner: checked on him after practice in his first camp; still at his side at the 2026 Hall of Fame event.",
+       "https://www.walteromalley.com/international/courageous-warrior-hideo-nomo-made-the-ultimate-leap-to-change-baseball/"
+      ],
+      [
+       "Tommy Lasorda, Dodgers manager in 1995: publicly said it was not too much to say he saved Major League Baseball after the strike.",
+       "https://robertwhiting.substack.com/p/the-book-of-nomo-chapter-1-thanks"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "emoji": "🌏",
+   "title": "What changed after him",
+   "intro": "Short version: his exit closed one door (the retirement loophole) and forced the two leagues to build a proper one (the posting system). About 74 Japanese-born players have now appeared in MLB.",
+   "parts": [
+    {
+     "heading": "Timeline",
+     "kind": "table",
+     "headers": [
+      "When",
+      "What happened",
+      "Don Nomura involved?"
+     ],
+     "rows": [
+      {
+       "cells": [
+        "1964–65",
+        "Masanori Murakami pitches for the San Francisco Giants. A fight over who owns his contract follows, and the leagues agree to keep their hands off each other's players. The door closes for 30 years.",
+        "No"
+       ],
+       "url": "https://www.mlb.com/news/hideo-nomo-pioneered-path-to-mlb-in-1995"
+      },
+      {
+       "cells": [
+        "1995",
+        "Nomo leaves through the retirement loophole. NPB then rewrites the rule.",
+        "Yes"
+       ],
+       "url": "https://japanesebaseball.com/writers/display.gsp?id=34924"
+      },
+      {
+       "cells": [
+        "1996",
+        "Mac Suzuki, who never played in NPB, debuts for Seattle.",
+        "Yes"
+       ],
+       "url": "https://vault.si.com/vault/1996/05/27/fly-often-and-carry-a-big-stick-agent-don-nomura-is-trying-to-introduce-us-style-player-representation-to-japan"
+      },
+      {
+       "cells": [
+        "1997",
+        "Hideki Irabu refuses to be sent to San Diego and gets to the Yankees.",
+        "Yes"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Posting_system"
+      },
+      {
+       "cells": [
+        "1998",
+        "Alfonso Soriano 'retires' from Hiroshima; MLB declares him a free agent on 13 July.",
+        "Yes"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Posting_system"
+      },
+      {
+       "cells": [
+        "Dec 1998",
+        "The posting system is created: a Japanese club can offer a player to MLB teams and receive a fee.",
+        "No"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Posting_system"
+      },
+      {
+       "cells": [
+        "2000–01",
+        "Ichiro is posted to Seattle, the first star to use the system.",
+        "No"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Posting_system"
+      },
+      {
+       "cells": [
+        "2013 and 2017–18",
+        "The system is revised twice: first a fee cap, then a fee based on the size of the contract.",
+        "No"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Posting_system"
+      },
+      {
+       "cells": [
+        "2018–2026",
+        "Ohtani, Yamamoto, Sasaki, Murakami and others follow. About 74 Japanese-born MLB players as of mid-2026 (Wikipedia list; the O'Malley site says 'nearly 80').",
+        "No"
+       ],
+       "url": "https://en.wikipedia.org/wiki/List_of_Major_League_Baseball_players_from_Japan"
+      }
+     ]
+    },
+    {
+     "heading": "The 1995 business effect ('Nomomania')",
+     "kind": "list",
+     "rows": [
+      [
+       "MLB had just come out of a strike that cancelled the 1994 World Series. Whiting says Dodger Stadium crowds were about 4% higher when he pitched (ESTIMATE).",
+       "https://robertwhiting.substack.com/p/the-book-of-nomo-chapter-1-thanks"
+      ],
+      [
+       "The Dodgers twice gave out more than 100 press passes to Japanese media, and a US paper called him the best souvenir seller in the country (REPORTED, no dollar figures).",
+       "https://csmonitor.com/1995/0731/31131.html"
+      ],
+      [
+       "Opponent Ron Gant told him MLB had been saved by him.",
+       "https://number.bunshun.jp/articles/-/862100?page=3"
+      ],
+      [
+       "No official attendance or sales totals and no statement from the commissioner's office were found.",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "emoji": "📍",
+   "title": "What he is doing now (November 2026)",
+   "intro": "Short version: he works in the USA for the San Diego Padres and keeps a foot in Japan through his baseball club and youth work. He stays out of the spotlight; most news about him comes from other people.",
+   "parts": [
+    {
+     "heading": "Current roles",
+     "kind": "table",
+     "headers": [
+      "Where",
+      "What",
+      "Status"
+     ],
+     "rows": [
+      {
+       "cells": [
+        "🇺🇸 San Diego Padres",
+        "Front office since 11 Feb 2016, first as 'Advisor, Baseball Operations': player development and the club's links with Asia.",
+        "The club's front-office page, read 21 Nov 2026, lists him as 'Special Assistant, Baseball Operations'. OFFICIAL"
+       ],
+       "url": "https://www.mlb.com/padres/team/front-office"
+      },
+      {
+       "cells": [
+        "🇺🇸 Padres pitchers",
+        "Advises pitcher Yu Darvish, including on the forkball and his delivery.",
+        "Reported July 2025 and Feb 2021"
+       ],
+       "url": "https://www.tv-tokyo.co.jp/sports/articles/2025/07/038531.html"
+      },
+      {
+       "cells": [
+        "🇯🇵 NOMO Baseball Club",
+        "Non-profit amateur club he founded in 2003 (Sakai, then Toyooka). Played in the national club championship in 2022.",
+        "A blog says the adult team is sitting out the 2026 season; not confirmed from the club or a newspaper"
+       ],
+       "url": "https://www.kobe-np.co.jp/news/tajima/202208/0015587168.shtml"
+      },
+      {
+       "cells": [
+        "🇯🇵→🇺🇸 Youth baseball",
+        "Brings a Japanese junior team to play in Southern California most years.",
+        "Reported 2015 and 2025; 2026 trip not confirmed"
+       ],
+       "url": "https://www.mlb.com/news/hideo-nomo-brings-japan-to-compton-youth/c-144762908"
+      },
+      {
+       "cells": [
+        "🇺🇸 Los Angeles, Nov 2026",
+        "Asian Hall of Fame induction with the first Sports Pioneer Medal, with Peter O'Malley.",
+        "Confirmed by his official site"
+       ],
+       "url": "https://www.nomo-radiant.jp/news/"
+      },
+      {
+       "cells": [
+        "🇯🇵 Saitama, 30 Aug 2026",
+        "Surprise guest at Takumi Kuriyama's retirement ceremony.",
+        "Reported by Number"
+       ],
+       "url": "https://number.bunshun.jp/articles/-/872070"
+      },
+      {
+       "cells": [
+        "Where does he live?",
+        "Not confirmed. Blogs guess San Diego because of his job. He has not said.",
+        "⚪ Not confirmed"
+       ],
+       "url": ""
+      }
+     ]
+    },
+    {
+     "heading": "What comes next",
+     "kind": "list",
+     "rows": [
+      [
+       "Cooperstown: he was not on the 8-name special ballot voted in December 2025. The Hall lists 2029 as the next year for that ballot. No sign of a campaign for him was found.",
+       "https://baseballhall.org/class-of-2026-contemporary-baseball-era-player-ballot"
+      ],
+      [
+       "Robert Whiting argues his legacy should put him in the Hall of Fame.",
+       "https://japantimes.co.jp/sports/2010/10/24/baseball/japanese-baseball/nomos-legacy-should-land-him-in-hall-of-fame"
+      ],
+      [
+       "The flow he started keeps growing: three more Japanese stars debuted in MLB in March 2026.",
+       "https://en.wikipedia.org/wiki/List_of_Major_League_Baseball_players_from_Japan"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "emoji": "🗣️",
+   "title": "In his own words (interviews, not social media)",
+   "intro": "He has no personal social media account that could be confirmed, and he speaks rarely. These are short quotes from interviews, with the Japanese original where one was found.",
+   "parts": [
+    {
+     "heading": "Short quotes",
+     "kind": "list",
+     "rows": [
+      [
+       "「任意引退になればメジャーに行ける」 = 'With voluntary retirement, I could go to the majors.' (NHK Special, quoted by Number)",
+       "https://number.bunshun.jp/articles/-/860810"
+      ],
+      [
+       "「アメリカに行きます」 = 'I'm going to America.' Said privately to Masato Yoshii during 1994, as Yoshii remembers it.",
+       "https://number.bunshun.jp/articles/-/860810"
+      ],
+      [
+       "「またそんな話ですか？」 = 'That story again?' To a reporter asking about the manager's demand that he throw more, 1994.",
+       "https://number.bunshun.jp/articles/-/861472?page=3"
+      ],
+      [
+       "「全く不安がなかった」 = 'I had no anxiety at all.' About pitching in the majors.",
+       "https://number.bunshun.jp/articles/-/844702"
+      ],
+      [
+       "「体が元に戻れば、現役に戻りたいですよ」 = 'If my body recovered, I'd want to play again.' Said in 2020, twelve years after retiring.",
+       "https://number.bunshun.jp/articles/-/844702"
+      ],
+      [
+       "On choosing the Dodgers: the other clubs did not have a Peter O'Malley. (English, from the signing press conference)",
+       "https://www.walteromalley.com/international/courageous-warrior-hideo-nomo-made-the-ultimate-leap-to-change-baseball/"
+      ],
+      [
+       "About agents, and about being called a pioneer: no direct quote from him was found. Not confirmed.",
+       ""
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "money": {
+  "intro": "Almost no number here is official. Japanese salaries are newspaper estimates (推定). The American numbers come from the Baseball Almanac salary table and news reports, so they are labelled ESTIMATE (reported). Baseball-Reference's salary table could not be opened to cross-check.",
+  "chart_heading": "MLB pay by year (reported figures; 1995 includes the $2 million signing bonus)",
+  "salary_chart": [
+   [
+    "1995",
+    2109000
+   ],
+   [
+    "1996",
+    600000
+   ],
+   [
+    "1997",
+    900000
+   ],
+   [
+    "1998",
+    2800000
+   ],
+   [
+    "1999",
+    250000
+   ],
+   [
+    "2000",
+    1000000
+   ],
+   [
+    "2001",
+    4500000
+   ],
+   [
+    "2002",
+    4500000
+   ],
+   [
+    "2003",
+    7750000
+   ],
+   [
+    "2004",
+    9000000
+   ],
+   [
+    "2005",
+    800000
+   ],
+   [
+    "2008",
+    750000
+   ]
+  ],
+  "salary": [
+   {
+    "period": "1990",
+    "club": "Kintetsu",
+    "figure": "Signing bonus about 120 million yen (SABR says 100 million); salary about 12 million yen",
+    "label": "ESTIMATE",
+    "note": "Japanese Wikipedia; SABR",
+    "url": "https://ja.wikipedia.org/wiki/野茂英雄"
+   },
+   {
+    "period": "1991–1993",
+    "club": "Kintetsu",
+    "figure": "No reliable figure found",
+    "label": "NONE",
+    "note": "",
+    "url": ""
+   },
+   {
+    "period": "1994",
+    "club": "Kintetsu",
+    "figure": "about 140 million yen (Whiting: about $1.5 million)",
+    "label": "ESTIMATE",
+    "note": "Number Web",
+    "url": "https://number.bunshun.jp/articles/-/860810"
+   },
+   {
+    "period": "1995",
+    "club": "Dodgers",
+    "figure": "$2,109,000 = $2 million signing bonus + about $109,000 salary (the split is my inference)",
+    "label": "ESTIMATE",
+    "note": "Baseball Almanac",
+    "url": "https://www.baseball-almanac.com/players/player.php?p=nomohi01"
+   },
+   {
+    "period": "1996–1998",
+    "club": "Dodgers / Mets",
+    "figure": "$600,000, $900,000, $2,800,000 (a 3-year, $4.3 million contract)",
+    "label": "ESTIMATE",
+    "note": "Baseball Almanac",
+    "url": "https://www.baseball-almanac.com/players/player.php?p=nomohi01"
+   },
+   {
+    "period": "1999",
+    "club": "Brewers",
+    "figure": "$250,000 (he had signed with the Mets for $2.925 million but was released in spring; what the Mets paid is not known)",
+    "label": "ESTIMATE",
+    "note": "Baseball Almanac",
+    "url": "https://www.baseball-almanac.com/players/player.php?p=nomohi01"
+   },
+   {
+    "period": "2000",
+    "club": "Tigers",
+    "figure": "$1,000,000 (SABR: $1.25 million plus bonuses)",
+    "label": "ESTIMATE",
+    "note": "Baseball Almanac",
+    "url": "https://www.baseball-almanac.com/players/player.php?p=nomohi01"
+   },
+   {
+    "period": "2001",
+    "club": "Red Sox",
+    "figure": "$4,500,000 (SABR: $3.25 million including a signing bonus)",
+    "label": "ESTIMATE",
+    "note": "Baseball Almanac",
+    "url": "https://www.baseball-almanac.com/players/player.php?p=nomohi01"
+   },
+   {
+    "period": "2002–2004",
+    "club": "Dodgers",
+    "figure": "$4,500,000, $7,750,000, $9,000,000 (2 years plus a club option; about $21 million in all)",
+    "label": "ESTIMATE",
+    "note": "Baseball Almanac",
+    "url": "https://www.baseball-almanac.com/players/player.php?p=nomohi01"
+   },
+   {
+    "period": "2005",
+    "club": "Devil Rays",
+    "figure": "$800,000",
+    "label": "ESTIMATE",
+    "note": "Baseball Almanac",
+    "url": "https://www.baseball-almanac.com/players/player.php?p=nomohi01"
+   },
+   {
+    "period": "2008",
+    "club": "Royals",
+    "figure": "$750,000 (minor-league deal; released in April)",
+    "label": "ESTIMATE",
+    "note": "Baseball Almanac",
+    "url": "https://www.baseball-almanac.com/players/player.php?p=nomohi01"
+   },
+   {
+    "period": "Career MLB total",
+    "club": "All",
+    "figure": "about $35 million (my sum of the rows above; incomplete)",
+    "label": "ESTIMATE",
+    "note": "my addition",
+    "url": "https://www.baseball-almanac.com/players/player.php?p=nomohi01"
+   }
+  ],
+  "contracts": [
+   {
+    "date": "Nov 1989",
+    "event": "Drafted first by a record 8 clubs; Kintetsu wins the lottery. Signs on condition that his form is not changed.",
+    "url": "https://sabr.org/bioproject/person/hideo-nomo/"
+   },
+   {
+    "date": "9 Jan 1995",
+    "event": "Voluntary retirement from Kintetsu. No transfer fee to the club.",
+    "url": "https://number.bunshun.jp/articles/-/861475"
+   },
+   {
+    "date": "13 Feb 1995",
+    "event": "Los Angeles Dodgers: minor-league contract, $2 million signing bonus (REPORTED).",
+    "url": "https://www.mlb.com/news/hideo-nomo-pioneered-path-to-mlb-in-1995"
+   },
+   {
+    "date": "Spring 1996",
+    "event": "Dodgers: 3-year, $4.3 million contract (REPORTED).",
+    "url": "https://ja.wikipedia.org/wiki/野茂英雄"
+   },
+   {
+    "date": "4 June 1998",
+    "event": "Traded with Brad Clontz to the New York Mets for Greg McMichael and Dave Mlicki, three days after asking to leave.",
+    "url": "https://www.cbsnews.com/news/nomo-out-but-not-down-in-la/"
+   },
+   {
+    "date": "1999",
+    "event": "Released by the Mets in spring; Chicago Cubs minor leagues; then Milwaukee Brewers.",
+    "url": "https://en.wikipedia.org/wiki/Hideo_Nomo"
+   },
+   {
+    "date": "2000",
+    "event": "Detroit Tigers, one year.",
+    "url": "https://sabr.org/bioproject/person/hideo-nomo/"
+   },
+   {
+    "date": "2001",
+    "event": "Boston Red Sox, one year. He later turned down a reported 3 years and $19 million from Boston.",
+    "url": "https://sabr.org/bioproject/person/hideo-nomo/"
+   },
+   {
+    "date": "19 Dec 2001",
+    "event": "Back to the Dodgers: 2 years, $13.75 million, with a $9 million club option for 2004 (REPORTED).",
+    "url": "https://ja.wikipedia.org/wiki/野茂英雄"
+   },
+   {
+    "date": "2005",
+    "event": "Tampa Bay Devil Rays (minor-league deal); released 25 July; New York Yankees minor leagues.",
+    "url": "https://en.wikipedia.org/wiki/Hideo_Nomo"
+   },
+   {
+    "date": "2006",
+    "event": "Chicago White Sox minor-league deal; released 7 June.",
+    "url": "https://en.wikipedia.org/wiki/Hideo_Nomo"
+   },
+   {
+    "date": "4 Jan 2008",
+    "event": "Kansas City Royals minor-league deal; pitched 3 games in April; released 29 April.",
+    "url": "https://www.japantimes.co.jp/sports/2008/01/05/baseball/mlb/nomo-eyes-another-comeback"
+   }
+  ],
+  "endorsements": [
+   {
+    "what": "Nike: his own signature shoe, the 'Air Max Nomo' (1996; re-released later)",
+    "when": "from 1996",
+    "status": "Confirmed that the shoe existed. Deal value and who negotiated it: not confirmed",
+    "url": "https://sneakernews.com/2015/06/03/nike-brought-back-hideo-nomos-shoe-again"
+   },
+   {
+    "what": "Japanese TV ads listed on Japanese Wikipedia: Sumitomo Life, Georgia coffee, Suntory, Sega, Kirin, Toyota, Fujitsu General, Loto 6",
+    "when": "1990 to 2013",
+    "status": "Unverified: Wikipedia list only; each needs a primary source",
+    "url": "https://ja.wikipedia.org/wiki/野茂英雄"
+   },
+   {
+    "what": "San Diego Padres front-office job",
+    "when": "since 2016",
+    "status": "Confirmed; pay not published",
+    "url": "https://www.mlb.com/press-release/padres-name-hideo-nomo-advisor-baseball-operations-164265888"
+   },
+   {
+    "what": "'HIDEO-kun' plush toy for the 30th anniversary (official site)",
+    "when": "Sept 2025",
+    "status": "Confirmed by his official site",
+    "url": "https://www.nomo-radiant.jp/news/"
+   }
+  ],
+  "notes": [
+   "No amounts are public for any sponsor deal.",
+   "Who paid Don Nomura, and how much, is not stated in any source found.",
+   "Whiting says he earned heavily from commercials, TV and paid interviews in 1995, without figures.",
+   "No sponsor deal that drew criticism was found (searched 21 Nov 2026).",
+   "He paid for NOMO Baseball Club himself when he founded it in 2003 (Japan Times). Whether he still funds it is not confirmed."
+  ]
+ },
+ "fan_voices": {
+  "intro": "These are opinions from ordinary readers, not facts. They show how fans feel, and they are sometimes wrong. No usernames are kept and no comment is copied. Nothing here is used as a source for a fact.",
+  "samples": [
+   {
+    "source": "Yahoo! News Japan comments on the Nishi Sports article about his Asian Hall of Fame photo (17 Nov 2026)",
+    "url": "https://news.yahoo.co.jp/articles/c0d933292473e60ba795d82f4c5e9a64ce6f7e78/comments",
+    "read_on": "2026-11-21",
+    "sample": "The top 30 of 72 top-level reader comments in 'recommended' order (the page shows 89 including replies), read without logging in.",
+    "themes": [
+     [
+      "He opened the door for everyone",
+      "about 9 of 30, and the most-liked",
+      "Readers say later stars could try America only because he went first and succeeded, and that this matters more than his numbers. Several mention Ichiro thanking him in 2025."
+     ],
+     [
+      "I remember the bashing",
+      "about 5 of 30",
+      "Older readers recall him being called a traitor, the manager who doubted him, and how calm he stayed. One recalls him walking out alone after being released."
+     ],
+     [
+      "Personal memories of 1995",
+      "about 6 of 30",
+      "Watching the All-Star Game at school, visiting Dodger Stadium, his rare big smile. One says he was the only bright news in a dark year for Japan."
+     ],
+     [
+      "He saved MLB after the strike",
+      "about 3 of 30",
+      "Readers repeat the view that his starts brought American fans back in 1995."
+     ],
+     [
+      "The form was one of a kind",
+      "about 3 of 30",
+      "Nobody before or after threw like that; a pro who builds his own style and gets results has won."
+     ],
+     [
+      "How he looks now",
+      "about 4 of 30",
+      "Surprise at how much he has changed, mostly kindly. One comment guessing about his health was strongly disliked by other readers."
+     ],
+     [
+      "Wishes",
+      "about 3 of 30",
+      "He deserves the American Hall of Fame; sad that no Japanese pro team has made him a pitching coach; hope he stays in baseball."
+     ]
+    ],
+    "notes": [
+     "The mood was overwhelmingly warm. I saw no comment criticising how he left Japan.",
+     "Several comments mix up small facts (for example which Japanese honour he holds). That is a reminder not to use comments as sources.",
+     "The counts overlap a little because some comments touch two themes."
+    ]
+   }
+  ]
+ },
+ "unverified": [
+  "His exact retirement words in July 2008. The widely repeated line is that, unlike people who say they have no regrets, he still had regrets. I could not open a page with the exact Japanese wording, so it is not quoted here.",
+  "The year Keishi Suzuki became Kintetsu manager: Japanese sources and my own understanding say 1993; SABR's biography says 1994. Check NPB records.",
+  "The 'six years, 2 billion yen' contract demand: not found in any source. The sourced versions are listed in deep dive 8.1.",
+  "Who exactly found the loophole: Nomura (Whiting, SABR), Jean Afterman (Yahoo Sports) or Arn Tellem (his Wikipedia page). Probably all three had a part.",
+  "The '191 pitches was punishment' story: a media interpretation at the time, disputed by a teammate.",
+  "Trainer Ryuji Tachibana's role in his conditioning and in the clash with Suzuki: well known in Japan but not confirmed in any page opened.",
+  "Michael Okumura as his 1995 Dodgers interpreter: commonly stated, not sourced here. SABR names Kota Ishijima as a (later) translator.",
+  "His father's family coming from the Goto Islands, Nagasaki: no source found. Whiting says only 'former fisherman, then postal worker'.",
+  "Minato-ku as his birth ward and his elementary and junior high school names: Japanese Wikipedia only.",
+  "The 'do not change my form' contract clause: rests on Whiting (via SABR) and Japanese Wikipedia; no 1989 newspaper source found.",
+  "His agent after 1998, the agent's fee, his management office for commercials, and every Japanese TV commercial beyond Wikipedia's list.",
+  "NOMO Baseball Club pausing its adult team for 2026: one blog says so, citing the club site and the Yomiuri newspaper, but I could not open either.",
+  "Where he lives today.",
+  "Japanese Hall of Fame vote details: SABR gives 82.4% of 324 votes; the Hall's own page was not found.",
+  "The date of the Asian Hall of Fame ceremony: sources give 5 Nov, 7 Nov and 9 Nov 2026.",
+  "NHK showing every 1995 start live, viewer numbers, and any dollar figure for 'Nomomania' merchandise.",
+  "Whether he was invited to the 2006 World Baseball Classic.",
+  "Any direct quote about him from Shohei Ohtani, Yu Darvish (beyond the 2025 thanks), Masahiro Tanaka or Hiroki Kuroda about opening the door.",
+  "The Elmira Pioneers (a US independent-league team he part-owned from 2002 with Hideki Irabu and Mac Suzuki): the only detailed source is a hobby site, and it gives two different end years."
+ ],
+ "videos": {
+  "intro": "The four MLB.com links were confirmed. The last three rows are videos known to exist whose direct links were not found, so they are SEARCH links: click and the video should be the first result.",
+  "items": [
+   {
+    "type": "🎬 Profile",
+    "title": "How Hideo Nomo changed MLB forever",
+    "by": "MLB.com",
+    "lang": "English",
+    "why": "Best short overview of why he matters.",
+    "url": "https://www.mlb.com/video/how-hideo-nomo-changed-mlb-forever",
+    "link": "MLB.com"
+   },
+   {
+    "type": "⚾ Game",
+    "title": "A look back at Hideo Nomo's 17-strikeout game",
+    "by": "MLB.com",
+    "lang": "English",
+    "why": "See the Tornado windup and the forkball at their best.",
+    "url": "https://www.mlb.com/video/a-look-back-at-hideo-nomo-s-17-strikeout-game",
+    "link": "MLB.com"
+   },
+   {
+    "type": "⚾ Game",
+    "title": "Looking at Hideo Nomo in the 1995 All-Star Game",
+    "by": "MLB.com",
+    "lang": "English",
+    "why": "The night Japan stopped to watch.",
+    "url": "https://www.mlb.com/video/looking-at-hideo-nomo-in-the-1995-all-star-game",
+    "link": "MLB.com"
+   },
+   {
+    "type": "🎉 Ceremony",
+    "title": "Hideo Nomo throws out ceremonial first pitch (World Series, 27 Oct 2025)",
+    "by": "MLB.com, 48 seconds",
+    "lang": "English",
+    "why": "How he looks and is received today.",
+    "url": "https://www.mlb.com/video/hideo-nomo-throws-out-ceremonial-first-pitch",
+    "link": "MLB.com"
+   },
+   {
+    "type": "🎤 Interview",
+    "title": "Dodgers official interview for 30 years since his All-Star start (July 2025)",
+    "by": "Los Angeles Dodgers (YouTube)",
+    "lang": "Japanese / English",
+    "why": "A rare recent interview.",
+    "url": "https://www.youtube.com/results?search_query=Dodgers%20Hideo%20Nomo%20interview%202025",
+    "link": "YouTube search"
+   },
+   {
+    "type": "📺 Documentary",
+    "title": "NHK Special featuring Nomo (aired 21 Oct 2018)",
+    "by": "NHK",
+    "lang": "Japanese",
+    "why": "The fullest Japanese TV portrait.",
+    "url": "https://www.youtube.com/results?search_query=NHK%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB%20%E9%87%8E%E8%8C%82%E8%8B%B1%E9%9B%84",
+    "link": "YouTube search"
+   },
+   {
+    "type": "🎧 Podcast",
+    "title": "ESPN 30 for 30 podcast episode on Nomo and Nomura",
+    "by": "ESPN",
+    "lang": "English",
+    "why": "Don Nomura and others tell the escape story in their own voices.",
+    "url": "https://www.youtube.com/results?search_query=30%20for%2030%20podcast%20Hideo%20Nomo",
+    "link": "Search"
+   }
+  ]
+ }
+}
