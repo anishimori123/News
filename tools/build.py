@@ -512,39 +512,51 @@ def update_changelog():
     first, last_day = pts[0][0], pts[-1][0]
     end_day = max(last_day, first + timedelta(days=90))  # always show at least three months of timeline
     span = (end_day - first).days
-    w, left, ph, gap, top = 760, 56, 150, 46, 34   # two panels that share the date axis (never two scales on one panel)
-    h = top + ph * 2 + gap + 74
-    X = lambda d0: left + 22 + (d0 - first).days / span * (w - left - 62)
+    # ONE chart, two lines. Pages (single digits) and words (thousands) cannot share a raw scale,
+    # so both are drawn as growth since the first day: 1x = the size on day one, 2x = twice as big.
+    import math
+    w, h, left, top, bottom = 760, 330, 56, 58, 62
+    X = lambda d0: left + 22 + (d0 - first).days / span * (w - left - 150)
     kfmt = lambda n: (f"{n / 1000:.1f}".rstrip("0").rstrip(".") + "k") if n >= 1000 else str(n)
-    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" font-family="sans-serif" role="img" aria-label="Pages and total words on the site over time">',
-           f'<rect width="{w}" height="{h}" fill="#fcfcfb"/>']
-
-    def panel(y0, key, title, color, fmt, step_floor):
-        import math
-        top_val = max(v[key] for _, v in pts)
-        raw = max(step_floor, top_val * 1.2) / 4          # choose a round step so the axis reads 0, 5k, 10k ...
-        mag = 10 ** math.floor(math.log10(raw))
-        stepv = next(m * mag for m in (1, 2, 2.5, 5, 10) if m * mag >= raw)
-        mx = stepv * 4
-        Y = lambda p: y0 + ph * (1 - p / mx)
-        out.append(f'<rect x="{left}" y="{y0 - 22}" width="12" height="12" rx="3" fill="{color}"/>'
-                   f'<text x="{left + 18}" y="{y0 - 12}" font-size="13" font-weight="700" fill="#0b0b0b">{title}</text>')
-        for i in range(5):
-            t = mx * i / 4
-            out.append(f'<line x1="{left}" x2="{w - 20}" y1="{Y(t):.1f}" y2="{Y(t):.1f}" stroke="#e3e1da"/>'
-                       f'<text x="{left - 8}" y="{Y(t) + 4:.1f}" font-size="10" fill="#52514e" text-anchor="end">{fmt(int(t) if float(t).is_integer() else t)}</text>')
+    series = [("pages", "Pages", "#2a78d6", lambda n: f"{n} pages"), ("words", "Total words", "#7a7974", lambda n: f"{kfmt(n)} words")]
+    base = {k: max(pts[0][1][k], 1) for k, *_ in series}
+    top_ratio = max(v[k] / base[k] for _, v in pts for k, *_ in series)
+    raw = max(2.0, top_ratio * 1.15) / 4
+    mag = 10 ** math.floor(math.log10(raw))
+    stepv = next(m * mag for m in (1, 2, 2.5, 5, 10) if m * mag >= raw)
+    mx = stepv * 4
+    Y = lambda r: top + (h - top - bottom) * (1 - r / mx)
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" font-family="sans-serif" role="img" aria-label="Growth of pages and total words on the site since the first day">',
+           f'<rect width="{w}" height="{h}" fill="#fcfcfb"/>'
+           f'<text x="{left}" y="20" font-size="13" font-weight="700" fill="#0b0b0b">Growth since the first day ({first.isoformat()})</text>']
+    lx = left
+    for k, name, color, lab in series:  # legend
+        txt = f"{name} (day one: {lab(pts[0][1][k])})"
+        out.append(f'<rect x="{lx}" y="30" width="12" height="12" rx="3" fill="{color}"/><text x="{lx + 17}" y="40" font-size="11" fill="#0b0b0b">{E(txt)}</text>')
+        lx += 40 + len(txt) * 6.2
+    for i in range(5):
+        t = mx * i / 4
+        lab = f"{t:g}x"
+        out.append(f'<line x1="{left}" x2="{w - 20}" y1="{Y(t):.1f}" y2="{Y(t):.1f}" stroke="#e3e1da"/>'
+                   f'<text x="{left - 8}" y="{Y(t) + 4:.1f}" font-size="10" fill="#52514e" text-anchor="end">{lab}</text>')
+    ends = []
+    for k, name, color, lab in series:
         if len(pts) > 1:
-            out.append(f'<polyline fill="none" stroke="{color}" stroke-width="2" points="' + " ".join(f"{X(d0):.1f},{Y(v[key]):.1f}" for d0, v in pts) + '"/>')
-        for i, (d0, v) in enumerate(pts):
+            out.append(f'<polyline fill="none" stroke="{color}" stroke-width="2" points="' + " ".join(f"{X(d0):.1f},{Y(v[k] / base[k]):.1f}" for d0, v in pts) + '"/>')
+        for d0, v in pts:
             vers = v["versions"][0] if len(v["versions"]) == 1 else f'{v["versions"][0]} to {v["versions"][-1]}'
-            out.append(f'<circle cx="{X(d0):.1f}" cy="{Y(v[key]):.1f}" r="5" fill="{color}" stroke="#fcfcfb" stroke-width="2"><title>{d0.isoformat()}: {v[key]:,} ({E(vers)})</title></circle>')
-            crowded = i + 1 < len(pts) and X(pts[i + 1][0]) - X(d0) < 34   # too close to the next point: label only the later one
-            if not crowded:
-                out.append(f'<text x="{X(d0):.1f}" y="{Y(v[key]) - 10:.1f}" font-size="11" font-weight="700" fill="#0b0b0b" text-anchor="middle">{fmt(v[key])}</text>')
-        return y0 + ph
-
-    panel(top + 22, "pages", "Pages on the site", "#2a78d6", str, 4)
-    base = panel(top + 22 + ph + gap, "words", "Total words on the site", "#7a7974", kfmt, 1000)
+            out.append(f'<circle cx="{X(d0):.1f}" cy="{Y(v[k] / base[k]):.1f}" r="5" fill="{color}" stroke="#fcfcfb" stroke-width="2">'
+                       f'<title>{d0.isoformat()}: {lab(v[k])} ({E(vers)})</title></circle>')
+        d0, v = pts[-1]
+        ends.append([Y(v[k] / base[k]), lab(v[k]), color])
+    ends.sort()  # write the real latest numbers at the right end of each line, kept apart
+    if len(ends) == 2 and ends[1][0] - ends[0][0] < 16:
+        mid = (ends[0][0] + ends[1][0]) / 2
+        ends[0][0], ends[1][0] = mid - 8, mid + 8
+    xe = X(pts[-1][0]) + 12
+    for y, txt, color in ends:
+        out.append(f'<rect x="{xe:.1f}" y="{y - 5:.1f}" width="8" height="8" rx="2" fill="{color}"/>'
+                   f'<text x="{xe + 12:.1f}" y="{y + 3:.1f}" font-size="11" font-weight="700" fill="#0b0b0b">{E(txt)}</text>')
     ticks, cur = [], date(first.year, first.month, 1)
     step = 1 if span <= 400 else (3 if span <= 800 else 12)
     while cur <= end_day:
@@ -552,16 +564,19 @@ def update_changelog():
             ticks.append((cur, cur.strftime("%b %Y") if step < 12 else str(cur.year)))
         m = cur.month - 1 + step
         cur = date(cur.year + m // 12, m % 12 + 1, 1)
-    out.append(f'<line x1="{left}" x2="{w - 20}" y1="{base}" y2="{base}" stroke="#b9b6ab"/>')
+    yb = h - bottom
+    out.append(f'<line x1="{left}" x2="{w - 20}" y1="{yb}" y2="{yb}" stroke="#b9b6ab"/>')
     for d0, lab in ticks:
-        out.append(f'<line x1="{X(d0):.1f}" x2="{X(d0):.1f}" y1="{base}" y2="{base + 5}" stroke="#b9b6ab"/>'
-                   f'<text x="{X(d0):.1f}" y="{base + 18}" font-size="10" fill="#52514e" text-anchor="middle">{lab}</text>')
+        if X(d0) < w - 60:
+            out.append(f'<line x1="{X(d0):.1f}" x2="{X(d0):.1f}" y1="{yb}" y2="{yb + 5}" stroke="#b9b6ab"/>'
+                       f'<text x="{X(d0):.1f}" y="{yb + 18}" font-size="10" fill="#52514e" text-anchor="middle">{lab}</text>')
     d0, v = pts[-1]
-    out.append(f'<text x="{w / 2}" y="{h - 8}" font-size="10" fill="#52514e" text-anchor="middle">Date. One point per day with an update. Latest: {d0.isoformat()}, {E(v["versions"][-1])}, {v["pages"]} pages, {v["words"]:,} words.</text></svg>')
+    out.append(f'<text x="{w / 2}" y="{h - 22}" font-size="10" fill="#52514e" text-anchor="middle">1x = the size on the first day. 2x = twice as big. One point per day with an update.</text>'
+               f'<text x="{w / 2}" y="{h - 8}" font-size="10" fill="#52514e" text-anchor="middle">Latest: {d0.isoformat()}, {E(v["versions"][-1])}, {v["pages"]} pages, {v["words"]:,} words.</text></svg>')
     (ROOT / "docs" / "changelog-chart.svg").write_text("".join(out), encoding="utf-8")
     rows = [[("🤖 " if e["auto"] else "") + f'**{e["v"]}**', e["date"], e["summary"], e["pages"], f'{e["words"]:,}', e["time"]] for e in reversed(entries)]
     block = ("<!-- SUMMARY:START (this block is rebuilt by tools/build.py; do not edit by hand) -->\n"
-             "## At a glance\n\n![Pages and total words on the site over time](docs/changelog-chart.svg)\n\n"
+             "## At a glance\n\n![Growth of pages and total words on the site since the first day](docs/changelog-chart.svg)\n\n"
              + md_table(["Version", "Date", "What changed, in one line", "Pages on site", "Words on site", "Time spent"], rows)
              + "\n\n🤖 = found by the weekly scheduled check. Words are counted in the profile text, without link addresses. Full details for each version are below.\n<!-- SUMMARY:END -->")
     text = re.sub(r"<!-- SUMMARY:START.*?<!-- SUMMARY:END -->", lambda m: block, text, flags=re.S)

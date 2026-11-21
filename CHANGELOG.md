@@ -3,10 +3,11 @@
 <!-- SUMMARY:START (this block is rebuilt by tools/build.py; do not edit by hand) -->
 ## At a glance
 
-![Pages and total words on the site over time](docs/changelog-chart.svg)
+![Growth of pages and total words on the site since the first day](docs/changelog-chart.svg)
 
 | Version | Date | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|
+| **v0.3.1** | 2026-11-21 | Changelog chart now shows the blue pages line and the grey words line together on one graph. | 8 | 26,723 | about 10 minutes |
 | **v0.3.0** | 2026-11-21 | New sport and person: Hideo Nomo (baseball), plus a page for his agent Don Nomura; the build tool now works for any sport. | 8 | 26,723 | about 50 minutes (6 research helpers running in parallel) |
 | **v0.2.7** | 2026-11-21 | Changelog chart gains a grey line for total words on the site; page and word counts are now filled in automatically. | 6 | 16,701 | about 15 minutes |
 | **v0.2.6** | 2026-11-21 | Changelog chart now runs by date, to show progress over months and years. | 6 | 16,701 | about 10 minutes |
@@ -24,6 +25,19 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.3.1 — 2026-11-21
+**Summary:** Changelog chart now shows the blue pages line and the grey words line together on one graph.  
+**Pages on site:** 8  
+**Words on site:** 26723  
+**Time spent:** about 10 minutes
+
+**What changed**
+- Both lines are on one graph. Because pages are counted in single digits and words in thousands, each line is drawn as growth since the first day: 1x is the size on day one, 2x is twice as big.
+- The real latest numbers are written at the right end of each line, and the table still lists exact counts for every version.
+
+**Why**
+- One graph is easier to read at a glance, and it shows whether the site is growing by adding pages or by making pages deeper.
 
 ## v0.3.0 — 2026-11-21
 **Summary:** New sport and person: Hideo Nomo (baseball), plus a page for his agent Don Nomura; the build tool now works for any sport.  
