@@ -1788,5 +1788,58 @@
         }
       ]
     }
-  ]
+  ],
+  "fan_voices": {
+    "intro": "These are opinions from ordinary readers, not facts. They show how fans feel, and they are sometimes wrong. Nothing in this section is used anywhere else in this profile. No usernames are kept and no comment is copied; each theme is described in my own words.",
+    "samples": [
+      {
+        "source": "Yahoo! News Japan comments on the Nikkan Sports article about him leaving LA Galaxy",
+        "url": "https://news.yahoo.co.jp/articles/a65d1ce9a11eb29073bf03cd599f5a28033e4acb/comments",
+        "read_on": "2026-11-21",
+        "sample": "The top 30 of 141 reader comments in 'recommended' order (179 including replies), plus 1 comment from a commentator labelled as an expert by Yahoo. Top comments are the most liked, so this is not a fair sample of all readers.",
+        "themes": [
+          [
+            "Come back to Japan",
+            "About 10 of 30",
+            "The biggest theme. Readers want to see him finish in the J.League and pass on his experience. Clubs named: Nagasaki (3), Nagoya (2), Iwata (1)."
+          ],
+          [
+            "Respect for the career",
+            "About 5 of 30",
+            "He is called a legend. Readers list the countries he played in, the famous defenders he competed with at Southampton, and how rarely he was injured. One of the two most-liked comments praised 117 matches in three and a half years at his age."
+          ],
+          [
+            "A future in football leadership",
+            "About 5 of 30",
+            "Readers expect him to work one day for the Japan FA or Asia's football body, or to reform Japanese football."
+          ],
+          [
+            "A future as a coach",
+            "About 4 of 30",
+            "Several say his English and the many European coaches he played under would make him a good manager, perhaps abroad."
+          ],
+          [
+            "He may stay in the USA",
+            "About 5 of 30",
+            "Readers point to his green card and his family. The single most-liked comment said he could find another US club or return to Japan."
+          ],
+          [
+            "Nagasaki or not?",
+            "Split",
+            "Calls for him to join hometown club V-Varen Nagasaki drew more 'hmm' reactions than agreement in two of three cases. One well-received comment argued he left Nagasaki at 12 and has deeper ties to Aichi."
+          ],
+          [
+            "Doubt",
+            "1 of 30",
+            "One reader wondered whether having no new club announced means no offers. No abusive comments appeared in the top 30."
+          ]
+        ],
+        "notes": [
+          "The expert-labelled comment said American reporters who cover the team rated him highly even as his playing time fell late in the season.",
+          "An example of why comments are not facts: one reader wrote that he got his green card 'last year'. The reported date is July 2026.",
+          "Yahoo also shows an AI summary of the comments. It appeared masked in the page text, so it was not used."
+        ]
+      }
+    ]
+  }
 }

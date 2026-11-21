@@ -49,6 +49,11 @@ One topic each, when something deserves a closer look. Good standing topics: a c
 | Period | Club | Reported pay | OFFICIAL or ESTIMATE | Source |
 |---|---|---|---|---|
 
+## 9b. What fans are saying (opinions, not facts)
+Reader comments from sites such as Yahoo! News Japan. Kept apart from everything else. Themes and rough counts only, in my own words; no usernames, no copied comments; say which page, when it was read and how many comments were sampled. Never use a comment as a source for a fact.
+| Theme | How common | What readers said |
+|---|---|---|
+
 ## 10. Open questions / not verified
 - Things I could not confirm.
 

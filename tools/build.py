@@ -209,7 +209,14 @@ def build_html(d, sport):
         b.append(table(["What", "When", "Status"], [[link(e["what"], e["url"]), E(e["when"]), E(e["status"])] for e in m["endorsements"]]))
         b.append("<ul>" + "".join(f"<li>{E(n)}</li>" for n in m["notes"]) + "</ul>")
 
-    b.append("<h2>❓ 10. Not verified / sources disagree</h2><ul>" + "".join(f"<li>{E(u)}</li>" for u in d["unverified"]) + "</ul>")
+    fv = d.get("fan_voices")
+    if fv:
+        b.append(f'<h2>💬 10. What fans are saying (opinions, not facts)</h2><div class="status">{E(fv["intro"])}</div>')
+        for sm in fv["samples"]:
+            b.append(f'<h3>{link(sm["source"], sm["url"])}</h3><p class="small">Read on {E(sm["read_on"])}. {E(sm["sample"])}</p>')
+            b.append(table(["Theme", "How common", "What readers said (in my words)"], [[f"<b>{E(t)}</b>", E(n), E(x)] for t, n, x in sm["themes"]]))
+            b.append("<ul>" + "".join(f"<li>{E(x)}</li>" for x in sm["notes"]) + "</ul>")
+    b.append("<h2>❓ 11. Not verified / sources disagree</h2><ul>" + "".join(f"<li>{E(u)}</li>" for u in d["unverified"]) + "</ul>")
 
     v = d.get("videos")
     if v:
@@ -281,7 +288,14 @@ def build_md(d, sport):
               "### Contracts and transfers", md_table(["Date", "Event", "Source"], [[c["date"], c["event"], mdl("link", c["url"])] for c in m["contracts"]]), "",
               "### Sponsors, advertising and other public income", md_table(["What", "When", "Status", "Source"], [[e["what"], e["when"], e["status"], mdl("link", e["url"])] for e in m["endorsements"]]), ""]
         o += [f"- {n}" for n in m["notes"]] + [""]
-    o += ["## ❓ 10. Not verified / sources disagree"] + [f"- {u}" for u in d["unverified"]] + [""]
+    fv = d.get("fan_voices")
+    if fv:
+        o += ["## 💬 10. What fans are saying (opinions, not facts)", "> " + fv["intro"], ""]
+        for sm in fv["samples"]:
+            o += [f'### {mdl(sm["source"], sm["url"])}', f'_Read on {sm["read_on"]}. {sm["sample"]}_', "",
+                  md_table(["Theme", "How common", "What readers said (in my words)"], sm["themes"]), ""]
+            o += [f"- {x}" for x in sm["notes"]] + [""]
+    o += ["## ❓ 11. Not verified / sources disagree"] + [f"- {u}" for u in d["unverified"]] + [""]
     v = d.get("videos")
     if v:
         o += ["## 🎥 Appendix: videos and interviews", v["intro"], "",

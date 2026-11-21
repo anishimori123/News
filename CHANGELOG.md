@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.2.2 — 2026-11-21
+**Time spent:** about 10 minutes
+
+**What changed**
+- New section in Maya Yoshida's profile: "What fans are saying (opinions, not facts)". First sample: the top 30 of 141 reader comments on Yahoo! News Japan under the article about him leaving LA Galaxy, grouped into seven themes.
+- The section is clearly labelled as opinion, keeps no usernames and copies no comments.
+- Template and build script updated so any athlete can have this section.
+
+**Why**
+- To see how ordinary fans react, without mixing their opinions with reported facts.
+
 ## v0.2.1 — 2026-11-21
 **Time spent:** about 20 minutes
 
