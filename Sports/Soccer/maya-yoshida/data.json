@@ -1841,5 +1841,31 @@
         ]
       }
     ]
+  },
+  "own_words": {
+    "intro": "Posts from his own account. These are his statements, so they count as first-hand. A claim about facts (a transfer, a fee, an injury) still needs a news report or official page before it goes into the timeline.",
+    "account": "X: @MayaYoshida3",
+    "read_on": "2026-11-21",
+    "note": "Read without a login, so some posts may be missing. As of this date there was no post about leaving LA Galaxy or his next step.",
+    "items": [
+      {
+        "date": "2026-11-15",
+        "what": "Says he was honoured to take part in the opening of the first One Piece 'Mugiwara Store' in the USA, in Los Angeles.",
+        "tells": "Public appearance; a commercial tie-in with a Japanese entertainment brand.",
+        "url": "https://x.com/MayaYoshida3/status/2121878008671912169"
+      },
+      {
+        "date": "2026-11-11",
+        "what": "Congratulates watch brand Parmigiani Fleurier on winning a watch-industry prize.",
+        "tells": "Confirms the brand partnership listed under Money.",
+        "url": "https://x.com/MayaYoshida3/status/2120782925264494969"
+      },
+      {
+        "date": "2026-11-05",
+        "what": "Thanks the LA Rams (American football team) for hosting him. A repost from NFL Japan shows he attended with teammate Kyogo Furuhashi.",
+        "tells": "Cross-sport promotion in Los Angeles while still a Galaxy player.",
+        "url": "https://x.com/MayaYoshida3/status/2118378420916850887"
+      }
+    ]
   }
 }

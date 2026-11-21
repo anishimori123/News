@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.2.3 — 2026-11-21
+**Time spent:** about 10 minutes
+
+**What changed**
+- New section in Maya Yoshida's profile: "In his own words (social posts)", with three recent posts from his X account described and linked. Noted that he had posted nothing about leaving LA Galaxy as of this date.
+- Template and build script updated so any athlete can have this section.
+
+**Why**
+- A person's own posts are first-hand statements and often come before news reports. They are kept apart from fan comments.
+
 ## v0.2.2 — 2026-11-21
 **Time spent:** about 10 minutes
 

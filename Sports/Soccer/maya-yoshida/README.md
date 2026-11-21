@@ -384,7 +384,18 @@ Most footballer salary numbers are guesses by websites. The only official number
 - 'Guaranteed compensation' in MLS means base salary plus guaranteed bonuses, averaged per year. It is not exactly the cash paid in that year.
 - The 2023 to 2025 MLS numbers were seen through Spotrac and news reports, not read from the union's own files. The 2026 number was read directly.
 
-## 💬 10. What fans are saying (opinions, not facts)
+## 🗣️ 10. In his own words (social posts)
+Posts from his own account. These are his statements, so they count as first-hand. A claim about facts (a transfer, a fee, an injury) still needs a news report or official page before it goes into the timeline.
+
+_X: @MayaYoshida3. Read on 2026-11-21. Read without a login, so some posts may be missing. As of this date there was no post about leaving LA Galaxy or his next step._
+
+| Date | What he posted (in my words) | What it tells us | Post |
+|---|---|---|---|
+| 2026-11-15 | Says he was honoured to take part in the opening of the first One Piece 'Mugiwara Store' in the USA, in Los Angeles. | Public appearance; a commercial tie-in with a Japanese entertainment brand. | [link](https://x.com/MayaYoshida3/status/2121878008671912169) |
+| 2026-11-11 | Congratulates watch brand Parmigiani Fleurier on winning a watch-industry prize. | Confirms the brand partnership listed under Money. | [link](https://x.com/MayaYoshida3/status/2120782925264494969) |
+| 2026-11-05 | Thanks the LA Rams (American football team) for hosting him. A repost from NFL Japan shows he attended with teammate Kyogo Furuhashi. | Cross-sport promotion in Los Angeles while still a Galaxy player. | [link](https://x.com/MayaYoshida3/status/2118378420916850887) |
+
+## 💬 11. What fans are saying (opinions, not facts)
 > These are opinions from ordinary readers, not facts. They show how fans feel, and they are sometimes wrong. Nothing in this section is used anywhere else in this profile. No usernames are kept and no comment is copied; each theme is described in my own words.
 
 ### [Yahoo! News Japan comments on the Nikkan Sports article about him leaving LA Galaxy](https://news.yahoo.co.jp/articles/a65d1ce9a11eb29073bf03cd599f5a28033e4acb/comments)
@@ -404,7 +415,7 @@ _Read on 2026-11-21. The top 30 of 141 reader comments in 'recommended' order (1
 - An example of why comments are not facts: one reader wrote that he got his green card 'last year'. The reported date is July 2026.
 - Yahoo also shows an AI summary of the comments. It appeared masked in the page text, so it was not used.
 
-## ❓ 11. Not verified / sources disagree
+## ❓ 12. Not verified / sources disagree
 - Catholic faith and a rosary from the Vatican: found only on English Wikipedia. Not treated as fact here.
 - 'I feel 25 percent English': the Japanese report of that interview has him joking that he understands about 25% of English. Exact wording unconfirmed.
 - Baseball pitcher Tsuyoshi Shimoyanagi as his 'uncle': Japanese Wikipedia describes a more distant relative.

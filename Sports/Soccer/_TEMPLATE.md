@@ -49,6 +49,11 @@ One topic each, when something deserves a closer look. Good standing topics: a c
 | Period | Club | Reported pay | OFFICIAL or ESTIMATE | Source |
 |---|---|---|---|---|
 
+## 9a. In their own words (social posts)
+The person's own account (X first), read through the desktop app's browser. Describe each post in my own words with date and link. First-hand for what they said; a factual claim still needs a second source before it enters the timeline. Say if nothing was posted about the main news.
+| Date | What they posted | What it tells us | Post |
+|---|---|---|---|
+
 ## 9b. What fans are saying (opinions, not facts)
 Reader comments from sites such as Yahoo! News Japan. Kept apart from everything else. Themes and rough counts only, in my own words; no usernames, no copied comments; say which page, when it was read and how many comments were sampled. Never use a comment as a source for a fact.
 | Theme | How common | What readers said |
