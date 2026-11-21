@@ -1,0 +1,1281 @@
+{
+  "id": "maya-yoshida",
+  "name": "Maya Yoshida",
+  "name_ja": "吉田 麻也",
+  "sport": "Soccer",
+  "updated": "2026-11-21",
+  "status": "Free agent. His LA Galaxy contract ended on 20 Nov 2026. He has NOT announced retirement. Next step: undecided.",
+  "summary": "Japanese centre-back (a defender who plays in the middle of the back line). He played in the top division of six countries, captained Japan at a World Cup, and captained LA Galaxy to the 2024 MLS Cup.",
+  "photo": "images/maya-yoshida.jpg",
+  "quick_facts": [
+    [
+      "Born",
+      "24 August 1988, Nagasaki, Japan (age 38)"
+    ],
+    [
+      "Position",
+      "Centre-back"
+    ],
+    [
+      "Height",
+      "1.89 m"
+    ],
+    [
+      "Club career",
+      "2007 to 2026: Japan, Netherlands, England, Italy, Germany, USA"
+    ],
+    [
+      "Club matches",
+      "580 matches, 36 goals (all competitions, added up from the season table below)"
+    ],
+    [
+      "Japan national team",
+      "127 caps (official matches), 12 goals, 2010 to 2026"
+    ],
+    [
+      "Big tournaments",
+      "3 World Cups (2014, 2018, 2022) and 3 Olympics (2008, 2012, 2021)"
+    ],
+    [
+      "Languages",
+      "Japanese, English, Italian"
+    ],
+    [
+      "Education",
+      "Waseda University, School of Human Sciences (correspondence course), graduated 2019"
+    ],
+    [
+      "Off the pitch",
+      "President of the Japan Pro-Footballers Association (players' union) since 2022"
+    ]
+  ],
+  "clubs": [
+    {
+      "id": "nagoya",
+      "name": "Nagoya Grampus",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "league": "J1 League",
+      "years": "2007–2009",
+      "apps": 101,
+      "goals": 11
+    },
+    {
+      "id": "vvv",
+      "name": "VVV-Venlo",
+      "country": "Netherlands",
+      "flag": "🇳🇱",
+      "league": "Eredivisie",
+      "years": "2010–2012",
+      "apps": 63,
+      "goals": 5
+    },
+    {
+      "id": "soton",
+      "name": "Southampton",
+      "country": "England",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "league": "Premier League",
+      "years": "2012–2020",
+      "apps": 194,
+      "goals": 9
+    },
+    {
+      "id": "samp",
+      "name": "Sampdoria",
+      "country": "Italy",
+      "flag": "🇮🇹",
+      "league": "Serie A",
+      "years": "2020–2022",
+      "apps": 74,
+      "goals": 3
+    },
+    {
+      "id": "schalke",
+      "name": "Schalke 04",
+      "country": "Germany",
+      "flag": "🇩🇪",
+      "league": "Bundesliga",
+      "years": "2022–2023",
+      "apps": 31,
+      "goals": 0
+    },
+    {
+      "id": "galaxy",
+      "name": "LA Galaxy",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "league": "MLS",
+      "years": "2023–2026",
+      "apps": 117,
+      "goals": 8
+    }
+  ],
+  "seasons": [
+    {
+      "season": "2007",
+      "club": "nagoya",
+      "apps": 24,
+      "goals": 1
+    },
+    {
+      "season": "2008",
+      "club": "nagoya",
+      "apps": 29,
+      "goals": 2
+    },
+    {
+      "season": "2009",
+      "club": "nagoya",
+      "apps": 48,
+      "goals": 8
+    },
+    {
+      "season": "2009–10",
+      "club": "vvv",
+      "apps": 0,
+      "goals": 0
+    },
+    {
+      "season": "2010–11",
+      "club": "vvv",
+      "apps": 24,
+      "goals": 0
+    },
+    {
+      "season": "2011–12",
+      "club": "vvv",
+      "apps": 37,
+      "goals": 5
+    },
+    {
+      "season": "2012–13",
+      "club": "vvv",
+      "apps": 2,
+      "goals": 0
+    },
+    {
+      "season": "2012–13",
+      "club": "soton",
+      "apps": 34,
+      "goals": 0
+    },
+    {
+      "season": "2013–14",
+      "club": "soton",
+      "apps": 14,
+      "goals": 2
+    },
+    {
+      "season": "2014–15",
+      "club": "soton",
+      "apps": 23,
+      "goals": 1
+    },
+    {
+      "season": "2015–16",
+      "club": "soton",
+      "apps": 27,
+      "goals": 2
+    },
+    {
+      "season": "2016–17",
+      "club": "soton",
+      "apps": 37,
+      "goals": 2
+    },
+    {
+      "season": "2017–18",
+      "club": "soton",
+      "apps": 28,
+      "goals": 2
+    },
+    {
+      "season": "2018–19",
+      "club": "soton",
+      "apps": 20,
+      "goals": 0
+    },
+    {
+      "season": "2019–20",
+      "club": "soton",
+      "apps": 11,
+      "goals": 0
+    },
+    {
+      "season": "2019–20",
+      "club": "samp",
+      "apps": 14,
+      "goals": 0
+    },
+    {
+      "season": "2020–21",
+      "club": "samp",
+      "apps": 34,
+      "goals": 1
+    },
+    {
+      "season": "2021–22",
+      "club": "samp",
+      "apps": 26,
+      "goals": 2
+    },
+    {
+      "season": "2022–23",
+      "club": "schalke",
+      "apps": 31,
+      "goals": 0
+    },
+    {
+      "season": "2023",
+      "club": "galaxy",
+      "apps": 12,
+      "goals": 1
+    },
+    {
+      "season": "2024",
+      "club": "galaxy",
+      "apps": 41,
+      "goals": 2
+    },
+    {
+      "season": "2025",
+      "club": "galaxy",
+      "apps": 36,
+      "goals": 3
+    },
+    {
+      "season": "2026",
+      "club": "galaxy",
+      "apps": 28,
+      "goals": 2
+    }
+  ],
+  "seasons_note": "Matches in all competitions (league, cups, continental). Source: English Wikipedia career table for 2007 to 2025; LA Galaxy official totals (117 matches, 8 goals) for the club total; 2026 is from Soccer King (28 matches, 2 goals), which matches the club total. Other sites count 2026 differently (see 'Not verified').",
+  "timeline": [
+    {
+      "year": "1988",
+      "age": 0,
+      "flag": "🇯🇵",
+      "tag": "life",
+      "event": "Born in Nagasaki, the youngest of three brothers."
+    },
+    {
+      "year": "2001",
+      "age": 12,
+      "flag": "🇯🇵",
+      "tag": "life",
+      "event": "Passes the Nagoya Grampus youth trial on a family trip, expecting to fail. Leaves home and moves to Aichi with an older brother."
+    },
+    {
+      "year": "2004",
+      "age": 15,
+      "flag": "🇯🇵",
+      "tag": "life",
+      "event": "Chooses a public high school (Toyota High School) partly to study English seriously, already aiming to play abroad."
+    },
+    {
+      "year": "2007",
+      "age": 18,
+      "flag": "🇯🇵",
+      "tag": "club",
+      "event": "Turns professional with Nagoya Grampus. Starts a Waseda University correspondence degree."
+    },
+    {
+      "year": "2008",
+      "age": 19,
+      "flag": "🇯🇵",
+      "tag": "japan",
+      "event": "Plays at the Beijing Olympics (U-23). Wins a regular centre-back place at Nagoya under coach Dragan Stojković."
+    },
+    {
+      "year": "2009",
+      "age": 21,
+      "flag": "🇯🇵",
+      "tag": "club",
+      "event": "Best season in Japan: 48 matches, 8 goals. Signs for VVV-Venlo in December."
+    },
+    {
+      "year": "2010",
+      "age": 21,
+      "flag": "🇳🇱",
+      "tag": "club",
+      "event": "Senior Japan debut (6 Jan). Breaks a foot bone days after arriving in the Netherlands and misses about 10 months. Dutch league debut on 30 Oct."
+    },
+    {
+      "year": "2011",
+      "age": 22,
+      "flag": "🇳🇱",
+      "tag": "japan",
+      "event": "Wins the AFC Asian Cup with Japan (first Japan goal, also a red card in the quarter-final). Scores against PSV in September."
+    },
+    {
+      "year": "2012",
+      "age": 23,
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "tag": "club",
+      "event": "Captains Japan to 4th place at the London Olympics. Joins Southampton (Premier League) for about £3 million on 30 Aug. Announces his marriage."
+    },
+    {
+      "year": "2013",
+      "age": 24,
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "tag": "club",
+      "event": "First full Premier League season: 34 matches. Criticised in Japan after the Confederations Cup."
+    },
+    {
+      "year": "2014",
+      "age": 25,
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "tag": "japan",
+      "event": "First World Cup (Brazil): starts all 3 matches. At Southampton he is back-up behind Lovren and Fonte."
+    },
+    {
+      "year": "2015",
+      "age": 26,
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "tag": "club",
+      "event": "New 3-year Southampton contract (Jan). A back-pass mistake against Manchester United (Sept) sends him back to the bench."
+    },
+    {
+      "year": "2016",
+      "age": 28,
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "tag": "life",
+      "event": "Still third-choice at Southampton; uses cup games to stay ready. First child (a daughter) born."
+    },
+    {
+      "year": "2017",
+      "age": 28,
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "tag": "club",
+      "event": "Breakthrough year: captains Southampton for the first time (18 Jan), plays the League Cup final at Wembley (26 Feb), first match as Japan captain (23 Mar), first Japanese player to reach 100 Premier League matches (29 Apr), new contract to 2020."
+    },
+    {
+      "year": "2018",
+      "age": 29,
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "tag": "japan",
+      "event": "World Cup in Russia: plays every minute; Japan lose 3–2 to Belgium after leading 2–0. Becomes permanent Japan captain after Makoto Hasebe. Publishes his book 'Unbeatable Mind'."
+    },
+    {
+      "year": "2019",
+      "age": 30,
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "tag": "japan",
+      "event": "Asian Cup runner-up as captain (his handball gives away a penalty in the final). Gets UK permanent residency. Graduates from Waseda. Pledges 1% of his wages to the Saints Foundation charity. 100th cap for Japan (14 Nov)."
+    },
+    {
+      "year": "2020",
+      "age": 31,
+      "flag": "🇮🇹",
+      "tag": "club",
+      "event": "Moves to Sampdoria (Italy) on loan on deadline day (31 Jan). Debuts 8 Mar, right before lockdown. Donates 10,000 masks in Genoa. Gives a club interview in Italian by August."
+    },
+    {
+      "year": "2021",
+      "age": 32,
+      "flag": "🇮🇹",
+      "tag": "japan",
+      "event": "Captains Japan to 4th at the Tokyo Olympics (his third Games). Scores against Inter Milan (12 Sept). Becomes Japan's most-capped centre-back (Nov)."
+    },
+    {
+      "year": "2022",
+      "age": 34,
+      "flag": "🇩🇪",
+      "tag": "japan",
+      "event": "Becomes president of the players' union (20 June). Joins Schalke 04 (5 July). Captains Japan at the Qatar World Cup: wins over Germany and Spain; loses to Croatia on penalties (his kick is saved)."
+    },
+    {
+      "year": "2023",
+      "age": 34,
+      "flag": "🇺🇸",
+      "tag": "club",
+      "event": "Schalke are relegated (dropped to the second division). Joins LA Galaxy on 3 Aug. Left out of the Japan squad as a new generation takes over."
+    },
+    {
+      "year": "2024",
+      "age": 36,
+      "flag": "🇺🇸",
+      "tag": "club",
+      "event": "Captain of LA Galaxy. Starts every league match. Wins the MLS Cup (7 Dec), his first club trophy. Club Defender of the Year."
+    },
+    {
+      "year": "2025",
+      "age": 37,
+      "flag": "🇺🇸",
+      "tag": "club",
+      "event": "Signs a new 2-year deal (18 Jan) with a pay cut. Galaxy have a very bad season (14th in the West)."
+    },
+    {
+      "year": "2026",
+      "age": 38,
+      "flag": "🇺🇸",
+      "tag": "club",
+      "event": "Farewell match for Japan (31 May, 127th cap). Travels to the World Cup as a non-playing support member. Gets a US green card (16 July). Loses his starting place from September; knee injury. Contract ends 20 Nov; future undecided."
+    }
+  ],
+  "achievements": [
+    {
+      "type": "🏆 Trophy",
+      "item": "MLS Cup winner (as captain), LA Galaxy",
+      "year": "2024"
+    },
+    {
+      "type": "🏆 Trophy",
+      "item": "AFC Asian Cup winner, Japan",
+      "year": "2011"
+    },
+    {
+      "type": "🥈 Runner-up",
+      "item": "AFC Asian Cup (as captain), Japan",
+      "year": "2019"
+    },
+    {
+      "type": "🥈 Runner-up",
+      "item": "English League Cup final, Southampton",
+      "year": "2017"
+    },
+    {
+      "type": "🌍 World Cup",
+      "item": "Three World Cups (11 matches); captain in 2022; round of 16 in 2018 and 2022",
+      "year": "2014, 2018, 2022"
+    },
+    {
+      "type": "🏅 Olympics",
+      "item": "Three Olympics; captain twice; 4th place twice",
+      "year": "2008, 2012, 2021"
+    },
+    {
+      "type": "📈 Record",
+      "item": "127 caps for Japan: most ever by a Japanese centre-back; reported as 3rd on Japan's all-time list",
+      "year": "2010–2026"
+    },
+    {
+      "type": "📈 Record",
+      "item": "First Japanese player to reach 100 Premier League matches; 154 in total is still the most by a Japanese player",
+      "year": "2017"
+    },
+    {
+      "type": "🎖️ Captain",
+      "item": "Captain of Southampton (matches), Japan, Japan Olympic team, and LA Galaxy; vice-captain at Schalke",
+      "year": "2012–2026"
+    },
+    {
+      "type": "⭐ Award",
+      "item": "LA Galaxy Defender of the Year (a club award)",
+      "year": "2024"
+    },
+    {
+      "type": "🎓 Education",
+      "item": "University degree from Waseda while playing in the Premier League (took about 12 years)",
+      "year": "2019"
+    },
+    {
+      "type": "🤝 Union",
+      "item": "President of the Japan Pro-Footballers Association; started the player-voted JPFA Awards",
+      "year": "2022–"
+    }
+  ],
+  "leadership_intro": "Short answer: he was almost never the most talented player in the room. He earned trust the slow way, and he did the same things again in every new country. Eight patterns show up again and again.",
+  "leadership": [
+    {
+      "emoji": "🗣️",
+      "title": "He planned for language years before he needed it",
+      "simple": "He decided as a teenager that he wanted to play in Europe, then worked backward: 'So I must learn English now.' In each new country he learned the local language fast and used it in public, even when it was not perfect.",
+      "evidence": [
+        [
+          "Chose a public high school partly so he could study English properly, already aiming abroad.",
+          "https://www.soccer-king.jp/sk_column/article/84825.html"
+        ],
+        [
+          "Took English conversation lessons before leaving Japan; giving interviews in English by 2011.",
+          "https://gendai.media/articles/-/22834"
+        ],
+        [
+          "Japan captain Hasebe handed him the job of talking to referees in English when he took over the armband (2017).",
+          "https://number.bunshun.jp/articles/-/828172"
+        ],
+        [
+          "Italy: used Genoa's local dialect in his debut-day interview, and it went viral. Six months later he did a club interview in Italian.",
+          "https://telenord.it/sampdoria-il-genovese-di-yoshida-e-virale-sul-web-cianin-cianin"
+        ]
+      ]
+    },
+    {
+      "emoji": "📣",
+      "title": "He speaks up early instead of staying quiet",
+      "simple": "Many foreign players stay silent until they feel safe. He does the opposite. He says what the team needs to hear, even as the new person.",
+      "evidence": [
+        [
+          "Italy, 4 months in: shouted 'Parlate!' (Talk!) at a silent defence.",
+          "https://www.clubdoria46.it/sampdoria-parlate-urla-yoshida-la-difesa-e-muta/"
+        ],
+        [
+          "Germany, 3 weeks in: said on TV that Schalke's squad was too big and had to improve.",
+          "https://www.watson.de/sport/fussball/640887259-schalke-04-maya-yoshida-mit-deutlichen-worten-zu-schalke-04-und-klassenerhalt"
+        ],
+        [
+          "After the 2018 World Cup loss to Belgium he said Japan had been naive and fragile, and asked for a rethink of youth development.",
+          "https://inside.fifa.com/news/yoshida-japan-must-think-seriously-about-the-future"
+        ],
+        [
+          "2021: publicly asked for the no-spectator decision at the Tokyo Olympics to be reconsidered.",
+          "https://www.footballchannel.jp/2021/07/18/post429576/"
+        ]
+      ]
+    },
+    {
+      "emoji": "🙋",
+      "title": "He takes the blame first, then explains",
+      "simple": "When things go wrong he names his own mistake before anything else. This is a big reason people keep trusting him after bad days.",
+      "evidence": [
+        [
+          "2019 Asian Cup final: blamed himself for not removing the team's complacency.",
+          "https://www.soccer-king.jp/news/japan/national/20190204/902335.html"
+        ],
+        [
+          "Schalke 2022: said his own performance was not good enough; he won his place back and the coach publicly asked for a new contract for him by March 2023.",
+          "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/Bundesliga-Schalke-Maya-Yoshida-20230303/blt2161e75a2e5216e4"
+        ],
+        [
+          "In 2024 he still said the Schalke relegation was his responsibility as a captain figure.",
+          "https://sportiva.shueisha.co.jp/clm/football/wfootball/2024/07/09/post_84/"
+        ],
+        [
+          "2015: admitted his back-pass error against Manchester United to reporters straight after.",
+          "https://sportiva.shueisha.co.jp/clm/football/wfootball/2015/09/23/post_852/"
+        ]
+      ]
+    },
+    {
+      "emoji": "⏳",
+      "title": "He waits on the bench without complaining, then takes his chance",
+      "simple": "At Southampton he was back-up for years under several managers. He did not complain in public. He fixed his weak points and was ready when the chance came.",
+      "evidence": [
+        [
+          "Third-choice for long spells, then captain within months in 2017. Teammate Shinji Okazaki credited his patience.",
+          "https://news.livedoor.com/article/detail/12586536/"
+        ],
+        [
+          "Manager Ronald Koeman praised his attitude and said he puts the team before himself (2015).",
+          "https://www.skysports.com/football/news/11700/9629102/southampton-defender-maya-yoshida-signs-a-new-three-year-contract"
+        ],
+        [
+          "A review of his book notes he rarely criticises the managers who dropped him.",
+          "https://wsc.co.uk/?p=8248"
+        ],
+        [
+          "LA Galaxy: said he first had to play well to earn trust; then started every league match of the 2024 title season at age 36.",
+          "https://www.lagalaxy.com/news/la-galaxy-announce-2024-team-awards"
+        ]
+      ]
+    },
+    {
+      "emoji": "😄",
+      "title": "Humour and 'younger-brother power' make him easy to approach",
+      "simple": "He is the youngest of three brothers and grew up in a house full of guests. He learned to get along with older people and to make people laugh. He calls this 'younger-brother power' (弟力).",
+      "evidence": [
+        [
+          "Former J.League chairman Mitsuru Murai says Yoshida names 'younger-brother power' as his greatest strength.",
+          "https://president.jp/articles/-/64502?page=2"
+        ],
+        [
+          "After his first Premier League match as captain he joked that the best part was not stumbling over the team talk.",
+          "https://www.footballchannel.jp/?p=206051"
+        ],
+        [
+          "VVV-Venlo chairman Hai Berden remembers a cheerful, serious and responsible newcomer.",
+          "https://number.bunshun.jp/articles/-/813744"
+        ]
+      ]
+    },
+    {
+      "emoji": "🏘️",
+      "title": "He gives back to the town he lives in",
+      "simple": "He treats each city as home, not as a stop. Local people notice this, and it builds trust outside the dressing room too.",
+      "evidence": [
+        [
+          "Southampton 2019: pledged 1% of his wages to the club's charity, to thank the city and set an example for young players.",
+          "https://www.premierleague.com/news/1312017"
+        ],
+        [
+          "Genoa 2020: bought 10,000 masks for hospitals and club staff after playing only one match there.",
+          "https://www.sampdoria.it/en/news-en-2/team-en-2/2020/05/29/yoshida-donates-10000-protective-masks-to-genoa-hospitals-and-samp-employees/"
+        ],
+        [
+          "Nagasaki: posts every 9 August (atomic bomb anniversary), in Japanese and English.",
+          "https://www.soccerdigestweb.com/news/detail/id=114846"
+        ]
+      ]
+    },
+    {
+      "emoji": "🚪",
+      "title": "He holds the door open for the next players",
+      "simple": "He helps younger players, even the ones competing for his own position, and he guides Japanese players who move abroad after him.",
+      "evidence": [
+        [
+          "Coached young defender Jack Stephens through his early matches; Stephens later named him the ex-teammate he would most want back.",
+          "https://sportsbeatfeed.co.uk/?p=11531"
+        ],
+        [
+          "Takumi Minamino phoned him for advice before joining Southampton on loan (2021).",
+          "https://www.southamptonfc.com/en/news/article/minamino-reveals-yoshidas-influence"
+        ],
+        [
+          "Yukinari Sugawara called him a legend; Yoshida texted him about the move and joked he could live in his house (2024).",
+          "https://www.southamptonfc.com/en/news/article/sugawara-inspired-by-legend-yoshida"
+        ],
+        [
+          "Ran casual English lessons for younger Japan teammates at team meals.",
+          "https://president.jp/articles/-/64502"
+        ]
+      ]
+    },
+    {
+      "emoji": "🧱",
+      "title": "He leads even when he is not playing, and he builds systems",
+      "simple": "Late in his career he showed that leadership is not only wearing the armband. He served the team from outside the squad, and he changed rules for all players through the union.",
+      "evidence": [
+        [
+          "2026 World Cup: gave up a TV job to travel as a non-playing support member, linking players and coaches.",
+          "https://www.lagalaxy.com/news/maya-yoshida-finds-a-new-way-to-lead-through-2026-world-cup-experience"
+        ],
+        [
+          "Coach Hajime Moriyasu thanked him for unifying the players and for constant communication over the years.",
+          "https://www.soccer-king.jp/news/japan/national/20260530/2165095.html"
+        ],
+        [
+          "Union president: J.League minimum salaries and the end of the old A/B/C contract system (decided 2024, from 2026).",
+          "https://daily.co.jp/soccer/2024/09/24/0018156230.shtml"
+        ],
+        [
+          "Created the player-voted JPFA Awards (first ceremony Jan 2023), modelled on England's PFA awards.",
+          "https://www.soccer-king.jp/news/japan/japan_other/20230118/1730848.html"
+        ]
+      ]
+    }
+  ],
+  "honest_view": [
+    "He was not a flawless player. Famous mistakes: the 2015 back-pass against Manchester United, the handball in the 2019 Asian Cup final, and a saved penalty against Croatia in 2022.",
+    "Schalke was a failure on the pitch: the team was relegated and German media criticised him strongly.",
+    "He has only two major trophies (Asian Cup 2011 and MLS Cup 2024). His reputation is built on long service and leadership more than on winning.",
+    "'No other centre-back played in so many countries' is hard to prove. The safe statement: he played in the top division of six countries, which is very rare for any defender. I did not check every other player to prove he is the only one.",
+    "The claim that he was the 'first Japanese captain in the Premier League' is likely true but I could not find a source that proves it as a first."
+  ],
+  "roots": [
+    {
+      "emoji": "🏠",
+      "title": "A house full of people",
+      "text": "His father liked a lively home and later opened a boarding house. Guests were always around, so Maya grew up talking with older people. He connects his easy way with people to this.",
+      "url": "https://www.soccer-king.jp/sk_column/article/84825.html"
+    },
+    {
+      "emoji": "👦",
+      "title": "Youngest of three brothers",
+      "text": "His eldest brother Honami, about seven years older and a goalkeeper, trained him hard and taught him to keep his head up. He practised on the steep slope outside the house.",
+      "url": "https://www.footballchannel.jp/2015/01/23/post67776/2/"
+    },
+    {
+      "emoji": "⚽",
+      "title": "First club: Nanryo FC (南陵FC)",
+      "text": "He began at a local primary-school team in Nagasaki. He was a striker then. He started watching videos of his own matches at home as a child.",
+      "url": "https://www.footballchannel.jp/2015/01/23/post67776/3/"
+    },
+    {
+      "emoji": "🎒",
+      "title": "Left home at 12",
+      "text": "He took the Nagoya Grampus youth trial 'as a souvenir' on a family trip and passed. A brother moved to Aichi to live with him. He was homesick, and seeing how much the move cost his family made him decide he had to become a professional.",
+      "url": "https://president.jp/articles/-/64502"
+    },
+    {
+      "emoji": "📚",
+      "title": "School and study",
+      "text": "He picked a public high school over the club-linked one so he would not get special treatment and could study English. He often studied through the night in exam periods. Later he finished a Waseda University degree by correspondence in 2019.",
+      "url": "https://www.waseda.jp/inst/tokyo/other/2021/07/12/9411/"
+    },
+    {
+      "emoji": "🔁",
+      "title": "From striker to centre-back",
+      "text": "His position moved backward as he grew: striker, then midfielder, then centre-back as a professional. Early mentors included Nagoya's Yutaka Akita, youth coach Park Jae-hyun, and first-team coaches Sef Vergoossen and Dragan Stojković.",
+      "url": "https://www.soccer-king.jp/sk_column/article/84825.html"
+    },
+    {
+      "emoji": "🕊️",
+      "title": "Nagasaki and peace",
+      "text": "He wrote a poem about war in second grade. As an adult he posts every 9 August about the atomic bombing, in two languages, and trains with hometown club V-Varen Nagasaki in the off-season.",
+      "url": "https://www.soccerdigestweb.com/news/detail/id=77512"
+    },
+    {
+      "emoji": "👨‍👦",
+      "title": "A promise to his father",
+      "text": "His father told his sons to dream big and not become 'football fools'. Number magazine reported that the 2024 MLS title fulfilled a promise to his late father.",
+      "url": "https://number.bunshun.jp/premier/articles/18384"
+    }
+  ],
+  "headlines": [
+    {
+      "date": "2015-01-02",
+      "lang": "🇳🇱 Dutch",
+      "source": "VoetbalPrimeur",
+      "original": "Koeman beloont 'belangrijke' oud-VVV'er: 'Goed om dit soort spelers te hebben'",
+      "english": "Koeman rewards 'important' ex-VVV player: 'Good to have this kind of player'",
+      "why": "A top manager valued his attitude even when he was not first choice.",
+      "url": "https://www.voetbalprimeur.nl/nieuws/415410/koeman-beloont-belangrijke-oud-vvv-er-goed-om-dit-soort-spelers-te-hebben-.html"
+    },
+    {
+      "date": "2017-03-22",
+      "lang": "🇯🇵 Japanese",
+      "source": "Sportiva",
+      "original": "高度な英語力と経験値。吉田麻也のキャプテンシーは長谷部に劣らない",
+      "english": "Advanced English and experience: Yoshida's captaincy is no less than Hasebe's",
+      "why": "Shows English ability was seen as a core part of his leadership.",
+      "url": "https://sportiva.shueisha.co.jp/clm/football/wfootball/2017/03/22/___split_20/"
+    },
+    {
+      "date": "2017-03-30",
+      "lang": "🇯🇵 Japanese",
+      "source": "Soccer King",
+      "original": "プレミア、そして代表。二つの舞台で主将を務めた吉田麻也、“重み”の追求は続く",
+      "english": "Premier League and national team: Yoshida, captain on two stages, keeps chasing 'weight'",
+      "why": "The moment he became captain for both club and country.",
+      "url": "https://www.soccer-king.jp/news/japan/national/20170330/569498.html"
+    },
+    {
+      "date": "2018-07-03",
+      "lang": "🇬🇧 English",
+      "source": "FIFA",
+      "original": "Yoshida: Japan must think seriously about the future",
+      "english": "(same)",
+      "why": "He criticised his own team in public right after a painful World Cup loss.",
+      "url": "https://inside.fifa.com/news/yoshida-japan-must-think-seriously-about-the-future"
+    },
+    {
+      "date": "2019-03-08",
+      "lang": "🇬🇧 English",
+      "source": "Reuters",
+      "original": "Southampton's Yoshida relishing 'Playstation' survival battle",
+      "english": "(same)",
+      "why": "He describes his quiet style: he does not 'roar like a lion'.",
+      "url": "https://www.sbs.com.au/news/article/southamptons-yoshida-relishing-playstation-survival-battle/8o14kdlkz"
+    },
+    {
+      "date": "2019-08-15",
+      "lang": "🇬🇧 English",
+      "source": "Premier League",
+      "original": "Yoshida giving back to city of Southampton",
+      "english": "(same)",
+      "why": "The 1% wage pledge: trust built outside the pitch.",
+      "url": "https://www.premierleague.com/news/1312017"
+    },
+    {
+      "date": "2020-03-08",
+      "lang": "🇮🇹 Italian",
+      "source": "Telenord",
+      "original": "Sampdoria, il genovese di Yoshida è virale sul web: \"Cianin, cianin\"",
+      "english": "Sampdoria: Yoshida's Genoese dialect goes viral online",
+      "why": "He won over local fans on day one by using their dialect.",
+      "url": "https://telenord.it/sampdoria-il-genovese-di-yoshida-e-virale-sul-web-cianin-cianin"
+    },
+    {
+      "date": "2020-05-29",
+      "lang": "🇬🇧 English",
+      "source": "Sampdoria (official)",
+      "original": "Yoshida donates 10,000 protective masks to Genoa hospitals and Samp employees",
+      "english": "(same)",
+      "why": "He helped his new city after only one match there.",
+      "url": "https://www.sampdoria.it/en/news-en-2/team-en-2/2020/05/29/yoshida-donates-10000-protective-masks-to-genoa-hospitals-and-samp-employees/"
+    },
+    {
+      "date": "2020-06-26",
+      "lang": "🇮🇹 Italian",
+      "source": "Club Doria 46",
+      "original": "Sampdoria, \"Parlate!\" urla Yoshida: la difesa è muta",
+      "english": "Sampdoria: 'Talk!' shouts Yoshida: the defence is silent",
+      "why": "A new foreign player demanding communication from the whole back line.",
+      "url": "https://www.clubdoria46.it/sampdoria-parlate-urla-yoshida-la-difesa-e-muta/"
+    },
+    {
+      "date": "2021-02",
+      "lang": "🇬🇧 English",
+      "source": "Southampton FC (official)",
+      "original": "Minamino reveals Yoshida's influence",
+      "english": "(same)",
+      "why": "Younger Japanese players call him before big decisions.",
+      "url": "https://www.southamptonfc.com/en/news/article/minamino-reveals-yoshidas-influence"
+    },
+    {
+      "date": "2022-07-27",
+      "lang": "🇩🇪 German",
+      "source": "Watson",
+      "original": "Schalke 04: Maya Yoshida mit deutlichen Worten zu Schalke 04 und Klassenerhalt",
+      "english": "Schalke 04: Maya Yoshida with clear words about Schalke and avoiding relegation",
+      "why": "He spoke bluntly within weeks of arriving in Germany.",
+      "url": "https://www.watson.de/sport/fussball/640887259-schalke-04-maya-yoshida-mit-deutlichen-worten-zu-schalke-04-und-klassenerhalt"
+    },
+    {
+      "date": "2024-12-13",
+      "lang": "🇩🇪 German",
+      "source": "Sport1",
+      "original": "Ein Schalker Absteiger als Held",
+      "english": "A relegated Schalke player becomes a hero",
+      "why": "Germany looks back: he failed there, then won a title as captain in the USA.",
+      "url": "https://sport1.de/news/internationaler-fussball/mls/2024/12/ein-schalker-absteiger-wird-zum-helden"
+    },
+    {
+      "date": "2025-01-18",
+      "lang": "🇬🇧 English",
+      "source": "LA Galaxy (official)",
+      "original": "LA Galaxy Re-Sign Defender Maya Yoshida",
+      "english": "(same)",
+      "why": "The general manager called him the embodiment of a Galaxy player.",
+      "url": "https://www.lagalaxy.com/news/la-galaxy-re-sign-defender-maya-yoshida"
+    },
+    {
+      "date": "2026-05-30",
+      "lang": "🇯🇵 Japanese",
+      "source": "Soccer King",
+      "original": "「賛否あると思うが」森保監督、吉田麻也“10分で交代”の意図説明「監督としての感謝」「他の選手の思いも」",
+      "english": "'Opinions will differ': coach Moriyasu explains why Yoshida will come off after 10 minutes: 'my thanks as a coach'",
+      "why": "A national team coach arranged a special farewell. This is very unusual.",
+      "url": "https://www.soccer-king.jp/news/japan/national/20260530/2165095.html"
+    },
+    {
+      "date": "2026-05-30",
+      "lang": "🇯🇵 Japanese",
+      "source": "Football Zone",
+      "original": "吉田麻也、引退は否定も「一区切り」 森保監督が先発を明言…日本代表は「最高の仕事」",
+      "english": "Yoshida denies retirement but calls it 'a milestone'; Moriyasu confirms he will start",
+      "why": "His own words: not retirement, a milestone.",
+      "url": "https://www.football-zone.net/archives/647532"
+    },
+    {
+      "date": "2026-07-29",
+      "lang": "🇬🇧 English",
+      "source": "LA Galaxy (official)",
+      "original": "Maya Yoshida Finds a New Way to Lead Through 2026 World Cup Experience",
+      "english": "(same)",
+      "why": "Leading without playing: the support role at the World Cup.",
+      "url": "https://www.lagalaxy.com/news/maya-yoshida-finds-a-new-way-to-lead-through-2026-world-cup-experience"
+    },
+    {
+      "date": "2026-11-20",
+      "lang": "🇬🇧 English",
+      "source": "LA Galaxy (official)",
+      "original": "LA Galaxy Announce 2026 Roster Decisions",
+      "english": "(same)",
+      "why": "The official news: out of contract after 117 matches as captain.",
+      "url": "https://www.lagalaxy.com/news/la-galaxy-announce-2026-roster-decisions"
+    },
+    {
+      "date": "2026-11-21",
+      "lang": "🇯🇵 Japanese",
+      "source": "Nikkan Sports",
+      "original": "吉田麻也、契約満了で退団　LAギャラクシー発表　去就は未定　昨夏加入FW古橋亨梧は２季目へ",
+      "english": "Yoshida leaves as contract expires, LA Galaxy announce; future undecided; Kyogo Furuhashi stays for a 2nd season",
+      "why": "The article you sent. It says 'leaving', not 'retiring'.",
+      "url": "https://news.yahoo.co.jp/pickup/6603399"
+    },
+    {
+      "date": "2026-11-21",
+      "lang": "🇯🇵 Japanese",
+      "source": "Nikkan Sports",
+      "original": "吉田麻也の人徳とリーダーシップ　退団する主将にLAギャラクシーGM「プロ選手としても模範」",
+      "english": "Yoshida's character and leadership: Galaxy GM on the departing captain: 'a model as a professional'",
+      "why": "How his last club describes him on the day he leaves.",
+      "url": "https://news.yahoo.co.jp/articles/b1e6ff9cb36ec0ec9a8991818348363f530ce7fe"
+    }
+  ],
+  "personal": [
+    {
+      "date": "2012-09",
+      "event": "Announced his marriage on his blog.",
+      "url": "https://ja.wikipedia.org/wiki/吉田麻也"
+    },
+    {
+      "date": "2016-12",
+      "event": "Announced the birth of his first child, a daughter.",
+      "url": "https://ja.wikipedia.org/wiki/吉田麻也"
+    },
+    {
+      "date": "2018-05",
+      "event": "Book 'Unbeatable Mind' published in English (HarperCollins); Japanese title レジリエンス――負けない力.",
+      "url": "https://www.harpercollins.ca/9780008289331/unbeatable-mind/"
+    },
+    {
+      "date": "2019-03",
+      "event": "UK permanent residency reported; he said the test was the scariest he had taken.",
+      "url": "https://www.soccer-king.jp/news/world/eng/20190310/916202.html"
+    },
+    {
+      "date": "2019-03",
+      "event": "Graduated from Waseda University (correspondence course).",
+      "url": "https://www.waseda.jp/inst/tokyo/other/2021/07/12/9411/"
+    },
+    {
+      "date": "2022-06",
+      "event": "Became president of the Japan Pro-Footballers Association.",
+      "url": "https://en.wikipedia.org/wiki/Maya_Yoshida"
+    },
+    {
+      "date": "2023",
+      "event": "Hosts a radio show on TOKYO FM (吉田麻也のチャレンジ&カバー).",
+      "url": "https://news.audee.jp/news/tiOoUmqCXH.html?showContents=detail"
+    },
+    {
+      "date": "2025",
+      "event": "Announced a second child, a son (exact date not confirmed).",
+      "url": "https://www.footballchannel.jp/?p=805788"
+    },
+    {
+      "date": "2026-07-16",
+      "event": "Received a US green card (permanent residency).",
+      "url": "https://www.soccer-king.jp/news/world/world_other/20260717/2184815.html"
+    },
+    {
+      "date": "2026",
+      "event": "Reported to hold a UEFA B coaching licence and to be working toward the A licence.",
+      "url": "https://www.lagalaxy.com/news/maya-yoshida-finds-a-new-way-to-lead-through-2026-world-cup-experience"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "Said he is still in talks about his future, that passion for a project matters more than money, and that he believes he can still play once his knee heals.",
+      "url": "https://www.football-zone.net/archives/684175"
+    }
+  ],
+  "money": {
+    "intro": "Most footballer salary numbers are guesses by websites. The only official numbers here are from the MLS Players Association (MLSPA), the players' union in the USA, which publishes every player's pay. Each row is labelled OFFICIAL or ESTIMATE.",
+    "salary": [
+      {
+        "period": "2007–2012",
+        "club": "Nagoya Grampus, VVV-Venlo",
+        "figure": "No reliable figure found",
+        "label": "NONE",
+        "note": "",
+        "url": ""
+      },
+      {
+        "period": "2014–2016",
+        "club": "Southampton",
+        "figure": "about $1.46 million per year",
+        "label": "ESTIMATE",
+        "note": "Spotrac (a salary-tracking website)",
+        "url": "https://www.spotrac.com/epl/player/_/id/22942/maya-yoshida"
+      },
+      {
+        "period": "2017–2019",
+        "club": "Southampton",
+        "figure": "about $2.6 million per year",
+        "label": "ESTIMATE",
+        "note": "Spotrac; another site (Salarysport) gives different numbers",
+        "url": "https://www.spotrac.com/epl/player/_/id/22942/maya-yoshida"
+      },
+      {
+        "period": "2021–2022",
+        "club": "Sampdoria",
+        "figure": "about €1 million per year",
+        "label": "ESTIMATE",
+        "note": "Foot Mercato; not clear if before or after tax",
+        "url": "https://www.footmercato.net/joueur/maya-yoshida/salaire"
+      },
+      {
+        "period": "2022–2023",
+        "club": "Schalke 04",
+        "figure": "about €0.9 million",
+        "label": "ESTIMATE",
+        "note": "Foot Mercato",
+        "url": "https://www.footmercato.net/joueur/maya-yoshida/salaire"
+      },
+      {
+        "period": "2023",
+        "club": "LA Galaxy",
+        "figure": "$800,000 base / $893,334 guaranteed (yearly rate; he joined in August so was paid only part)",
+        "label": "OFFICIAL",
+        "note": "MLSPA data, seen through Spotrac",
+        "url": "https://www.spotrac.com/mls/player/_/id/85703/maya-yoshida"
+      },
+      {
+        "period": "2024",
+        "club": "LA Galaxy",
+        "figure": "$800,000 base / $893,334 guaranteed",
+        "label": "OFFICIAL",
+        "note": "MLSPA data via Spotrac; LA Times also reports the $800,000 base",
+        "url": "https://www.aol.com/news/galaxy-captain-maya-yoshida-gets-120020178.html"
+      },
+      {
+        "period": "2025",
+        "club": "LA Galaxy",
+        "figure": "$455,000 base / $526,281 guaranteed (a pay cut)",
+        "label": "OFFICIAL",
+        "note": "MLSPA data via Spotrac and Football Channel",
+        "url": "https://www.footballchannel.jp/2025/10/03/post784557/2/"
+      },
+      {
+        "period": "2026",
+        "club": "LA Galaxy",
+        "figure": "$640,000 base / $715,781 guaranteed",
+        "label": "OFFICIAL",
+        "note": "Read directly from the MLSPA Salary Guide (May 2026 edition)",
+        "url": "https://mlsplayers.org/resources/salary-guide"
+      }
+    ],
+    "salary_chart": [
+      [
+        "2023",
+        893334
+      ],
+      [
+        "2024",
+        893334
+      ],
+      [
+        "2025",
+        526281
+      ],
+      [
+        "2026",
+        715781
+      ]
+    ],
+    "contracts": [
+      {
+        "date": "Dec 2009",
+        "event": "Nagoya → VVV-Venlo, 3-year contract. Fee not published.",
+        "url": "https://en.wikipedia.org/wiki/Maya_Yoshida"
+      },
+      {
+        "date": "30 Aug 2012",
+        "event": "VVV → Southampton, 3-year contract. Fee officially undisclosed; reported around £3 million (ESTIMATE).",
+        "url": "https://sportsmole.co.uk/football/southampton/transfer-talk/news/saints-announce-yoshida-capture_42703.html"
+      },
+      {
+        "date": "2 Jan 2015",
+        "event": "New 3-year Southampton contract.",
+        "url": "https://www.skysports.com/football/news/11700/9629102/southampton-defender-maya-yoshida-signs-a-new-three-year-contract"
+      },
+      {
+        "date": "24 Aug 2017",
+        "event": "New 3-year Southampton contract to 2020.",
+        "url": "https://www.skysports.com/football/news/11065/11003306/maya-yoshida-signs-new-three-year-southampton-contract"
+      },
+      {
+        "date": "31 Jan 2020",
+        "event": "Loan to Sampdoria; then a 1-year deal in summer 2020, reportedly with a pay cut.",
+        "url": "https://en.wikipedia.org/wiki/Maya_Yoshida"
+      },
+      {
+        "date": "18 Jan 2021",
+        "event": "Sampdoria extension to June 2022.",
+        "url": "https://www.sampdoria.it/en/yoshida-extends-contract-till-2022"
+      },
+      {
+        "date": "5 Jul 2022",
+        "event": "Schalke 04, free transfer, 1 year plus an option (the option ended when the club was relegated).",
+        "url": "https://schalke04.de/en/team/maya-yoshida-transfer/"
+      },
+      {
+        "date": "3 Aug 2023",
+        "event": "LA Galaxy, free transfer, contract through 2024.",
+        "url": "https://www.lagalaxy.com/news/la-galaxy-sign-japanese-national-team-defender-maya-yoshida"
+      },
+      {
+        "date": "18 Jan 2025",
+        "event": "LA Galaxy, new 2-year contract through 2026. He told the LA Times the pay cut forced by league salary rules was unfair.",
+        "url": "https://www.lagalaxy.com/news/la-galaxy-re-sign-defender-maya-yoshida"
+      },
+      {
+        "date": "20 Nov 2026",
+        "event": "Contract ended. Free agent.",
+        "url": "https://www.lagalaxy.com/news/la-galaxy-announce-2026-roster-decisions"
+      }
+    ],
+    "endorsements": [
+      {
+        "what": "Mizuno (football boots, brand ambassador)",
+        "when": "since 2007; renewed 2018",
+        "status": "Confirmed",
+        "url": "https://www.soccer-king.jp/news/youthstudent/football-kit/20180828/799353.html"
+      },
+      {
+        "what": "EA Sports FIFA 14 video game: on the Japanese cover",
+        "when": "2013",
+        "status": "Confirmed",
+        "url": "https://www.videogamer.com/news/southamptons-maya-yoshida-to-feature-on-fifa-14s-japanese-cover/"
+      },
+      {
+        "what": "Vera&John free version (ambassador, TV ad, sponsored podcast)",
+        "when": "2021–2022",
+        "status": "Confirmed",
+        "url": "https://www.soccer-king.jp/news/japan/national/20210811/1558316.html"
+      },
+      {
+        "what": "Parmigiani Fleurier (Swiss watch brand partner)",
+        "when": "2026",
+        "status": "Confirmed",
+        "url": "https://www.wwdjapan.com/?p=2412527"
+      },
+      {
+        "what": "DAZN: 'chief captain' of its 2026 World Cup coverage",
+        "when": "2026",
+        "status": "Confirmed (pay not published)",
+        "url": "https://web.gekisaka.jp/news/worldcup/detail/?449895-449895-fl"
+      },
+      {
+        "what": "TV commercials: Volvic (2013), Budweiser Brasil (2014), Asahi Intecc (2018–), Japanet Water (2019)",
+        "when": "2013–2021",
+        "status": "Wikipedia only, not confirmed",
+        "url": "https://ja.wikipedia.org/wiki/吉田麻也"
+      },
+      {
+        "what": "Books: サムライDays、欧州Days; レジリエンス――負けない力 / Unbeatable Mind (2018)",
+        "when": "2012–2018",
+        "status": "Confirmed",
+        "url": "https://www.harpercollins.ca/9780008289331/unbeatable-mind/"
+      },
+      {
+        "what": "Radio show (TOKYO FM) and podcast 'Treasure in Talk'",
+        "when": "2023–2026",
+        "status": "Confirmed",
+        "url": "https://podcasts.apple.com/ca/podcast/id1876106628"
+      }
+    ],
+    "notes": [
+      "No amounts are public for any sponsor deal, book, or media job.",
+      "No reliable report was found of a company he owns, an investment, or a football school.",
+      "No trustworthy source publishes his total career earnings or net worth. Websites that do are guessing.",
+      "'Guaranteed compensation' in MLS means base salary plus guaranteed bonuses, averaged per year. It is not exactly the cash paid in that year.",
+      "The 2023 to 2025 MLS numbers were seen through Spotrac and news reports, not read from the union's own files. The 2026 number was read directly."
+    ]
+  },
+  "unverified": [
+    "Catholic faith and a rosary from the Vatican: found only on English Wikipedia. Not treated as fact here.",
+    "'I feel 25 percent English': the Japanese report of that interview has him joking that he understands about 25% of English. Exact wording unconfirmed.",
+    "Baseball pitcher Tsuyoshi Shimoyanagi as his 'uncle': Japanese Wikipedia describes a more distant relative.",
+    "Who the boarding house is for: one report says high-school students from remote islands; not confirmed directly.",
+    "Meaning of the name 'Maya': three different versions exist; he says his parents tell it differently each time.",
+    "Eredivisie Goal of the Season 2011–12: only English Wikipedia states the award.",
+    "Details of his 2010 foot injury differ between sources (all agree on about 10 months out).",
+    "'First Japanese to captain a Premier League team': likely, but no source proves it as a first.",
+    "2026 match count: Soccer King says 28 (used here); Rotowire says 23 league matches; Wikipedia is out of date.",
+    "LA Galaxy say '722 career appearances'; my season-by-season club total is 580 plus 127 Japan caps. The club may count differently.",
+    "All-time Japan caps rank (3rd): reported by Soccer King; the full list was not checked line by line.",
+    "Whether he is still union president after mid-2026: last confirmed in November 2025.",
+    "GM Will Kuntz's 20 Nov 2026 comments were read through Japanese reports, so wording is a translation.",
+    "Rumours linking him with V-Varen Nagasaki or Nagoya are fan talk and one tabloid report. Nothing official.",
+    "Direct YouTube links were not confirmed; the appendix uses YouTube search links by exact title.",
+    "A YouTube channel exists under his name, but I could not confirm it is official, so it is not linked."
+  ],
+  "videos": {
+    "intro": "I could not confirm direct YouTube links from my tools, so the YouTube rows are SEARCH links: click and the video with that exact title should be at or near the top. The other rows are direct links to official pages.",
+    "items": [
+      {
+        "type": "🎬 Profile",
+        "title": "Who is Maya Yoshida? MLS Champion. Japanese Baller. Sushi Tutor.",
+        "by": "Major League Soccer (YouTube, Aug 2025, 11 min)",
+        "lang": "English",
+        "why": "Best single video to see his personality and humour in English.",
+        "url": "https://www.youtube.com/results?search_query=Who%20is%20Maya%20Yoshida%3F%20MLS%20Champion.%20Japanese%20Baller.%20Sushi%20Tutor.",
+        "link": "YouTube search"
+      },
+      {
+        "type": "🎬 Profile",
+        "title": "Maya Yoshida: LA Galaxy captain & Japanese icon",
+        "by": "MLS (3 min)",
+        "lang": "English",
+        "why": "Short introduction to his role as captain.",
+        "url": "https://www.mlssoccer.com/players/maya-yoshida/video/",
+        "link": "Direct (MLS video page)"
+      },
+      {
+        "type": "⚽ Play",
+        "title": "All his MLS goals and clips",
+        "by": "MLS official player page",
+        "lang": "English",
+        "why": "Watch how he scores from set pieces (corners and free kicks).",
+        "url": "https://www.mlssoccer.com/players/maya-yoshida/video/",
+        "link": "Direct"
+      },
+      {
+        "type": "🎤 Interview",
+        "title": "Maya Yoshida on Life at LA Galaxy, MLS & The One Player He Hated Defending | The Sit",
+        "by": "FOX 11 Los Angeles",
+        "lang": "English",
+        "why": "Relaxed long talk: family life in LA, honest opinions.",
+        "url": "https://www.foxla.com/video/fmc-8eoguvx2jjw46y0l",
+        "link": "Direct"
+      },
+      {
+        "type": "🎤 Interview",
+        "title": "Sampdoria end-of-season interview in Italian (Aug 2020)",
+        "by": "U.C. Sampdoria (official)",
+        "lang": "Italian",
+        "why": "Proof of how fast he learned Italian: six months after arriving.",
+        "url": "https://sampdoria.it/en/news-en-2/team-en-2/2020/08/02/yoshida-delighted-with-serie-a-experience-at-samp",
+        "link": "Direct"
+      },
+      {
+        "type": "📝 Transcript",
+        "title": "LA Galaxy press conference, 28 Feb 2026 (word-for-word text)",
+        "by": "ASAP Sports",
+        "lang": "English",
+        "why": "Read exactly how he speaks as captain, including his answer about pressure.",
+        "url": "https://asaptext.com/asap_media/media/1137/1516/transcripts/164137.pdf",
+        "link": "Direct (PDF)"
+      },
+      {
+        "type": "📝 Transcript",
+        "title": "LA Galaxy press conference, 4 May 2025, after a loss decided by his own goal",
+        "by": "ASAP Sports",
+        "lang": "English",
+        "why": "Shows how he talks after his own mistake.",
+        "url": "https://asaptext.com/asap_media/media/1137/1516/transcripts/155693.pdf",
+        "link": "Direct (PDF)"
+      },
+      {
+        "type": "⚽ Play",
+        "title": "MLS Cup 2024 final highlights: LA Galaxy vs New York Red Bulls",
+        "by": "MLS (YouTube)",
+        "lang": "English",
+        "why": "His only club trophy; he lifts the cup as captain.",
+        "url": "https://www.youtube.com/results?search_query=MLS%20Cup%202024%20LA%20Galaxy%20vs%20New%20York%20Red%20Bulls%20highlights",
+        "link": "YouTube search"
+      },
+      {
+        "type": "⚽ Play",
+        "title": "吉田麻也 日本代表 ラストマッチ アイスランド戦 花道 (31 May 2026)",
+        "by": "search",
+        "lang": "Japanese",
+        "why": "The farewell: guard of honour from both teams.",
+        "url": "https://www.youtube.com/results?search_query=%E5%90%89%E7%94%B0%E9%BA%BB%E4%B9%9F%20%E3%82%A2%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%B3%E3%83%89%E6%88%A6%20%E8%8A%B1%E9%81%93%202026",
+        "link": "YouTube search"
+      },
+      {
+        "type": "⚽ Play",
+        "title": "Southampton years: 2017 League Cup final vs Manchester United",
+        "by": "search",
+        "lang": "English",
+        "why": "His biggest match in England, defending against Zlatan Ibrahimović.",
+        "url": "https://www.youtube.com/results?search_query=Southampton%20Manchester%20United%20EFL%20Cup%20final%202017%20highlights",
+        "link": "YouTube search"
+      },
+      {
+        "type": "🎤 Interview",
+        "title": "吉田麻也 インタビュー キャプテン リーダーシップ",
+        "by": "search",
+        "lang": "Japanese",
+        "why": "Japanese TV and web interviews on leadership.",
+        "url": "https://www.youtube.com/results?search_query=%E5%90%89%E7%94%B0%E9%BA%BB%E4%B9%9F%20%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC%20%E3%82%AD%E3%83%A3%E3%83%97%E3%83%86%E3%83%B3%20%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC%E3%82%B7%E3%83%83%E3%83%97",
+        "link": "YouTube search"
+      },
+      {
+        "type": "📻 Audio",
+        "title": "吉田麻也 Treasure in Talk (podcast)",
+        "by": "JFN Pods",
+        "lang": "Japanese",
+        "why": "Weekly talk show; shows his interests outside football (business, marketing).",
+        "url": "https://podcasts.apple.com/ca/podcast/id1876106628",
+        "link": "Direct"
+      }
+    ]
+  }
+}
