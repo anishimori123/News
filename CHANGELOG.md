@@ -3,10 +3,11 @@
 <!-- SUMMARY:START (this block is rebuilt by tools/build.py; do not edit by hand) -->
 ## At a glance
 
-![Pages on the site after each version](docs/changelog-chart.svg)
+![Pages on the site over time](docs/changelog-chart.svg)
 
 | Version | Date | What changed, in one line | Pages on site | Time spent |
 |---|---|---|---|---|
+| **v0.2.6** | 2026-11-21 | Changelog chart now runs by date, to show progress over months and years. | 6 | about 10 minutes |
 | **v0.2.5** | 2026-11-21 | Chart and summary table added at the top of this changelog. | 6 | about 10 minutes |
 | **v0.2.4** | 2026-11-21 | Left-side chapter menu on every page. | 6 | about 10 minutes |
 | **v0.2.3** | 2026-11-21 | 'In his own words' section from Yoshida's X account. | 6 | about 10 minutes |
@@ -21,6 +22,17 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence), `**Pages on site:**` (a number), `**Time spent:**`, `**What changed**` and `**Why**`. The chart and table above update when `python tools/build.py` runs.
+
+## v0.2.6 — 2026-11-21
+**Summary:** Changelog chart now runs by date, to show progress over months and years.  
+**Pages on site:** 6  
+**Time spent:** about 10 minutes
+
+**What changed**
+- The line chart at the top of this file now has dates along the bottom (months, then years as time passes) instead of version numbers. There is one point for each day that had an update.
+
+**Why**
+- To track how the database grows over the year.
 
 ## v0.2.5 — 2026-11-21
 **Summary:** Chart and summary table added at the top of this changelog.  

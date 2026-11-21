@@ -444,27 +444,57 @@ def update_changelog():
     last = 0
     for e in entries:  # an entry without a page count keeps the previous one
         e["pages"] = last = e["pages"] if e["pages"] is not None else last
-    # line chart (SVG file, so it shows on GitHub in light and dark mode)
-    w, h, left, top, bottom = 760, 250, 46, 34, 44
-    n = max(len(entries), 2)
-    mx = max(5, max(e["pages"] for e in entries) + 1)
-    xs = [left + i * (w - left - 30) / (n - 1) for i in range(len(entries))]
-    ys = [top + (h - top - bottom) * (1 - e["pages"] / mx) for e in entries]
-    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" font-family="sans-serif" role="img" aria-label="Pages on the site after each version">',
-           f'<rect width="{w}" height="{h}" fill="#fcfcfb"/><text x="{left}" y="18" font-size="13" font-weight="700" fill="#0b0b0b">Pages on the site after each version</text>']
+    # line chart by DATE (SVG file, so it shows on GitHub in light and dark mode)
+    from datetime import date, timedelta
+    days = {}  # one point per day: the page count at the end of that day, and the versions released
+    for e in entries:
+        d0 = date.fromisoformat(e["date"])
+        days.setdefault(d0, {"pages": 0, "versions": []})
+        days[d0]["pages"] = e["pages"]
+        days[d0]["versions"].append(e["v"])
+    pts = sorted(days.items())
+    first, last_day = pts[0][0], pts[-1][0]
+    end = max(last_day, first + timedelta(days=90))  # always show at least three months of timeline
+    span = (end - first).days
+    w, h, left, top, bottom = 760, 260, 46, 34, 52
+    mx = max(5, max(v["pages"] for _, v in pts) + 1)
+    X = lambda d0: left + (d0 - first).days / span * (w - left - 40)
+    Y = lambda p: top + (h - top - bottom) * (1 - p / mx)
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" font-family="sans-serif" role="img" aria-label="Pages on the site over time">',
+           f'<rect width="{w}" height="{h}" fill="#fcfcfb"/><text x="{left}" y="18" font-size="13" font-weight="700" fill="#0b0b0b">Pages on the site over time</text>']
     for t in range(0, mx + 1, max(1, mx // 5)):
-        y = top + (h - top - bottom) * (1 - t / mx)
-        out.append(f'<line x1="{left}" x2="{w - 20}" y1="{y:.1f}" y2="{y:.1f}" stroke="#e3e1da"/><text x="{left - 8}" y="{y + 4:.1f}" font-size="10" fill="#52514e" text-anchor="end">{t}</text>')
-    out.append('<polyline fill="none" stroke="#2a78d6" stroke-width="2" points="' + " ".join(f"{x:.1f},{y:.1f}" for x, y in zip(xs, ys)) + '"/>')
-    for e, x, y in zip(entries, xs, ys):
-        out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>{E(e["v"])} ({E(e["date"])}): {e["pages"]} pages</title></circle>'
-                   f'<text x="{x:.1f}" y="{y - 10:.1f}" font-size="11" font-weight="700" fill="#0b0b0b" text-anchor="middle">{e["pages"]}</text>'
-                   f'<text x="{x:.1f}" y="{h - 24}" font-size="10" fill="#52514e" text-anchor="middle">{E(e["v"])}</text>')
-    out.append(f'<text x="{w / 2}" y="{h - 6}" font-size="10" fill="#52514e" text-anchor="middle">Version (oldest on the left)</text></svg>')
+        out.append(f'<line x1="{left}" x2="{w - 20}" y1="{Y(t):.1f}" y2="{Y(t):.1f}" stroke="#e3e1da"/><text x="{left - 8}" y="{Y(t) + 4:.1f}" font-size="10" fill="#52514e" text-anchor="end">{t}</text>')
+    # time ticks: months for up to about two years, then years
+    ticks, cur = [], date(first.year, first.month, 1)
+    step = 1 if span <= 400 else (3 if span <= 800 else 12)
+    while cur <= end:
+        if cur >= first:
+            ticks.append((cur, cur.strftime("%b %Y") if step < 12 else str(cur.year)))
+        m = cur.month - 1 + step
+        cur = date(cur.year + m // 12, m % 12 + 1, 1)
+    for d0, lab in ticks:
+        out.append(f'<line x1="{X(d0):.1f}" x2="{X(d0):.1f}" y1="{h - bottom}" y2="{h - bottom + 5}" stroke="#b9b6ab"/>'
+                   f'<text x="{X(d0):.1f}" y="{h - bottom + 18}" font-size="10" fill="#52514e" text-anchor="middle">{lab}</text>')
+    out.append(f'<line x1="{left}" x2="{w - 20}" y1="{h - bottom}" y2="{h - bottom}" stroke="#b9b6ab"/>')
+    if len(pts) > 1:
+        out.append('<polyline fill="none" stroke="#2a78d6" stroke-width="2" points="' + " ".join(f"{X(d0):.1f},{Y(v['pages']):.1f}" for d0, v in pts) + '"/>')
+    for i, (d0, v) in enumerate(pts):
+        vers = v["versions"][0] if len(v["versions"]) == 1 else f'{v["versions"][0]} to {v["versions"][-1]}'
+        out.append(f'<circle cx="{X(d0):.1f}" cy="{Y(v["pages"]):.1f}" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>{d0.isoformat()}: {v["pages"]} pages ({E(vers)})</title></circle>'
+                   f'<text x="{X(d0):.1f}" y="{Y(v["pages"]) - 10:.1f}" font-size="11" font-weight="700" fill="#0b0b0b" text-anchor="middle">{v["pages"]}</text>')
+        if i in (0, len(pts) - 1):  # name the first and the latest point
+            anchor = "start" if i == 0 else "end"
+            dx = 9 if i == 0 else -9
+            if len(pts) == 1 or i == 0:
+                out.append(f'<text x="{X(d0) + 9:.1f}" y="{Y(v["pages"]) + 4:.1f}" font-size="10" fill="#52514e">{d0.isoformat()} · {E(vers)}</text>' if len(pts) == 1 else
+                           f'<text x="{X(d0) + dx:.1f}" y="{Y(v["pages"]) + 16:.1f}" font-size="10" fill="#52514e" text-anchor="{anchor}">{d0.isoformat()}</text>')
+            else:
+                out.append(f'<text x="{X(d0):.1f}" y="{Y(v["pages"]) + 28:.1f}" font-size="10" fill="#52514e" text-anchor="end">{d0.isoformat()} · {E(v["versions"][-1])}</text>')
+    out.append(f'<text x="{w / 2}" y="{h - 6}" font-size="10" fill="#52514e" text-anchor="middle">Date (one point per day with an update; the number is pages on the site that day)</text></svg>')
     (ROOT / "docs" / "changelog-chart.svg").write_text("".join(out), encoding="utf-8")
     rows = [[("🤖 " if e["auto"] else "") + f'**{e["v"]}**', e["date"], e["summary"], e["pages"], e["time"]] for e in reversed(entries)]
     block = ("<!-- SUMMARY:START (this block is rebuilt by tools/build.py; do not edit by hand) -->\n"
-             "## At a glance\n\n![Pages on the site after each version](docs/changelog-chart.svg)\n\n"
+             "## At a glance\n\n![Pages on the site over time](docs/changelog-chart.svg)\n\n"
              + md_table(["Version", "Date", "What changed, in one line", "Pages on site", "Time spent"], rows)
              + "\n\n🤖 = found by the weekly scheduled check. Full details for each version are below.\n<!-- SUMMARY:END -->")
     text = re.sub(r"<!-- SUMMARY:START.*?<!-- SUMMARY:END -->", lambda m: block, text, flags=re.S)
