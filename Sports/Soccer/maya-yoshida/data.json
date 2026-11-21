@@ -1165,9 +1165,10 @@
     "Direct YouTube links were not confirmed; the appendix uses YouTube search links by exact title.",
     "A YouTube channel exists under his name, but I could not confirm it is official, so it is not linked.",
     "Vera&John: I found no public comment from Yoshida himself, only his office's statement. The office statement was read through reports quoting Daily Shincho.",
-    "Who his agent is today: not confirmed. 'Agent since November 2007' and 'introduced by Honda' come from English Wikipedia.",
-    "The agency name 'Shootribe' for Kiyooka's clients comes from a university lecture note and Japanese Wikipedia links, not from an official page.",
-    "FIFA agent fee limits: introduced in 2023 and challenged in courts; current status not checked."
+    "FIFA agent fee limits: introduced in 2023 and challenged in courts; current status not checked.",
+    "His agent in 2026: a 2021 article lists him with CAA Base; nothing newer was found. 'Introduced by Honda' rests on English Wikipedia and one fan-site article.",
+    "'Shootribe' appears as a management-company link on his Japanese Wikipedia page; what it is and who runs it is not confirmed.",
+    "Whether Kiyooka handled his 2012 move to Southampton is not confirmed."
   ],
   "videos": {
     "intro": "I could not confirm direct YouTube links from my tools, so the YouTube rows are SEARCH links: click and the video with that exact title should be at or near the top. The other rows are direct links to official pages.",
@@ -1604,7 +1605,7 @@
     {
       "emoji": "🤝",
       "title": "Sports agents and Japanese players abroad",
-      "intro": "An agent is the person who finds clubs and negotiates contracts for a player. For a Japanese player, the agent is also the bridge to a football market on the other side of the world. Yoshida says he tells younger players there are two choices they must never get wrong: their wife and their agent.",
+      "intro": "An agent is the person who finds clubs and negotiates contracts for a player. For a Japanese player, the agent is also the bridge to a football market on the other side of the world. Yoshida says he tells younger players there are two choices they must never get wrong: their wife and their agent. For the full picture, see the Agents section of this database (overview, Tetsuro Kiyooka, Thomas Kroth).",
       "parts": [
         {
           "heading": "Yoshida's own path",
@@ -1624,14 +1625,14 @@
             {
               "cells": [
                 "The agent",
-                "Kiyooka became a FIFA-licensed agent in 2006, registered in Japan, England and the Netherlands. Clients included Honda, Yoshida and Eiji Kawashima."
+                "Kiyooka passed the Japan FA agent exam around 2006 and was Honda's agent at his 2008 signing for VVV-Venlo. One article credits him with arranging Yoshida's move there."
               ],
-              "url": "https://ja.wikipedia.org/wiki/清岡哲朗"
+              "url": "https://www.elfvoetbal.nl/binnenland/282802/keisuke-honda-d-sensationale-toptransfer-van-vvv-venlo-psv-had-hem-gratis-kunnen-ophalen"
             },
             {
               "cells": [
                 "The gateway club",
-                "Both Honda and Yoshida went first to VVV-Venlo, a small Dutch club whose chairman, Hai Berden, did business with Japan and welcomed Japanese players. Sef Vergoossen, who coached both at Nagoya, was a Dutch link too."
+                "Both Honda and Yoshida went first to VVV-Venlo, a small Dutch club. The door was opened by its chairman, Hai Berden, who did business with Japan, and by Sef Vergoossen, a Dutch coach who had worked at Nagoya. The agent represented the player at the table."
               ],
               "url": "https://number.bunshun.jp/articles/-/830227"
             },
@@ -1645,23 +1646,23 @@
             {
               "cells": [
                 "Agent and union",
-                "Kiyooka was also chief operating officer of the Japanese players' association from 2009. In December 2010 he negotiated for all national team players with the Japan FA over match fees and image rights, and a boycott was hinted. The association became a labour union in 2011."
+                "Kiyooka was also an executive of the Japanese players' association from about 2009. In December 2010 he was its spokesman in a pay and image-rights fight with the Japan FA, and a boycott was hinted. The association became a labour union in 2011."
               ],
               "url": "https://ja.wikipedia.org/wiki/清岡哲朗"
             },
             {
               "cells": [
-                "The circle closes",
-                "Yoshida became president of that same union in 2022 and in 2025 pushed again for players' image rights. (My observation: his agent helped build the body he now leads.)"
+                "Later",
+                "Yoshida became president of that same union in 2022 and in 2025 pushed again for players' image rights. No source shows Kiyooka and Yoshida working on union matters together."
               ],
               "url": "https://www.soccer-king.jp/news/japan/20251117/2088713.html"
             },
             {
               "cells": [
                 "Today",
-                "Japanese Wikipedia now calls Kiyooka a former agent; he founded a tech company (SpecTip) in Vancouver in 2016. Who represents Yoshida now is not confirmed."
+                "A 2021 Number article lists Yoshida as a client of CAA Base, a London agency that charges Japanese players no fee. Whether that still holds in 2026 is not confirmed. Kiyooka is now described as a former agent."
               ],
-              "url": "https://ja.wikipedia.org/wiki/清岡哲朗"
+              "url": "https://number.bunshun.jp/articles/-/847392"
             }
           ]
         },
@@ -1760,11 +1761,11 @@
               "https://en.wikipedia.org/wiki/Maya_Yoshida"
             ],
             [
-              "Tetsuro Kiyooka: agent who took him to Europe.",
+              "Tetsuro Kiyooka: agent credited with arranging his move to VVV-Venlo.",
               "https://ja.wikipedia.org/wiki/清岡哲朗"
             ],
             [
-              "Hai Berden: VVV chairman who backed Japanese players.",
+              "Hai Berden and Sef Vergoossen: the VVV chairman and the former Nagoya coach who opened the Dutch door for Japanese players.",
               "https://number.bunshun.jp/articles/-/830795"
             ],
             [

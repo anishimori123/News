@@ -288,9 +288,75 @@ def build_md(d, sport):
               md_table(["Type", "Title", "By", "Language", "Why watch", "Link"], [[i["type"], i["title"], i["by"], i["lang"], i["why"], mdl(i["link"], i["url"])] for i in v["items"]]), ""]
     return "\n".join(o) + "\n"
 
+# ---------------------------------------------------------------- generic pages (agents, topics)
+def parts_html(parts):
+    b = []
+    for part in parts:
+        if part.get("heading"):
+            b.append(f'<h3>{E(part["heading"])}</h3>')
+        if part["kind"] == "table":
+            b.append(table(part["headers"], [[E(x) for x in r["cells"][:-1]] + [f'{E(r["cells"][-1])} {link("[source]", r.get("url"))}' if r.get("url") else E(r["cells"][-1])] for r in part["rows"]]))
+        elif part["kind"] == "text":
+            b.append(f'<p>{E(part["text"])}</p>')
+        else:
+            b.append("<ul>" + "".join(f'<li>{E(t)} {link("[source]", u) if u else ""}</li>' for t, u in part["rows"]) + "</ul>")
+    return "".join(b)
+
+
+def parts_md(parts):
+    o = []
+    for part in parts:
+        if part.get("heading"):
+            o += [f'#### {part["heading"]}']
+        if part["kind"] == "table":
+            o += [md_table(part["headers"] + ["Source"], [r["cells"] + [mdl("link", r["url"]) if r.get("url") else ""] for r in part["rows"]]), ""]
+        elif part["kind"] == "text":
+            o += [part["text"], ""]
+        else:
+            o += [f"- {t}" + (f" ({mdl('source', u)})" if u else "") for t, u in part["rows"]] + [""]
+    return o
+
+
+def build_generic_html(d, folder):
+    b = ['<nav class="top"><a href="../index.html">← Home</a><button class="printbtn" onclick="window.print()">🖨️ Print this page</button></nav>']
+    ja = f' <span class="ja">{E(d["name_ja"])}</span>' if d.get("name_ja") else ""
+    b.append(f'<h1>{d.get("emoji", "")} {E(d["name"])}{ja}</h1><p>{E(d["summary"])}</p>')
+    if d.get("status"):
+        b.append(f'<div class="status"><b>📌 Status ({E(d["updated"])}):</b> {E(d["status"])}</div>')
+    if d.get("quick_facts"):
+        b.append(table(["Quick fact", "Detail"], [[f"<b>{E(k)}</b>", E(v)] for k, v in d["quick_facts"]]))
+    for n, sec in enumerate(d["sections"], 1):
+        b.append(f'<h2>{sec["emoji"]} {n}. {E(sec["title"])}</h2>')
+        if sec.get("intro"):
+            b.append(f'<div class="{sec.get("box", "box")}">{E(sec["intro"])}</div>')
+        b.append(parts_html(sec["parts"]))
+    if d.get("unverified"):
+        b.append("<h2>❓ Not verified / sources disagree</h2><ul>" + "".join(f"<li>{E(u)}</li>" for u in d["unverified"]) + "</ul>")
+    b.append(f'<p class="small">Last updated {E(d["updated"])}. Built from <code>{folder}/{d["id"]}/data.json</code> with <code>tools/build.py</code>. Professional role and public sources only.</p>')
+    return page(f'{d["name"]} | {folder}', "".join(b), 1)
+
+
+def build_generic_md(d, folder):
+    ja = f' ({d["name_ja"]})' if d.get("name_ja") else ""
+    o = [f'# {d.get("emoji", "")} {d["name"]}{ja}', "", f'> {d["summary"]}', "", f'**Last updated:** {d["updated"]}  ']
+    if d.get("status"):
+        o += [f'**📌 Status:** {d["status"]}']
+    o += ["", f'🖨️ **Colour web page:** `docs/{folder.lower()}/{d["id"]}.html`', "",
+          "_This file is generated from `data.json` by `tools/build.py`. Edit `data.json`, not this file._", ""]
+    if d.get("quick_facts"):
+        o += ["## Quick facts", md_table(["Item", "Detail"], d["quick_facts"]), ""]
+    for n, sec in enumerate(d["sections"], 1):
+        o += [f'## {sec["emoji"]} {n}. {sec["title"]}']
+        if sec.get("intro"):
+            o += [sec["intro"], ""]
+        o += parts_md(sec["parts"])
+    if d.get("unverified"):
+        o += ["## ❓ Not verified / sources disagree"] + [f"- {u}" for u in d["unverified"]] + [""]
+    return "\n".join(o) + "\n"
+
 
 def main():
-    people = []
+    people, others = [], []
     for data in sorted(ROOT.glob("Sports/*/*/data.json")):
         d = json.loads(data.read_text(encoding="utf-8"))
         sport = data.parent.parent.name
@@ -301,9 +367,25 @@ def main():
         out.write_text(build_html(d, sport), encoding="utf-8")
         people.append((sport, d))
         print("built", out.relative_to(ROOT))
+    # Generic folders: every <Folder>/<id>/data.json becomes docs/<folder>/<id>.html
+    for folder in ("Agents",):
+        for data in sorted(ROOT.glob(f"{folder}/*/data.json")):
+            d = json.loads(data.read_text(encoding="utf-8"))
+            (data.parent / "README.md").write_text(build_generic_md(d, folder), encoding="utf-8")
+            out = ROOT / "docs" / folder.lower() / f'{d["id"]}.html'
+            out.parent.mkdir(parents=True, exist_ok=True)
+            out.write_text(build_generic_html(d, folder), encoding="utf-8")
+            others.append((folder, d))
+            print("built", out.relative_to(ROOT))
     cards = "".join(f'<div class="card"><h3>⚽ <a href="sports/{s.lower()}/{d["id"]}.html">{E(d["name"])} {E(d["name_ja"])}</a></h3>'
                     f'<p>{E(d["summary"])}</p><p class="small">{E(s)} · updated {E(d["updated"])}</p></div>' for s, d in people)
-    (ROOT / "docs" / "index.html").write_text(page("News: people I follow", f"<h1>📚 People I follow</h1><p>My own database of athletes: career, leadership, roots and news.</p><h2>Sports</h2>{cards}", 0), encoding="utf-8")
+    others.sort(key=lambda x: (x[1].get("order", 5), x[1]["name"]))
+    ocards = "".join(f'<div class="card"><h3>{d.get("emoji", "🤝")} <a href="{f.lower()}/{d["id"]}.html">{E(d["name"])} {E(d.get("name_ja", ""))}</a></h3>'
+                     f'<p>{E(d["summary"])}</p><p class="small">{E(f)} · updated {E(d["updated"])}</p></div>' for f, d in others)
+    body = f"<h1>📚 People I follow</h1><p>My own database: athletes, the people around them, and how the sports business works.</p><h2>⚽ Sports</h2>{cards}"
+    if ocards:
+        body += f"<h2>🤝 Agents</h2>{ocards}"
+    (ROOT / "docs" / "index.html").write_text(page("News: people I follow", body, 0), encoding="utf-8")
     (ROOT / "docs" / ".nojekyll").write_text("", encoding="utf-8")
 
 

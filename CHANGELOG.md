@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.2.0 — 2026-11-21
+**Time spent:** about 45 minutes (5 research helpers running in parallel)
+
+**What changed**
+- New `Agents/` folder with three pages:
+  1. An overview: how Japanese players get overseas, who pays agents, gateways, rules and warnings.
+  2. Tetsuro Kiyooka: timeline, a confidence-marked table of clients and transfers, how the Dutch door really opened, and the 2010 national team pay fight.
+  3. Thomas Kroth: timeline, a confidence-marked table of Japanese transfers, his method, the Kagawa deal, who pays him, criticism and defence, and whether he is still the door to Germany.
+- `tools/build.py` now builds any `Agents/<id>/data.json` into a profile and a web page, and the home page has an Agents section.
+- Corrected Maya Yoshida's profile: the Dutch door was opened by VVV's chairman and a former Nagoya coach, not by the agent; his agent as of 2021 was CAA Base; no source shows Kiyooka working with Yoshida on union matters.
+
+**Why**
+- Agents are a key part of the story for Japanese athletes who play overseas, and the research showed that some popular beliefs about them are not supported by sources.
+
 ## v0.1.2 — 2026-11-21
 **Time spent:** about 25 minutes
 

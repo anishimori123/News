@@ -6,6 +6,7 @@ My interest, my news, my curiosity. I dig into the roots and the "why" behind ne
 
 - Home page: `docs/index.html`
 - Maya Yoshida: `docs/sports/soccer/maya-yoshida.html`
+- Agents: `docs/agents/overview.html`, `docs/agents/tetsuro-kiyooka.html`, `docs/agents/thomas-kroth.html`
 
 **To see it on your PC:** download the repo (green **Code** button → **Download ZIP**), unzip it, open the `docs` folder, and double-click `index.html`. It opens in your browser.
 
@@ -26,6 +27,7 @@ My interest, my news, my curiosity. I dig into the roots and the "why" behind ne
 | `Sports/` | One folder per sport, one folder per person |
 | `Sports/Soccer/maya-yoshida/data.json` | The "database" for one person: all facts in one file |
 | `Sports/Soccer/maya-yoshida/README.md` | The profile, readable on GitHub (made automatically) |
+| `Agents/` | Football agents and an explainer on how Japanese players get overseas; one folder and one `data.json` each |
 | `Sports/Soccer/_TEMPLATE.md` | The standard sections every profile should have |
 | `docs/` | The web pages (made automatically) |
 | `tools/build.py` | The small program that turns `data.json` into the README and the web page |
@@ -36,6 +38,14 @@ My interest, my news, my curiosity. I dig into the roots and the "why" behind ne
 | Sport | Person | Profile | Web page |
 |---|---|---|---|
 | ⚽ Soccer | Maya Yoshida 吉田麻也 | [Profile](Sports/Soccer/maya-yoshida/README.md) | `docs/sports/soccer/maya-yoshida.html` |
+
+## 🤝 Agents
+
+| Page | Profile | Web page |
+|---|---|---|
+| 🧭 How Japanese players get overseas | [Profile](Agents/overview/README.md) | `docs/agents/overview.html` |
+| Tetsuro Kiyooka 清岡哲朗 | [Profile](Agents/tetsuro-kiyooka/README.md) | `docs/agents/tetsuro-kiyooka.html` |
+| Thomas Kroth トーマス・クロート | [Profile](Agents/thomas-kroth/README.md) | `docs/agents/thomas-kroth.html` |
 
 ## 📷 Add your own photo
 

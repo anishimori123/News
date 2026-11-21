@@ -1,0 +1,153 @@
+# 🇩🇪 Thomas Kroth (トーマス・クロート)
+
+> Former Bundesliga midfielder who became the German-side agent behind the first big wave of Japanese players in Germany: Takahara, Hasebe, Kagawa, Uchida and others. German media once called it a monopoly.
+
+**Last updated:** 2026-11-21  
+**📌 Status:** Still active at 67 as head of his agency PRO Profil and as goalkeeper Manuel Neuer's agent (May 2026). No Japanese move to Germany from 2024 to 2026 was found credited to him, so 'still the main route for Japanese players' is not supported.
+
+🖨️ **Colour web page:** `docs/agents/thomas-kroth.html`
+
+_This file is generated from `data.json` by `tools/build.py`. Edit `data.json`, not this file._
+
+## Quick facts
+| Item | Detail |
+|---|---|
+| Born | 26 August 1959, Germany |
+| As a player | Midfielder for 1. FC Köln, Eintracht Frankfurt, Hamburger SV and Borussia Dortmund; 1 match for West Germany (1985); German Cup winner 1987 and 1989 |
+| As an agent | Started in 1992 with Pierre Littbarski; founded PRO Profil GmbH in Dortmund in 1995 |
+| First Japanese deal | Naohiro Takahara to Hamburger SV, agreed December 2002 |
+| Most famous deal | Shinji Kagawa to Borussia Dortmund in 2010 for about €350,000 |
+| Famous non-Japanese client | Manuel Neuer (Bayern Munich and Germany goalkeeper) |
+| Industry role | President of the German football agents' association (DFVV), 2015 to 2019 |
+| Size (ESTIMATE) | Forbes put his 2018 commissions at about €16.9 million, 7th among football agents worldwide (seen through secondary reports) |
+
+## 📌 1. In short
+Kroth did not sell Japanese players by flying to Japan with a catalogue. He sold trust. German sporting directors were his old teammates, and they accepted 'Thomas's player' because he only recommended players he was sure about. He usually worked as the German half of a pair, with a Japanese agent keeping the Japan side.
+
+## 🗓️ 2. Timeline
+| When | What happened | Source |
+|---|---|---|
+| 1978–1982 | Plays for 1. FC Köln, where Yasuhiko Okudera, the first Japanese player in the Bundesliga, is a teammate. | [link](https://www.fourfourtwo.com/features/why-asias-best-and-brightest-flock-bundesliga) |
+| 1982–1990 | Eintracht Frankfurt, Hamburger SV (German Cup 1987), Borussia Dortmund (German Cup 1989). Retires in 1990. | [link](https://en.wikipedia.org/wiki/Thomas_Kroth) |
+| 1992 | Becomes an agent, first for German star Pierre Littbarski. He says his Japan link began with Littbarski's move to JEF United Ichihara. | [link](https://number.bunshun.jp/articles/-/72063?page=4) |
+| 1995 | Founds PRO Profil GmbH in Dortmund. | [link](https://proprofil.de/en/about-us/) |
+| 2002 | Starts working with interpreter Daizo Mikado, who has been part of his Japanese deals ever since. | [link](https://number.bunshun.jp/articles/-/837024) |
+| Dec 2002 | First Japanese transfer: Naohiro Takahara, Jubilo Iwata to Hamburger SV. The clubs agree in an Osaka hotel. A Japanese journalist writes that Okudera introduced them. | [link](https://japantimes.co.jp/sports/2002/12/23/soccer/j-league/hamburg-jubilo-reach-deal-on-striker-takahara-transfer) |
+| 2008 | Makoto Hasebe, Urawa to Wolfsburg, with Kroth as German-side agent. Kroth calls it his key deal; Hasebe wins the league in 2009. | [link](https://number.bunshun.jp/premier/articles/17549) |
+| May 2010 | Shinji Kagawa to Dortmund and Atsuto Uchida to Schalke are agreed in the same trip. | [link](https://number.bunshun.jp/articles/-/24160) |
+| Feb 2011 | German site SPOX runs the headline 'Das Monopol des Thomas Kroth' (The monopoly of Thomas Kroth). | [link](http://www.spox.com/de/sport/fussball/bundesliga/1102/Artikel/thomas-kroth-japan-boom-shinji-kagawa-shinji-okazaki-yuto-nagatomo-takashi-usami.html) |
+| June 2012 | Kagawa moves to Manchester United. Kroth had spoken as his agent in the months before. | [link](https://www.spox.com/fussball/news/berater-shinji-passt-in-jede-liga/1126576) |
+| Aug 2014 | Kagawa returns to Dortmund; German paper Bild places Kroth at the club's offices the morning the deal is agreed. | [link](https://www.footballchannel.jp/?p=48361) |
+| 2015–2019 | President of the German agents' association (DFVV). | [link](https://www.kicker.de/berater_kroth_teilweise_werden_spieler_mit_kuendigungen_konfrontiert_-772936/artikel) |
+| By June 2019 | Kagawa has a different agent (Arturo Canales). | [link](https://www.goal.com/jp/ニュース/香川真司西メディアで担当代理人が明らかにグティ氏との親交でリーガの夢を再確認/lvb7mnwrr58u1ham1e2bxi7we) |
+| Mar 2020 | German magazine kicker credits him with guiding about 50 Japanese players to Europe. | [link](https://www.kicker.de/berater_kroth_teilweise_werden_spieler_mit_kuendigungen_konfrontiert_-772936/artikel) |
+| May 2026 | Still Neuer's agent: Bayern's sporting director jokes about his visits during contract talks. | [link](https://www.heidelberg24.de/sport/fussball/bayern-boss-macht-sich-ueber-berater-von-manuel-neuer-lustig-zr-94289286.html) |
+
+## 📋 3. Japanese players and transfers
+A player is listed only when a source names Kroth. 'Confirmed' means a reputable outlet or the German FA's official register names him for that move. 'Reported' means he is named as the player's agent but not for that exact deal. All fees are estimates from media.
+
+| Player | Move | Year | Reported fee | How sure? | Source |
+|---|---|---|---|---|---|
+| Naohiro Takahara | Jubilo Iwata → Hamburger SV | 2003 | Sources disagree: about ¥250 million or about €200,000 | ✅ Confirmed | [link](https://www.fourfourtwo.com/features/why-asias-best-and-brightest-flock-bundesliga) |
+| Junichi Inamoto | → Eintracht Frankfurt | 2007 | Not found | ✅ Confirmed | [link](https://number.bunshun.jp/articles/-/14279) |
+| Shinji Ono | → VfL Bochum | 2008 | Not found | ✅ Confirmed | [link](https://number.bunshun.jp/articles/-/14279) |
+| Makoto Hasebe | Urawa → Wolfsburg | 2008 | Not found | ✅ Confirmed (German-side agent; still his agent in 2024) | [link](https://number.bunshun.jp/premier/articles/17549) |
+| Yoshito Okubo | → Wolfsburg | 2009 | Not found | ✅ Confirmed | [link](https://number.bunshun.jp/articles/-/14279) |
+| Shinji Kagawa | Cerezo Osaka → Borussia Dortmund | 2010 | About €350,000, paid as training compensation | ✅ Confirmed (Kroth was his only agent) | [link](https://www.uefa.com/uefaeuropaleague/news/01e9-0e7591a21363-7f7f6acda123-1000--kagawa-exceeds-dortmund-s-expectations) |
+| Atsuto Uchida | Kashima → Schalke | 2010 | Not found | ✅ Confirmed | [link](https://number.bunshun.jp/articles/-/24160) |
+| Takahito Soma | → German second division | by 2010 | Not found | ✅ Confirmed (Kroth was his only agent) | [link](https://number.bunshun.jp/articles/-/72063) |
+| Takaaki Yano, Tomoaki Makino, Hajime Hosogai, Michihiro Yasuda | → Freiburg, Köln, Leverkusen/Augsburg, Vitesse (Netherlands) | 2010–2011 | Not found | 🟡 Reported (credited by SPOX, 2011) | [link](http://www.spox.com/de/sport/fussball/bundesliga/1102/Artikel/thomas-kroth-japan-boom-shinji-kagawa-shinji-okazaki-yuto-nagatomo-takashi-usami.html) |
+| Shinji Kagawa | Dortmund → Manchester United | 2012 | Sources disagree: about €15 million to €22 million | 🟡 Reported | [link](https://www.spox.com/fussball/news/berater-shinji-passt-in-jede-liga/1126576) |
+| Shinji Kagawa | Manchester United → Dortmund | 2014 | About €8 million plus bonuses | ✅ Confirmed (Bild) | [link](https://www.footballchannel.jp/?p=48361) |
+| Shinji Okazaki, Gotoku Sakai, Hiroshi Kiyotake | → Stuttgart, Stuttgart, Nürnberg | 2011–2012 | Not found | 🟡 Reported (named as players he represented or recommended) | [link](https://note.com/shinyakizaki/n/n08e10e8974dc) |
+| Genki Haraguchi, Takuma Asano | → Hannover 96 | 2018 | Not found | ✅ Confirmed (German FA register) | [link](https://www.dfb.de/fileadmin/_dfbdam/224537-Transaktionsliste_2018-19_Stand_06.07.2020.pdf) |
+| Yosuke Ideguchi | → Greuther Fürth | 2018 | Not found | ✅ Confirmed (German FA register) | [link](https://www.dfb.de/fileadmin/_dfbdam/224537-Transaktionsliste_2018-19_Stand_06.07.2020.pdf) |
+| Hiroki Sakai, Inui, Osako, Muto, Endo, Kamada, Doan, Itakura | — | — | — | ⚪ No source found naming Kroth. Not listed as clients. |  |
+
+#### Non-Japanese clients named in sources
+- Pierre Littbarski: his first client, 1992. ([source](https://number.bunshun.jp/articles/-/72063/?page=2))
+- Manuel Neuer: client since early in his career and still in 2026. ([source](https://www.sport1.de/fussball/bundesliga/2019/07/fc-bayern-manuel-neuer-und-berater-kroth-hintergruende-der-kritik))
+- Sebastian Rode, Patrick Herrmann and others appear with his agency in the German FA's register or in kicker. ([source](https://www.kicker.de/berater_kroth_teilweise_werden_spieler_mit_kuendigungen_konfrontiert_-772936/artikel))
+- Chong Tese, the Japan-born North Korea striker, to the German second division in 2010. ([source](https://number.bunshun.jp/articles/-/72063))
+
+## 🧠 4. His method: why German clubs trusted 'Thomas's player'
+- He is the German half of a pair. In 2010 most Japanese players in Germany also had a Japanese agent. Only Kagawa and Soma had Kroth alone. ([source](https://number.bunshun.jp/articles/-/72063))
+- He sells a filter, not a player. He says he presents a player only when he is sure the player will succeed, so clubs accept his word. ([source](https://number.bunshun.jp/articles/-/72063))
+- He says selling directly from Japan rarely works. German clubs look first at neighbours like Poland and Croatia, then South America. Japan is far away. ([source](https://number.bunshun.jp/articles/-/72063))
+- His network is his old dressing room. He played with men who became sporting directors and coaches (Zorc, Magath, Allofs). Hasebe said his standing is high, partly because he represents Neuer. ([source](https://number.bunshun.jp/articles/-/72063/?page=2))
+- He scouts in person. He watches the J.League two or three times a year, has followed it since the mid-1990s, and insists on meeting players and their Japanese agents face to face. ([source](https://number.bunshun.jp/articles/-/72063/?page=4))
+- He has an age rule. He marks players of about 24 or younger, calls 21–22 ideal, and 28 too late. ([source](https://number.bunshun.jp/articles/-/56686))
+- He uses his German clients as helpers. A German teammate who is also his client looks after the new arrival (Neuer for Uchida at Schalke). ([source](https://note.com/shinyakizaki/n/n08e10e8974dc))
+- He names the hurdles: physique, the German language and food. Kagawa told him food was the hardest. He finds Japanese restaurants and offers support at any hour. ([source](https://number.bunshun.jp/articles/-/72063/?page=4))
+- He wants ten years or more with a player, from youth to life after football. ([source](https://number.bunshun.jp/articles/-/72063/?page=3))
+- He warns against over-selling. In 2012 he said not every Japanese talent suits the Bundesliga and hoped the rush would calm down. ([source](https://www.spox.com/fussball/news/berater-shinji-passt-in-jede-liga/1126576))
+
+#### Why he thinks Japanese players succeed in Germany
+- Passing quality, work for the team and self-care, even on holiday. His phrase: 「日本人の選手はプロフェッショナルなんだよ。」 (Japanese players are professionals). ([source](https://number.bunshun.jp/articles/-/128878))
+- Motivation, strong will and discipline. He says clubs find they adapt faster than South American players. ([source](https://number.bunshun.jp/articles/-/831374))
+- They do not treat Germany as a stepping stone. ([source](https://thenationalnews.com/sport/shinji-kagawa-and-shinji-okazaki-head-up-japan-s-boom-in-bundesliga-1.591541))
+- The weak point he names: pressing in the J.League is softer and slower than in Europe, which surprises new arrivals. ([source](https://number.bunshun.jp/articles/-/14279))
+
+## 💶 5. The Kagawa deal (2010): the bargain that changed the market
+- Dortmund paid about €350,000. UEFA described it as compensation, not a transfer fee. Japanese reports call it training compensation of roughly ¥40–48 million. ([source](https://www.uefa.com/uefaeuropaleague/news/01e9-0e7591a21363-7f7f6acda123-1000--kagawa-exceeds-dortmund-s-expectations))
+- How it started: a scout's tip, an invitation to Germany in December 2009, and a three-year contract agreed in May 2010. ([source](https://www.uefa.com/uefaeuropaleague/news/01e9-0e7591a21363-7f7f6acda123-1000--kagawa-exceeds-dortmund-s-expectations))
+- Coach Jürgen Klopp said they knew he was good but not that he would adjust so quickly. ([source](https://www.uefa.com/uefaeuropaleague/news/01e9-0e7591a21363-7f7f6acda123-1000--kagawa-exceeds-dortmund-s-expectations))
+- Two years later Manchester United paid somewhere between €15 million and €22 million for him. ([source](https://uefa.com/uefachampionsleague/news/01fe-0ea465937049-c6497134431a-1000--united-start-strengthening-with-kagawa))
+- Effect: it became the standard example of Japanese clubs letting talent go for almost nothing, and it made every German club look at Japan. ([source](https://www.si.com/soccer/2011/03/03/japanese-europe))
+- Why only compensation was due (contract end or a clause at Cerezo Osaka) is not confirmed in the sources read.
+
+## 💰 6. Who pays him
+No commission for any specific Kroth deal has been published. What is public is the system he works in.
+
+|  | Japan custom | Germany custom | New model | Source |
+|---|---|---|---|---|
+| Who pays the agent | The player | The club, on the player's behalf | The club; the player pays nothing (CAA Base in Japan) | [link](https://number.bunshun.jp/articles/-/847392) |
+| How much (REPORTED) | 5–10% of salary each year | About 10% of the transfer fee or of a year's salary; some clubs pay less | 0% from the player | [link](https://www.skysportaustria.at/bundesliga-de/spielerberater-kampf-um-macht-und-millionen/) |
+| What is public (OFFICIAL) | No league-wide figure found | The German league publishes totals per club: €297 million paid to agents in 2024/25 | — | [link](https://www.heidelberg24.de/sport/fussball/millionenregen-fuer-berater-fc-bayern-laesst-bvb-und-leipzig-alt-aussehen-zr-94327065.html) |
+
+## ⚠️ 7. Controversies and criticism
+No regulatory problem or dispute with a player was found involving him personally (searched 21 Nov 2026; the search was cut short, so this is not a full clearance). The criticism that exists is about low prices for Japanese clubs.
+
+#### The criticism
+- Unnamed J.League club managers said in 2011 they would stop dealing with him, accusing him of unfair methods to offer their players cheaply in Europe. ([source](http://www.spox.com/de/sport/fussball/bundesliga/1102/Artikel/thomas-kroth-japan-boom-shinji-kagawa-shinji-okazaki-yuto-nagatomo-takashi-usami.html))
+- Kagawa's price: Cerezo Osaka received about ¥40 million for a player later sold for many times more. ([source](https://www.footballchannel.jp/2013/01/29/post1982/3/))
+- Okazaki, January 2011: Shimizu S-Pulse got no fee, alleged a double contract and withheld paperwork until FIFA cleared the move. SPOX says Shimizu was angry at Stuttgart and Kroth; a Japanese report names a different agent, Roberto Tsukuda. ([source](https://football-tribe.com/japan/2025/01/30/323839/))
+- July 2019: he told a newspaper that Bayern Munich's squad was not yet competitive. His client Neuer publicly distanced himself. ([source](https://www.sport1.de/fussball/bundesliga/2019/07/fc-bayern-manuel-neuer-reagiert-auf-aussagen-von-berater-thomas-kroth))
+
+#### The defence
+- The same SPOX article says the cheap exits happened because J.League clubs offered only one- or two-year contracts. When clubs gave longer deals, they were paid. ([source](http://www.spox.com/de/sport/fussball/bundesliga/1102/Artikel/thomas-kroth-japan-boom-shinji-kagawa-shinji-okazaki-yuto-nagatomo-takashi-usami.html))
+- Japan's own rule change in 2009 let out-of-contract players leave for free. That was a players' rights reform, not an agent's trick. ([source](https://www.footballchannel.jp/?p=39685))
+- The J.League chairman now describes low transfer income from abroad as the clubs' own business failing. ([source](https://sportiva.shueisha.co.jp/clm/football/jleague_other/2025/09/14/j_14/))
+- As agents' association president he said clubs should refuse to work with unserious agents. ([source](https://www.skysportaustria.at/bundesliga-de/spielerberater-kampf-um-macht-und-millionen/))
+
+## 🔄 8. Is he still the door to Germany?
+Probably not in the way he was. The 'monopoly' descriptions date from 2010–2011. Today there are several doors.
+
+- No Japanese move to Germany from 2024 to 2026 was found credited to him. 'No longer active in Japan' is not confirmed either.
+- A rival German agency, Sports360, now has its own Japanese agent based in Cologne, with clients such as Yukinari Sugawara and Takefusa Kubo. ([source](https://number.bunshun.jp/articles/-/867889))
+- The London agency CAA Base charges Japanese players nothing and listed Yoshida, Muto and Itakura as clients in 2021. ([source](https://number.bunshun.jp/articles/-/847392))
+- Sint-Truiden in Belgium, Japanese-owned since 2017, became a gateway club (Tomiyasu, Endo, Kamada). ([source](https://sports.yahoo.co.jp/column/detail/2024070500008-spnavi))
+- Of 14 Japanese players in the Bundesliga in 2025/26, only 5 came straight from the J.League; the rest came through Belgium or the German second division. ([source](https://analyticsfc.co.uk/blog/2026/02/08/japan-to-the-bundesliga-are-japanese-players-making-the-jump/))
+- European clubs now scout Japan directly, down to under-15 level. ([source](https://www.hudl.com/blog/japan-pathways-europe-wyscout))
+
+## 💡 9. What we can learn (my analysis)
+- Trust travels through people. Kroth's real asset was that buyers believed him. For a player from far away, the question is 'who will vouch for me?'
+- A foreign market needs a local partner. The Japanese agent knows the player; the German agent knows the buyers. Most deals used both.
+- One proof changes everything. Hasebe's title and Kagawa's first season turned 'will a Japanese player cope?' into 'who is the next one?'
+- The seller's contract decides the price. Kagawa was cheap because of his contract situation, not because Dortmund out-negotiated anyone.
+- Gatekeepers do not last. Once the market understands a country, clubs scout it themselves and new agents arrive. Fifteen years after 'the monopoly', there are many doors.
+- Age matters more than players think. His 24-or-younger rule explains why so many Japanese players now leave early.
+
+## ❓ Not verified / sources disagree
+- A 2015 Nikkei article said to state 'to go to Germany you must go through Kroth' could not be opened. The nearest confirmed wording is SPOX's 'monopoly' headline from 2011.
+- Who first connected Kroth and Takahara: one journalist says Okudera; another source does not say.
+- The agency says it has an office in Japan, but no address or staff name was found. No Japanese partner company is named anywhere.
+- Year founded: the company says 1995; he began agent work in 1992.
+- German Cup wins: English Wikipedia lists 1987 and 1989; German Wikipedia adds 1983, which looks doubtful.
+- 'About 50 Japanese players' (kicker, 2020), 'over 50 transfers' (company site) and 'about two dozen Asian players at one time' (FourFourTwo, 2015) measure different things.
+- Fees for Takahara (2003) and Kagawa (2012) differ between sources.
+- The German FA register rows show his agency as the registered intermediary but not which side he acted for. They were machine-read and should be opened to confirm.
+- His current Japanese clients, and whether he still represents Okazaki, are not confirmed.
+- The Forbes earnings figure is Forbes's own estimate, seen only through secondary reports.
+- The research for this page hit its search limit, so some players marked 'no source found' were not fully searched.
+
