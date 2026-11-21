@@ -9,6 +9,7 @@
 |---|---|---|---|---|---|---|
 | **v0.3.2** | 2026-11-21 |  | Changelog table now highlights versions that add a new person or page with 🆕. | 8 | 26,723 | about 10 minutes |
 | **v0.3.1** | 2026-11-21 |  | Changelog chart now shows the blue pages line and the grey words line together on one graph. | 8 | 26,723 | about 10 minutes |
+| **v0.3.1** | 2026-11-21 |  | Every page now shows a small icon on the browser tab, so the site is easy to spot. | 8 | 26,723 | about 5 minutes |
 | **v0.3.0** | 2026-11-21 | 🆕 **⚾ Hideo Nomo, 🤝 Don Nomura** | New sport and person: Hideo Nomo (baseball), plus a page for his agent Don Nomura; the build tool now works for any sport. | 8 | 26,723 | about 50 minutes (6 research helpers running in parallel) |
 | **v0.2.7** | 2026-11-21 |  | Changelog chart gains a grey line for total words on the site; page and word counts are now filled in automatically. | 6 | 16,701 | about 15 minutes |
 | **v0.2.6** | 2026-11-21 |  | Changelog chart now runs by date, to show progress over months and years. | 6 | 16,701 | about 10 minutes |
@@ -52,6 +53,17 @@ How to add an entry: put it directly below this line, newest first. Start with `
 
 **Why**
 - One graph is easier to read at a glance, and it shows whether the site is growing by adding pages or by making pages deeper.
+
+## v0.3.1 — 2026-11-21
+**Summary:** Every page now shows a small icon on the browser tab, so the site is easy to spot.  
+**Time spent:** about 5 minutes
+
+**What changed**
+- The home page tab shows 📚. Each person's tab shows their sport (⚽ or ⚾). Each agent page shows its own icon.
+- The icon is drawn by the build tool, so there is no extra image file to keep.
+
+**Why**
+- With many tabs open, the News pages were hard to find.
 
 ## v0.3.0 — 2026-11-21
 **Summary:** New sport and person: Hideo Nomo (baseball), plus a page for his agent Don Nomura; the build tool now works for any sport.  

@@ -147,7 +147,14 @@ document.querySelectorAll('main h2[id]').forEach(function(h){io.observe(h);});})
 </script>"""
 
 
-def page(title, body, depth):
+def favicon(icon):
+    """The small picture on the browser tab: an emoji drawn as a tiny image, so no extra file is needed."""
+    from urllib.parse import quote
+    svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">{icon}</text></svg>'
+    return f'<link rel="icon" href="data:image/svg+xml,{quote(svg)}">'
+
+
+def page(title, body, depth, icon="📚"):
     """Wrap a page. Every <h2> becomes a chapter in a jump menu on the left side."""
     import re
     chapters = []
@@ -160,7 +167,7 @@ def page(title, body, depth):
 
     body = re.sub(r"<h2>(.*?)</h2>", add_id, body, flags=re.S)
     head = (f'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            f'<title>{E(title)}</title><style>{CSS}</style></head><body>')
+            f'<title>{E(title)}</title>{favicon(icon)}<style>{CSS}</style></head><body>')
     if len(chapters) < 3:
         return f'{head}<main>{body}</main></body></html>'
     items = "".join(f'<li><a href="#{cid}">{label}</a></li>' for cid, label in chapters)
@@ -289,7 +296,7 @@ def build_html(d, sport):
         b.append(table(["Type", "Title", "Language", "Why watch", "Link"],
                        [[E(i["type"]), f'{E(i["title"])}<br><span class="small">{E(i["by"])}</span>', E(i["lang"]), E(i["why"]), link(i["link"], i["url"])] for i in v["items"]]))
     b.append(f'<p class="small">Last updated {E(d["updated"])}. Built from <code>Sports/{sport}/{d["id"]}/data.json</code> with <code>tools/build.py</code>. Every claim links to its source; salary estimates are labelled.</p>')
-    return page(f'{d["name"]} | {sport}', "".join(b), 2)
+    return page(f'{d["name"]} | {sport}', "".join(b), 2, d.get("emoji", "⚽"))
 
 
 # ---------------------------------------------------------------- Markdown profile
@@ -418,7 +425,7 @@ def build_generic_html(d, folder):
     if d.get("unverified"):
         b.append("<h2>❓ Not verified / sources disagree</h2><ul>" + "".join(f"<li>{E(u)}</li>" for u in d["unverified"]) + "</ul>")
     b.append(f'<p class="small">Last updated {E(d["updated"])}. Built from <code>{folder}/{d["id"]}/data.json</code> with <code>tools/build.py</code>. Professional role and public sources only.</p>')
-    return page(f'{d["name"]} | {folder}', "".join(b), 1)
+    return page(f'{d["name"]} | {folder}', "".join(b), 1, d.get("emoji") or "🤝")
 
 
 def build_generic_md(d, folder):
