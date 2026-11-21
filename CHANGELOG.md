@@ -3,29 +3,45 @@
 <!-- SUMMARY:START (this block is rebuilt by tools/build.py; do not edit by hand) -->
 ## At a glance
 
-![Pages on the site over time](docs/changelog-chart.svg)
+![Pages and total words on the site over time](docs/changelog-chart.svg)
 
-| Version | Date | What changed, in one line | Pages on site | Time spent |
-|---|---|---|---|---|
-| **v0.2.6** | 2026-11-21 | Changelog chart now runs by date, to show progress over months and years. | 6 | about 10 minutes |
-| **v0.2.5** | 2026-11-21 | Chart and summary table added at the top of this changelog. | 6 | about 10 minutes |
-| **v0.2.4** | 2026-11-21 | Left-side chapter menu on every page. | 6 | about 10 minutes |
-| **v0.2.3** | 2026-11-21 | 'In his own words' section from Yoshida's X account. | 6 | about 10 minutes |
-| **v0.2.2** | 2026-11-21 | 'What fans are saying' section from Yahoo! News Japan comments. | 6 | about 10 minutes |
-| **v0.2.1** | 2026-11-21 | Agents overview gets the story, trends and 2026 outlook; new pages for Hai Berden and Kees Ploegsma Jr. | 6 | about 20 minutes |
-| **v0.2.0** | 2026-11-21 | New Agents folder: overview, Tetsuro Kiyooka and Thomas Kroth; Yoshida's agent details corrected. | 4 | about 45 minutes (5 research helpers running in parallel) |
-| **v0.1.2** | 2026-11-21 | Three deep dives for Yoshida: the Vera&John ad deal, being a target, sports agents. | 1 | about 25 minutes |
-| **v0.1.1** | 2026-11-21 | Controversies and criticism section added to Yoshida and to the template. | 1 | about 10 minutes |
-| **v0.1.0** | 2026-11-21 | First person added: Maya Yoshida profile, printable web page, build tool and template. | 1 | about 1 hour (one Claude session, with 5 research helpers running in parallel) |
+| Version | Date | What changed, in one line | Pages on site | Words on site | Time spent |
+|---|---|---|---|---|---|
+| **v0.2.7** | 2026-11-21 | Changelog chart gains a grey line for total words on the site; page and word counts are now filled in automatically. | 6 | 16,701 | about 15 minutes |
+| **v0.2.6** | 2026-11-21 | Changelog chart now runs by date, to show progress over months and years. | 6 | 16,701 | about 10 minutes |
+| **v0.2.5** | 2026-11-21 | Chart and summary table added at the top of this changelog. | 6 | 16,701 | about 10 minutes |
+| **v0.2.4** | 2026-11-21 | Left-side chapter menu on every page. | 6 | 16,701 | about 10 minutes |
+| **v0.2.3** | 2026-11-21 | 'In his own words' section from Yoshida's X account. | 6 | 16,701 | about 10 minutes |
+| **v0.2.2** | 2026-11-21 | 'What fans are saying' section from Yahoo! News Japan comments. | 6 | 16,519 | about 10 minutes |
+| **v0.2.1** | 2026-11-21 | Agents overview gets the story, trends and 2026 outlook; new pages for Hai Berden and Kees Ploegsma Jr. | 6 | 16,079 | about 20 minutes |
+| **v0.2.0** | 2026-11-21 | New Agents folder: overview, Tetsuro Kiyooka and Thomas Kroth; Yoshida's agent details corrected. | 4 | 13,216 | about 45 minutes (5 research helpers running in parallel) |
+| **v0.1.2** | 2026-11-21 | Three deep dives for Yoshida: the Vera&John ad deal, being a target, sports agents. | 1 | 7,170 | about 25 minutes |
+| **v0.1.1** | 2026-11-21 | Controversies and criticism section added to Yoshida and to the template. | 1 | 5,100 | about 10 minutes |
+| **v0.1.0** | 2026-11-21 | First person added: Maya Yoshida profile, printable web page, build tool and template. | 1 | 4,618 | about 1 hour (one Claude session, with 5 research helpers running in parallel) |
 
-🤖 = found by the weekly scheduled check. Full details for each version are below.
+🤖 = found by the weekly scheduled check. Words are counted in the profile text, without link addresses. Full details for each version are below.
 <!-- SUMMARY:END -->
 
-How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence), `**Pages on site:**` (a number), `**Time spent:**`, `**What changed**` and `**Why**`. The chart and table above update when `python tools/build.py` runs.
+How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.2.7 — 2026-11-21
+**Summary:** Changelog chart gains a grey line for total words on the site; page and word counts are now filled in automatically.  
+**Pages on site:** 6  
+**Words on site:** 16701  
+**Time spent:** about 15 minutes
+
+**What changed**
+- The chart at the top now has two panels that share the same dates: pages on the site (blue) and total words on the site (grey).
+- The table has a new "Words on site" column.
+- Word counts for earlier versions were measured from the saved history of this repo. From now on the build tool counts pages and words for the newest entry by itself.
+
+**Why**
+- Page count stays flat when an existing page gets deeper. Word count shows that growth.
 
 ## v0.2.6 — 2026-11-21
 **Summary:** Changelog chart now runs by date, to show progress over months and years.  
 **Pages on site:** 6  
+**Words on site:** 16701  
 **Time spent:** about 10 minutes
 
 **What changed**
@@ -37,6 +53,7 @@ How to add an entry: put it directly below this line, newest first. Start with `
 ## v0.2.5 — 2026-11-21
 **Summary:** Chart and summary table added at the top of this changelog.  
 **Pages on site:** 6  
+**Words on site:** 16701  
 **Time spent:** about 10 minutes
 
 **What changed**
@@ -49,6 +66,7 @@ How to add an entry: put it directly below this line, newest first. Start with `
 ## v0.2.4 — 2026-11-21
 **Summary:** Left-side chapter menu on every page.  
 **Pages on site:** 6  
+**Words on site:** 16701  
 **Time spent:** about 10 minutes
 
 **What changed**
@@ -62,6 +80,7 @@ How to add an entry: put it directly below this line, newest first. Start with `
 ## v0.2.3 — 2026-11-21
 **Summary:** 'In his own words' section from Yoshida's X account.  
 **Pages on site:** 6  
+**Words on site:** 16701  
 **Time spent:** about 10 minutes
 
 **What changed**
@@ -74,6 +93,7 @@ How to add an entry: put it directly below this line, newest first. Start with `
 ## v0.2.2 — 2026-11-21
 **Summary:** 'What fans are saying' section from Yahoo! News Japan comments.  
 **Pages on site:** 6  
+**Words on site:** 16519  
 **Time spent:** about 10 minutes
 
 **What changed**
@@ -87,6 +107,7 @@ How to add an entry: put it directly below this line, newest first. Start with `
 ## v0.2.1 — 2026-11-21
 **Summary:** Agents overview gets the story, trends and 2026 outlook; new pages for Hai Berden and Kees Ploegsma Jr.  
 **Pages on site:** 6  
+**Words on site:** 16079  
 **Time spent:** about 20 minutes
 
 **What changed**
@@ -100,6 +121,7 @@ How to add an entry: put it directly below this line, newest first. Start with `
 ## v0.2.0 — 2026-11-21
 **Summary:** New Agents folder: overview, Tetsuro Kiyooka and Thomas Kroth; Yoshida's agent details corrected.  
 **Pages on site:** 4  
+**Words on site:** 13216  
 **Time spent:** about 45 minutes (5 research helpers running in parallel)
 
 **What changed**
@@ -116,6 +138,7 @@ How to add an entry: put it directly below this line, newest first. Start with `
 ## v0.1.2 — 2026-11-21
 **Summary:** Three deep dives for Yoshida: the Vera&John ad deal, being a target, sports agents.  
 **Pages on site:** 1  
+**Words on site:** 7170  
 **Time spent:** about 25 minutes
 
 **What changed**
@@ -132,6 +155,7 @@ How to add an entry: put it directly below this line, newest first. Start with `
 ## v0.1.1 — 2026-11-21
 **Summary:** Controversies and criticism section added to Yoshida and to the template.  
 **Pages on site:** 1  
+**Words on site:** 5100  
 **Time spent:** about 10 minutes
 
 **What changed**
@@ -146,6 +170,7 @@ How to add an entry: put it directly below this line, newest first. Start with `
 ## v0.1.0 — 2026-11-21
 **Summary:** First person added: Maya Yoshida profile, printable web page, build tool and template.  
 **Pages on site:** 1  
+**Words on site:** 4618  
 **Time spent:** about 1 hour (one Claude session, with 5 research helpers running in parallel)
 
 **What changed**
