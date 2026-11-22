@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.8** | 2026-11-21 |  | Every web page now asks search engines not to list it (noindex), so the site is found by link only. | 10 | 43,039 | about 5 minutes |
 | **v0.4.7** | 2026-11-21 |  | README now has a "Who visits" line with links to the GoatCounter dashboard and the repo traffic page. | 10 | 43,039 | about 5 minutes |
 | **v0.4.6** | 2026-11-21 |  | Website visitor counter switched on (GoatCounter) on every page. | 10 | 43,039 | about 5 minutes |
 | **v0.4.5** | 2026-11-21 |  | Visit tracking prepared: a daily job that saves the repo's traffic numbers, and an optional visitor counter for the website (off until a code name is added). | 10 | 43,039 | about 15 minutes |
@@ -45,6 +46,18 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.8 — 2026-11-21
+**Summary:** Every web page now asks search engines not to list it (noindex), so the site is found by link only.  
+**Pages on site:** 10  
+**Words on site:** 43039  
+**Time spent:** about 5 minutes
+
+**What changed**
+- `tools/site_config.json` has a new switch `"show_in_search": false`. `tools/build.py` then adds a "noindex" line to every page. Change it to `true` and rebuild to be listed in search again.
+
+**Why**
+- The owner wants the site to stay quiet for now; being found by search can be switched on later.
 
 ## v0.4.7 — 2026-11-21
 **Summary:** README now has a "Who visits" line with links to the GoatCounter dashboard and the repo traffic page.  

@@ -25,6 +25,14 @@ def analytics_tag():
     if not re.fullmatch(r"[a-z0-9-]{1,60}", code):
         return ""
     return f'<script data-goatcounter="https://{code}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>'
+
+
+def search_tag():
+    """Search engines. In tools/site_config.json, "show_in_search": false adds a 'noindex' line to every page,
+    which asks Google, Bing and others not to list it. true (or missing) = pages may be listed."""
+    cfg = ROOT / "tools" / "site_config.json"
+    show = json.loads(cfg.read_text(encoding="utf-8")).get("show_in_search", True) if cfg.exists() else True
+    return "" if show else '<meta name="robots" content="noindex">'
 # Chart colours: one fixed colour per club, in career order (colour-blind-safe set).
 SERIES = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#6250d6", "#e34948"]
 E = html.escape
@@ -178,7 +186,7 @@ def page(title, body, depth, icon="📚"):
 
     body = re.sub(r"<h2>(.*?)</h2>", add_id, body, flags=re.S)
     head = (f'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            f'<title>{E(title)}</title>{favicon(icon)}<style>{CSS}</style>{analytics_tag()}</head><body>')
+            f'<title>{E(title)}</title>{favicon(icon)}<style>{CSS}</style>{search_tag()}{analytics_tag()}</head><body>')
     if len(chapters) < 3:
         return f'{head}<main>{body}</main></body></html>'
     items = "".join(f'<li><a href="#{cid}">{label}</a></li>' for cid, label in chapters)
