@@ -119,11 +119,11 @@ _Matches in all competitions (league, cups, continental). Source: English Wikipe
 | 2009 | 21 | 🇯🇵 | Best season in Japan: 48 matches, 8 goals. Signs for VVV-Venlo in December. |
 | 2010 | 21 | 🇳🇱 | Senior Japan debut (6 Jan). Breaks a foot bone days after arriving in the Netherlands and misses about 10 months. Dutch league debut on 30 Oct. |
 | 2011 | 22 | 🇳🇱 | Wins the AFC Asian Cup with Japan (first Japan goal, also a red card in the quarter-final). Scores against PSV in September. |
-| 2012 | 23 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | Captains Japan to 4th place at the London Olympics. Joins Southampton (Premier League) for about £3 million on 30 Aug. Announces his marriage. |
+| 2012 | 23 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | Captains Japan to 4th place at the London Olympics. Joins Southampton (Premier League) for about £3 million on 30 Aug. 💍 Announces his marriage on his blog on 26 Sep (age 24), to a woman he had dated since his Nagoya days. She is not a public figure. |
 | 2013 | 24 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | First full Premier League season: 34 matches. Criticised in Japan after the Confederations Cup. |
 | 2014 | 25 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | First World Cup (Brazil): starts all 3 matches. At Southampton he is back-up behind Lovren and Fonte. |
 | 2015 | 26 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | New 3-year Southampton contract (Jan). A back-pass mistake against Manchester United (Sept) sends him back to the bench. |
-| 2016 | 28 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | Still third-choice at Southampton; uses cup games to stay ready. First child (a daughter) born. |
+| 2016 | 28 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | Still third-choice at Southampton; uses cup games to stay ready. 👶 First child, a daughter, born at the end of November; he announces it on 16 Dec (age 28). |
 | 2017 | 28 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | Breakthrough year: captains Southampton for the first time (18 Jan), plays the League Cup final at Wembley (26 Feb), first match as Japan captain (23 Mar), first Japanese player to reach 100 Premier League matches (29 Apr), new contract to 2020. |
 | 2018 | 29 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | World Cup in Russia: plays every minute; Japan lose 3–2 to Belgium after leading 2–0. Becomes permanent Japan captain after Makoto Hasebe. Publishes his book 'Unbeatable Mind'. |
 | 2019 | 30 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | Asian Cup runner-up as captain (his handball gives away a penalty in the final). Gets UK permanent residency. Graduates from Waseda. Pledges 1% of his wages to the Saints Foundation charity. 100th cap for Japan (14 Nov). |
@@ -132,7 +132,7 @@ _Matches in all competitions (league, cups, continental). Source: English Wikipe
 | 2022 | 34 | 🇩🇪 | Becomes president of the players' union (20 June). Joins Schalke 04 (5 July). Captains Japan at the Qatar World Cup: wins over Germany and Spain; loses to Croatia on penalties (his kick is saved). |
 | 2023 | 34 | 🇺🇸 | Schalke are relegated (dropped to the second division). Joins LA Galaxy on 3 Aug. Left out of the Japan squad as a new generation takes over. |
 | 2024 | 36 | 🇺🇸 | Captain of LA Galaxy. Starts every league match. Wins the MLS Cup (7 Dec), his first club trophy. Club Defender of the Year. |
-| 2025 | 37 | 🇺🇸 | Signs a new 2-year deal (18 Jan) with a pay cut. Galaxy have a very bad season (14th in the West). |
+| 2025 | 37 | 🇺🇸 | Signs a new 2-year deal (18 Jan) with a pay cut. Galaxy have a very bad season (14th in the West). 👶 Announces his second child, a son, on 12 Nov (age 37). |
 | 2026 | 38 | 🇺🇸 | Farewell match for Japan (31 May, 127th cap). Travels to the World Cup as a non-playing support member. Gets a US green card (16 July). Loses his starting place from September; knee injury. Contract ends 20 Nov; future undecided. |
 
 ### Season by season (all competitions)
@@ -214,14 +214,15 @@ _Matches in all competitions (league, cups, continental). Source: English Wikipe
 ### Personal events
 | Date | Event | Source |
 |---|---|---|
-| 2012-09 | Announced his marriage on his blog. | [link](https://ja.wikipedia.org/wiki/吉田麻也) |
-| 2016-12 | Announced the birth of his first child, a daughter. | [link](https://ja.wikipedia.org/wiki/吉田麻也) |
+| 2012-09-26 | Announced his marriage on his blog. His wife is a private person he had dated since his Nagoya Grampus days; her name is not public. | [link](https://web.archive.org/web/20120929011512/http://ameblo.jp/mayayoshida/entry-11364961213.html) |
+| 2016-12-16 | Announced on his blog that his first child, a daughter, was born at the end of November 2016 (exact day not public). | [link](https://web.archive.org/web/20161217160133/http://lineblog.me/mayayoshida/archives/13100231.html) |
+| 2017-01-07 | Scored his first goal as a father (FA Cup, against Norwich) and celebrated with a baby's-dummy gesture for his daughter. | [link](https://web.gekisaka.jp/news/detail/?207408-207408-fl) |
 | 2018-05 | Book 'Unbeatable Mind' published in English (HarperCollins); Japanese title レジリエンス――負けない力. | [link](https://www.harpercollins.ca/9780008289331/unbeatable-mind/) |
 | 2019-03 | UK permanent residency reported; he said the test was the scariest he had taken. | [link](https://www.soccer-king.jp/news/world/eng/20190310/916202.html) |
 | 2019-03 | Graduated from Waseda University (correspondence course). | [link](https://www.waseda.jp/inst/tokyo/other/2021/07/12/9411/) |
 | 2022-06 | Became president of the Japan Pro-Footballers Association. | [link](https://en.wikipedia.org/wiki/Maya_Yoshida) |
 | 2023 | Hosts a radio show on TOKYO FM (吉田麻也のチャレンジ&カバー). | [link](https://news.audee.jp/news/tiOoUmqCXH.html?showContents=detail) |
-| 2025 | Announced a second child, a son (exact date not confirmed). | [link](https://www.footballchannel.jp/?p=805788) |
+| 2025-11-12 | Announced on Instagram that his second child, a son, had been born. He wrote that the last three months had been very busy, so the birth was probably around August 2025 (my reading; exact date not public). | [link](https://www.soccer-king.jp/news/world/world_other/20251112/2087176.html) |
 | 2026-07-16 | Received a US green card (permanent residency). | [link](https://www.soccer-king.jp/news/world/world_other/20260717/2184815.html) |
 | 2026 | Reported to hold a UEFA B coaching licence and to be working toward the A licence. | [link](https://www.lagalaxy.com/news/maya-yoshida-finds-a-new-way-to-lead-through-2026-world-cup-experience) |
 | 2026-11-10 | Said he is still in talks about his future, that passion for a project matters more than money, and that he believes he can still play once his knee heals. | [link](https://www.football-zone.net/archives/684175) |

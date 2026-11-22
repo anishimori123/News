@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.3.7** | 2026-11-21 |  | Maya Yoshida's timeline now shows when he married and when his two children were born. | 8 | 29,463 | about 10 minutes |
 | **v0.3.6** | 2026-11-21 |  | New deep dive on Maya Yoshida's page: who owns LA Galaxy, how the club grew, why he could join in 2023, and how MLS brings in players from overseas. | 8 | 29,331 | about 20 minutes |
 | **v0.3.5** | 2026-11-21 |  | Hideo Nomo's money section now explains why his pay changed, year by year; the rule is added to the template for everyone. | 8 | 28,079 | about 15 minutes |
 | **v0.3.4** | 2026-11-21 |  | Maya Yoshida's money section now explains why his pay changed, year by year, including the 43% cut after winning the 2024 title. | 8 | 27,325 | about 15 minutes |
@@ -31,6 +32,19 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.3.7 — 2026-11-21
+**Summary:** Maya Yoshida's timeline now shows when he married and when his two children were born.  
+**Pages on site:** 8  
+**Words on site:** 29463  
+**Time spent:** about 10 minutes
+
+**What changed**
+- Chapter 3 (timeline): marriage announced 26 Sep 2012; daughter born late Nov 2016 (announced 16 Dec 2016); son announced 12 Nov 2025.
+- "Personal milestones" list: exact dates and better sources (his own archived blog posts, Soccer King), plus his first goal as a father (7 Jan 2017).
+
+**Why**
+- To see how family events line up with career events. His wife and children are private people, so no names are listed.
 
 ## v0.3.6 — 2026-11-21
 **Summary:** New deep dive on Maya Yoshida's page: who owns LA Galaxy, how the club grew, why he could join in 2023, and how MLS brings in players from overseas.  
