@@ -270,6 +270,12 @@ def build_html(d, sport):
         b.append(chart_hbars(m["salary_chart"], "US dollars", fmt=lambda v: f"${v:,.0f}"))
         b.append(table(["Period", "Club", "Reported pay", "How sure?", "Where from"],
                        [[E(s["period"]), E(s["club"]), E(s["figure"]), f'<span class="tag {s["label"]}">{s["label"]}</span>', link(s["note"] or "–", s["url"])] for s in m["salary"]]))
+        if m.get("changes"):
+            b.append('<h3>Why his pay changed, year by year</h3>')
+            if m.get("changes_intro"):
+                b.append(f'<div class="status">{E(m["changes_intro"])}</div>')
+            b.append(table(["Years", "What changed", "Why", "How sure?"],
+                           [[f'<b>{E(c["period"])}</b>', E(c["change"]), f'{E(c["why"])} {link("[source]", c["url"])}', E(c["label"])] for c in m["changes"]]))
         b.append("<h3>Contracts and transfers</h3>")
         b.append(table(["Date", "Event"], [[E(c["date"]), f'{E(c["event"])} {link("[source]", c["url"])}'] for c in m["contracts"]]))
         b.append("<h3>Sponsors, advertising and other public income</h3>")
@@ -359,6 +365,8 @@ def build_md(d, sport):
     if m:
         o += ["## 💰 9. Money: contracts, salary, sponsors", m["intro"], "",
               md_table(["Period", "Club", "Reported pay", "How sure?", "Where from"], [[s["period"], s["club"], s["figure"], f'**{s["label"]}**', mdl(s["note"] or "–", s["url"])] for s in m["salary"]]), "",
+              *(["### Why his pay changed, year by year", m.get("changes_intro", ""), "",
+                 md_table(["Years", "What changed", "Why", "How sure?", "Source"], [[c["period"], c["change"], c["why"], c["label"], mdl("link", c["url"])] for c in m["changes"]]), ""] if m.get("changes") else []),
               "### Contracts and transfers", md_table(["Date", "Event", "Source"], [[c["date"], c["event"], mdl("link", c["url"])] for c in m["contracts"]]), "",
               "### Sponsors, advertising and other public income", md_table(["What", "When", "Status", "Source"], [[e["what"], e["when"], e["status"], mdl("link", e["url"])] for e in m["endorsements"]]), ""]
         o += [f"- {n}" for n in m["notes"]] + [""]

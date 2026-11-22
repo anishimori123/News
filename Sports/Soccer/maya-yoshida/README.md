@@ -349,8 +349,23 @@ Most footballer salary numbers are guesses by websites. The only official number
 | 2022–2023 | Schalke 04 | about €0.9 million | **ESTIMATE** | [Foot Mercato](https://www.footmercato.net/joueur/maya-yoshida/salaire) |
 | 2023 | LA Galaxy | $800,000 base / $893,334 guaranteed (yearly rate; he joined in August so was paid only part) | **OFFICIAL** | [MLSPA data, seen through Spotrac](https://www.spotrac.com/mls/player/_/id/85703/maya-yoshida) |
 | 2024 | LA Galaxy | $800,000 base / $893,334 guaranteed | **OFFICIAL** | [MLSPA data via Spotrac; LA Times also reports the $800,000 base](https://www.aol.com/news/galaxy-captain-maya-yoshida-gets-120020178.html) |
-| 2025 | LA Galaxy | $455,000 base / $526,281 guaranteed (a pay cut) | **OFFICIAL** | [MLSPA data via Spotrac and Football Channel](https://www.footballchannel.jp/2025/10/03/post784557/2/) |
+| 2025 | LA Galaxy | $455,000 base / $526,281 guaranteed (a 43% cut in base pay; see 'Why his pay changed') | **OFFICIAL** | [MLSPA data via Spotrac and Football Channel](https://www.footballchannel.jp/2025/10/03/post784557/2/) |
 | 2026 | LA Galaxy | $640,000 base / $715,781 guaranteed | **OFFICIAL** | [Read directly from the MLSPA Salary Guide (May 2026 edition)](https://mlsplayers.org/resources/salary-guide) |
+
+### Why his pay changed, year by year
+A salary cap is a league rule that limits how much a team may pay all its players together. Major League Soccer (MLS) has a strict one: only three star players per team ('designated players') can be paid freely. Everyone else has to fit under the limit. That rule explains the biggest drop below.
+
+| Years | What changed | Why | How sure? | Source |
+|---|---|---|---|---|
+| 2014–16 → 2017–19 | ⬆️ Up, about $1.46M → $2.6M a year | New three-year Southampton contract in August 2017, right after his breakthrough season: first matches as captain, a cup final, and 100 Premier League matches. | ESTIMATE | [link](https://www.skysports.com/football/news/11065/11003306/maya-yoshida-signs-new-three-year-southampton-contract) |
+| 2019–20 → 2020–22 | ⬇️ Down, to about €1M a year | His Southampton contract ended in June 2020 and he stayed at Sampdoria as a free agent on a one-year deal, reportedly with a pay cut. He was 31, and it was the first pandemic summer. | ESTIMATE | [link](https://en.wikipedia.org/wiki/Maya_Yoshida) |
+| 2021–22 → 2022–23 | ➡️ About the same, roughly €0.9M | A one-year contract at Schalke, a club just promoted to the top division, at age 33. | ESTIMATE | [link](https://www.footmercato.net/joueur/maya-yoshida/salaire) |
+| 2022–23 → 2023 | ➡️ Similar level, $800,000 base | Joined LA Galaxy as a free agent after Schalke were relegated. He was not one of the team's three 'designated' stars, so his pay had to fit under the cap. He said he chose LA because the project excited him most. | OFFICIAL (MLS figure) | [link](https://sportiva.shueisha.co.jp/clm/football/wfootball/2024/07/08/post_83/) |
+| 2023 → 2024 | ➡️ No change: $800,000 base, $893,334 guaranteed | Same contract. It was signed in August 2023 and ran through 2024. (In 2023 he was paid only for the part of the year he was there.) | OFFICIAL | [link](https://www.lagalaxy.com/news/la-galaxy-sign-japanese-national-team-defender-maya-yoshida) |
+| 2024 → 2025 | ⬇️ Down 43%: base $800,000 → $455,000 (guaranteed $893,334 → $526,281) | The salary cap. His contract ended just as he won the title, so he had to sign a new one at the worst moment. The Galaxy needed to find over $1 million of space because two young players (Dejan Joveljić and Gabriel Pec) grew out of special low-cost youth contracts. The club traded away four players, including the final's best player, and still had to pay Yoshida less. The general manager called it 'a math problem, not a soccer problem.' Of the 14 players used in the final, he was the only one who had to renegotiate. | OFFICIAL | [link](https://www.aol.com/news/galaxy-captain-maya-yoshida-gets-120020178.html) |
+| Why he accepted it |  | He called the cut unfair and said a champion should not be paid less. He had offers elsewhere and could have earned more. He stayed because the Galaxy offered two years, which let his daughter stay at one school, and kept him in the USA through the 2026 World Cup and the 2028 Los Angeles Olympics. He added that he needed to earn money outside football. | His own words (LA Times) | [link](https://www.aol.com/news/galaxy-captain-maya-yoshida-gets-120020178.html) |
+| 2025 → 2026 | ⬆️ Up 41%: base $455,000 → $640,000 (guaranteed $526,281 → $715,781) | No report explains the rise. It was the second year of the same two-year contract, so the most likely reason is a raise written into the contract for year two (my reading, not confirmed). It was not the green card: the figures are dated April 2026 and the green card came in July. | OFFICIAL figure; reason NOT confirmed | [link](https://mlsplayers.org/resources/salary-guide) |
+| After 2026 | Contract ended 20 Nov 2026 | Free agent. On 10 Nov 2026 he said passion for a project matters more to him than money. | OFFICIAL | [link](https://www.football-zone.net/archives/684175) |
 
 ### Contracts and transfers
 | Date | Event | Source |
@@ -437,6 +452,7 @@ _Read on 2026-11-21. The top 30 of 141 reader comments in 'recommended' order (1
 - His agent in 2026: a 2021 article lists him with CAA Base; nothing newer was found. 'Introduced by Honda' rests on English Wikipedia and one fan-site article.
 - 'Shootribe' appears as a management-company link on his Japanese Wikipedia page; what it is and who runs it is not confirmed.
 - Whether Kiyooka handled his 2012 move to Southampton is not confirmed.
+- Why his MLS pay rose from 2025 to 2026: no source found. A built-in raise for the second contract year is my reading, not a reported fact.
 
 ## 🎥 Appendix: videos and interviews
 I could not confirm direct YouTube links from my tools, so the YouTube rows are SEARCH links: click and the video with that exact title should be at or near the top. The other rows are direct links to official pages.

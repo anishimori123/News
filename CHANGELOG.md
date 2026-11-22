@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.3.4** | 2026-11-21 |  | Maya Yoshida's money section now explains why his pay changed, year by year, including the 43% cut after winning the 2024 title. | 8 | 27,325 | about 15 minutes |
 | **v0.3.3** | 2026-11-21 |  | README now starts with a clickable link to the live website, and every page in its list is a live link. | 8 | 26,723 | about 5 minutes |
 | **v0.3.2** | 2026-11-21 |  | Changelog table now highlights versions that add a new person or page with 🆕. | 8 | 26,723 | about 10 minutes |
 | **v0.3.1** | 2026-11-21 |  | Changelog chart now shows the blue pages line and the grey words line together on one graph. | 8 | 26,723 | about 10 minutes |
@@ -28,6 +29,20 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.3.4 — 2026-11-21
+**Summary:** Maya Yoshida's money section now explains why his pay changed, year by year, including the 43% cut after winning the 2024 title.  
+**Pages on site:** 8  
+**Words on site:** 27325  
+**Time spent:** about 15 minutes
+
+**What changed**
+- New table "Why his pay changed, year by year" in the money section: each change, the reason, the source, and how sure the reason is.
+- The 2024 to 2025 drop is explained with the Los Angeles Times report: the league's salary cap, the timing of his contract ending, and why he accepted it.
+- The 2025 to 2026 rise is shown as official numbers with the reason marked "not confirmed".
+
+**Why**
+- The salary table showed a big gap between 2024 and 2025 with no explanation.
 
 ## v0.3.3 — 2026-11-21
 **Summary:** README now starts with a clickable link to the live website, and every page in its list is a live link.  
