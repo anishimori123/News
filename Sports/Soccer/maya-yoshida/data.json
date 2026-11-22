@@ -889,7 +889,7 @@
  "personal": [
   {
    "date": "2012-09-26",
-   "event": "Announced his marriage on his blog. His wife is a private person he had dated since his Nagoya Grampus days; her name is not public.",
+   "event": "Announced his marriage on his blog (26 Sep UK time, 27 Sep in Japan). He wrote that they had been together four years, since his Nagoya Grampus days. His wife is a private person; her name is not public.",
    "url": "https://web.archive.org/web/20120929011512/http://ameblo.jp/mayayoshida/entry-11364961213.html"
   },
   {
@@ -1108,6 +1108,12 @@
     "url": "https://www.videogamer.com/news/southamptons-maya-yoshida-to-feature-on-fifa-14s-japanese-cover/"
    },
    {
+    "what": "Japan Airlines (JAL): support contract, announced on his own blog",
+    "when": "Dec 2016 (end date not confirmed)",
+    "status": "Confirmed (amount not published)",
+    "url": "https://web.gekisaka.jp/news/world/detail/?205558-205558-fl="
+   },
+   {
     "what": "Vera&John free version (ambassador, TV ads, sponsored podcast). See 'Controversies' and the deep dive.",
     "when": "Aug 2021 – June 2023",
     "status": "Confirmed",
@@ -1244,7 +1250,8 @@
   "Who at LA Galaxy first contacted him in 2023, and what they told him: not found (only the first part of his interview on the move could be read).",
   "The exact wording of the 2023 signing ban: one source says the club could not sign international players that summer; the league's website says it was in effect limited to free agents and trades within the league.",
   "LA Galaxy finishing 11th in the West in 2026 comes from a fan-site summary, not an official table.",
-  "The ages of MLS signings come from one independent analysis; the league has not published its own figure here."
+  "The ages of MLS signings come from one independent analysis; the league has not published its own figure here.",
+  "Full text of his old blog posts (Ameba, LINE BLOG): both blogs are offline; only news reports and short excerpts were read. Checked 21 Nov 2026."
  ],
  "videos": {
   "intro": "I could not confirm direct YouTube links from my tools, so the YouTube rows are SEARCH links: click and the video with that exact title should be at or near the top. The other rows are direct links to official pages.",
@@ -2125,6 +2132,100 @@
        ""
       ]
      ]
+    }
+   ]
+  },
+  {
+   "emoji": "📝",
+   "title": "His old blogs (2012–2016): what they add",
+   "intro": "He wrote two official blogs: one on Ameba (to about 2015) and one on LINE BLOG (from 2016). Both are gone. The Ameba address returned 'page not found' on 21 Nov 2026, and the LINE BLOG service has closed. Saved copies exist on the Internet Archive, but my tools cannot open that site, so this table uses news reports from the time and a bookmark site that kept short excerpts. Summaries are in my own words. The last column is my reading.",
+   "parts": [
+    {
+     "kind": "table",
+     "headers": [
+      "Date",
+      "Post",
+      "What he wrote",
+      "What it tells us (my reading)"
+     ],
+     "rows": [
+      {
+       "cells": [
+        "5 Aug 2012",
+        "London Olympics: his first goal of the tournament",
+        "He dedicates the goal to his mother, whose birthday it was.",
+        "Family comes first in his public voice."
+       ],
+       "url": "https://b.hatena.ne.jp/site/ameblo.jp/mayayoshida/"
+      },
+      {
+       "cells": [
+        "8 Aug 2012",
+        "After the Olympic semi-final loss",
+        "Says he is more frustrated than he has been in a long time, will let himself feel it for one day, then move on to the bronze-medal match.",
+        "The same pattern as chapter 1: own the pain, then look forward."
+       ],
+       "url": "https://b.hatena.ne.jp/site/ameblo.jp/mayayoshida/"
+      },
+      {
+       "cells": [
+        "1 Sep 2012",
+        "Leaving VVV-Venlo for Southampton",
+        "Says his two and a half years in Venlo were mostly hard and he nearly gave up many times. He thanks his Dutch host family and the Japanese players living nearby.",
+        "Shows who carried him through the injury year: a local family and fellow Japanese players, not only the club."
+       ],
+       "url": "https://b.hatena.ne.jp/site/ameblo.jp/mayayoshida/"
+      },
+      {
+       "cells": [
+        "26–27 Sep 2012",
+        "Marriage announcement",
+        "Says he married that summer after four years together, and that he wants her support so he can focus on the Premier League. A sports paper's front page had leaked the news a few hours earlier.",
+        "He married right as he moved to England, and he told fans himself once the news was out."
+       ],
+       "url": "https://vitaminw.livedoor.blog/archives/52901256.html"
+      },
+      {
+       "cells": [
+        "20–22 Dec 2014",
+        "First goal of the season, against Everton",
+        "Says sliding on his knees like Steven Gerrard after scoring in England had been a long-time dream.",
+        "His humour, and how much the Premier League meant to him."
+       ],
+       "url": "https://www.soccer-king.jp/news/world/eng/20141222/261133.html"
+      },
+      {
+       "cells": [
+        "9 Aug 2015",
+        "70 years after the Nagasaki atomic bomb",
+        "Writes that first-hand voices are disappearing. He visited Nagasaki for a TV news programme and listened to survivors in person.",
+        "The root of the 9 August posts he still makes every year."
+       ],
+       "url": "https://www.soccer-king.jp/news/japan/national/20150809/338673.html"
+      },
+      {
+       "cells": [
+        "30 Oct 2015",
+        "Life abroad",
+        "Writes about missing Japan, needing results to keep his place, and not being happy with his play at full-back even though he scored.",
+        "Honest self-criticism during his bench years at Southampton."
+       ],
+       "url": "https://b.hatena.ne.jp/site/ameblo.jp/mayayoshida/"
+      },
+      {
+       "cells": [
+        "16 Dec 2016",
+        "Birth of his daughter",
+        "Announces the birth (end of November) with a joke about a 'parent-and-child contract', and in the same post announces a support deal with Japan Airlines (JAL).",
+        "A sponsor deal I had not listed before. It is now in the money chapter."
+       ],
+       "url": "https://web.gekisaka.jp/news/world/detail/?205558-205558-fl="
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "text": "Other regular topics, from the excerpts: jokes about teammates (Atsuto Uchida and Makoto Hasebe appear often), travel on days off, and thanks to fans. Not found in what survives: anything about agents, contracts or money."
     }
    ]
   }

@@ -33,6 +33,18 @@
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
 
+## v0.3.8 — 2026-11-21
+**Summary:** New deep dive on Maya Yoshida's page: what his old blogs (2012–2016) add, plus a Japan Airlines sponsor deal found there.  
+**Time spent:** about 15 minutes
+
+**What changed**
+- Deep dive 8.5 "His old blogs": eight posts (Olympics, leaving Venlo, marriage, Nagasaki, life abroad, daughter's birth) with what each tells us.
+- Money chapter: added the Japan Airlines (JAL) support contract announced in December 2016.
+- "Not verified": the full blog text was not read, because both blogs are offline.
+
+**Why**
+- His own words from the Southampton years show who helped him and how he handled setbacks.
+
 ## v0.3.7 — 2026-11-21
 **Summary:** Maya Yoshida's timeline now shows when he married and when his two children were born.  
 **Pages on site:** 8  
