@@ -1,0 +1,48 @@
+# Saves the repo's traffic numbers once a day, because GitHub only keeps 14 days.
+# Needs a repository secret named TRAFFIC_TOKEN (see traffic/README.md).
+name: Save repo traffic
+
+on:
+  schedule:
+    - cron: "17 9 * * *"   # every day at 09:17 UTC (about 1 AM Pacific)
+  workflow_dispatch:        # lets you press "Run workflow" by hand
+
+permissions:
+  contents: write
+
+concurrency:
+  group: save-traffic
+  cancel-in-progress: false
+
+jobs:
+  save:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download traffic numbers
+        env:
+          GH_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::The TRAFFIC_TOKEN secret is missing. See traffic/README.md."
+            exit 1
+          fi
+          mkdir -p "$RUNNER_TEMP/t"
+          gh api "repos/$GITHUB_REPOSITORY/traffic/views"             > "$RUNNER_TEMP/t/views.json"
+          gh api "repos/$GITHUB_REPOSITORY/traffic/clones"            > "$RUNNER_TEMP/t/clones.json"
+          gh api "repos/$GITHUB_REPOSITORY/traffic/popular/referrers" > "$RUNNER_TEMP/t/referrers.json"
+          gh api "repos/$GITHUB_REPOSITORY/traffic/popular/paths"     > "$RUNNER_TEMP/t/paths.json"
+      - name: Add new days to the CSV files
+        run: python3 tools/save_traffic.py "$RUNNER_TEMP/t"
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add traffic
+          if git diff --cached --quiet; then
+            echo "No new numbers today."
+          else
+            git commit -m "Traffic: daily numbers"
+            git pull --rebase origin main
+            git push
+          fi

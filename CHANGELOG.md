@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.5** | 2026-11-21 |  | Visit tracking prepared: a daily job that saves the repo's traffic numbers, and an optional visitor counter for the website (off until a code name is added). | 10 | 43,039 | about 15 minutes |
 | **v0.4.4** | 2026-11-21 | 🆕 **🌉 Bridging Japanese athletes to the US** | New explainer page: Bridging Japanese athletes to the US (baseball routes, who pays for daily-life support, case studies of Sasaki, Morii and Oda, and where the gaps are). | 10 | 43,039 | about 50 minutes (full research, no helpers) |
 | **v0.4.3** | 2026-11-21 |  | Wasserman page: two new chapters on why Japanese baseball players choose an agency, and how a Japanese agency could enter the field. | 9 | 36,668 | about 20 minutes |
 | **v0.4.2** | 2026-11-21 |  | Wasserman page: business figures, rival agencies, who represents each Japanese MLB star, and fuller LA 2028 Olympics facts. | 9 | 35,464 | about 15 minutes (with a research helper) |
@@ -42,6 +43,20 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.5 — 2026-11-21
+**Summary:** Visit tracking prepared: a daily job that saves the repo's traffic numbers, and an optional visitor counter for the website (off until a code name is added).  
+**Pages on site:** 10  
+**Words on site:** 43039  
+**Time spent:** about 15 minutes
+
+**What changed**
+- New `.github/workflows/traffic.yml` and `tools/save_traffic.py`: once a day, save GitHub's repo views and clones into `traffic/*.csv`, because GitHub only keeps 14 days. Needs a secret named `TRAFFIC_TOKEN`.
+- New `tools/site_config.json`: put a GoatCounter code name there and `tools/build.py` adds the visitor counter to every web page. Empty means no counter.
+- New `traffic/README.md` explains the files.
+
+**Why**
+- The data here is valuable to the owner, so visits and copies (including by bots) should be counted and kept.
 
 ## v0.4.4 — 2026-11-21
 **Summary:** New explainer page: Bridging Japanese athletes to the US (baseball routes, who pays for daily-life support, case studies of Sasaki, Morii and Oda, and where the gaps are).  

@@ -38,6 +38,7 @@ The same pages are stored in this repo under the `docs/` folder.
 | `Agents/` | Football and baseball agents, plus explainers on how Japanese players get overseas and how baseball players are bridged to the US; one folder and one `data.json` each |
 | `Sports/Soccer/_TEMPLATE.md` | The standard sections every profile should have |
 | `docs/` | The web pages (made automatically) |
+| `traffic/` | Daily record of how many people (or bots) viewed and downloaded this repo; see `traffic/README.md` |
 | `tools/build.py` | The small program that turns `data.json` into the README and the web page |
 | `CHANGELOG.md` | The history of changes |
 
