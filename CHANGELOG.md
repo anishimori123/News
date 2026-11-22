@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.3.11** | 2026-11-21 |  | Don Nomura's page has a new chapter on what he does now, including the 2025 sale of his agency to Hakuhodo. | 8 | 31,310 | about 15 minutes |
 | **v0.3.10** | 2026-11-21 |  | Don Nomura's page has a new chapter on his link to the American agency Wasserman. | 8 | 30,857 | about 15 minutes |
 | **v0.3.9** | 2026-11-21 |  | Hideo Nomo's timeline now shows his marriage (1991) and first son (1992), plus a note on whether he has a blog. | 8 | 30,370 | about 15 minutes |
 | **v0.3.8** | 2026-11-21 |  | New deep dive on Maya Yoshida's page: what his old blogs (2012–2016) add, plus a Japan Airlines sponsor deal found there. | 8 | 30,051 | about 15 minutes |
@@ -35,6 +36,19 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.3.11 — 2026-11-21
+**Summary:** Don Nomura's page has a new chapter on what he does now, including the 2025 sale of his agency to Hakuhodo.  
+**Pages on site:** 8  
+**Words on site:** 31310  
+**Time spent:** about 15 minutes
+
+**What changed**
+- New chapter "What he does now (November 2026)": company ownership, job title (not confirmed), size of the business, memoir, commentary, and where he is based.
+- "Not verified": his exact post after the sale, his home city, and the 2019 Amuse step.
+
+**Why**
+- To see how a pioneer agent's career ends up: selling to a larger company and turning to writing.
 
 ## v0.3.10 — 2026-11-21
 **Summary:** Don Nomura's page has a new chapter on his link to the American agency Wasserman.  

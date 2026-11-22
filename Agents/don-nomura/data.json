@@ -461,7 +461,7 @@
        "https://bunshun.jp/articles/-/90543"
       ],
       [
-       "His last confirmed headline deal was Darvish in 2012. No current client could be confirmed for 2020 to 2026.",
+       "His last confirmed headline deal was Darvish in 2012. No current client could be confirmed by name for 2020 to 2026; his companies say they have about 60 athletes in total (see the next chapter).",
        "https://www.foxnews.com/sports/darvish-texas-agree-to-60m-6-yr-deadline-deal"
       ],
       [
@@ -473,6 +473,86 @@
        ""
       ]
      ]
+    }
+   ]
+  },
+  {
+   "emoji": "📍",
+   "title": "What he does now (November 2026)",
+   "parts": [
+    {
+     "kind": "text",
+     "text": "Short answer: at 69 he is still in the business, but he no longer owns or runs it alone. His agency is now majority-owned by a big Japanese advertising group, and he spends visible time on his memoir and on commentary. Searched 21 Nov 2026."
+    },
+    {
+     "kind": "table",
+     "headers": [
+      "Topic",
+      "What was found",
+      "How sure"
+     ],
+     "rows": [
+      {
+       "cells": [
+        "His company",
+        "His agency was first sold to the Japanese entertainment company Amuse (announced 2019). On 26 Aug 2025 the advertising group Hakuhodo bought 66.7% of the holding company, 'Amuse Sports Holdings (CEO: Don Nomura)', and renamed it HAKUHODO Athlete Solution.",
+        "✅ Hakuhodo press release"
+       ],
+       "url": "https://www.hakuhodo.co.jp/news/newsrelease/118591/"
+      },
+      {
+       "cells": [
+        "His job title",
+        "Not confirmed. The press release says a Hakuhodo executive, Tetsu Toyoshita, became president and CEO of all three companies. It does not say what post Nomura holds now. A job-listing site and Japanese Wikipedia still call him representative director of Athlete Solution; they may be out of date.",
+        "🟡 Sources disagree"
+       ],
+       "url": "https://www.hakuhodo.co.jp/news/newsrelease/118591/"
+      },
+      {
+       "cells": [
+        "The business he built",
+        "Athlete Solution (Tokyo): about 40 athletes in baseball, soccer, rugby, table tennis, basketball and padel. Athlete Solution USA (Los Angeles): about 20 athletes, including foreign players in MLB. No names are given.",
+        "✅ Hakuhodo press release"
+       ],
+       "url": "https://www.hakuhodo.co.jp/news/newsrelease/118591/"
+      },
+      {
+       "cells": [
+        "Writing",
+        "His memoir フィールドから契約へ ('From the Field to the Contract: 34 years as an agent') came out in 2026. Sports Navi has been publishing extracts under his name from September to November 2026.",
+        "✅"
+       ],
+       "url": "https://sports.yahoo.co.jp/column/detail/2026091200002-spnavi"
+      },
+      {
+       "cells": [
+        "Speaking out",
+        "A YouTube video linked from those extracts has him arguing against cutting high-school baseball games to 7 innings, and for pitch-count limits. He also has an X account (@donnomura).",
+        "✅ Link seen; video not watched"
+       ],
+       "url": "https://sports.yahoo.co.jp/column/detail/2026091200002-spnavi"
+      },
+      {
+       "cells": [
+        "Soccer",
+        "Japanese Wikipedia lists him as a registered intermediary (agent) with the Japan Football Association.",
+        "🟡 Wikipedia only"
+       ],
+       "url": "https://ja.wikipedia.org/wiki/団野村"
+      },
+      {
+       "cells": [
+        "Where he lives",
+        "Not confirmed. He moved to Los Angeles in 1981 and his companies have offices in Los Angeles and in Minato, Tokyo. In a radio interview he said his work is split half and half between Japan and the USA. No reliable source states his home city today, and a private address would not be recorded here anyway.",
+        "⚪ Not confirmed"
+       ],
+       "url": "https://leaders-online.jp/bunkahoso/bh_interview/3033"
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "text": "My reading: he followed the same path as his old partner Arn Tellem's firm. A founder-led agency was sold to a larger company that wants athletes for marketing and media. Compare the chapter on Wasserman."
     }
    ]
   },
@@ -620,7 +700,6 @@
   "The exact phrase 'the most hated man in Japanese baseball': not found in a source. The nearest is the 'hated agent' subtitle of Whiting's book.",
   "His commission rate and who pays it.",
   "His current clients, current title and any company website.",
-  "Whether KDN Sports is the company Amuse bought into in 2019.",
   "The year KDN was founded (1992 or 1993), his father's job (importer or US military officer) and his college (two different Cal Poly campuses): sources differ.",
   "Kenta Maeda as his client for the 2016 Dodgers deal.",
   "That Mac Suzuki worked in the Salinas clubhouse and played there from 1992, and the size of his Mariners bonus.",
@@ -628,6 +707,9 @@
   "His 1984–85 role with Yutaka Enatsu rests on Japanese Wikipedia and a November 2026 Sankei Sports headline that was seen but not read in full.",
   "Robert Whiting's 2010–11 Japan Times articles about him and the book 'The Meaning of Ichiro' were not read directly.",
   "The 2019 FLASH magazine report that Darvish dropped Nomura in 2017 over an Asics side contract: one weekly magazine with unnamed sources; not confirmed by either man.",
-  "Whether Nomura and Wasserman's Adam Katz formally shared Kenta Maeda as a client in 2015."
+  "Whether Nomura and Wasserman's Adam Katz formally shared Kenta Maeda as a client in 2015.",
+  "His exact post after Hakuhodo took a 66.7% stake in August 2025, and who owns the other 33.3%.",
+  "His home city today.",
+  "The step from KDN to Amuse in 2019 rests on Japanese Wikipedia; the 2025 Hakuhodo release confirms only that he was CEO of 'Amuse Sports Holdings'."
  ]
 }

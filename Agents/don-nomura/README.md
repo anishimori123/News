@@ -104,17 +104,32 @@ Not confirmed. No source found states his commission rate or who paid it in any 
 ## 🔄 7. Is this still true today?
 - The loophole he used is closed. Since December 1998 the normal route is the posting system or full free agency. ([source](https://en.wikipedia.org/wiki/Posting_system))
 - Agents are now normal in Japanese baseball, so his old role as the lone outsider no longer exists. ([source](https://bunshun.jp/articles/-/90543))
-- His last confirmed headline deal was Darvish in 2012. No current client could be confirmed for 2020 to 2026. ([source](https://www.foxnews.com/sports/darvish-texas-agree-to-60m-6-yr-deadline-deal))
+- His last confirmed headline deal was Darvish in 2012. No current client could be confirmed by name for 2020 to 2026; his companies say they have about 60 athletes in total (see the next chapter). ([source](https://www.foxnews.com/sports/darvish-texas-agree-to-60m-6-yr-deadline-deal))
 - He is still heard in public: a 2020 interview, a 2026 memoir, and Japanese newspaper pieces in November 2026 recalling his time as interpreter for pitcher Yutaka Enatsu's 1985 try at the majors. ([source](https://japanball.com/articles-features/chatter-up/baseball-agent-don-nomura-talks-nomo-and-negotiating/))
 - No public comment by him on Ohtani, Sasaki or today's posting rules was found.
 
-## 🤝 8. His two American partners
+## 📍 8. What he does now (November 2026)
+Short answer: at 69 he is still in the business, but he no longer owns or runs it alone. His agency is now majority-owned by a big Japanese advertising group, and he spends visible time on his memoir and on commentary. Searched 21 Nov 2026.
+
+| Topic | What was found | How sure | Source |
+|---|---|---|---|
+| His company | His agency was first sold to the Japanese entertainment company Amuse (announced 2019). On 26 Aug 2025 the advertising group Hakuhodo bought 66.7% of the holding company, 'Amuse Sports Holdings (CEO: Don Nomura)', and renamed it HAKUHODO Athlete Solution. | ✅ Hakuhodo press release | [link](https://www.hakuhodo.co.jp/news/newsrelease/118591/) |
+| His job title | Not confirmed. The press release says a Hakuhodo executive, Tetsu Toyoshita, became president and CEO of all three companies. It does not say what post Nomura holds now. A job-listing site and Japanese Wikipedia still call him representative director of Athlete Solution; they may be out of date. | 🟡 Sources disagree | [link](https://www.hakuhodo.co.jp/news/newsrelease/118591/) |
+| The business he built | Athlete Solution (Tokyo): about 40 athletes in baseball, soccer, rugby, table tennis, basketball and padel. Athlete Solution USA (Los Angeles): about 20 athletes, including foreign players in MLB. No names are given. | ✅ Hakuhodo press release | [link](https://www.hakuhodo.co.jp/news/newsrelease/118591/) |
+| Writing | His memoir フィールドから契約へ ('From the Field to the Contract: 34 years as an agent') came out in 2026. Sports Navi has been publishing extracts under his name from September to November 2026. | ✅ | [link](https://sports.yahoo.co.jp/column/detail/2026091200002-spnavi) |
+| Speaking out | A YouTube video linked from those extracts has him arguing against cutting high-school baseball games to 7 innings, and for pitch-count limits. He also has an X account (@donnomura). | ✅ Link seen; video not watched | [link](https://sports.yahoo.co.jp/column/detail/2026091200002-spnavi) |
+| Soccer | Japanese Wikipedia lists him as a registered intermediary (agent) with the Japan Football Association. | 🟡 Wikipedia only | [link](https://ja.wikipedia.org/wiki/団野村) |
+| Where he lives | Not confirmed. He moved to Los Angeles in 1981 and his companies have offices in Los Angeles and in Minato, Tokyo. In a radio interview he said his work is split half and half between Japan and the USA. No reliable source states his home city today, and a private address would not be recorded here anyway. | ⚪ Not confirmed | [link](https://leaders-online.jp/bunkahoso/bh_interview/3033) |
+
+My reading: he followed the same path as his old partner Arn Tellem's firm. A founder-led agency was sold to a larger company that wants athletes for marketing and media. Compare the chapter on Wasserman.
+
+## 🤝 9. His two American partners
 | Person | Who they are | Part in the Nomo story | Source |
 |---|---|---|---|
 | Arn Tellem | American lawyer and agent (born 1954); later a top basketball agent and vice chairman of the Detroit Pistons. Also represented Hideki Matsui. | The US-based agent Nomura worked with; checked the contract clause. His Wikipedia page credits him with finding the loophole, which other accounts give to Nomura. | [link](https://en.wikipedia.org/wiki/Arn_Tellem) |
 | Jean Afterman | American lawyer; joined the New York Yankees in 2001 as assistant general manager. | As Nomura's lawyer she went through the translated rules and league letters and helped find the 'active players only' gap. Also fought the Irabu case. | [link](https://www.aol.com/star-pitcher-hideo-nomo-agent-195302074.html) |
 
-## 🔗 9. His link to Wasserman
+## 🔗 10. His link to Wasserman
 Wasserman is a large American sports agency (founded 2002 by Casey Wasserman, now renamed THE TEAM). Short answer: Nomura never worked for Wasserman and no source says Wasserman owned any part of his company. The link is a partnership, deal by deal, that ran through one man: Arn Tellem. Searched 21 Nov 2026.
 
 | Year | What happened | Link to Wasserman | Source |
@@ -129,7 +144,7 @@ Wasserman is a large American sports agency (founded 2002 by Casey Wasserman, no
 
 My reading: this is the same 'local partner plus big foreign firm' pattern seen with Japanese soccer agents. Nomura had the trust of the Japanese player; Tellem and Wasserman had the American lawyers, team contacts and scale. When Tellem left in 2015, the personal bridge went with him, and Wasserman's own agent Joel Wolfe now deals with Japanese players directly.
 
-## 💡 10. What we can learn (my analysis)
+## 💡 11. What we can learn (my analysis)
 - An outsider with inside knowledge is powerful. He knew how Japanese clubs think, but did not depend on them for his living.
 - Rules are written by people, and people leave gaps. He looked for what the text said, not what custom said.
 - Being right is not the same as being liked. He paid for these wins with years of being shut out in Japan.
@@ -139,7 +154,6 @@ My reading: this is the same 'local partner plus big foreign firm' pattern seen 
 - The exact phrase 'the most hated man in Japanese baseball': not found in a source. The nearest is the 'hated agent' subtitle of Whiting's book.
 - His commission rate and who pays it.
 - His current clients, current title and any company website.
-- Whether KDN Sports is the company Amuse bought into in 2019.
 - The year KDN was founded (1992 or 1993), his father's job (importer or US military officer) and his college (two different Cal Poly campuses): sources differ.
 - Kenta Maeda as his client for the 2016 Dodgers deal.
 - That Mac Suzuki worked in the Salinas clubhouse and played there from 1992, and the size of his Mariners bonus.
@@ -148,4 +162,7 @@ My reading: this is the same 'local partner plus big foreign firm' pattern seen 
 - Robert Whiting's 2010–11 Japan Times articles about him and the book 'The Meaning of Ichiro' were not read directly.
 - The 2019 FLASH magazine report that Darvish dropped Nomura in 2017 over an Asics side contract: one weekly magazine with unnamed sources; not confirmed by either man.
 - Whether Nomura and Wasserman's Adam Katz formally shared Kenta Maeda as a client in 2015.
+- His exact post after Hakuhodo took a 66.7% stake in August 2025, and who owns the other 33.3%.
+- His home city today.
+- The step from KDN to Amuse in 2019 rests on Japanese Wikipedia; the 2025 Hakuhodo release confirms only that he was CEO of 'Amuse Sports Holdings'.
 
