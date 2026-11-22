@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.3.12** | 2026-11-21 |  | Don Nomura's page now says what is public about his own family. | 8 | 31,519 | about 5 minutes |
 | **v0.3.11** | 2026-11-21 |  | Don Nomura's page has a new chapter on what he does now, including the 2025 sale of his agency to Hakuhodo. | 8 | 31,310 | about 15 minutes |
 | **v0.3.10** | 2026-11-21 |  | Don Nomura's page has a new chapter on his link to the American agency Wasserman. | 8 | 30,857 | about 15 minutes |
 | **v0.3.9** | 2026-11-21 |  | Hideo Nomo's timeline now shows his marriage (1991) and first son (1992), plus a note on whether he has a blog. | 8 | 30,370 | about 15 minutes |
@@ -36,6 +37,18 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.3.12 — 2026-11-21
+**Summary:** Don Nomura's page now says what is public about his own family.  
+**Pages on site:** 8  
+**Words on site:** 31519  
+**Time spent:** about 5 minutes
+
+**What changed**
+- Quick facts and the "What he does now" chapter: married 1981; at least one daughter, born in the early 1980s; a niece who works for the Los Angeles Angels.
+
+**Why**
+- Same family check as for Yoshida and Nomo. Names of private people are left out.
 
 ## v0.3.11 — 2026-11-21
 **Summary:** Don Nomura's page has a new chapter on what he does now, including the 2025 sale of his agency to Hakuhodo.  

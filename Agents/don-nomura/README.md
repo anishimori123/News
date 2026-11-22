@@ -14,6 +14,7 @@ _This file is generated from `data.json` by `tools/build.py`. Edit `data.json`, 
 |---|---|
 | Born | 17 May 1957, Tokyo, as Donald Engel (American father, Japanese mother) |
 | Family in baseball | Stepson of Katsuya Nomura, the legendary catcher and manager; his mother was the TV personality Sachiyo Nomura |
+| His own family | Married in 1981 and moved to Los Angeles with his wife that December. At least one child: a daughter born in the early 1980s. Names and any other children are not public. His mother had several grandchildren across her three sons. |
 | As a player | Yakult Swallows farm team 1978 to 1981; never played a first-team game |
 | Before agenting | Moved to Los Angeles in 1981; in 1989 bought half of the Salinas Spurs, a low minor-league club in California |
 | First client | Makoto 'Mac' Suzuki, 1992 |
@@ -121,6 +122,12 @@ Short answer: at 69 he is still in the business, but he no longer owns or runs i
 | Soccer | Japanese Wikipedia lists him as a registered intermediary (agent) with the Japan Football Association. | 🟡 Wikipedia only | [link](https://ja.wikipedia.org/wiki/団野村) |
 | Where he lives | Not confirmed. He moved to Los Angeles in 1981 and his companies have offices in Los Angeles and in Minato, Tokyo. In a radio interview he said his work is split half and half between Japan and the USA. No reliable source states his home city today, and a private address would not be recorded here anyway. | ⚪ Not confirmed | [link](https://leaders-online.jp/bunkahoso/bh_interview/3033) |
 
+#### His own family
+- He married in 1981 and moved to Los Angeles with his wife in December that year. ([source](https://en.wikipedia.org/wiki/Don_Nomura))
+- He has at least one child, a daughter born in the early 1980s. When money ran out he sent his wife and baby daughter back to Japan and lived in his car in Los Angeles; by 1985 he could rent an apartment and bring them back. ([source](https://en.wikipedia.org/wiki/Don_Nomura))
+- His mother Sachiyo had several grandchildren from her three sons (Don, Kenny and Katsunori). The only one named in public for baseball work is Kenny's daughter, who works for the Los Angeles Angels. So she is his niece, not his child. ([source](https://ja.wikipedia.org/wiki/野村沙知代))
+- Not found: his wife's name, how many children he has in total, or what they do. They are private people, so nothing more is recorded here.
+
 My reading: he followed the same path as his old partner Arn Tellem's firm. A founder-led agency was sold to a larger company that wants athletes for marketing and media. Compare the chapter on Wasserman.
 
 ## 🤝 9. His two American partners
@@ -165,4 +172,5 @@ My reading: this is the same 'local partner plus big foreign firm' pattern seen 
 - His exact post after Hakuhodo took a 66.7% stake in August 2025, and who owns the other 33.3%.
 - His home city today.
 - The step from KDN to Amuse in 2019 rests on Japanese Wikipedia; the 2025 Hakuhodo release confirms only that he was CEO of 'Amuse Sports Holdings'.
+- How many children he has. Only one daughter (born early 1980s) is mentioned, and only on English Wikipedia, which draws on Robert Whiting's biography.
 
