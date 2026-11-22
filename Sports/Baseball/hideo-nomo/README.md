@@ -111,6 +111,8 @@ _Source: Baseball-Reference (MLB page for 1995 to 2008, register page for Japan 
 | 1989 | 21 | 🇯🇵 | A record 8 teams pick him first in the draft. Kintetsu wins the lottery. He signs on condition that the club will not change his pitching form. |
 | 1990 | 21 | 🇯🇵 | Rookie season: 18 wins, 287 strikeouts. Wins MVP, the Sawamura Award (best starting pitcher), Rookie of the Year and the pitching triple crown. |
 | 1990–93 | 24 | 🇯🇵 | Leads the Pacific League in wins and strikeouts four years in a row, under easygoing manager Akira Ogi (to 1992). |
+| 1991 | 23 | 🇯🇵 | 💍 Marries Kikuko Morimoto in his second year with Kintetsu (exact day not confirmed). They met when he was a company-team pitcher and she was a cheerleader for a rival company team, Toshiba. |
+| 1992 | 23 | 🇯🇵 | 👶 First son, Takahiro, born (year worked out from his reported ages; exact day not confirmed). A second son was born later; his details are private. |
 | 1993 | 24 | 🇯🇵 | Keishi Suzuki, a 317-win legend with old-school ideas (throw more, run more), becomes manager. Friction begins. |
 | 1994 | 25 | 🇯🇵 | Sore shoulder. On 1 July he throws 191 pitches and walks 16 in one complete game. Season ends early at 8 wins, 7 losses. Tells teammate Masato Yoshii he is going to America. Meets agent Don Nomura. |
 | Dec 1994 | 26 | 🇯🇵 | 9 Dec: the Japanese commissioner's office confirms by fax that a 'voluntarily retired' player is only tied to his old club inside Japan. 13 Dec: he asks Kintetsu for a multi-year contract with Nomura at his side; the club throws Nomura out and refuses. |
@@ -202,12 +204,15 @@ _Source: Baseball-Reference (MLB page for 1995 to 2008, register page for Japan 
 | Date | Event | Source |
 |---|---|---|
 | 1968-08-31 | Born in Osaka. | [link](https://sabr.org/bioproject/person/hideo-nomo/) |
+| 1991 | Married Kikuko Morimoto, a former cheerleader for the Toshiba company baseball team, in his second year as a professional. Number Web gives the year only; the exact day is not confirmed. | [link](https://number.bunshun.jp/articles/-/860824?page=1) |
+| 1992 | First son, Takahiro, born. He was reported as 22 in January 2015 and 23 in September 2015, which fits 1992. Gossip sites give 24 February 1992; not confirmed by a newspaper. | [link](https://number.bunshun.jp/articles/-/822582) |
+| 1990s | Second son born. He is a private person, so no name or date is recorded here. | [link](https://yomoyama-antenna.com/nomo-kikuko/) |
 | 2003 | Founded NOMO Baseball Club in Sakai, Osaka, at his own cost, because company teams were closing and young players had nowhere to play. | [link](https://www.japantimes.co.jp/sports/2003/03/07/baseball/mlb/nomo-to-fund-amateur-baseball-team-in-osaka) |
 | 2003-10 | Shoulder surgery. | [link](https://sabr.org/bioproject/person/hideo-nomo/) |
 | 2008-07-17 | Retirement announced. | [link](https://archives-new.honoluluadvertiser.com/article/2008/Jul/17/br/hawaii80717061.html) |
 | 2012-05 | Announced an agreement to move NOMO Baseball Club to Toyooka, Hyogo. | [link](https://www.kobe-np.co.jp/rentoku/heiseimoyou/201805/0011897815.shtml) |
 | 2014-01-17 | Elected to the Japanese Baseball Hall of Fame. | [link](https://www.mlb.com/news/hideo-nomo-and-kazuhiro-sasaki-were-elected-to-japans-baseball-hall-of-fame/c-66781598) |
-| 2015 | His eldest son Takahiro began working as an interpreter for the Hokkaido Nippon-Ham Fighters (reported by Daily Sports). No other family details are public or recorded here. | [link](https://www.daily.co.jp/newsflash/baseball/2015/09/09/0008379009.shtml) |
+| 2015–2018 | His eldest son Takahiro worked as an interpreter for the Hokkaido Nippon-Ham Fighters from January 2015 until the end of 2018, after graduating from a college near San Francisco. He went to international schools in Tokyo. | [link](https://www.daily.co.jp/newsflash/baseball/2015/09/09/0008379009.shtml) |
 | 2016-02-11 | Joined the San Diego Padres front office. | [link](https://www.mlb.com/press-release/padres-name-hideo-nomo-advisor-baseball-operations-164265888) |
 | 2026-11 | Inducted into the Asian Hall of Fame (Class of 2026) in Los Angeles. | [link](https://www.nomo-radiant.jp/news/) |
 
@@ -340,6 +345,12 @@ He has no personal social media account that could be confirmed, and he speaks r
 - On choosing the Dodgers: the other clubs did not have a Peter O'Malley. (English, from the signing press conference) ([source](https://www.walteromalley.com/international/courageous-warrior-hideo-nomo-made-the-ultimate-leap-to-change-baseball/))
 - About agents, and about being called a pioneer: no direct quote from him was found. Not confirmed.
 
+#### Does he have a blog or social media?
+- No personal blog or social media account was found (searched 21 Nov 2026). This fits his habit of saying little in public.
+- His official site posts short news items about his appearances and NOMO Baseball Club. It is run for him, and it is not a diary. ([source](https://www.nomo-radiant.jp/news/))
+- The closest thing to a blog is his own 1995 book 僕のトルネード戦記 ('My Tornado War Diary', Shueisha), written in his first Dodgers year. I have not read it; the publisher and date come from a reader's review. ([source](https://ameblo.jp/shellacmode/entry-11083719641.html))
+- His son's 2015 interview gives a rare family view: he said he learned 'see it through' from watching his father. ([source](https://number.bunshun.jp/articles/-/822582))
+
 ## 💰 9. Money: contracts, salary, sponsors
 Almost no number here is official. Japanese salaries are newspaper estimates (推定). The American numbers come from the Baseball Almanac salary table and news reports, so they are labelled ESTIMATE (reported). Baseball-Reference's salary table could not be opened to cross-check.
 
@@ -446,6 +457,8 @@ _Read on 2026-11-21. The top 30 of 72 top-level reader comments in 'recommended'
 - Why the Dodgers' 1996 contract and the Red Sox' 2001 contract were set at those amounts: no source read gives a reason.
 - The 2001 Red Sox figure differs between sources: $3.25 million (SABR) and $4.5 million (Baseball Almanac).
 - That the $9 million paid in 2004 was the club option being used is taken from the contract terms and the salary table matching, not from a report saying so.
+- Exact wedding date, and a reported 1993 wedding reception in Osaka: found only on personal blogs and gossip sites. Only the year 1991 is confirmed (Number Web).
+- Eldest son's exact birthday (24 Feb 1992) appears only on gossip sites.
 
 ## 🎥 Appendix: videos and interviews
 The four MLB.com links were confirmed. The last three rows are videos known to exist whose direct links were not found, so they are SEARCH links: click and the video should be the first result.

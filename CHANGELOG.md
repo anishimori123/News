@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.3.9** | 2026-11-21 |  | Hideo Nomo's timeline now shows his marriage (1991) and first son (1992), plus a note on whether he has a blog. | 8 | 30,370 | about 15 minutes |
 | **v0.3.8** | 2026-11-21 |  | New deep dive on Maya Yoshida's page: what his old blogs (2012–2016) add, plus a Japan Airlines sponsor deal found there. | 8 | 30,051 | about 15 minutes |
 | **v0.3.7** | 2026-11-21 |  | Maya Yoshida's timeline now shows when he married and when his two children were born. | 8 | 29,463 | about 10 minutes |
 | **v0.3.6** | 2026-11-21 |  | New deep dive on Maya Yoshida's page: who owns LA Galaxy, how the club grew, why he could join in 2023, and how MLS brings in players from overseas. | 8 | 29,331 | about 20 minutes |
@@ -33,6 +34,20 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.3.9 — 2026-11-21
+**Summary:** Hideo Nomo's timeline now shows his marriage (1991) and first son (1992), plus a note on whether he has a blog.  
+**Pages on site:** 8  
+**Words on site:** 30370  
+**Time spent:** about 15 minutes
+
+**What changed**
+- Chapter 3 (timeline) and "Personal milestones": marriage in 1991, first son Takahiro born 1992, second son (private), and the son's 2015–2018 interpreter job.
+- "In his own words" deep dive: he has no blog or social media; his official site and his 1995 book are the nearest things.
+- "Not verified": exact wedding day, a reported 1993 reception, and the son's exact birthday.
+
+**Why**
+- To line up family events with career events, the same as on Maya Yoshida's page.
 
 ## v0.3.8 — 2026-11-21
 **Summary:** New deep dive on Maya Yoshida's page: what his old blogs (2012–2016) add, plus a Japan Airlines sponsor deal found there.  
