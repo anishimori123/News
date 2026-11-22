@@ -11,7 +11,7 @@ Click a link to open the live page:
 - 🏠 Home page: [anishimori123.github.io/News/](https://anishimori123.github.io/News/)
 - ⚽ Maya Yoshida: [open page](https://anishimori123.github.io/News/sports/soccer/maya-yoshida.html)
 - ⚾ Hideo Nomo: [open page](https://anishimori123.github.io/News/sports/baseball/hideo-nomo.html)
-- 🤝 Agents: [overview](https://anishimori123.github.io/News/agents/overview.html) · [Tetsuro Kiyooka](https://anishimori123.github.io/News/agents/tetsuro-kiyooka.html) · [Thomas Kroth](https://anishimori123.github.io/News/agents/thomas-kroth.html) · [Hai Berden](https://anishimori123.github.io/News/agents/hai-berden.html) · [Kees Ploegsma Jr.](https://anishimori123.github.io/News/agents/kees-ploegsma-jr.html) · [Don Nomura](https://anishimori123.github.io/News/agents/don-nomura.html) · [Wasserman](https://anishimori123.github.io/News/agents/wasserman.html)
+- 🤝 Agents: [overview](https://anishimori123.github.io/News/agents/overview.html) · [Tetsuro Kiyooka](https://anishimori123.github.io/News/agents/tetsuro-kiyooka.html) · [Thomas Kroth](https://anishimori123.github.io/News/agents/thomas-kroth.html) · [Hai Berden](https://anishimori123.github.io/News/agents/hai-berden.html) · [Kees Ploegsma Jr.](https://anishimori123.github.io/News/agents/kees-ploegsma-jr.html) · [Don Nomura](https://anishimori123.github.io/News/agents/don-nomura.html) · [Wasserman](https://anishimori123.github.io/News/agents/wasserman.html) · [Bridging to the US](https://anishimori123.github.io/News/agents/bridging-to-the-us.html)
 - 📈 History of changes: [CHANGELOG.md](CHANGELOG.md)
 
 The same pages are stored in this repo under the `docs/` folder.
@@ -35,7 +35,7 @@ The same pages are stored in this repo under the `docs/` folder.
 | `Sports/` | One folder per sport, one folder per person |
 | `Sports/Soccer/maya-yoshida/data.json` | The "database" for one person: all facts in one file |
 | `Sports/Soccer/maya-yoshida/README.md` | The profile, readable on GitHub (made automatically) |
-| `Agents/` | Football and baseball agents and an explainer on how Japanese players get overseas; one folder and one `data.json` each |
+| `Agents/` | Football and baseball agents, plus explainers on how Japanese players get overseas and how baseball players are bridged to the US; one folder and one `data.json` each |
 | `Sports/Soccer/_TEMPLATE.md` | The standard sections every profile should have |
 | `docs/` | The web pages (made automatically) |
 | `tools/build.py` | The small program that turns `data.json` into the README and the web page |
@@ -59,6 +59,7 @@ The same pages are stored in this repo under the `docs/` folder.
 | Kees Ploegsma Jr. | [Profile](Agents/kees-ploegsma-jr/README.md) | `docs/agents/kees-ploegsma-jr.html` |
 | ⚾ Don Nomura 団野村 (Hideo Nomo's agent) | [Profile](Agents/don-nomura/README.md) | `docs/agents/don-nomura.html` |
 | 🏢 Wasserman / THE·TEAM (US agency for Japanese baseball stars) | [Profile](Agents/wasserman/README.md) | `docs/agents/wasserman.html` |
+| 🌉 Bridging Japanese athletes to the US (routes, life support, gaps) | [Profile](Agents/bridging-to-the-us/README.md) | `docs/agents/bridging-to-the-us.html` |
 
 ## 📷 Add your own photo
 

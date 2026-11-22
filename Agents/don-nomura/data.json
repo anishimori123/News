@@ -729,6 +729,29 @@
      ]
     }
    ]
+  },
+  {
+   "emoji": "🔗",
+   "title": "Related pages on this site",
+   "parts": [
+    {
+     "kind": "list",
+     "rows": [
+      [
+       "Bridging Japanese athletes to the US: today's routes (posting, US college, minor leagues) and who looks after daily life. The posting route exists because of the cases on this page.",
+       "https://anishimori123.github.io/News/agents/bridging-to-the-us.html"
+      ],
+      [
+       "Wasserman (now THE·TEAM): the American agency he shared Darvish with.",
+       "https://anishimori123.github.io/News/agents/wasserman.html"
+      ],
+      [
+       "Hideo Nomo: his first and most famous client.",
+       "https://anishimori123.github.io/News/sports/baseball/hideo-nomo.html"
+      ]
+     ]
+    }
+   ]
   }
  ],
  "unverified": [

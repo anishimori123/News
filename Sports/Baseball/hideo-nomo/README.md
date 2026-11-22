@@ -314,6 +314,9 @@ Short version: his exit closed one door (the retirement loophole) and forced the
 - Opponent Ron Gant told him MLB had been saved by him. ([source](https://number.bunshun.jp/articles/-/862100?page=3))
 - No official attendance or sales totals and no statement from the commissioner's office were found.
 
+#### Where the story goes next
+- Thirty years on, some players skip Japanese pro baseball completely (a US college, or a minor-league contract from high school). See the page 'Bridging Japanese athletes to the US' for the routes and for who looks after daily life. ([source](https://anishimori123.github.io/News/agents/bridging-to-the-us.html))
+
 ### 📍 8.4 What he is doing now (November 2026)
 Short version: he works in the USA for the San Diego Padres and keeps a foot in Japan through his baseball club and youth work. He stays out of the spotlight; most news about him comes from other people.
 

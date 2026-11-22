@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.4** | 2026-11-21 | 🆕 **🌉 Bridging Japanese athletes to the US** | New explainer page: Bridging Japanese athletes to the US (baseball routes, who pays for daily-life support, case studies of Sasaki, Morii and Oda, and where the gaps are). | 10 | 43,039 | about 50 minutes (full research, no helpers) |
 | **v0.4.3** | 2026-11-21 |  | Wasserman page: two new chapters on why Japanese baseball players choose an agency, and how a Japanese agency could enter the field. | 9 | 36,668 | about 20 minutes |
 | **v0.4.2** | 2026-11-21 |  | Wasserman page: business figures, rival agencies, who represents each Japanese MLB star, and fuller LA 2028 Olympics facts. | 9 | 35,464 | about 15 minutes (with a research helper) |
 | **v0.4.1** | 2026-11-21 |  | Wasserman page: new chapter on negotiation skills with seven contract case studies, plus Japanese staff and basketball clients. | 9 | 34,837 | about 25 minutes (with research helpers) |
@@ -41,6 +42,24 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.4 — 2026-11-21
+**Summary:** New explainer page: Bridging Japanese athletes to the US (baseball routes, who pays for daily-life support, case studies of Sasaki, Morii and Oda, and where the gaps are).  
+**New pages:** 🌉 Bridging Japanese athletes to the US  
+**Pages on site:** 10  
+**Words on site:** 43039  
+**Time spent:** about 50 minutes (full research, no helpers)
+
+**What changed**
+- New page `Agents/bridging-to-the-us`: the three routes (NPB then posting; US college then the MLB draft; minor-league contract from high school) compared side by side, with the rules that opened the new routes.
+- Case studies: Rintaro Sasaki (Stanford, then the Marlins; visa delay), Shotaro Morii (Athletics; dropped his interpreter in year 2), Shoki Oda (announced for the US, drafted by the Giants anyway, signing may be frozen by a lockout).
+- Life support tables for three levels (star, minor leaguer, college player): who provides and who pays for interpreter, food, housing, training, school and visas.
+- Sourced quotes on language, food and loneliness; a list of companies doing this as a business in Japan and the US; soccer comparison with Maya Yoshida.
+- "Where the gaps are" (my analysis), controversies, a not-verified list, and "What fans are saying" from 30 Yahoo! News Japan comments.
+- Links added to the new page from Wasserman, Don Nomura and Hideo Nomo.
+
+**Why**
+- To understand the whole bridge, not one person: how players get across, who supports them, and where players below the stars are left alone.
 
 ## v0.4.3 — 2026-11-21
 **Summary:** Wasserman page: two new chapters on why Japanese baseball players choose an agency, and how a Japanese agency could enter the field.  

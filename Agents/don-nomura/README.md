@@ -159,6 +159,11 @@ My reading: this is the same 'local partner plus big foreign firm' pattern seen 
 - Being right is not the same as being liked. He paid for these wins with years of being shut out in Japan.
 - The agent needs the right client. The plan only worked because Nomo was calm under attack and good enough to succeed at once.
 
+## 🔗 12. Related pages on this site
+- Bridging Japanese athletes to the US: today's routes (posting, US college, minor leagues) and who looks after daily life. The posting route exists because of the cases on this page. ([source](https://anishimori123.github.io/News/agents/bridging-to-the-us.html))
+- Wasserman (now THE·TEAM): the American agency he shared Darvish with. ([source](https://anishimori123.github.io/News/agents/wasserman.html))
+- Hideo Nomo: his first and most famous client. ([source](https://anishimori123.github.io/News/sports/baseball/hideo-nomo.html))
+
 ## ❓ Not verified / sources disagree
 - The exact phrase 'the most hated man in Japanese baseball': not found in a source. The nearest is the 'hated agent' subtitle of Whiting's book.
 - His commission rate and who pays it.

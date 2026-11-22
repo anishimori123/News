@@ -231,6 +231,7 @@ Facts as reported. No view is taken here on the people involved.
 - Don Nomura: the Japanese agent who shared Darvish with Wasserman, and what happened after. ([source](https://anishimori123.github.io/News/agents/don-nomura.html))
 - Hideo Nomo: the 1995 move that started the Nomura–Tellem partnership. ([source](https://anishimori123.github.io/News/sports/baseball/hideo-nomo.html))
 - Overview: how Japanese players get overseas (soccer side, for comparison). ([source](https://anishimori123.github.io/News/agents/overview.html))
+- Bridging Japanese athletes to the US: the routes (posting, US college, minor leagues), who pays for daily-life support, and the Sasaki, Morii and Oda case studies. ([source](https://anishimori123.github.io/News/agents/bridging-to-the-us.html))
 
 ## ❓ Not verified / sources disagree
 - Whether any Japanese national works as an agent inside the firm's baseball group.
