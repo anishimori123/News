@@ -2221,11 +2221,22 @@
        ],
        "url": "https://web.gekisaka.jp/news/world/detail/?205558-205558-fl="
       }
-     ]
+     ],
+     "heading": "Posts that still leave a trace"
     },
     {
-     "kind": "text",
-     "text": "Other regular topics, from the excerpts: jokes about teammates (Atsuto Uchida and Makoto Hasebe appear often), travel on days off, and thanks to fans. Not found in what survives: anything about agents, contracts or money."
+     "kind": "list",
+     "heading": "What else was on the blogs",
+     "rows": [
+      [
+       "Regular topics in the surviving excerpts: jokes about teammates (Atsuto Uchida and Makoto Hasebe appear often), travel on days off, and thanks to fans.",
+       "https://b.hatena.ne.jp/site/ameblo.jp/mayayoshida/"
+      ],
+      [
+       "Not found in what survives: anything about agents, contracts or money.",
+       ""
+      ]
+     ]
     }
    ]
   }

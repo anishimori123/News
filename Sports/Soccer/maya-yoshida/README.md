@@ -214,7 +214,7 @@ _Matches in all competitions (league, cups, continental). Source: English Wikipe
 ### Personal events
 | Date | Event | Source |
 |---|---|---|
-| 2012-09-26 | Announced his marriage on his blog. His wife is a private person he had dated since his Nagoya Grampus days; her name is not public. | [link](https://web.archive.org/web/20120929011512/http://ameblo.jp/mayayoshida/entry-11364961213.html) |
+| 2012-09-26 | Announced his marriage on his blog (26 Sep UK time, 27 Sep in Japan). He wrote that they had been together four years, since his Nagoya Grampus days. His wife is a private person; her name is not public. | [link](https://web.archive.org/web/20120929011512/http://ameblo.jp/mayayoshida/entry-11364961213.html) |
 | 2016-12-16 | Announced on his blog that his first child, a daughter, was born at the end of November 2016 (exact day not public). | [link](https://web.archive.org/web/20161217160133/http://lineblog.me/mayayoshida/archives/13100231.html) |
 | 2017-01-07 | Scored his first goal as a father (FA Cup, against Norwich) and celebrated with a baby's-dummy gesture for his daughter. | [link](https://web.gekisaka.jp/news/detail/?207408-207408-fl) |
 | 2018-05 | Book 'Unbeatable Mind' published in English (HarperCollins); Japanese title レジリエンス――負けない力. | [link](https://www.harpercollins.ca/9780008289331/unbeatable-mind/) |
@@ -395,6 +395,25 @@ Short version: he joined because the club was in trouble. In summer 2023 the Gal
 - The same rule that let him in later cut his pay. The salary limit made room for a $800,000 leader in 2023 and squeezed him to $455,000 in 2025.
 - Owners shape careers from far away. One investor kept the league alive in its early years, built the stadium, and his company still decides who runs the club.
 
+### 📝 8.5 His old blogs (2012–2016): what they add
+He wrote two official blogs: one on Ameba (to about 2015) and one on LINE BLOG (from 2016). Both are gone. The Ameba address returned 'page not found' on 21 Nov 2026, and the LINE BLOG service has closed. Saved copies exist on the Internet Archive, but my tools cannot open that site, so this table uses news reports from the time and a bookmark site that kept short excerpts. Summaries are in my own words. The last column is my reading.
+
+#### Posts that still leave a trace
+| Date | Post | What he wrote | What it tells us (my reading) | Source |
+|---|---|---|---|---|
+| 5 Aug 2012 | London Olympics: his first goal of the tournament | He dedicates the goal to his mother, whose birthday it was. | Family comes first in his public voice. | [link](https://b.hatena.ne.jp/site/ameblo.jp/mayayoshida/) |
+| 8 Aug 2012 | After the Olympic semi-final loss | Says he is more frustrated than he has been in a long time, will let himself feel it for one day, then move on to the bronze-medal match. | The same pattern as chapter 1: own the pain, then look forward. | [link](https://b.hatena.ne.jp/site/ameblo.jp/mayayoshida/) |
+| 1 Sep 2012 | Leaving VVV-Venlo for Southampton | Says his two and a half years in Venlo were mostly hard and he nearly gave up many times. He thanks his Dutch host family and the Japanese players living nearby. | Shows who carried him through the injury year: a local family and fellow Japanese players, not only the club. | [link](https://b.hatena.ne.jp/site/ameblo.jp/mayayoshida/) |
+| 26–27 Sep 2012 | Marriage announcement | Says he married that summer after four years together, and that he wants her support so he can focus on the Premier League. A sports paper's front page had leaked the news a few hours earlier. | He married right as he moved to England, and he told fans himself once the news was out. | [link](https://vitaminw.livedoor.blog/archives/52901256.html) |
+| 20–22 Dec 2014 | First goal of the season, against Everton | Says sliding on his knees like Steven Gerrard after scoring in England had been a long-time dream. | His humour, and how much the Premier League meant to him. | [link](https://www.soccer-king.jp/news/world/eng/20141222/261133.html) |
+| 9 Aug 2015 | 70 years after the Nagasaki atomic bomb | Writes that first-hand voices are disappearing. He visited Nagasaki for a TV news programme and listened to survivors in person. | The root of the 9 August posts he still makes every year. | [link](https://www.soccer-king.jp/news/japan/national/20150809/338673.html) |
+| 30 Oct 2015 | Life abroad | Writes about missing Japan, needing results to keep his place, and not being happy with his play at full-back even though he scored. | Honest self-criticism during his bench years at Southampton. | [link](https://b.hatena.ne.jp/site/ameblo.jp/mayayoshida/) |
+| 16 Dec 2016 | Birth of his daughter | Announces the birth (end of November) with a joke about a 'parent-and-child contract', and in the same post announces a support deal with Japan Airlines (JAL). | A sponsor deal I had not listed before. It is now in the money chapter. | [link](https://web.gekisaka.jp/news/world/detail/?205558-205558-fl=) |
+
+#### What else was on the blogs
+- Regular topics in the surviving excerpts: jokes about teammates (Atsuto Uchida and Makoto Hasebe appear often), travel on days off, and thanks to fans. ([source](https://b.hatena.ne.jp/site/ameblo.jp/mayayoshida/))
+- Not found in what survives: anything about agents, contracts or money.
+
 ## 💰 9. Money: contracts, salary, sponsors
 Most footballer salary numbers are guesses by websites. The only official numbers here are from the MLS Players Association (MLSPA), the players' union in the USA, which publishes every player's pay. Each row is labelled OFFICIAL or ESTIMATE.
 
@@ -444,6 +463,7 @@ A salary cap is a league rule that limits how much a team may pay all its player
 |---|---|---|---|
 | Mizuno (football boots, brand ambassador) | since 2007; renewed 2018 | Confirmed | [link](https://www.soccer-king.jp/news/youthstudent/football-kit/20180828/799353.html) |
 | EA Sports FIFA 14 video game: on the Japanese cover | 2013 | Confirmed | [link](https://www.videogamer.com/news/southamptons-maya-yoshida-to-feature-on-fifa-14s-japanese-cover/) |
+| Japan Airlines (JAL): support contract, announced on his own blog | Dec 2016 (end date not confirmed) | Confirmed (amount not published) | [link](https://web.gekisaka.jp/news/world/detail/?205558-205558-fl=) |
 | Vera&John free version (ambassador, TV ads, sponsored podcast). See 'Controversies' and the deep dive. | Aug 2021 – June 2023 | Confirmed | [link](https://www.dailyshincho.jp/article/2025/02280605/?all=1&page=3) |
 | Parmigiani Fleurier (Swiss watch brand partner) | 2026 | Confirmed | [link](https://www.wwdjapan.com/?p=2412527) |
 | DAZN: 'chief captain' of its 2026 World Cup coverage | 2026 | Confirmed (pay not published) | [link](https://web.gekisaka.jp/news/worldcup/detail/?449895-449895-fl) |
@@ -515,6 +535,7 @@ _Read on 2026-11-21. The top 30 of 141 reader comments in 'recommended' order (1
 - The exact wording of the 2023 signing ban: one source says the club could not sign international players that summer; the league's website says it was in effect limited to free agents and trades within the league.
 - LA Galaxy finishing 11th in the West in 2026 comes from a fan-site summary, not an official table.
 - The ages of MLS signings come from one independent analysis; the league has not published its own figure here.
+- Full text of his old blog posts (Ameba, LINE BLOG): both blogs are offline; only news reports and short excerpts were read. Checked 21 Nov 2026.
 
 ## 🎥 Appendix: videos and interviews
 I could not confirm direct YouTube links from my tools, so the YouTube rows are SEARCH links: click and the video with that exact title should be at or near the top. The other rows are direct links to official pages.

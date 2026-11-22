@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.3.8** | 2026-11-21 |  | New deep dive on Maya Yoshida's page: what his old blogs (2012–2016) add, plus a Japan Airlines sponsor deal found there. | 8 | 30,051 | about 15 minutes |
 | **v0.3.7** | 2026-11-21 |  | Maya Yoshida's timeline now shows when he married and when his two children were born. | 8 | 29,463 | about 10 minutes |
 | **v0.3.6** | 2026-11-21 |  | New deep dive on Maya Yoshida's page: who owns LA Galaxy, how the club grew, why he could join in 2023, and how MLS brings in players from overseas. | 8 | 29,331 | about 20 minutes |
 | **v0.3.5** | 2026-11-21 |  | Hideo Nomo's money section now explains why his pay changed, year by year; the rule is added to the template for everyone. | 8 | 28,079 | about 15 minutes |
@@ -35,6 +36,8 @@ How to add an entry: put it directly below this line, newest first. Start with `
 
 ## v0.3.8 — 2026-11-21
 **Summary:** New deep dive on Maya Yoshida's page: what his old blogs (2012–2016) add, plus a Japan Airlines sponsor deal found there.  
+**Pages on site:** 8  
+**Words on site:** 30051  
 **Time spent:** about 15 minutes
 
 **What changed**
