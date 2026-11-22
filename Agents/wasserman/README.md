@@ -14,10 +14,10 @@ _This file is generated from `data.json` by `tools/build.py`. Edit `data.json`, 
 |---|---|
 | Founded | 2002 in Los Angeles by Casey Wasserman, grandson of Hollywood executive Lew Wasserman |
 | Names | Wasserman Media Group (2002) → Wasserman (2016) → THE·TEAM (9 March 2026) |
-| Owner today | Providence Equity Partners, an investment firm. It bought 60% in 2022 and bought out the founder in 2026 |
-| Boss today | Mike Watts, president since 2014, named CEO when the buyout closed (announced 10 Nov 2026) |
-| Reported value | About $3.4 billion (REPORTED by Sportico from one source, July 2026; not official) |
-| Size | $331 million in commissions and $5.7 billion in contracts signed in 2020 (Wikipedia, citing Forbes-style rankings) |
+| Owner today | Providence Equity Partners, an investment firm. It first invested in 2022 (terms not disclosed), was reported to hold about 60% by 2026, and bought out the founder on 5 Oct 2026 |
+| Boss today | Mike Watts, with the company since 2002 and president since 2014; CEO since the buyout closed on 5 Oct 2026 |
+| Reported value | About $3.4 billion (REPORTED by Sportico and Puck from unnamed sources, July 2026; the price was never made official) |
+| Size | No. 2 sports agency in the world in Forbes' 2025 ranking, behind CAA: over $9 billion in playing contracts, 4,000+ clients, offices in 28 countries (figures as relayed by The Big Lead and the company) |
 | Key person for Japan | Joel Wolfe, executive vice president, baseball |
 | Japanese clients (reported) | Yu Darvish, Kodai Senga, Seiya Suzuki, Yoshinobu Yamamoto, Roki Sasaki, Yoshitomo Tsutsugo; in basketball, Rui Hachimura |
 
@@ -32,13 +32,13 @@ Your three questions, answered briefly. (1) Japanese agent: I found no named Jap
 | 2011–12 | Yu Darvish is represented by 'Arn Tellem of Wasserman Media Group and Don Nomura'; signs with Texas. | [link](https://www.mlbtraderumors.com/2011/10/agents-predict-darvish-posting-fee-contract.html) |
 | 2015 | Tellem leaves for the Detroit Pistons. Kenta Maeda hires Wasserman's Adam Katz. | [link](https://www.mlbtraderumors.com/2015/12/kenta-maeda-joins-wasserman-media-group.html) |
 | 2021 | Buys the music business of the Paradigm agency and starts Wasserman Music. | [link](https://en.wikipedia.org/wiki/Wasserman_(company)) |
-| 2022 | Providence Equity buys about 60% of the company. | [link](https://www.sportico.com/business/finance/2026/providence-equity-wasserman-agency-sale-billion-1234940141/) |
+| 2022 | Providence Equity invests (terms not disclosed) and buys out two earlier investors. Casey Wasserman keeps control at this point; by 2026 Providence is reported to hold about 60%. | [link](https://www.provequity.com/news/providence-invests-wasserman) |
 | Sept 2023 | Yoshinobu Yamamoto picks Joel Wolfe; he later signs with the Dodgers for 12 years and $325 million. | [link](https://pacificleague.com/en/news/2023/9/10023866) |
 | Nov 2024 | Roki Sasaki picks Wolfe. Team meetings are held at Wasserman's Los Angeles office. | [link](https://www.daily.co.jp/mlb/2024/11/11/0018328136.shtml) |
-| Jan–Feb 2026 | US Justice Department releases Epstein files that include flirtatious 2003 emails from Casey Wasserman to Ghislaine Maxwell. Clients start leaving. On 13 Feb he says he will sell. | [link](https://noticias.foxnews.com/sports/casey-wasserman-selling-agency-after-flirtatious-ghislaine-maxwell-emails-surface-clients-leave-report.print) |
+| Jan–Feb 2026 | 30 Jan: the US Justice Department releases Epstein-related files that include 2003 emails between Casey Wasserman and Ghislaine Maxwell. Clients start leaving. 13 Feb: he says he will sell and step back. | [link](https://frontofficesports.com/?p=222815) |
 | 9 Mar 2026 | Company renamed THE·TEAM. | [link](https://www.sportspro.com/news/agencies/wasserman-the-team-rebrand-agency-sale-march-2026/) |
 | 28 Jul 2026 | Providence confirms it will buy the founder's remaining stake. | [link](https://www.musicbusinessworldwide.com/casey-wasserman-providence-equity-taking-full-control-of-theteam/) |
-| 10 Nov 2026 | Buyout complete; new 11-member board; Mike Watts is CEO. Price not disclosed. | [link](https://www.musicbusinessworldwide.com/theteam-forms-11-member-board-after-providence-completes-buyout-of-founder-casey-wasserman/) |
+| 5 Oct – 10 Nov 2026 | Buyout completed on 5 Oct; Mike Watts becomes CEO. On 10 Nov a new 11-member board is announced. It includes Jason Ranne, one of Rui Hachimura's agents. Price not disclosed. | [link](https://www.musicbusinessworldwide.com/theteam-forms-11-member-board-after-providence-completes-buyout-of-founder-casey-wasserman/) |
 
 ## 🇯🇵 3. Japanese athletes it represents
 Client lists change, so read every row as 'reported at that date'.
@@ -113,35 +113,66 @@ What the firm's agents actually won, and where they could not. Contract terms ar
 - Controversies about him personally, beyond the Sasaki accusations: none found (searched 21 Nov 2026).
 
 ## 💰 7. Business model
-- Commissions: the agency keeps a percentage of each playing contract it negotiates. In 2020 it earned $331 million in commissions on $5.7 billion of contracts (about 6% on average across all sports; my arithmetic). ([source](https://en.wikipedia.org/wiki/Casey_Wasserman))
+- Commissions: the agency keeps a percentage of each playing contract it negotiates. Forbes' 2025 ranking (as relayed by The Big Lead) puts its maximum possible commissions at about $956 million, on more than $9 billion of playing contracts and nearly $2 billion of sponsor deals. ([source](https://www.thebiglead.com/?p=109273))
 - Rates (REPORTED): a Japanese weekly, quoting an unnamed MLB scout, puts its fee at about 4–5% of salary on team contracts and about 20% on sponsor deals. Not confirmed by the firm. ([source](https://gendai.media/articles/-/116998?page=2))
 - Service: the same report credits its staff's close support for players and their families as a reason Japanese players choose it. ([source](https://gendai.media/articles/-/116998?page=2))
 - Marketing: sponsor and advertising deals for athletes, plus consulting for brands. It calls itself a marketing and talent management company. ([source](https://en.wikipedia.org/wiki/Wasserman_(company)))
-- Growth by buying: Tellem's practice (2006), a boxing promoter and Paradigm's music business (2021), a women's soccer agency (2026). ([source](https://www.sportspro.com/news/agencies/wasserman-the-team-rebrand-agency-sale-march-2026/))
+- Growth by buying: more than 20 agencies since 2004, including Arn Tellem's practice (2006), a UK soccer agency (2006), Paradigm's live-music business (2021), the baseball agency Jet Sports (2022), Brillstein talent management (2023), hockey and football agencies (2024–25) and a golf agency (2026). List from Wikipedia. ([source](https://en.wikipedia.org/wiki/Wasserman_(company)))
 - Outside money: Providence Equity has owned most of it since 2022 and all of it since 2026. Investment firms also bought rivals (Goldman Sachs bought Excel). ([source](https://www.sportico.com/business/finance/2026/providence-equity-wasserman-agency-sale-billion-1234940141/))
+- Typical rates in the industry, for scale: 3% on NFL team contracts (the union maximum) and roughly 10–20% on sponsor deals, which unions do not regulate. ([source](https://frontofficesports.com/article/how-much-do-nfl-agents-make/))
+- It is much more than a sports agency now: music booking, brand consulting, talent management, broadcasters, speakers and online creators. ([source](https://www.musicbusinessworldwide.com/providence-set-to-fully-acquire-casey-wassermans-theteam-valuing-agency-at-3-4b-report/))
+
+#### The biggest sports agencies (Forbes 2025, maximum commissions)
+| Rank | Agency | Maximum commissions | Note | Source |
+|---|---|---|---|---|
+| 1 | CAA | $1.14 billion | About $20 billion in contracts. Represents Shohei Ohtani. | [link](https://www.thebiglead.com/?p=109273) |
+| 2 | Wasserman / THE·TEAM | $956 million | Over $9 billion in contracts | [link](https://www.thebiglead.com/?p=109273) |
+| 3 | Excel | $783 million | Goldman Sachs bought a majority in late 2025. Represents Munetaka Murakami. | [link](https://www.thebiglead.com/?p=109273) |
+| 4 | Octagon | $463 million |  | [link](https://www.thebiglead.com/?p=109273) |
+| 5 | Klutch / UTA | $351 million |  | [link](https://www.thebiglead.com/?p=109273) |
+| 6 | Boras Corporation | $260 million | Baseball only. Represents Kazuma Okamoto and Yusei Kikuchi. | [link](https://www.thebiglead.com/?p=109273) |
+
+#### Who represents the Japanese stars? 5 of the 9 I could source are with this agency
+| Japanese MLB player | Agency (as sourced) | Source date | Source |
+|---|---|---|---|
+| Shohei Ohtani | CAA | 2025 | [link](https://www.thebiglead.com/?p=109273) |
+| Yoshinobu Yamamoto | Wasserman / THE·TEAM | company page | [link](https://www.teamwass.com/?p=19211) |
+| Yu Darvish | Wasserman / THE·TEAM | company page | [link](https://www.teamwass.com/?p=19211) |
+| Roki Sasaki | Wasserman / THE·TEAM | 2025 | [link](https://www.mlb.com/news/roki-sasaki-s-agent-discusses-meetings-mlb-teams) |
+| Kodai Senga | Wasserman / THE·TEAM | 2022 | [link](https://www.japantimes.co.jp/sports/2022/11/11/baseball/japanese-baseball/senga-agent-top-starter-mlb/) |
+| Seiya Suzuki | Wasserman / THE·TEAM | 2024 | [link](https://www.daily.co.jp/mlb/2024/11/11/0018328136.shtml) |
+| Munetaka Murakami | Excel | 2025–26 | [link](https://www.mlb.com/news/chris-getz-white-sox-pursuit-munetaka-murakami) |
+| Kazuma Okamoto | Boras Corporation | 2026 | [link](https://www.mlb.com/news/tatsuya-imai-signing-aftermath) |
+| Yusei Kikuchi | Boras Corporation | 2018 | [link](https://www.mlbtraderumors.com/2018/11/yusei-kikuchi-hires-boras-corporation.html) |
 
 ## ⚠️ 8. The 2026 crisis
 Facts as reported. No view is taken here on the people involved.
 
-- Late Jan 2026: files released by the US Justice Department included flirtatious emails Casey Wasserman sent in 2003 to Ghislaine Maxwell, an associate of Jeffrey Epstein. He said he deeply regretted them and that they were written long before her crimes were known. ([source](https://www.cbc.ca/sports/olympics/casey-wasserman-la28-olympics-9.7224172))
-- Clients left, mostly in music: singer Chappell Roan, more than 20 artists, and soccer star Abby Wambach. ([source](https://www.thewrap.com/industry-news/business/casey-wasserman-the-team-sale-providence-equity/))
+- 30 Jan 2026: files released by the US Justice Department included 2003 emails between Casey Wasserman and Ghislaine Maxwell, an associate of Jeffrey Epstein, with suggestive remarks. He said he deeply regrets them, that they came before her crimes were known, and that he had no personal or business relationship with Epstein. ([source](https://frontofficesports.com/?p=222815))
+- He has not been accused of any illegal activity in connection with the documents. ([source](https://www.musicbusinessworldwide.com/theteam-forms-11-member-board-after-providence-completes-buyout-of-founder-casey-wasserman/))
+- Clients left, mostly in music: singer Chappell Roan and about 20 other acts. In sports, soccer star Abby Wambach is the only athlete named as leaving; by May the sports business was reported to be running largely as normal. ([source](https://frontofficesports.com/?p=235029))
 - He stepped back in February, the name changed in March, and he sold his stake (about 40%) in July. ([source](https://www.hollywoodreporter.com/business/business-news/casey-wasserman-sells-stake-the-team-providence-equity-1236658638/))
 - Japanese players: no Japanese athlete was found to have left (searched twice, 21 Nov 2026). A Japanese weekly speculated in March that Wolfe might go independent or join a rival; that has not happened as far as reports show. ([source](https://www.dailyshincho.jp/article/2026/03111001/?all=1))
 
 ## 🏅 9. The LA 2028 Olympics link
-- Casey Wasserman is chairperson and president of LA28, the organising committee. This is his personal role; the agency does not run the Games. ([source](https://la28.org/en/about-la28.html))
-- Los Angeles mayor Karen Bass urged him to resign in February 2026. LA28's board reviewed his past contacts with outside lawyers and backed him. In June he said he would not resign. ([source](https://www.espn.com/olympics/story/_/id/48969633/casey-wasserman-says-resign-chair-2028-olympics))
+- Casey Wasserman has chaired LA28, the organising committee, since 2017. This is his personal role; the agency does not run the Games. ([source](https://la28.org/en/about-la28.html))
+- 11 Feb 2026: after a review by an outside law firm, LA28's executive committee kept him as chair. About a week later Los Angeles mayor Karen Bass called for him to resign, as did several county and city officials. In June he said he would not. ([source](https://frontofficesports.com/?p=222815))
+- The International Olympic Committee's coordination chief expressed 'full trust' in LA28's leadership; the IOC president said it would not involve itself in the committee's structure. ([source](https://www.aol.com/news/ioc-continues-full-trust-casey-194412625.html))
 - He was still speaking as LA28 chairperson on 19 Nov 2026. ([source](https://coliseum-online.com/kennedy-appointed-as-head-of-ceremonies-and-content-for-la28))
 - Since the 2026 sale he no longer owns the agency, so the old overlap (one man leading both the Games and an agency full of Olympic athletes) has ended. ([source](https://www.musicbusinessworldwide.com/theteam-forms-11-member-board-after-providence-completes-buyout-of-founder-casey-wasserman/))
-- Not checked: whether the agency has any contract with LA28, and whether MLB players (and so its Japanese clients) will play in the 2028 Olympic baseball tournament.
+- Baseball is in the 2028 Games: six teams at Dodger Stadium. Japan is expected to qualify through the Premier12 tournament in November 2027. ([source](https://thescore.com/mlb/news/3566495))
+- Will MLB stars such as Ohtani and Yamamoto play? Not decided. As of July 2026 the owners support it, but the league and the players' union had no agreement (the dispute includes whether taking part is compulsory, insurance and scheduling). Nothing newer was found. ([source](https://frontofficesports.com/article/la28-mlb-plan-remains-unsettled/))
+- The agency represents Olympic athletes (swimmer Katie Ledecky is one). No contract between the agency and LA28, and no documented conflict of interest, was found. ([source](https://frontofficesports.com/?p=222815))
 
 ## 🔭 10. Can it dominate in the future? (my analysis)
 - For: the client chain in Japanese baseball is hard to copy, and every new star arrives already knowing Wolfe's name.
-- For: an owner with money to keep buying agencies. ([source](https://www.sportico.com/business/finance/2026/providence-equity-wasserman-agency-sale-billion-1234940141/))
+- For: an owner that says it will keep funding growth and more purchases. ([source](https://www.musicbusinessworldwide.com/casey-wasserman-providence-equity-taking-full-control-of-theteam/))
+- For: scale. It is already No. 2 in the world, and the sports side lost almost no athletes in the 2026 crisis. ([source](https://frontofficesports.com/?p=235029))
 - Against: the business depends on a few people. When Tellem left in 2015 the link to Nomura went with him. If Wolfe left, the Japanese clients could follow him.
 - Against: strong rivals hold the other stars. Ohtani is with CAA's Nez Balelo; Scott Boras and Casey Close also sign Japanese players. ([source](https://www.jiji.com/jc/v7?id=mlbjptoday))
 - Against: the Japanese layer is getting stronger. Dentsu is reported around Yamamoto and Sasaki, and Hakuhodo bought Don Nomura's agency in 2025. If Japanese companies control the player at home, they can choose which American agent gets the job. ([source](https://www.hakuhodo.co.jp/news/newsrelease/118591/))
 - Against: an investment-firm owner usually wants to sell again in a few years, which can unsettle staff and clients.
+- A limit on who can ever buy it: investment firms that own shares in teams face a conflict if they also own a player agency. That kept several big bidders out in 2026. ([source](https://frontofficesports.com/?p=235029))
 - My reading: strong in Japanese baseball for now, but 'dominate' is too big a word. Power is shifting toward whoever holds the player's trust in Japan.
 
 ## 🔗 11. Related pages on this site
@@ -151,8 +182,6 @@ Facts as reported. No view is taken here on the people involved.
 
 ## ❓ Not verified / sources disagree
 - Whether any Japanese national works as an agent inside the firm's baseball group.
-- The $3.4 billion valuation: one unnamed source (Sportico). The final price was not disclosed.
-- Any business contract between the agency and LA28.
 - Controversies searched 21 Nov 2026: the Epstein-files matter is the only major one found.
 - Commission rates (4–5% and about 20%): one unnamed scout in a weekly magazine.
 - Whether Shoki Oda has signed with the agency: not found.
@@ -162,4 +191,9 @@ Facts as reported. No view is taken here on the people involved.
 - Which agent led each deal: Wolfe is confirmed for Yamamoto and Sasaki; for Maeda (Adam Katz), Darvish 2018 and 2023, Senga and Suzuki the reports I read name the agency more than the person.
 - Sasaki's posting fee to Chiba Lotte, and a reported Padres offer above $10 million: not confirmed.
 - How Wolfe ran the Yamamoto meetings; any quotes from club executives about negotiating with him: not found.
+- The $3.4 billion valuation: unnamed sources (Sportico, Puck). The final price, and what Casey Wasserman received, were not disclosed.
+- Providence's exact stake before 2026: 'about 60%' in press reports; the 2022 terms were never published.
+- Agents for Imanaga, Yoshida, Imai, Sugano and Matsui: not sourced, so they are left out of the share table.
+- Total revenue and number of employees: not found.
+- MLB players at the 2028 Olympics: no decision found after July 2026.
 

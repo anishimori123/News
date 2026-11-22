@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.2** | 2026-11-21 |  | Wasserman page: business figures, rival agencies, who represents each Japanese MLB star, and fuller LA 2028 Olympics facts. | 9 | 35,464 | about 15 minutes (with a research helper) |
 | **v0.4.1** | 2026-11-21 |  | Wasserman page: new chapter on negotiation skills with seven contract case studies, plus Japanese staff and basketball clients. | 9 | 34,837 | about 25 minutes (with research helpers) |
 | **v0.4.0** | 2026-11-21 |  | New page: Wasserman (now THE·TEAM), the American agency behind most top Japanese pitchers in MLB. | 9 | 33,550 | about 30 minutes |
 | **v0.3.12** | 2026-11-21 | 🆕 **🏢 Wasserman (now THE·TEAM)** | Don Nomura's page now says what is public about his own family. | 9 | 33,232 | about 5 minutes |
@@ -39,6 +40,21 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.2 — 2026-11-21
+**Summary:** Wasserman page: business figures, rival agencies, who represents each Japanese MLB star, and fuller LA 2028 Olympics facts.  
+**Pages on site:** 9  
+**Words on site:** 35464  
+**Time spent:** about 15 minutes (with a research helper)
+
+**What changed**
+- Business model: Forbes 2025 ranking table (CAA first, this agency second), list of purchases, typical commission rates.
+- New table: which agency represents nine Japanese MLB players (five are with this agency).
+- Ownership dates corrected: buyout completed 5 Oct 2026; 2022 investment terms were never published.
+- 2026 crisis and LA28 chapters: exact dates, the board review, the IOC position, baseball at the 2028 Games and the open question of MLB players taking part.
+
+**Why**
+- To size the agency against its rivals and separate the founder's Olympic role from the company.
 
 ## v0.4.1 — 2026-11-21
 **Summary:** Wasserman page: new chapter on negotiation skills with seven contract case studies, plus Japanese staff and basketball clients.  
