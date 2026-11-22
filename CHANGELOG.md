@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.9** | 2026-11-21 |  | Record of the full visit-tracking and privacy setup (A, B, C, D), including the parts done outside this repo. | 10 | 43,039 | about 5 minutes |
 | **v0.4.8** | 2026-11-21 |  | Every web page now asks search engines not to list it (noindex), so the site is found by link only. | 10 | 43,039 | about 5 minutes |
 | **v0.4.7** | 2026-11-21 |  | README now has a "Who visits" line with links to the GoatCounter dashboard and the repo traffic page. | 10 | 43,039 | about 5 minutes |
 | **v0.4.6** | 2026-11-21 |  | Website visitor counter switched on (GoatCounter) on every page. | 10 | 43,039 | about 5 minutes |
@@ -46,6 +47,31 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.9 — 2026-11-21
+**Summary:** Record of the full visit-tracking and privacy setup (A, B, C, D), including the parts done outside this repo.  
+**Pages on site:** 10  
+**Words on site:** 43039  
+**Time spent:** about 5 minutes
+
+**What changed**
+- No page content changed. This entry writes down the whole setup in one place:
+
+| Part | What it does | Where it lives | Status |
+|---|---|---|---|
+| A. Website visitor counter | Counts visits to every web page (GoatCounter, no cookies) | `tools/site_config.json` → `goatcounter_code`; dashboard: https://anishimori-news.goatcounter.com/ | On since v0.4.6 |
+| B. Repo traffic history | Saves GitHub's views and downloads ("clones") every night at about 1 AM Pacific, because GitHub keeps only 14 days | `.github/workflows/traffic.yml`, `tools/save_traffic.py`, results in `traffic/*.csv` | On since v0.4.5; first successful run 21 Nov 2026 (11:15 PM Pacific) |
+| C. Request to bots | A `robots.txt` asking nine AI and scraper bots (GPTBot, ClaudeBot, CCBot, Google-Extended, PerplexityBot, Bytespider, Amazonbot, Applebot-Extended, meta-externalagent) to stay away | A separate repo, `anishimori123/anishimori123.github.io`, because bots only read the file at the top of the web address: https://anishimori123.github.io/robots.txt | Live 21 Nov 2026 (made by the owner) |
+| D. Search engines | Every page says "noindex", so Google and Bing should not list the site | `tools/site_config.json` → `show_in_search: false` | On since v0.4.8 |
+
+- Things to remember:
+  - The secret `TRAFFIC_TOKEN` (a fine-grained token, permission Administration: Read-only, for this repo only) expires within a year. When the nightly job shows a red cross, make a new token and replace the secret.
+  - The numbers in `traffic/` are public counts with no names. A sudden jump in `clones.csv` is the best sign of bots copying the repo.
+  - Limits: `robots.txt` and "noindex" are requests, not locks. The repo itself is public and can be copied by anyone; only making it private (paid plan needed for the website) would stop that.
+  - `ClaudeBot` is on the blocked list, so Claude may not be able to open the live website; it works from the repo instead.
+
+**Why**
+- The owner asked for the setup to be written in this changelog so it can be checked later.
 
 ## v0.4.8 — 2026-11-21
 **Summary:** Every web page now asks search engines not to list it (noindex), so the site is found by link only.  
