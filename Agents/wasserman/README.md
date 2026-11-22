@@ -22,7 +22,7 @@ _This file is generated from `data.json` by `tools/build.py`. Edit `data.json`, 
 | Japanese clients (reported) | Yu Darvish, Kodai Senga, Seiya Suzuki, Yoshinobu Yamamoto, Roki Sasaki, Yoshitomo Tsutsugo; in basketball, Rui Hachimura |
 
 ## 📌 1. In short
-Your three questions, answered briefly. (1) Japanese agent: I found no named Japanese agent inside the firm. The face is an American, Joel Wolfe; the Japanese side comes from partners in Japan. (2) Business model: it earns a percentage of player contracts and sponsor deals, and it grew by buying other agencies with investor money. (3) LA Olympics: the link is personal, not corporate. Founder Casey Wasserman chairs LA28, but since 2026 he no longer owns the agency.
+Your three questions, answered briefly. (1) Japanese agent: I found no named Japanese agent inside the firm. The face is an American, Joel Wolfe; the Japanese side comes from partners in Japan. (2) Business model: it earns a percentage of player contracts and sponsor deals, and it grew by buying other agencies with investor money. (3) LA Olympics: the link is personal, not corporate. Founder Casey Wasserman chairs LA28, but since 2026 he no longer owns the agency. (4) Negotiation: its trademark is the opt-out and other protections for the player, plus a tightly run, equal-rules bidding process. See chapter 6.
 
 ## 🗓️ 2. Timeline
 | Year | What happened | Source |
@@ -74,7 +74,45 @@ These are the methods that show up in reports. The grouping is my analysis.
 - Working with a partner in Japan instead of competing with it (Nomura then, a management company now). ([source](https://www.tokyo-sports.co.jp/articles/-/409655))
 - Los Angeles as a base: the office, the Dodgers, and a large Japanese community are all in one city. ([source](https://www.postguam.com/sports/nation/paint-japan-blue-how-the-dodgers-vision-of-japanese-prominence-became-reality/article_f8d37448-039f-11f0-9e18-dfb70fdb6fe9.html))
 
-## 💰 6. Business model
+## 🤝 6. Negotiation skills: seven case studies
+What the firm's agents actually won, and where they could not. Contract terms are from AP, MLB.com, ESPN and MLB Trade Rumors. 'Opt-out' means the player may end the contract early and sell himself again. 'Posting fee' is the money the American club pays the Japanese club.
+
+| Player and deal | What the contract says | What the negotiation shows | Weak point or criticism | Source |
+|---|---|---|---|---|
+| Yoshinobu Yamamoto → Dodgers, Dec 2023. 12 years, $325 million (OFFICIAL terms via AP) | Record guarantee for a pitcher at the time. $50 million signing bonus, low pay in the first years. Two opt-outs (the right to leave early), with timing pushed back if his elbow is badly hurt. No no-trade clause, but if he is traded he may opt out. Interpreter, trainer, therapist and five return flights a year are written in. The Dodgers also paid Orix a $50.6 million posting fee. | Several clubs bid at the same level: the Mets reportedly offered the same $325 million and the Yankees $300 million over 10 years. The player then chose on fit, with no final round of raises reported. | The yearly average ($27 million) is lower than the Yankees' offer; length and total were put first. How Wolfe ran the meetings was not found. | [link](https://www.foxsports.com/articles/mlb/yamamotos-contract-with-dodgers-includes-2-opt-outs-but-timing-depends-on-elbow-health) |
+| Roki Sasaki → Dodgers, Jan 2025. Minor-league contract, $6.5 million bonus | He was under 25, so the rules capped his money: clubs could only pay from a small bonus pool (about $4 million to $7.5 million). | With price fixed, the agent built a contest on everything else. 20 clubs sent presentations, 8 got meetings at the firm's Los Angeles office, 3 became finalists. Every meeting had the same length (under two hours), no current players in the room, and the same 'homework assignment' for each club. | Rival clubs suspected a pre-arranged Dodgers deal and complained; MLB looked into it and found no evidence. Wolfe denied it strongly and called the final choice close to a coin flip. Some clubs disliked handing over their own analysis for little chance. | [link](https://www.mlb.com/news/roki-sasaki-s-agent-discusses-meetings-mlb-teams) |
+| Kodai Senga → Mets, Dec 2022. 5 years, $75 million | Opt-out after 2025 only if he pitched 400 innings. Full no-trade for three years. In return the Mets got a cheap extra year if his elbow needed major surgery. Bonuses for Cy Young award votes. | A swap of risks: the club's worry about the elbow was answered with conditions, not with less money. | Wolfe's own part in the talks is not described in reports. | [link](https://www.thescore.com/mlb/news/2519573) |
+| Seiya Suzuki → Cubs, Mar 2022. 5 years, $85 million | Full no-trade clause. Then a record for a Japanese position player. Cubs also paid Hiroshima a $14.6 million posting fee. | Time pressure handled: the 99-day MLB lockout froze his 30-day window, leaving about 20 days to finish. | Which clubs made formal offers is not stated. | [link](https://www.mlbtraderumors.com/2022/03/cubs-to-sign-seiya-suzuki.html) |
+| Yu Darvish → Rangers, Jan 2012. About 6 years, $60 million (Tellem with Don Nomura) | A clause let him leave a year early if he reached high Cy Young award results. Rangers paid Nippon-Ham a record $51.7 million posting fee. | Signed at the very last hour of the 30-day window. Both sides had something to lose: he would have gone back to Japan, and Texas would have lost its chance. | Exact award thresholds not found. | [link](https://www.cbsnews.com/chicago/news/darvish-rangers-agree-to-60m-6-yr-deadline-deal) |
+| Yu Darvish → Padres extension, Feb 2023. 6 years, $108 million | Signed at age 36, runs to 42, full no-trade. | Security over yearly pay: a lower yearly average helped the club's tax bill, and he got six guaranteed years. | Which agent led the talks is not confirmed. | [link](https://www.espn.com/mlb/story/_/id/35623496/padres-yu-darvish-gets-6-year-108m-extension) |
+| Kenta Maeda → Dodgers, Jan 2016. 8 years, only $25 million guaranteed | Bonuses could lift it above $100 million. No opt-out. Dodgers paid Hiroshima a $20 million posting fee. | The example of weak bargaining power: a medical exam found elbow problems, few clubs stayed in, and the old rules capped the fee at $20 million. | Widely called a club-friendly deal. One column said it pushed the injury risk onto the player and blamed the posting rules more than the agent. | [link](https://blogs.fangraphs.com/that-kenta-maeda-contract/) |
+
+#### Nine techniques that repeat (my analysis)
+- 1. Opt-outs. Almost every deal has an exit so the player can go back to the market if he does better than expected (Yamamoto, Senga, Darvish). ([source](https://www.foxsports.com/articles/mlb/yamamotos-contract-with-dodgers-includes-2-opt-outs-but-timing-depends-on-elbow-health))
+- 2. Trade health risk for conditions, not for less money. When a club fears an elbow injury, tie the opt-out date or an extra club year to that injury (Yamamoto, Senga). ([source](https://www.thescore.com/mlb/news/2519573))
+- 3. Protection from being moved: a no-trade clause, or 'if you trade me I can leave' when the club refuses one (Suzuki, Senga, Darvish, Yamamoto). ([source](https://www.foxsports.com/articles/mlb/yamamotos-contract-with-dodgers-includes-2-opt-outs-but-timing-depends-on-elbow-health))
+- 4. Cash early: big signing bonus, low first-year pay. The player gets money early and for certain; the club gets an easier budget (Yamamoto's $50 million bonus). ([source](https://www.foxsports.com/articles/mlb/yamamotos-contract-with-dodgers-includes-2-opt-outs-but-timing-depends-on-elbow-health))
+- 5. Equal rules for every bidder: same meeting length, same assignment, one neutral place. This creates a contest even when price is fixed, and it is a defence if someone cries foul (Sasaki). ([source](https://www.mlb.com/news/roki-sasaki-s-agent-discusses-meetings-mlb-teams))
+- 6. Use the calendar. Posting windows force clubs to decide (Darvish 2012 at the final hour; Suzuki after the lockout). ([source](https://www.cbsnews.com/chicago/news/darvish-rangers-agree-to-60m-6-yr-deadline-deal))
+- 7. Gather several top bids, then let the player pick on fit (Yamamoto). ([source](https://www.mlbtraderumors.com/2023/12/latest-on-yankees-mets-failed-pursuits-of-yoshinobu-yamamoto.html))
+- 8. Write daily life into the contract for Japanese players: interpreter, trainer, therapist, flights home, no demotion without consent (Yamamoto, Senga). ([source](https://www.foxsports.com/articles/mlb/yamamotos-contract-with-dodgers-includes-2-opt-outs-but-timing-depends-on-elbow-health))
+- 9. Speak in public. Wolfe holds on-record briefings, explains the process, and answers accusations directly (Sasaki). ([source](https://www.si.com/mlb/diamondbacks/arizona-diamondbacks-news/q-a-with-roki-sasaki-s-agent-joel-wolfe-winter-meetings))
+
+#### Where even a good agent has little power
+- When rules cap the money. For Sasaki, Wolfe said the differences between clubs' bonus pools were tiny and told him not to choose on them. ([source](https://www.si.com/mlb/diamondbacks/arizona-diamondbacks-news/q-a-with-roki-sasaki-s-agent-joel-wolfe-winter-meetings))
+- When only one club is willing. Maeda in 2016: one report says the Dodgers may have been the only club ready to pay the posting fee. ([source](https://sports.vice.com/en/article/bmq8j3/kenta-maedas-contract-is-bad-news-for-baseball-players))
+- When the market is slow. Darvish in 2018 reportedly hoped for $155–175 million and signed for $126 million. ([source](https://www.mlbtraderumors.com/2018/02/reactions-to-and-effects-of-the-yu-darvish-deal.html))
+- Suspicion is a cost too. The Dodgers had kept $2.5 million of bonus money unspent before Sasaki, which fed the talk of a fixed deal. ([source](https://www.tsn.ca/mlb/mlb-investigated-to-ensure-no-early-roki-sasaki-deal-in-place-1.2218035))
+
+#### Who is Joel Wolfe?
+- Title: Executive Vice President and Managing Executive, Baseball. He leads the baseball group together with B.B. Abbott. ([source](https://www.teamwass.com/?p=19211))
+- Background (REPORTED): a stats database lists a Joel Wolfe born 1970, from Los Angeles and UCLA, who played outfield in the minor leagues from 1991 to 1996 without reaching the majors. No article I read ties the two together, so treat it as likely, not confirmed. ([source](https://www.statscrew.com/minorbaseball/stats/p-6788b321))
+- He learned the Japan side under Arn Tellem, supporting Hideki Matsui, according to Tokyo Sports. ([source](https://www.tokyo-sports.co.jp/articles/-/126297))
+- His advice to young players: career earnings come from the long run, not the first bonus. ([source](https://www.si.com/mlb/diamondbacks/arizona-diamondbacks-news/q-a-with-roki-sasaki-s-agent-joel-wolfe-winter-meetings))
+- He also speaks for the player's situation at home. He said Sasaki was heavily criticised in Japan for leaving young. ([source](https://www.si.com/mlb/diamondbacks/arizona-diamondbacks-news/q-a-with-roki-sasaki-s-agent-joel-wolfe-winter-meetings))
+- Controversies about him personally, beyond the Sasaki accusations: none found (searched 21 Nov 2026).
+
+## 💰 7. Business model
 - Commissions: the agency keeps a percentage of each playing contract it negotiates. In 2020 it earned $331 million in commissions on $5.7 billion of contracts (about 6% on average across all sports; my arithmetic). ([source](https://en.wikipedia.org/wiki/Casey_Wasserman))
 - Rates (REPORTED): a Japanese weekly, quoting an unnamed MLB scout, puts its fee at about 4–5% of salary on team contracts and about 20% on sponsor deals. Not confirmed by the firm. ([source](https://gendai.media/articles/-/116998?page=2))
 - Service: the same report credits its staff's close support for players and their families as a reason Japanese players choose it. ([source](https://gendai.media/articles/-/116998?page=2))
@@ -82,7 +120,7 @@ These are the methods that show up in reports. The grouping is my analysis.
 - Growth by buying: Tellem's practice (2006), a boxing promoter and Paradigm's music business (2021), a women's soccer agency (2026). ([source](https://www.sportspro.com/news/agencies/wasserman-the-team-rebrand-agency-sale-march-2026/))
 - Outside money: Providence Equity has owned most of it since 2022 and all of it since 2026. Investment firms also bought rivals (Goldman Sachs bought Excel). ([source](https://www.sportico.com/business/finance/2026/providence-equity-wasserman-agency-sale-billion-1234940141/))
 
-## ⚠️ 7. The 2026 crisis
+## ⚠️ 8. The 2026 crisis
 Facts as reported. No view is taken here on the people involved.
 
 - Late Jan 2026: files released by the US Justice Department included flirtatious emails Casey Wasserman sent in 2003 to Ghislaine Maxwell, an associate of Jeffrey Epstein. He said he deeply regretted them and that they were written long before her crimes were known. ([source](https://www.cbc.ca/sports/olympics/casey-wasserman-la28-olympics-9.7224172))
@@ -90,14 +128,14 @@ Facts as reported. No view is taken here on the people involved.
 - He stepped back in February, the name changed in March, and he sold his stake (about 40%) in July. ([source](https://www.hollywoodreporter.com/business/business-news/casey-wasserman-sells-stake-the-team-providence-equity-1236658638/))
 - Japanese players: no Japanese athlete was found to have left (searched twice, 21 Nov 2026). A Japanese weekly speculated in March that Wolfe might go independent or join a rival; that has not happened as far as reports show. ([source](https://www.dailyshincho.jp/article/2026/03111001/?all=1))
 
-## 🏅 8. The LA 2028 Olympics link
+## 🏅 9. The LA 2028 Olympics link
 - Casey Wasserman is chairperson and president of LA28, the organising committee. This is his personal role; the agency does not run the Games. ([source](https://la28.org/en/about-la28.html))
 - Los Angeles mayor Karen Bass urged him to resign in February 2026. LA28's board reviewed his past contacts with outside lawyers and backed him. In June he said he would not resign. ([source](https://www.espn.com/olympics/story/_/id/48969633/casey-wasserman-says-resign-chair-2028-olympics))
 - He was still speaking as LA28 chairperson on 19 Nov 2026. ([source](https://coliseum-online.com/kennedy-appointed-as-head-of-ceremonies-and-content-for-la28))
 - Since the 2026 sale he no longer owns the agency, so the old overlap (one man leading both the Games and an agency full of Olympic athletes) has ended. ([source](https://www.musicbusinessworldwide.com/theteam-forms-11-member-board-after-providence-completes-buyout-of-founder-casey-wasserman/))
 - Not checked: whether the agency has any contract with LA28, and whether MLB players (and so its Japanese clients) will play in the 2028 Olympic baseball tournament.
 
-## 🔭 9. Can it dominate in the future? (my analysis)
+## 🔭 10. Can it dominate in the future? (my analysis)
 - For: the client chain in Japanese baseball is hard to copy, and every new star arrives already knowing Wolfe's name.
 - For: an owner with money to keep buying agencies. ([source](https://www.sportico.com/business/finance/2026/providence-equity-wasserman-agency-sale-billion-1234940141/))
 - Against: the business depends on a few people. When Tellem left in 2015 the link to Nomura went with him. If Wolfe left, the Japanese clients could follow him.
@@ -106,7 +144,7 @@ Facts as reported. No view is taken here on the people involved.
 - Against: an investment-firm owner usually wants to sell again in a few years, which can unsettle staff and clients.
 - My reading: strong in Japanese baseball for now, but 'dominate' is too big a word. Power is shifting toward whoever holds the player's trust in Japan.
 
-## 🔗 10. Related pages on this site
+## 🔗 11. Related pages on this site
 - Don Nomura: the Japanese agent who shared Darvish with Wasserman, and what happened after. ([source](https://anishimori123.github.io/News/agents/don-nomura.html))
 - Hideo Nomo: the 1995 move that started the Nomura–Tellem partnership. ([source](https://anishimori123.github.io/News/sports/baseball/hideo-nomo.html))
 - Overview: how Japanese players get overseas (soccer side, for comparison). ([source](https://anishimori123.github.io/News/agents/overview.html))
@@ -116,8 +154,12 @@ Facts as reported. No view is taken here on the people involved.
 - The $3.4 billion valuation: one unnamed source (Sportico). The final price was not disclosed.
 - Any business contract between the agency and LA28.
 - Controversies searched 21 Nov 2026: the Epstein-files matter is the only major one found.
-- That Dentsu is the Japanese management company linked to Yamamoto, Sasaki and Shoki Oda: one web outlet with an anonymous source (Sirabee, 2024). US reports relayed in Japan say 'the same Japanese management company' without naming it.
 - Commission rates (4–5% and about 20%): one unnamed scout in a weekly magazine.
 - Whether Shoki Oda has signed with the agency: not found.
 - Japanese clients in soccer, golf or Olympic sports: none found.
+- That Dentsu is the Japanese management company linked to Yamamoto, Sasaki and Shoki Oda: two outlets with anonymous sources (Sirabee 2024, Nikkan Gendai). US reports relayed in Japan say 'the same Japanese management company' without naming it.
+- Joel Wolfe's playing career: taken from a stats database; identity not confirmed by an article.
+- Which agent led each deal: Wolfe is confirmed for Yamamoto and Sasaki; for Maeda (Adam Katz), Darvish 2018 and 2023, Senga and Suzuki the reports I read name the agency more than the person.
+- Sasaki's posting fee to Chiba Lotte, and a reported Padres offer above $10 million: not confirmed.
+- How Wolfe ran the Yamamoto meetings; any quotes from club executives about negotiating with him: not found.
 

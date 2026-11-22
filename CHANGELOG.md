@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.1** | 2026-11-21 |  | Wasserman page: new chapter on negotiation skills with seven contract case studies, plus Japanese staff and basketball clients. | 9 | 34,837 | about 25 minutes (with research helpers) |
 | **v0.4.0** | 2026-11-21 |  | New page: Wasserman (now THE·TEAM), the American agency behind most top Japanese pitchers in MLB. | 9 | 33,550 | about 30 minutes |
 | **v0.3.12** | 2026-11-21 | 🆕 **🏢 Wasserman (now THE·TEAM)** | Don Nomura's page now says what is public about his own family. | 9 | 33,232 | about 5 minutes |
 | **v0.3.11** | 2026-11-21 |  | Don Nomura's page has a new chapter on what he does now, including the 2025 sale of his agency to Hakuhodo. | 8 | 31,310 | about 15 minutes |
@@ -38,6 +39,20 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.1 — 2026-11-21
+**Summary:** Wasserman page: new chapter on negotiation skills with seven contract case studies, plus Japanese staff and basketball clients.  
+**Pages on site:** 9  
+**Words on site:** 34837  
+**Time spent:** about 25 minutes (with research helpers)
+
+**What changed**
+- New chapter 6 "Negotiation skills": Yamamoto, Sasaki, Senga, Suzuki, Darvish (2012 and 2023) and Maeda; nine techniques that repeat; where an agent has little power; who Joel Wolfe is.
+- Japanese side: a named interpreter, Hachimura's two agents, Kawamura and Watanabe, reported fee rates (4–5% and about 20%).
+- "Not verified": the Dentsu reports, Wolfe's playing career, which agent led some deals.
+
+**Why**
+- To learn how a top agency actually bargains, including the deals that went badly.
 
 ## v0.4.0 — 2026-11-21
 **Summary:** New page: Wasserman (now THE·TEAM), the American agency behind most top Japanese pitchers in MLB.  
