@@ -7,7 +7,8 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
-| **v0.3.12** | 2026-11-21 |  | Don Nomura's page now says what is public about his own family. | 8 | 31,519 | about 5 minutes |
+| **v0.4.0** | 2026-11-21 |  | New page: Wasserman (now THE·TEAM), the American agency behind most top Japanese pitchers in MLB. | 9 | 33,302 | about 30 minutes |
+| **v0.3.12** | 2026-11-21 | 🆕 **🏢 Wasserman (now THE·TEAM)** | Don Nomura's page now says what is public about his own family. | 9 | 33,232 | about 5 minutes |
 | **v0.3.11** | 2026-11-21 |  | Don Nomura's page has a new chapter on what he does now, including the 2025 sale of his agency to Hakuhodo. | 8 | 31,310 | about 15 minutes |
 | **v0.3.10** | 2026-11-21 |  | Don Nomura's page has a new chapter on his link to the American agency Wasserman. | 8 | 30,857 | about 15 minutes |
 | **v0.3.9** | 2026-11-21 |  | Hideo Nomo's timeline now shows his marriage (1991) and first son (1992), plus a note on whether he has a blog. | 8 | 30,370 | about 15 minutes |
@@ -38,10 +39,25 @@
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
 
+## v0.4.0 — 2026-11-21
+**Summary:** New page: Wasserman (now THE·TEAM), the American agency behind most top Japanese pitchers in MLB.  
+**Pages on site:** 9  
+**Words on site:** 33302  
+**Time spent:** about 30 minutes
+
+**What changed**
+- New page in Agents: timeline 2002–2026, Japanese athletes it represents, whether a Japanese agent is involved, how it wins Japanese players, business model, the 2026 crisis and sale, the LA 2028 Olympics link, and an outlook.
+- Linked both ways with Don Nomura's page; added to both README lists.
+- First version from my own searches. A deeper version (negotiation case studies, Japanese partners) is being researched.
+
+**Why**
+- To understand the big American firm on the other side of the bridge from Japanese agents.
+
 ## v0.3.12 — 2026-11-21
 **Summary:** Don Nomura's page now says what is public about his own family.  
-**Pages on site:** 8  
-**Words on site:** 31519  
+**New pages:** 🏢 Wasserman (now THE·TEAM)  
+**Pages on site:** 9  
+**Words on site:** 33232  
 **Time spent:** about 5 minutes
 
 **What changed**

@@ -151,6 +151,8 @@ Wasserman is a large American sports agency (founded 2002 by Casey Wasserman, no
 
 My reading: this is the same 'local partner plus big foreign firm' pattern seen with Japanese soccer agents. Nomura had the trust of the Japanese player; Tellem and Wasserman had the American lawyers, team contacts and scale. When Tellem left in 2015, the personal bridge went with him, and Wasserman's own agent Joel Wolfe now deals with Japanese players directly.
 
+- See also the full page on Wasserman (now THE·TEAM): its Japanese players, business model and the LA 2028 Olympics link. ([source](https://anishimori123.github.io/News/agents/wasserman.html))
+
 ## 💡 11. What we can learn (my analysis)
 - An outsider with inside knowledge is powerful. He knew how Japanese clubs think, but did not depend on them for his living.
 - Rules are written by people, and people leave gaps. He looked for what the text said, not what custom said.

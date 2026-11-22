@@ -11,7 +11,7 @@ Click a link to open the live page:
 - 🏠 Home page: [anishimori123.github.io/News/](https://anishimori123.github.io/News/)
 - ⚽ Maya Yoshida: [open page](https://anishimori123.github.io/News/sports/soccer/maya-yoshida.html)
 - ⚾ Hideo Nomo: [open page](https://anishimori123.github.io/News/sports/baseball/hideo-nomo.html)
-- 🤝 Agents: [overview](https://anishimori123.github.io/News/agents/overview.html) · [Tetsuro Kiyooka](https://anishimori123.github.io/News/agents/tetsuro-kiyooka.html) · [Thomas Kroth](https://anishimori123.github.io/News/agents/thomas-kroth.html) · [Hai Berden](https://anishimori123.github.io/News/agents/hai-berden.html) · [Kees Ploegsma Jr.](https://anishimori123.github.io/News/agents/kees-ploegsma-jr.html) · [Don Nomura](https://anishimori123.github.io/News/agents/don-nomura.html)
+- 🤝 Agents: [overview](https://anishimori123.github.io/News/agents/overview.html) · [Tetsuro Kiyooka](https://anishimori123.github.io/News/agents/tetsuro-kiyooka.html) · [Thomas Kroth](https://anishimori123.github.io/News/agents/thomas-kroth.html) · [Hai Berden](https://anishimori123.github.io/News/agents/hai-berden.html) · [Kees Ploegsma Jr.](https://anishimori123.github.io/News/agents/kees-ploegsma-jr.html) · [Don Nomura](https://anishimori123.github.io/News/agents/don-nomura.html) · [Wasserman](https://anishimori123.github.io/News/agents/wasserman.html)
 - 📈 History of changes: [CHANGELOG.md](CHANGELOG.md)
 
 The same pages are stored in this repo under the `docs/` folder.
@@ -58,6 +58,7 @@ The same pages are stored in this repo under the `docs/` folder.
 | Hai Berden ハイ・ベルデン (gateway chairman) | [Profile](Agents/hai-berden/README.md) | `docs/agents/hai-berden.html` |
 | Kees Ploegsma Jr. | [Profile](Agents/kees-ploegsma-jr/README.md) | `docs/agents/kees-ploegsma-jr.html` |
 | ⚾ Don Nomura 団野村 (Hideo Nomo's agent) | [Profile](Agents/don-nomura/README.md) | `docs/agents/don-nomura.html` |
+| 🏢 Wasserman / THE·TEAM (US agency for Japanese baseball stars) | [Profile](Agents/wasserman/README.md) | `docs/agents/wasserman.html` |
 
 ## 📷 Add your own photo
 
