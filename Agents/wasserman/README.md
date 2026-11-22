@@ -112,7 +112,59 @@ What the firm's agents actually won, and where they could not. Contract terms ar
 - He also speaks for the player's situation at home. He said Sasaki was heavily criticised in Japan for leaving young. ([source](https://www.si.com/mlb/diamondbacks/arizona-diamondbacks-news/q-a-with-roki-sasaki-s-agent-joel-wolfe-winter-meetings))
 - Controversies about him personally, beyond the Sasaki accusations: none found (searched 21 Nov 2026).
 
-## 💰 7. Business model
+## 🧭 7. Why do Japanese baseball players choose one agency over another?
+No player has explained his choice in public, so the ranking below is my analysis of the evidence. Short answer: pitchers follow the chain of earlier pitchers; hitters go to the agent who controls the market for hitters; and a company in Japan may be guiding the choice.
+
+| Factor | Evidence | Who it favours | Source |
+|---|---|---|---|
+| 1. Who went before you | When Yamamoto and Sasaki chose Joel Wolfe, Japanese papers introduced him by listing Darvish, Senga and Suzuki. Murakami's agent was introduced the same way: 'the man who worked with Masahiro Tanaka'. | Whoever already has a Japanese star | [link](https://www.daily.co.jp/baseball/2024/09/22/0018147373.shtml) |
+| 2. The agent's power in your part of the market | Murakami's agent Casey Close also represented the two biggest left-handed hitters on sale that winter (Schwarber and Tucker). Japanese papers said this let him steer which club went for which hitter. | Excel and Boras for hitters; Wasserman for pitchers | [link](https://news.yahoo.co.jp/articles/b287e01f5dd20428d8104e8d16858092e5ad2cae) |
+| 3. The company looking after you in Japan | Reports with anonymous sources say Dentsu manages Yamamoto and Sasaki at home and preferred Wasserman. Not confirmed. | Agencies with a Japanese partner | [link](https://sirabee.com/2024/04/24/20163280193/) |
+| 4. Daily-life support | A Japanese weekly credits Wasserman's staff support for players and families. Contracts include interpreters, trainers and flights home. | Big firms with staff | [link](https://gendai.media/articles/-/116998?page=2) |
+| 5. A Japanese-speaking agent | Shota Imanaga's agent is Yoshinori Hasegawa of Octagon, a Japanese agent certified by the MLB players' union since 2008. | Octagon | [link](https://news.yahoo.co.jp/articles/3c7e8c7d6d8e00f11facf7db4f81126e27aed1d0) |
+| 6. Timing | Murakami signed with Close in September 2024, more than a year before his move. Sasaki was reported to be getting guidance from Yamamoto's agent months before he signed. The agent who arrives first often wins. | Whoever builds the relationship early | [link](https://www.daily.co.jp/baseball/2024/09/22/0018147373.shtml) |
+
+#### Four cases outside Wasserman
+| Player | Agent and agency | Result | What it shows | Source |
+|---|---|---|---|---|
+| Masahiro Tanaka (2014) | Casey Close, Excel | Yankees, 7 years, $155 million, with an opt-out and a full no-trade clause | Close kept the bids secret and, by one account, told clubs the floor was 6 years and $120 million. Excel has had its own Japanese track record since then. | [link](https://www.pon.harvard.edu/daily/salary-negotiations/a-winning-pitch-nb/) |
+| Munetaka Murakami (Dec 2025) | Casey Close, Excel | White Sox, 2 years, $34 million; Yakult received a $6.575 million posting fee | Clubs worried about his strikeouts, so the big long deal did not come. Close took a short deal so Murakami can sell himself again at 27. | [link](https://news.yahoo.co.jp/articles/e62b01a4d95580aa8688800895f8179bf2a0559a) |
+| Kazuma Okamoto (Jan 2026) | Scott Boras | Blue Jays, 4 years, $60 million (reported) | The other big hitter went to the other big hitters' agent. Papers described Close and Boras as splitting the infield market between them. | [link](https://news.yahoo.co.jp/articles/b287e01f5dd20428d8104e8d16858092e5ad2cae) |
+| Shota Imanaga (2024) | Yoshinori Hasegawa, Octagon | Cubs | A Japanese agent inside an American firm can win a top pitcher. He joined through a small agency that Octagon bought in 2008. | [link](https://www.hmv.co.jp/artist_%E9%95%B7%E8%B0%B7%E5%B7%9D%E5%98%89%E5%AE%A3_000000000769173/biography/) |
+
+#### So why Murakami with Excel and not Wasserman? (my reading)
+- He is a hitter. Wasserman's Japanese strength is pitchers; sharing an agent with Yamamoto does nothing for a slugger's price. ([source](https://news.yahoo.co.jp/articles/b287e01f5dd20428d8104e8d16858092e5ad2cae))
+- Close had the Tanaka deal, the largest ever for a Japanese player at the time, plus Akiyama. That is a chain of his own. ([source](https://news.yahoo.co.jp/articles/cfdca24703bb8e6880e4f67f388e8b0530eee841))
+- Close held the other top left-handed hitters that winter, which gave him a view of every club's plans. ([source](https://news.jsports.co.jp/baseball/article/20190310238385/))
+- Not found: Murakami's own explanation, or which company manages him in Japan.
+
+## 🇯🇵 8. Could a Japanese agency step into this field? (my analysis)
+Honest view first: a small Japanese agency is unlikely to beat the American firms head-on at negotiating MLB contracts. But there are real openings, and Japanese companies are already taking some of them. The points below are my analysis, built on the cases on this site.
+
+#### The entry rules
+- Only an agent certified by the MLB players' union may negotiate an MLB contract. To be certified you apply (fee $2,500), pass a background check and a written exam, and must be named by at least one player. ([source](https://www.agent.mlbplayers.com/application-instructions))
+- Even recruiting players for a certified agent needs a limited certificate. ([source](https://www.agent.mlbplayers.com/faqs))
+- In Japan, a magazine report notes that only lawyers may act as agents in negotiations with Japanese clubs, so a Japanese agency needs lawyers for the home side. ([source](https://smart-flash.jp/sports/76744/))
+
+#### Nine strategic points
+| Strategic point | Why | Example on this site | Source |
+|---|---|---|---|
+| 1. Own the home side first | The player's trust, family, sponsors and media are in Japan. Reported fees are about 20% on sponsor deals against 4–5% on salary, so the home side is also where a Japanese firm can earn most. | Dentsu (reported) with Yamamoto and Sasaki; Hakuhodo buying Nomura's agency | [link](https://gendai.media/articles/-/116998?page=2) |
+| 2. Partner, but put it in writing | A formal co-agent role with an American firm gives the bargaining muscle without building it. The danger is being dropped once the American firm knows the player. | Nomura and Tellem on Darvish (2012); the bridge ended when Tellem left | [link](https://www.mlbtraderumors.com/2011/10/agents-predict-darvish-posting-fee-contract.html) |
+| 3. Get one certified Japanese agent of your own | One person with the union certificate changes you from a helper into a negotiator. | Yoshinori Hasegawa at Octagon, certified since 2008 | [link](https://www.hmv.co.jp/artist_%E9%95%B7%E8%B0%B7%E5%B7%9D%E5%98%89%E5%AE%A3_000000000769173/biography/) |
+| 4. Start earlier than the Americans | Relationships formed in high school or early in a Japanese career decide later choices. Players under 25 are capped on money, so fit and trust matter more than price. | Sasaki managed 'since high school' (reported); the 2026 race for Shoki Oda | [link](https://www.tokyo-sports.co.jp/articles/-/409655) |
+| 5. Pick a gap | Pitchers are taken. Hitters, relief pitchers, players coming back to Japan, and foreign players going to Japan are less crowded. | Nomura represented foreign players joining Japanese clubs | [link](https://www.renaissance-eyes.com/request/2010/02/post_481.html) |
+| 6. Sell service, not only price | Interpreter, housing, family, training and life after baseball are things a Japanese firm does naturally. | Yamamoto's contract writes in an interpreter, trainer and flights | [link](https://www.foxsports.com/articles/mlb/yamamotos-contract-with-dodgers-includes-2-opt-outs-but-timing-depends-on-elbow-health) |
+| 7. Avoid conflicts of interest | Taking money from a sponsor while representing the player can destroy trust. | The reported 2017 split between Darvish and Nomura | [link](https://smart-flash.jp/sports/76744/) |
+| 8. Do not depend on one person | Clients follow people. Train a second agent and sign clients to the firm. | Wasserman's own risk if Joel Wolfe ever left | [link](https://www.dailyshincho.jp/article/2026/03111001/?all=1) |
+| 9. Find money | Scale needs capital. Japanese advertising and entertainment companies are the natural backers. | Amuse (2019) and Hakuhodo (2025) with Nomura's agency | [link](https://www.hakuhodo.co.jp/news/newsrelease/118591/) |
+
+#### Who is most likely to succeed?
+- Most likely: a big Japanese advertising or entertainment company that controls the home side and either employs or partners with one certified agent. This is already happening. ([source](https://www.hakuhodo.co.jp/news/newsrelease/118591/))
+- Possible: a small private agency that picks one gap (for example hitters, or high-school players heading to American colleges) and signs a written partnership with an American firm.
+- Least likely: a small agency trying to negotiate nine-figure MLB contracts alone, without a certified agent or a track record. Players choose proof, and the proof is past deals.
+
+## 💰 9. Business model
 - Commissions: the agency keeps a percentage of each playing contract it negotiates. Forbes' 2025 ranking (as relayed by The Big Lead) puts its maximum possible commissions at about $956 million, on more than $9 billion of playing contracts and nearly $2 billion of sponsor deals. ([source](https://www.thebiglead.com/?p=109273))
 - Rates (REPORTED): a Japanese weekly, quoting an unnamed MLB scout, puts its fee at about 4–5% of salary on team contracts and about 20% on sponsor deals. Not confirmed by the firm. ([source](https://gendai.media/articles/-/116998?page=2))
 - Service: the same report credits its staff's close support for players and their families as a reason Japanese players choose it. ([source](https://gendai.media/articles/-/116998?page=2))
@@ -145,7 +197,7 @@ What the firm's agents actually won, and where they could not. Contract terms ar
 | Kazuma Okamoto | Boras Corporation | 2026 | [link](https://www.mlb.com/news/tatsuya-imai-signing-aftermath) |
 | Yusei Kikuchi | Boras Corporation | 2018 | [link](https://www.mlbtraderumors.com/2018/11/yusei-kikuchi-hires-boras-corporation.html) |
 
-## ⚠️ 8. The 2026 crisis
+## ⚠️ 10. The 2026 crisis
 Facts as reported. No view is taken here on the people involved.
 
 - 30 Jan 2026: files released by the US Justice Department included 2003 emails between Casey Wasserman and Ghislaine Maxwell, an associate of Jeffrey Epstein, with suggestive remarks. He said he deeply regrets them, that they came before her crimes were known, and that he had no personal or business relationship with Epstein. ([source](https://frontofficesports.com/?p=222815))
@@ -154,7 +206,7 @@ Facts as reported. No view is taken here on the people involved.
 - He stepped back in February, the name changed in March, and he sold his stake (about 40%) in July. ([source](https://www.hollywoodreporter.com/business/business-news/casey-wasserman-sells-stake-the-team-providence-equity-1236658638/))
 - Japanese players: no Japanese athlete was found to have left (searched twice, 21 Nov 2026). A Japanese weekly speculated in March that Wolfe might go independent or join a rival; that has not happened as far as reports show. ([source](https://www.dailyshincho.jp/article/2026/03111001/?all=1))
 
-## 🏅 9. The LA 2028 Olympics link
+## 🏅 11. The LA 2028 Olympics link
 - Casey Wasserman has chaired LA28, the organising committee, since 2017. This is his personal role; the agency does not run the Games. ([source](https://la28.org/en/about-la28.html))
 - 11 Feb 2026: after a review by an outside law firm, LA28's executive committee kept him as chair. About a week later Los Angeles mayor Karen Bass called for him to resign, as did several county and city officials. In June he said he would not. ([source](https://frontofficesports.com/?p=222815))
 - The International Olympic Committee's coordination chief expressed 'full trust' in LA28's leadership; the IOC president said it would not involve itself in the committee's structure. ([source](https://www.aol.com/news/ioc-continues-full-trust-casey-194412625.html))
@@ -164,7 +216,7 @@ Facts as reported. No view is taken here on the people involved.
 - Will MLB stars such as Ohtani and Yamamoto play? Not decided. As of July 2026 the owners support it, but the league and the players' union had no agreement (the dispute includes whether taking part is compulsory, insurance and scheduling). Nothing newer was found. ([source](https://frontofficesports.com/article/la28-mlb-plan-remains-unsettled/))
 - The agency represents Olympic athletes (swimmer Katie Ledecky is one). No contract between the agency and LA28, and no documented conflict of interest, was found. ([source](https://frontofficesports.com/?p=222815))
 
-## 🔭 10. Can it dominate in the future? (my analysis)
+## 🔭 12. Can it dominate in the future? (my analysis)
 - For: the client chain in Japanese baseball is hard to copy, and every new star arrives already knowing Wolfe's name.
 - For: an owner that says it will keep funding growth and more purchases. ([source](https://www.musicbusinessworldwide.com/casey-wasserman-providence-equity-taking-full-control-of-theteam/))
 - For: scale. It is already No. 2 in the world, and the sports side lost almost no athletes in the 2026 crisis. ([source](https://frontofficesports.com/?p=235029))
@@ -175,7 +227,7 @@ Facts as reported. No view is taken here on the people involved.
 - A limit on who can ever buy it: investment firms that own shares in teams face a conflict if they also own a player agency. That kept several big bidders out in 2026. ([source](https://frontofficesports.com/?p=235029))
 - My reading: strong in Japanese baseball for now, but 'dominate' is too big a word. Power is shifting toward whoever holds the player's trust in Japan.
 
-## 🔗 11. Related pages on this site
+## 🔗 13. Related pages on this site
 - Don Nomura: the Japanese agent who shared Darvish with Wasserman, and what happened after. ([source](https://anishimori123.github.io/News/agents/don-nomura.html))
 - Hideo Nomo: the 1995 move that started the Nomura–Tellem partnership. ([source](https://anishimori123.github.io/News/sports/baseball/hideo-nomo.html))
 - Overview: how Japanese players get overseas (soccer side, for comparison). ([source](https://anishimori123.github.io/News/agents/overview.html))
@@ -196,4 +248,7 @@ Facts as reported. No view is taken here on the people involved.
 - Agents for Imanaga, Yoshida, Imai, Sugano and Matsui: not sourced, so they are left out of the share table.
 - Total revenue and number of employees: not found.
 - MLB players at the 2028 Olympics: no decision found after July 2026.
+- Why Murakami chose Excel, and which company manages him in Japan: no statement found.
+- The 'lawyers only' rule for agents in Japanese baseball is taken from one magazine article quoting a lawyer; the union's own rule text was not read.
+- The account that Tanaka's agent set a floor of 6 years and $120 million comes from a Harvard negotiation article.
 
