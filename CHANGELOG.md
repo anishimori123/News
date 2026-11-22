@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.3.5** | 2026-11-21 |  | Hideo Nomo's money section now explains why his pay changed, year by year; the rule is added to the template for everyone. | 8 | 28,079 | about 15 minutes |
 | **v0.3.4** | 2026-11-21 |  | Maya Yoshida's money section now explains why his pay changed, year by year, including the 43% cut after winning the 2024 title. | 8 | 27,325 | about 15 minutes |
 | **v0.3.3** | 2026-11-21 |  | README now starts with a clickable link to the live website, and every page in its list is a live link. | 8 | 26,723 | about 5 minutes |
 | **v0.3.2** | 2026-11-21 |  | Changelog table now highlights versions that add a new person or page with 🆕. | 8 | 26,723 | about 10 minutes |
@@ -29,6 +30,19 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.3.5 — 2026-11-21
+**Summary:** Hideo Nomo's money section now explains why his pay changed, year by year; the rule is added to the template for everyone.  
+**Pages on site:** 8  
+**Words on site:** 28079  
+**Time spent:** about 15 minutes
+
+**What changed**
+- Hideo Nomo: new table "Why his pay changed, year by year", from his Japan years to his last contract in 2008, with the baseball rules behind it explained simply.
+- Player template: every money section must now include this table.
+
+**Why**
+- Pay tables with big jumps and drops raise the question "why?". The answer is usually an injury, a great season, or a league rule.
 
 ## v0.3.4 — 2026-11-21
 **Summary:** Maya Yoshida's money section now explains why his pay changed, year by year, including the 43% cut after winning the 2024 title.  

@@ -358,6 +358,21 @@ Almost no number here is official. Japanese salaries are newspaper estimates (�
 | 2008 | Royals | $750,000 (minor-league deal; released in April) | **ESTIMATE** | [Baseball Almanac](https://www.baseball-almanac.com/players/player.php?p=nomohi01) |
 | Career MLB total | All | about $35 million (my sum of the rows above; incomplete) | **ESTIMATE** | [my addition](https://www.baseball-almanac.com/players/player.php?p=nomohi01) |
 
+### Why his pay changed, year by year
+Two baseball rules explain most of this table. First, a player new to Major League Baseball (MLB) has little say over his pay: for about his first three seasons the club sets it, close to the league minimum, and he can sell himself freely to any club only after six seasons. Second, once a pitcher is a free agent, clubs pay for health and recent results, often on one-year or minor-league deals, so an injury can cut pay very fast. (These rules are general background, not from one article.)
+
+| Years | What changed | Why | How sure? | Source |
+|---|---|---|---|---|
+| 1990 → 1994 (Japan) | ⬆️ Up, about 12 million → 140 million yen | He led his league in wins and strikeouts in each of his first four seasons, so his pay rose every year. | ESTIMATE | [link](https://ja.wikipedia.org/wiki/野茂英雄) |
+| 1994 → 1995 (Japan → Dodgers) | ⬇️ Salary down to about $109,000, plus a one-time $2 million signing bonus | He left Japan by 'retiring'. His agents found that the rule only tied a retired player to his old team if he came back to Japanese baseball, not if he played abroad. Because he arrived as a newcomer on a minor-league contract, his yearly salary was near the MLB minimum. The bonus was the real payment. He chose the move over a higher Japanese salary. | ESTIMATE | [link](https://sabr.org/bioproject/person/hideo-nomo/) |
+| 1995 → 1996–98 | ⬆️ Up: a 3-year, $4.3 million contract ($600,000, $900,000, $2.8 million) | He had just been Rookie of the Year. No source read explains the terms. My reading: he was still in the early years when the club controls pay, so the contract traded a modest price for three years of security, with the biggest amount in the last year. | ESTIMATE; reason NOT confirmed | [link](https://www.baseball-almanac.com/players/player.php?p=nomohi01) |
+| 1998 → 1999 | ⬇️ Down about 90%: $2.8 million → $250,000 | Injury and results. He had elbow surgery in late 1997 to remove bone chips, went 2 wins and 7 losses in 1998, and was traded to the Mets. The Mets released him after spring training 1999, the Cubs let him go after three minor-league starts, and he restarted with the Brewers from their minor leagues on a small contract. | ESTIMATE | [link](https://sabr.org/bioproject/person/hideo-nomo/) |
+| 1999 → 2000 | ⬆️ Up: $250,000 → about $1 million to $1.25 million | He won 12 games for the Brewers. He and the club could not agree on a long contract, so he became a free agent and signed with the Tigers for one year, $1.25 million plus bonuses for performance. | ESTIMATE | [link](https://sabr.org/bioproject/person/hideo-nomo/) |
+| 2000 → 2001 | ⬆️ Up: to $3.25 million (another table says $4.5 million) | One-year contract with the Red Sox, including a $1.25 million signing bonus. He had only 8 wins and 12 losses in 2000, but 181 strikeouts in 190 innings. No source read says why Boston paid more. | ESTIMATE; reason NOT confirmed | [link](https://sabr.org/bioproject/person/hideo-nomo/) |
+| 2001 → 2002–04 | ⬆️ Up: 2 years, $13.75 million, then $9 million in 2004 ($4.5M, $7.75M, $9M) | His best bargaining moment. In 2001 he threw a no-hitter and led his league in strikeouts. He turned down Boston's 3 years and $19 million and returned to the Dodgers. The pay rose each year inside the contract, and he won 16 games in both 2002 and 2003. The $9 million for 2004 was the club's option year. | ESTIMATE | [link](https://sabr.org/bioproject/person/hideo-nomo/) |
+| 2004 → 2005 | ⬇️ Down about 91%: $9 million → $800,000 | His shoulder. He had rotator cuff surgery after 2003 and his fastball lost speed. In 2004 he won 4 and lost 11 with an 8.25 earned run average (runs allowed per nine innings; very high). The Dodgers released him, and he could only get a minor-league deal with the Devil Rays. | ESTIMATE | [link](https://sabr.org/bioproject/person/hideo-nomo/) |
+| 2005 → 2008 | ➡️ About the same: $750,000 (minor-league deal) | Tampa Bay released him in mid-2005 after his 200th career win. A sore elbow ended his 2006 try with the White Sox, and he was out of MLB for two years. At 39 he signed a minor-league deal with the Royals, pitched three games in April 2008, was released, and retired that July. | ESTIMATE | [link](https://sabr.org/bioproject/person/hideo-nomo/) |
+
 ### Contracts and transfers
 | Date | Event | Source |
 |---|---|---|
@@ -428,6 +443,9 @@ _Read on 2026-11-21. The top 30 of 72 top-level reader comments in 'recommended'
 - Whether he was invited to the 2006 World Baseball Classic.
 - Any direct quote about him from Shohei Ohtani, Yu Darvish (beyond the 2025 thanks), Masahiro Tanaka or Hiroki Kuroda about opening the door.
 - The Elmira Pioneers (a US independent-league team he part-owned from 2002 with Hideki Irabu and Mac Suzuki): the only detailed source is a hobby site, and it gives two different end years.
+- Why the Dodgers' 1996 contract and the Red Sox' 2001 contract were set at those amounts: no source read gives a reason.
+- The 2001 Red Sox figure differs between sources: $3.25 million (SABR) and $4.5 million (Baseball Almanac).
+- That the $9 million paid in 2004 was the club option being used is taken from the contract terms and the salary table matching, not from a report saying so.
 
 ## 🎥 Appendix: videos and interviews
 The four MLB.com links were confirmed. The last three rows are videos known to exist whose direct links were not found, so they are SEARCH links: click and the video should be the first result.
