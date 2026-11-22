@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.6** | 2026-11-21 |  | Website visitor counter switched on (GoatCounter) on every page. | 10 | 43,039 | about 5 minutes |
 | **v0.4.5** | 2026-11-21 |  | Visit tracking prepared: a daily job that saves the repo's traffic numbers, and an optional visitor counter for the website (off until a code name is added). | 10 | 43,039 | about 15 minutes |
 | **v0.4.4** | 2026-11-21 | 🆕 **🌉 Bridging Japanese athletes to the US** | New explainer page: Bridging Japanese athletes to the US (baseball routes, who pays for daily-life support, case studies of Sasaki, Morii and Oda, and where the gaps are). | 10 | 43,039 | about 50 minutes (full research, no helpers) |
 | **v0.4.3** | 2026-11-21 |  | Wasserman page: two new chapters on why Japanese baseball players choose an agency, and how a Japanese agency could enter the field. | 9 | 36,668 | about 20 minutes |
@@ -43,6 +44,18 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.6 — 2026-11-21
+**Summary:** Website visitor counter switched on (GoatCounter) on every page.  
+**Pages on site:** 10  
+**Words on site:** 43039  
+**Time spent:** about 5 minutes
+
+**What changed**
+- `tools/site_config.json` now holds the GoatCounter code name `anishimori-news`, so every web page reports its visits to the owner's GoatCounter dashboard.
+
+**Why**
+- To see how many people visit the website and which pages they read.
 
 ## v0.4.5 — 2026-11-21
 **Summary:** Visit tracking prepared: a daily job that saves the repo's traffic numbers, and an optional visitor counter for the website (off until a code name is added).  
