@@ -51,14 +51,18 @@ Client lists change, so read every row as 'reported at that date'.
 | Yoshinobu Yamamoto | Baseball | Chose Wolfe in Sept 2023. | ✅ | [link](https://pacificleague.com/en/news/2023/9/10023866) |
 | Roki Sasaki | Baseball | Chose Wolfe in Nov 2024. | ✅ | [link](https://www.daily.co.jp/mlb/2024/11/11/0018328136.shtml) |
 | Takahiro Norimoto | Baseball | MLB's Japanese site names Wolfe as his agent in its winter-meetings preview. | ✅ | [link](https://www.mlb.com/ja/news/preview-japanese-players-at-the-winter-meetings) |
-| Rui Hachimura | Basketball (NBA) | Named as a client of the group by Nikkan Gendai (2024). | 🟡 one source | [link](https://news.yahoo.co.jp/articles/62d001b3130f37b286dec5ec66cdc91d0ec637f5) |
 | Lars Nootbaar | Baseball | American with a Japanese mother; played for Japan at the 2023 WBC. Wolfe travelled with him on a promotional tour of Japan. | ✅ | [link](https://www.mlb.com/news/lars-nootbaar-s-connection-with-yoshinobu-yamamoto) |
+| Seiya Suzuki (how he joined) | Baseball | Signed with the firm in Nov 2021. Tokyo Sports framed it around the record Darvish and Maeda trusted, and said Wolfe had earlier worked under Tellem supporting Hideki Matsui. | 🟡 one paper | [link](https://www.tokyo-sports.co.jp/articles/-/126297) |
+| Rui Hachimura | Basketball (NBA) | Signed in May 2019. His agents are Jason Ranne and Darren Matsubara. He said he chose them himself. | ✅ | [link](https://number.bunshun.jp/articles/-/841690) |
+| Yuki Kawamura, Yuta Watanabe | Basketball | Kawamura signed on 29 Jun 2023; the same report lists Watanabe as a client. | ✅ for 2023 | [link](https://basketballking.jp/news/japan/b1/20230629/439663.html) |
 
 ## 🧑‍💼 4. Is a Japanese agent involved?
-- No named Japanese agent inside the firm was found (searched 21 Nov 2026). Every report names Joel Wolfe, an American, as the agent. ([source](https://www.daily.co.jp/mlb/2024/11/11/0018328136.shtml))
+- No named Japanese agent inside the firm was found, and no Tokyo office or Japan company (two separate searches, 21 Nov 2026). Every report names Americans: Joel Wolfe in baseball, Jason Ranne and Darren Matsubara in basketball. ([source](https://number.bunshun.jp/articles/-/841690))
+- One Japanese-speaking staff member is named: Mako Allbee, described as from the Wasserman office, interpreted at Yamamoto's Dodgers press conference. Her job title was not found (headline only). ([source](https://www.chunichi.co.jp/article/828990))
 - Stage 1 (1995–2015): the Japanese side was an outside partner. Don Nomura had the player's trust; Tellem had the American firm. See Don Nomura's page. ([source](https://www.mlbtraderumors.com/2011/10/agents-predict-darvish-posting-fee-contract.html))
 - Stage 2 (today): the Japanese side is a management company in Japan. US media say the high-school pitcher Shoki Oda belongs to 'the same Japanese management company' that helped Yamamoto and Sasaki move. ([source](https://www.tokyo-sports.co.jp/articles/-/409655))
-- A Japanese weekly (AERA) names that company as the advertising giant Dentsu. I saw this only as a quotation of the article, so treat it as reported, not confirmed. ([source](https://x.com/dohamari_24/status/2111629853984448977))
+- Which company? No on-the-record source names it. One web outlet (Sirabee, April 2024, anonymous source) says it is the advertising giant Dentsu, that Dentsu manages Yamamoto and Sasaki, and that Dentsu preferred this agency for business reasons. Treat this as an unconfirmed claim. ([source](https://sirabee.com/2024/04/24/20163280193/))
+- No player has said in public who introduced him to Wolfe. A June 2024 US report says Sasaki was already getting guidance from Yamamoto's agent months before he signed. ([source](https://dodgerblue.com/dodgers-rumors-roki-sasaki-receiving-guidance-from-yoshinobu-yamamotos-agent/2024/06/11/?noamp=mobile))
 - So the pattern is two layers: a Japanese company looks after the player at home (ads, media, daily support) and the American agent negotiates with MLB clubs.
 
 ## 🎯 5. How it wins Japanese players
@@ -72,7 +76,8 @@ These are the methods that show up in reports. The grouping is my analysis.
 
 ## 💰 6. Business model
 - Commissions: the agency keeps a percentage of each playing contract it negotiates. In 2020 it earned $331 million in commissions on $5.7 billion of contracts (about 6% on average across all sports; my arithmetic). ([source](https://en.wikipedia.org/wiki/Casey_Wasserman))
-- Baseball rate: commonly said to be up to about 5%. I did not find Wasserman's own rate, so this is general background, not a confirmed figure.
+- Rates (REPORTED): a Japanese weekly, quoting an unnamed MLB scout, puts its fee at about 4–5% of salary on team contracts and about 20% on sponsor deals. Not confirmed by the firm. ([source](https://gendai.media/articles/-/116998?page=2))
+- Service: the same report credits its staff's close support for players and their families as a reason Japanese players choose it. ([source](https://gendai.media/articles/-/116998?page=2))
 - Marketing: sponsor and advertising deals for athletes, plus consulting for brands. It calls itself a marketing and talent management company. ([source](https://en.wikipedia.org/wiki/Wasserman_(company)))
 - Growth by buying: Tellem's practice (2006), a boxing promoter and Paradigm's music business (2021), a women's soccer agency (2026). ([source](https://www.sportspro.com/news/agencies/wasserman-the-team-rebrand-agency-sale-march-2026/))
 - Outside money: Providence Equity has owned most of it since 2022 and all of it since 2026. Investment firms also bought rivals (Goldman Sachs bought Excel). ([source](https://www.sportico.com/business/finance/2026/providence-equity-wasserman-agency-sale-billion-1234940141/))
@@ -83,7 +88,7 @@ Facts as reported. No view is taken here on the people involved.
 - Late Jan 2026: files released by the US Justice Department included flirtatious emails Casey Wasserman sent in 2003 to Ghislaine Maxwell, an associate of Jeffrey Epstein. He said he deeply regretted them and that they were written long before her crimes were known. ([source](https://www.cbc.ca/sports/olympics/casey-wasserman-la28-olympics-9.7224172))
 - Clients left, mostly in music: singer Chappell Roan, more than 20 artists, and soccer star Abby Wambach. ([source](https://www.thewrap.com/industry-news/business/casey-wasserman-the-team-sale-providence-equity/))
 - He stepped back in February, the name changed in March, and he sold his stake (about 40%) in July. ([source](https://www.hollywoodreporter.com/business/business-news/casey-wasserman-sells-stake-the-team-providence-equity-1236658638/))
-- Japanese players: no report of a Japanese athlete leaving because of this was found.
+- Japanese players: no Japanese athlete was found to have left (searched twice, 21 Nov 2026). A Japanese weekly speculated in March that Wolfe might go independent or join a rival; that has not happened as far as reports show. ([source](https://www.dailyshincho.jp/article/2026/03111001/?all=1))
 
 ## 🏅 8. The LA 2028 Olympics link
 - Casey Wasserman is chairperson and president of LA28, the organising committee. This is his personal role; the agency does not run the Games. ([source](https://la28.org/en/about-la28.html))
@@ -108,10 +113,11 @@ Facts as reported. No view is taken here on the people involved.
 
 ## ❓ Not verified / sources disagree
 - Whether any Japanese national works as an agent inside the firm's baseball group.
-- That Dentsu is the Japanese management company linked to Yamamoto, Sasaki and Shoki Oda: reported by AERA, seen only in quotation.
 - The $3.4 billion valuation: one unnamed source (Sportico). The final price was not disclosed.
-- The firm's commission rate for baseball contracts.
-- Rui Hachimura's current agency (one 2024 source).
 - Any business contract between the agency and LA28.
 - Controversies searched 21 Nov 2026: the Epstein-files matter is the only major one found.
+- That Dentsu is the Japanese management company linked to Yamamoto, Sasaki and Shoki Oda: one web outlet with an anonymous source (Sirabee, 2024). US reports relayed in Japan say 'the same Japanese management company' without naming it.
+- Commission rates (4–5% and about 20%): one unnamed scout in a weekly magazine.
+- Whether Shoki Oda has signed with the agency: not found.
+- Japanese clients in soccer, golf or Olympic sports: none found.
 

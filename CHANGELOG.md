@@ -7,7 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
-| **v0.4.0** | 2026-11-21 |  | New page: Wasserman (now THE·TEAM), the American agency behind most top Japanese pitchers in MLB. | 9 | 33,302 | about 30 minutes |
+| **v0.4.0** | 2026-11-21 |  | New page: Wasserman (now THE·TEAM), the American agency behind most top Japanese pitchers in MLB. | 9 | 33,550 | about 30 minutes |
 | **v0.3.12** | 2026-11-21 | 🆕 **🏢 Wasserman (now THE·TEAM)** | Don Nomura's page now says what is public about his own family. | 9 | 33,232 | about 5 minutes |
 | **v0.3.11** | 2026-11-21 |  | Don Nomura's page has a new chapter on what he does now, including the 2025 sale of his agency to Hakuhodo. | 8 | 31,310 | about 15 minutes |
 | **v0.3.10** | 2026-11-21 |  | Don Nomura's page has a new chapter on his link to the American agency Wasserman. | 8 | 30,857 | about 15 minutes |
@@ -42,7 +42,7 @@ How to add an entry: put it directly below this line, newest first. Start with `
 ## v0.4.0 — 2026-11-21
 **Summary:** New page: Wasserman (now THE·TEAM), the American agency behind most top Japanese pitchers in MLB.  
 **Pages on site:** 9  
-**Words on site:** 33302  
+**Words on site:** 33550  
 **Time spent:** about 30 minutes
 
 **What changed**
