@@ -13,6 +13,7 @@ Click a link to open the live page:
 - ⚾ Hideo Nomo: [open page](https://anishimori123.github.io/News/sports/baseball/hideo-nomo.html)
 - 🤝 Agents: [overview](https://anishimori123.github.io/News/agents/overview.html) · [Tetsuro Kiyooka](https://anishimori123.github.io/News/agents/tetsuro-kiyooka.html) · [Thomas Kroth](https://anishimori123.github.io/News/agents/thomas-kroth.html) · [Hai Berden](https://anishimori123.github.io/News/agents/hai-berden.html) · [Kees Ploegsma Jr.](https://anishimori123.github.io/News/agents/kees-ploegsma-jr.html) · [Don Nomura](https://anishimori123.github.io/News/agents/don-nomura.html) · [Wasserman](https://anishimori123.github.io/News/agents/wasserman.html) · [Bridging to the US](https://anishimori123.github.io/News/agents/bridging-to-the-us.html)
 - 📈 History of changes: [CHANGELOG.md](CHANGELOG.md)
+- 👀 Who visits (only I can sign in): [website visitors on GoatCounter](https://anishimori-news.goatcounter.com/) · [repo visitors on GitHub](https://github.com/anishimori123/News/graphs/traffic) · [saved history](traffic/README.md)
 
 The same pages are stored in this repo under the `docs/` folder.
 

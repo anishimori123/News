@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.7** | 2026-11-21 |  | README now has a "Who visits" line with links to the GoatCounter dashboard and the repo traffic page. | 10 | 43,039 | about 5 minutes |
 | **v0.4.6** | 2026-11-21 |  | Website visitor counter switched on (GoatCounter) on every page. | 10 | 43,039 | about 5 minutes |
 | **v0.4.5** | 2026-11-21 |  | Visit tracking prepared: a daily job that saves the repo's traffic numbers, and an optional visitor counter for the website (off until a code name is added). | 10 | 43,039 | about 15 minutes |
 | **v0.4.4** | 2026-11-21 | 🆕 **🌉 Bridging Japanese athletes to the US** | New explainer page: Bridging Japanese athletes to the US (baseball routes, who pays for daily-life support, case studies of Sasaki, Morii and Oda, and where the gaps are). | 10 | 43,039 | about 50 minutes (full research, no helpers) |
@@ -44,6 +45,18 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.7 — 2026-11-21
+**Summary:** README now has a "Who visits" line with links to the GoatCounter dashboard and the repo traffic page.  
+**Pages on site:** 10  
+**Words on site:** 43039  
+**Time spent:** about 5 minutes
+
+**What changed**
+- `README.md` and `traffic/README.md` link to the website visitor dashboard, GitHub's traffic page and the saved history.
+
+**Why**
+- So the owner can find the visit numbers later from the repo page.
 
 ## v0.4.6 — 2026-11-21
 **Summary:** Website visitor counter switched on (GoatCounter) on every page.  

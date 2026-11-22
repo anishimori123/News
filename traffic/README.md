@@ -17,5 +17,8 @@ The job needs a secret named `TRAFFIC_TOKEN`: a fine-grained access token for th
 with the permission **Administration: Read-only**. It expires after at most one year;
 when the job starts failing, make a new token and replace the secret.
 
-Website visits (anishimori123.github.io/News) are counted separately by GoatCounter.
-The code name is set in `tools/site_config.json`.
+## Where to look
+
+- Website visits: https://anishimori-news.goatcounter.com/ (sign in with the GoatCounter account). The code name is set in `tools/site_config.json`.
+- Repo visits, last 14 days: https://github.com/anishimori123/News/graphs/traffic (only the owner can open it).
+- Repo visits, full history: the CSV files in this folder.
