@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| 🤖 **v0.4.10** | 2026-11-21 |  | New automatic weekly check for the "Bridging Japanese athletes to the US" page (Sasaki, Morii, Oda). | 10 | 43,039 | about 10 minutes |
 | **v0.4.9** | 2026-11-21 |  | Record of the full visit-tracking and privacy setup (A, B, C, D), including the parts done outside this repo. | 10 | 43,039 | about 5 minutes |
 | **v0.4.8** | 2026-11-21 |  | Every web page now asks search engines not to list it (noindex), so the site is found by link only. | 10 | 43,039 | about 5 minutes |
 | **v0.4.7** | 2026-11-21 |  | README now has a "Who visits" line with links to the GoatCounter dashboard and the repo traffic page. | 10 | 43,039 | about 5 minutes |
@@ -47,6 +48,20 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.10 — 2026-11-21
+**Summary:** New automatic weekly check for the "Bridging Japanese athletes to the US" page (Sasaki, Morii, Oda).  
+**Pages on site:** 10  
+**Words on site:** 43039  
+**Time spent:** about 10 minutes
+
+**What changed**
+- No page content changed. A scheduled task named "Weekly bridging page check (Sasaki, Morii, Oda)" now runs every Wednesday at 4:47 PM Pacific. It searches for confirmed news on the three players and updates the page only when it finds some. Its changelog entries are marked "🤖 Found by: weekly scheduled check".
+- Dates it watches: 1 Dec 2026 (MLB labour agreement ends), 15 Jan 2027 (first day Oda could sign with an MLB club), mid-Feb 2027 (Sasaki's first spring training), 31 Mar 2027 (the Giants' right to negotiate with Oda ends), early April 2027 (minor-league season starts).
+- The older task "Weekly Maya Yoshida news check" (Sundays 4:33 PM Pacific) is unchanged; it covers the athletes under `Sports/`.
+
+**Why**
+- The three stories are still open, and the owner wants the page to follow them as news arrives.
 
 ## v0.4.9 — 2026-11-21
 **Summary:** Record of the full visit-tracking and privacy setup (A, B, C, D), including the parts done outside this repo.  
