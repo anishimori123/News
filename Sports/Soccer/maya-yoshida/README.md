@@ -337,6 +337,63 @@ An agent is the person who finds clubs and negotiates contracts for a player. Fo
 - Atsuto Uchida: former Schalke favourite he called before joining Schalke. ([source](https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/bundesliga-schalke-04-maya-yoshida-20220706/blt099649f157bbffa9))
 - Hajime Moriyasu: Japan coach who worked with him as captain and arranged his 2026 farewell. ([source](https://www.soccer-king.jp/news/japan/national/20260530/2165095.html))
 
+### 🌌 8.4 LA Galaxy and MLS: who owns the club, how it grew, and why he could join
+Short version: he joined because the club was in trouble. In summer 2023 the Galaxy were near the bottom, banned from buying players from abroad, and missing an injured centre-back. A new recruitment chief needed an experienced leader who cost no transfer fee. Yoshida was a free agent who wanted a decision before August and a good place for his family.
+
+#### Who owns LA Galaxy
+| Question | Answer | Source |
+|---|---|---|
+| The owner | AEG (Anschutz Entertainment Group), a sports and concert company. It also owns the LA Kings ice hockey team and big arenas. | [link](https://en.wikipedia.org/wiki/LA_Galaxy) |
+| The person behind it | Philip Anschutz, a billionaire from Denver who made his money in oil, railroads and telecoms. He became interested in soccer during the 1994 World Cup and was a co-founder and lead investor of Major League Soccer (MLS). | [link](https://www.ussoccerhistory.org/national-soccer-hall-of-fame-biographies/national-soccer-hall-of-fame-builders-biographies/philip-anschutz/) |
+| Since when | AEG bought the Galaxy in October 1998. In the league's early years AEG ran six MLS clubs at once to keep the league alive. Today it runs only the Galaxy. | [link](https://en.wikipedia.org/wiki/List_of_owners_of_Major_League_Soccer_teams) |
+| Who runs it day to day | AEG's chief executive Dan Beckerman oversees it. Will Kuntz has been general manager since December 2023, and Greg Vanney head coach since January 2021. | [link](https://laxsportsnation.com/2023/12/08/the-la-galaxy-finally-have-a-general-manager/) |
+| How MLS ownership is different | MLS is a 'single entity': the league itself holds the player contracts, and each club has an 'investor-operator' who is a shareholder in the league. That is why the league can set one salary limit for everyone. | [link](https://en.wikipedia.org/wiki/List_of_owners_of_Major_League_Soccer_teams) |
+
+#### How the club grew
+| When | What happened | Source |
+|---|---|---|
+| 1996 | One of the ten original MLS clubs. Plays at the huge Rose Bowl and reaches the first final. | [link](https://en.wikipedia.org/wiki/LA_Galaxy) |
+| 2003 | Moves into its own 27,000-seat soccer stadium, paid for by the owner. Becomes the first MLS team to make a profit. | [link](https://en.wikipedia.org/wiki/LA_Galaxy) |
+| 2007 | Signs David Beckham from Real Madrid. MLS creates the 'designated player' rule so a club can pay a few stars outside the salary limit. The Galaxy become the league's glamour club. | [link](https://en.wikipedia.org/wiki/LA_Galaxy) |
+| 2011–2014 | Three titles in four years with Beckham, Landon Donovan and Robbie Keane. Five titles in total, a league record. | [link](https://en.wikipedia.org/wiki/LA_Galaxy) |
+| 2015–2022 | More famous names (Steven Gerrard, Zlatan Ibrahimović, Javier 'Chicharito' Hernández) but no titles. Last place in 2017. A new local rival, LAFC, arrives in 2018. | [link](https://en.wikipedia.org/wiki/LA_Galaxy) |
+| Dec 2022 | MLS punishes the club for breaking salary rules on a 2019 signing: it loses $1 million of spending allowance, the president is suspended, and it may not sign players from abroad in summer 2023. | [link](https://en.wikipedia.org/wiki/LA_Galaxy) |
+| Early 2023 | Worst start in club history. Supporters boycott home games to demand the president's removal. He leaves on 30 May. | [link](https://lastwordonsports.com/soccer/2023/05/31/galaxy-fire-chris-klein/) |
+| April 2023 | Will Kuntz arrives from rival LAFC to run recruitment. | [link](https://laxsportsnation.com/2025/02/07/how-fans-saved-the-la-galaxy/) |
+| Aug 2023 | Yoshida signs. | [link](https://www.lagalaxy.com/news/la-galaxy-sign-japanese-national-team-defender-maya-yoshida) |
+| 2024 | Sixth title, first in ten years, with Yoshida as captain. | [link](https://en.wikipedia.org/wiki/LA_Galaxy) |
+| 2025–2026 | The salary limit breaks up the champions; star midfielder Riqui Puig is injured for two seasons; 14th and then 11th in the West. | [link](https://en.wikipedia.org/wiki/LA_Galaxy) |
+
+#### Why he was able to join in 2023
+- The club could not buy. Because of the punishment, it was limited that summer to free agents and trades inside the league. ([source](https://www.mlssoccer.com/news/la-galaxy-how-one-of-mls-s-most-storied-clubs-got-their-swagger-back))
+- It had a hole in defence. Starting centre-back Martín Cáceres had a season-ending knee injury, and the team had won only three of its first 19 league matches. ([source](https://www.mlssoccer.com/news/la-galaxy-how-one-of-mls-s-most-storied-clubs-got-their-swagger-back))
+- He was free. Schalke's relegation ended his contract, so no transfer fee was needed. The league's own website describes him as available as a free agent after Schalke went down. ([source](https://www.mlssoccer.com/news/la-galaxy-how-one-of-mls-s-most-storied-clubs-got-their-swagger-back))
+- A new recruiter wanted leaders. Kuntz's first signings were Yoshida and other experienced players for the club's most urgent needs. ([source](https://laxsportsnation.com/2023/12/08/the-la-galaxy-finally-have-a-general-manager/))
+- He did not need a star's contract. He was not one of the three 'designated players', so his $800,000 fitted under the salary limit. ([source](https://www.spotrac.com/mls/player/_/id/85703/maya-yoshida))
+- His own reasons. At 35 he expected European offers to come only late in August and did not want to wait. He thought about the Middle East but worried about his family. When the Galaxy's offer came he thought 'this is it'. ([source](https://sportiva.shueisha.co.jp/clm/football/wfootball/2024/07/08/post_83/))
+- The Japanese link came after him, not before. Japan defender Miki Yamane joined in 2024 and forward Kyogo Furuhashi in 2025. ([source](https://www.lagalaxy.com/news/la-galaxy-announce-2026-roster-decisions))
+
+#### How MLS brings in players from overseas
+| Route | In simple words | Examples | Source |
+|---|---|---|---|
+| Designated players (since 2007) | Up to three stars per club can be paid outside the salary limit. These are the famous names. | David Beckham; Lionel Messi (2023); Son Heung-min (2025, a league-record fee of about $26 million) | [link](https://www.insideworldfootball.com/2025/08/08/son-makes-record-mls-move-retirement-league-reputation-remains/) |
+| Young talent (U22 Initiative, since 2021) | Up to three young players per club count cheaply against the limit. Clubs buy them young, often from South America, and hope to sell them to Europe later. | Dejan Joveljić and Gabriel Pec at the Galaxy | [link](https://www.cbssports.com/soccer/news/mls-how-rule-changes-like-the-u22-initiative-encourage-major-league-soccer-to-develop-young-talent) |
+| Experienced free agents | Players whose contracts ended in Europe. No transfer fee, modest pay, valued for leadership. | Maya Yoshida (2023) | [link](https://www.mlssoccer.com/news/la-galaxy-how-one-of-mls-s-most-storied-clubs-got-their-swagger-back) |
+| Everyone else | Must fit under the salary limit, sometimes helped by extra spending allowances the league hands out. | Most of each squad | [link](https://www.aol.com/news/galaxy-captain-maya-yoshida-gets-120020178.html) |
+
+#### Is it a league for players near retirement?
+- Partly, for the famous ones. Messi, Luis Suárez, Thomas Müller and Robert Lewandowski were all over 34 when they signed. Son was 33. ([source](https://coverthepitch.substack.com/p/is-major-league-soccer-really-a-retirement))
+- Not for the typical signing. One analysis of the summer 2026 window found the average age of players coming from abroad was 26 years and 8 months, about the same as the two years before. ([source](https://coverthepitch.substack.com/p/is-major-league-soccer-really-a-retirement))
+- Spending is rising. MLS clubs spent a record $336 million on players in one 2025 window. ([source](https://www.goal.com/en-us/lists/mls-shatters-spending-record-with-usd336-million-transfer-window-fueled-by-deals-sending-son-heung-min-to-lafc-and-rodrigo-de-paul-to-inter-miami/blt8f859428c1b690e6))
+- So there are two leagues in one: a few older stars who sell tickets and shirts, and many players in their mid-20s. The old stars get the headlines, which is why it looks like a retirement league from far away. (My reading of the numbers.)
+- Yoshida's own criticism: the salary limit means players who are not stars earn relatively little, and he said the league needs to grow financially if it wants good players to come. ([source](https://www.aol.com/news/galaxy-captain-maya-yoshida-gets-120020178.html))
+
+#### What we can learn (my analysis)
+- A club's bad moment can be a player's opening. He was signed because the Galaxy were restricted, injured and losing.
+- Being a free agent is a strength at the right time. A club that cannot pay a transfer fee can still sign you.
+- The same rule that let him in later cut his pay. The salary limit made room for a $800,000 leader in 2023 and squeezed him to $455,000 in 2025.
+- Owners shape careers from far away. One investor kept the league alive in its early years, built the stadium, and his company still decides who runs the club.
+
 ## 💰 9. Money: contracts, salary, sponsors
 Most footballer salary numbers are guesses by websites. The only official numbers here are from the MLS Players Association (MLSPA), the players' union in the USA, which publishes every player's pay. Each row is labelled OFFICIAL or ESTIMATE.
 
@@ -453,6 +510,10 @@ _Read on 2026-11-21. The top 30 of 141 reader comments in 'recommended' order (1
 - 'Shootribe' appears as a management-company link on his Japanese Wikipedia page; what it is and who runs it is not confirmed.
 - Whether Kiyooka handled his 2012 move to Southampton is not confirmed.
 - Why his MLS pay rose from 2025 to 2026: no source found. A built-in raise for the second contract year is my reading, not a reported fact.
+- Who at LA Galaxy first contacted him in 2023, and what they told him: not found (only the first part of his interview on the move could be read).
+- The exact wording of the 2023 signing ban: one source says the club could not sign international players that summer; the league's website says it was in effect limited to free agents and trades within the league.
+- LA Galaxy finishing 11th in the West in 2026 comes from a fan-site summary, not an official table.
+- The ages of MLS signings come from one independent analysis; the league has not published its own figure here.
 
 ## 🎥 Appendix: videos and interviews
 I could not confirm direct YouTube links from my tools, so the YouTube rows are SEARCH links: click and the video with that exact title should be at or near the top. The other rows are direct links to official pages.

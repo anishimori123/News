@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.3.6** | 2026-11-21 |  | New deep dive on Maya Yoshida's page: who owns LA Galaxy, how the club grew, why he could join in 2023, and how MLS brings in players from overseas. | 8 | 29,331 | about 20 minutes |
 | **v0.3.5** | 2026-11-21 |  | Hideo Nomo's money section now explains why his pay changed, year by year; the rule is added to the template for everyone. | 8 | 28,079 | about 15 minutes |
 | **v0.3.4** | 2026-11-21 |  | Maya Yoshida's money section now explains why his pay changed, year by year, including the 43% cut after winning the 2024 title. | 8 | 27,325 | about 15 minutes |
 | **v0.3.3** | 2026-11-21 |  | README now starts with a clickable link to the live website, and every page in its list is a live link. | 8 | 26,723 | about 5 minutes |
@@ -30,6 +31,18 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.3.6 — 2026-11-21
+**Summary:** New deep dive on Maya Yoshida's page: who owns LA Galaxy, how the club grew, why he could join in 2023, and how MLS brings in players from overseas.  
+**Pages on site:** 8  
+**Words on site:** 29331  
+**Time spent:** about 20 minutes
+
+**What changed**
+- Deep dive 8.4 "LA Galaxy and MLS": the owner (AEG and Philip Anschutz), a club timeline from 1996 to 2026, seven reasons he was able to join, the four routes MLS uses to sign foreign players, and whether it is really a league for players near retirement.
+
+**Why**
+- To understand the club and league behind his last move, and why a team in crisis signed a 35-year-old free agent.
 
 ## v0.3.5 — 2026-11-21
 **Summary:** Hideo Nomo's money section now explains why his pay changed, year by year; the rule is added to the template for everyone.  
