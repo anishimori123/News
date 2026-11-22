@@ -114,7 +114,22 @@ Not confirmed. No source found states his commission rate or who paid it in any 
 | Arn Tellem | American lawyer and agent (born 1954); later a top basketball agent and vice chairman of the Detroit Pistons. Also represented Hideki Matsui. | The US-based agent Nomura worked with; checked the contract clause. His Wikipedia page credits him with finding the loophole, which other accounts give to Nomura. | [link](https://en.wikipedia.org/wiki/Arn_Tellem) |
 | Jean Afterman | American lawyer; joined the New York Yankees in 2001 as assistant general manager. | As Nomura's lawyer she went through the translated rules and league letters and helped find the 'active players only' gap. Also fought the Irabu case. | [link](https://www.aol.com/star-pitcher-hideo-nomo-agent-195302074.html) |
 
-## 💡 9. What we can learn (my analysis)
+## 🔗 9. His link to Wasserman
+Wasserman is a large American sports agency (founded 2002 by Casey Wasserman, now renamed THE TEAM). Short answer: Nomura never worked for Wasserman and no source says Wasserman owned any part of his company. The link is a partnership, deal by deal, that ran through one man: Arn Tellem. Searched 21 Nov 2026.
+
+| Year | What happened | Link to Wasserman | Source |
+|---|---|---|---|
+| 1995 | Nomo's Dodgers deal: Nomura works with American agent Arn Tellem, who then ran his own firm, Tellem and Associates. | None yet. Wasserman did not exist until 2002. | [link](https://en.wikipedia.org/wiki/Arn_Tellem) |
+| 1999–2006 | Tellem's firm is bought by SFX (1999). In 2006 Wasserman Media Group buys his basketball and baseball business, and he becomes its vice chairman. | Nomura's long-time American partner is now a Wasserman executive. | [link](https://en.wikipedia.org/wiki/Arn_Tellem) |
+| 2011–2012 | Yu Darvish is represented jointly by 'Arn Tellem of Wasserman Media Group and Don Nomura'. He signs with Texas for 6 years, $60 million. | ✅ The clearest link: one client shared between Nomura and Wasserman. | [link](https://www.mlbtraderumors.com/2011/10/agents-predict-darvish-posting-fee-contract.html) |
+| 2015 | Tellem leaves the agent business to join the Detroit Pistons' owners. In December Kenta Maeda hires Adam Katz of Wasserman for his MLB talks; Nomura's publisher also credits Nomura with Maeda's move. | 🟡 Probably a second shared client, but no single report names both men together. | [link](https://www.mlbtraderumors.com/2015/12/kenta-maeda-joins-wasserman-media-group.html) |
+| 2017 (reported 2019) | A Japanese weekly magazine (FLASH) reports that Darvish ended his contract with Nomura in 2017, angry about a separate paid contract between Nomura and Asics that he had not been told about. One-sided report; no public confirmation from Darvish or Nomura was found. | ⚪ If true, the shared client stayed with Wasserman and left Nomura. | [link](https://smart-flash.jp/sports/76744/) |
+| 2020 onward | Darvish's agent is Joel Wolfe, head of baseball at Wasserman, who also represents many later Japanese stars (Yamamoto, Senga, Seiya Suzuki). | Wasserman became the main agency for Japanese players in MLB; Nomura is not named in these deals. | [link](https://news.yahoo.co.jp/articles/ec0a57af0899c9296eab9164f05d1b890324abce) |
+| 2026 | In his memoir Nomura has a section on what he learned from Tellem, and writes that sharing a client among several agents is better than fighting over one. Baseball-Reference lists Darvish's agents as 'THE·TEAM; previously Arn Tellem & Don Nomura' (THE TEAM is Wasserman's new company name, per Wikipedia). | His own explanation of why he partnered with a big American firm. | [link](https://sports.yahoo.co.jp/column/detail/2026090800003-spnavi) |
+
+My reading: this is the same 'local partner plus big foreign firm' pattern seen with Japanese soccer agents. Nomura had the trust of the Japanese player; Tellem and Wasserman had the American lawyers, team contacts and scale. When Tellem left in 2015, the personal bridge went with him, and Wasserman's own agent Joel Wolfe now deals with Japanese players directly.
+
+## 💡 10. What we can learn (my analysis)
 - An outsider with inside knowledge is powerful. He knew how Japanese clubs think, but did not depend on them for his living.
 - Rules are written by people, and people leave gaps. He looked for what the text said, not what custom said.
 - Being right is not the same as being liked. He paid for these wins with years of being shut out in Japan.
@@ -131,4 +146,6 @@ Not confirmed. No source found states his commission rate or who paid it in any 
 - A $100,000 Hiroshima Carp suit over Soriano and its settlement (English Wikipedia only).
 - His 1984–85 role with Yutaka Enatsu rests on Japanese Wikipedia and a November 2026 Sankei Sports headline that was seen but not read in full.
 - Robert Whiting's 2010–11 Japan Times articles about him and the book 'The Meaning of Ichiro' were not read directly.
+- The 2019 FLASH magazine report that Darvish dropped Nomura in 2017 over an Asics side contract: one weekly magazine with unnamed sources; not confirmed by either man.
+- Whether Nomura and Wasserman's Adam Katz formally shared Kenta Maeda as a client in 2015.
 

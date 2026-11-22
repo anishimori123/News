@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.3.10** | 2026-11-21 |  | Don Nomura's page has a new chapter on his link to the American agency Wasserman. | 8 | 30,857 | about 15 minutes |
 | **v0.3.9** | 2026-11-21 |  | Hideo Nomo's timeline now shows his marriage (1991) and first son (1992), plus a note on whether he has a blog. | 8 | 30,370 | about 15 minutes |
 | **v0.3.8** | 2026-11-21 |  | New deep dive on Maya Yoshida's page: what his old blogs (2012–2016) add, plus a Japan Airlines sponsor deal found there. | 8 | 30,051 | about 15 minutes |
 | **v0.3.7** | 2026-11-21 |  | Maya Yoshida's timeline now shows when he married and when his two children were born. | 8 | 29,463 | about 10 minutes |
@@ -34,6 +35,19 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.3.10 — 2026-11-21
+**Summary:** Don Nomura's page has a new chapter on his link to the American agency Wasserman.  
+**Pages on site:** 8  
+**Words on site:** 30857  
+**Time spent:** about 15 minutes
+
+**What changed**
+- New chapter "His link to Wasserman": a year-by-year table from 1995 to 2026 (Arn Tellem, the shared Darvish deal, Maeda, the reported 2017 split, Joel Wolfe today).
+- "Not verified": the magazine report about the Darvish split, and whether Maeda was formally shared.
+
+**Why**
+- To understand how a Japanese independent agent worked with a big American agency, and what happened when the personal contact left.
 
 ## v0.3.9 — 2026-11-21
 **Summary:** Hideo Nomo's timeline now shows his marriage (1991) and first son (1992), plus a note on whether he has a blog.  
