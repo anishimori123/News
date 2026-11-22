@@ -1,13 +1,20 @@
 # News
 
+### 🌐 Open my website: **[anishimori123.github.io/News/](https://anishimori123.github.io/News/)**
+
 My interest, my news, my curiosity. I dig into the roots and the "why" behind news and people.
 
 ## 🌐 Web version (colour, charts, printable)
 
-- Home page: `docs/index.html`
-- Maya Yoshida: `docs/sports/soccer/maya-yoshida.html`
-- Hideo Nomo: `docs/sports/baseball/hideo-nomo.html`
-- Agents: `docs/agents/overview.html`, `docs/agents/tetsuro-kiyooka.html`, `docs/agents/thomas-kroth.html`, `docs/agents/don-nomura.html`
+Click a link to open the live page:
+
+- 🏠 Home page: [anishimori123.github.io/News/](https://anishimori123.github.io/News/)
+- ⚽ Maya Yoshida: [open page](https://anishimori123.github.io/News/sports/soccer/maya-yoshida.html)
+- ⚾ Hideo Nomo: [open page](https://anishimori123.github.io/News/sports/baseball/hideo-nomo.html)
+- 🤝 Agents: [overview](https://anishimori123.github.io/News/agents/overview.html) · [Tetsuro Kiyooka](https://anishimori123.github.io/News/agents/tetsuro-kiyooka.html) · [Thomas Kroth](https://anishimori123.github.io/News/agents/thomas-kroth.html) · [Hai Berden](https://anishimori123.github.io/News/agents/hai-berden.html) · [Kees Ploegsma Jr.](https://anishimori123.github.io/News/agents/kees-ploegsma-jr.html) · [Don Nomura](https://anishimori123.github.io/News/agents/don-nomura.html)
+- 📈 History of changes: [CHANGELOG.md](CHANGELOG.md)
+
+The same pages are stored in this repo under the `docs/` folder.
 
 **To see it on your PC:** download the repo (green **Code** button → **Download ZIP**), unzip it, open the `docs` folder, and double-click `index.html`. It opens in your browser.
 

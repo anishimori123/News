@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.3.3** | 2026-11-21 |  | README now starts with a clickable link to the live website, and every page in its list is a live link. | 8 | 26,723 | about 5 minutes |
 | **v0.3.2** | 2026-11-21 |  | Changelog table now highlights versions that add a new person or page with 🆕. | 8 | 26,723 | about 10 minutes |
 | **v0.3.1** | 2026-11-21 |  | Changelog chart now shows the blue pages line and the grey words line together on one graph. | 8 | 26,723 | about 10 minutes |
 | **v0.3.1** | 2026-11-21 |  | Every page now shows a small icon on the browser tab, so the site is easy to spot. | 8 | 26,723 | about 5 minutes |
@@ -27,6 +28,19 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.3.3 — 2026-11-21
+**Summary:** README now starts with a clickable link to the live website, and every page in its list is a live link.  
+**Pages on site:** 8  
+**Words on site:** 26723  
+**Time spent:** about 5 minutes
+
+**What changed**
+- A large link to the website home page sits at the very top of `README.md`.
+- The page list under it now links straight to each live page, including the agent pages that were missing from the list.
+
+**Why**
+- To get from the GitHub repo to the website in one click.
 
 ## v0.3.2 — 2026-11-21
 **Summary:** Changelog table now highlights versions that add a new person or page with 🆕.  
