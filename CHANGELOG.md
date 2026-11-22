@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.11** | 2026-11-21 |  | Pages that are checked automatically now show a green "🔄 Auto-check" label, and the home page lists the scheduled tasks. | 10 | 43,039 | about 15 minutes |
 | 🤖 **v0.4.10** | 2026-11-21 |  | New automatic weekly check for the "Bridging Japanese athletes to the US" page (Sasaki, Morii, Oda). | 10 | 43,039 | about 10 minutes |
 | **v0.4.9** | 2026-11-21 |  | Record of the full visit-tracking and privacy setup (A, B, C, D), including the parts done outside this repo. | 10 | 43,039 | about 5 minutes |
 | **v0.4.8** | 2026-11-21 |  | Every web page now asks search engines not to list it (noindex), so the site is found by link only. | 10 | 43,039 | about 5 minutes |
@@ -48,6 +49,20 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.11 — 2026-11-21
+**Summary:** Pages that are checked automatically now show a green "🔄 Auto-check" label, and the home page lists the scheduled tasks.  
+**Pages on site:** 10  
+**Words on site:** 43039  
+**Time spent:** about 15 minutes
+
+**What changed**
+- Home page: a green label on each card that a scheduled task covers (Maya Yoshida and Hideo Nomo on Sundays; the bridging page on Wednesdays), and a new "Automatic checks" table at the bottom.
+- Each covered page: a green line under the status box saying when it is checked and by which task.
+- The list lives in `tools/site_config.json` under `auto_checks`. The label is only a sign: it does not know whether the task is really running. When a task is paused or deleted, remove its entry there and rebuild.
+
+**Why**
+- So the owner can see at a glance which pages cost plan usage every week, and decide when to stop a check.
 
 ## v0.4.10 — 2026-11-21
 **Summary:** New automatic weekly check for the "Bridging Japanese athletes to the US" page (Sasaki, Morii, Oda).  

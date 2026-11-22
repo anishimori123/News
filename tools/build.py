@@ -27,6 +27,32 @@ def analytics_tag():
     return f'<script data-goatcounter="https://{code}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>'
 
 
+def auto_check(key):
+    """Is this page kept up to date by a scheduled task? The list lives in tools/site_config.json ("auto_checks").
+    key looks like "Sports/Soccer/maya-yoshida" or "Agents/bridging-to-the-us". Returns the task's details or None.
+    This is only a label: remove the entry from site_config.json when the task is paused or deleted."""
+    from fnmatch import fnmatch
+    cfg = ROOT / "tools" / "site_config.json"
+    checks = json.loads(cfg.read_text(encoding="utf-8")).get("auto_checks", []) if cfg.exists() else []
+    for c in checks:
+        if any(fnmatch(key, pat) for pat in c.get("pages", [])):
+            return c
+    return None
+
+
+def auto_badge(key):
+    c = auto_check(key)
+    return f' <span class="auto" title="{E(c["task"])}">🔄 Auto-check: {E(c["when_short"])}</span>' if c else ""
+
+
+def auto_note(key):
+    c = auto_check(key)
+    if not c:
+        return ""
+    return (f'<div class="autonote">🔄 <b>Checked automatically:</b> {E(c["when"])}, by the scheduled task “{E(c["task"])}”. '
+            f'It updates this page only when it finds confirmed news. Each run uses some plan usage; pause it in Claude’s scheduled tasks list when it is no longer needed.</div>')
+
+
 def search_tag():
     """Search engines. In tools/site_config.json, "show_in_search": false adds a 'noindex' line to every page,
     which asks Google, Bing and others not to list it. true (or missing) = pages may be listed."""
@@ -123,6 +149,8 @@ h3{font-size:1.08rem;margin:1.2em 0 .3em}.ja{color:var(--ink2);font-weight:400;f
 .hero{display:grid;grid-template-columns:1fr 200px;gap:24px;align-items:start}
 .photo{border:2px dashed #b9b6ab;border-radius:12px;min-height:230px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--ink2);font-size:.82rem;padding:10px;background:#fff}
 .photo img{max-width:100%;border-radius:8px}.figure{width:110px}
+.auto{display:inline-block;background:#e6f4ea;border:1px solid #9ccfa8;color:#1e5c2f;border-radius:999px;padding:1px 9px;font-size:.78rem;font-weight:600;white-space:nowrap}
+.autonote{background:#e6f4ea;border-left:6px solid #3d9a5a;padding:8px 14px;border-radius:8px;margin:10px 0;font-size:.9rem}
 .status{background:var(--warm);border-left:6px solid #eda100;padding:12px 16px;border-radius:8px;margin:14px 0}
 .box{background:var(--soft);border-left:6px solid var(--blue);padding:12px 16px;border-radius:8px;margin:14px 0}
 .honest{background:var(--bad);border-left:6px solid #e34948;padding:12px 16px;border-radius:8px}
@@ -212,7 +240,7 @@ def build_html(d, sport):
     b.append('<div class="hero"><div>'
              f'<h1>{E(d["name"])} <span class="ja">{E(d["name_ja"])}</span></h1>'
              f'<p>{E(d["summary"])}</p>'
-             f'<div class="status"><b>📌 Status ({E(d["updated"])}):</b> {E(d["status"])}</div></div>'
+             f'<div class="status"><b>📌 Status ({E(d["updated"])}):</b> {E(d["status"])}</div>{auto_note(f"Sports/{sport}/" + d["id"])}</div>'
              f'<div class="photo"><img src="{E(d["photo"])}" alt="" onerror="this.remove()">'
              + (f'{FIGURE}<div>Generic drawing, not a portrait.<br>📷 Add your own photo: see README.</div>' if d.get("figure", "captain") == "captain"
                 else '<div>📷 Add your own photo: see README.</div>') + '</div></div>')
@@ -442,6 +470,7 @@ def build_generic_html(d, folder):
     b.append(f'<h1>{d.get("emoji", "")} {E(d["name"])}{ja}</h1><p>{E(d["summary"])}</p>')
     if d.get("status"):
         b.append(f'<div class="status"><b>📌 Status ({E(d["updated"])}):</b> {E(d["status"])}</div>')
+    b.append(auto_note(f"{folder}/" + d["id"]))
     if d.get("quick_facts"):
         b.append(table(["Quick fact", "Detail"], [[f"<b>{E(k)}</b>", E(v)] for k, v in d["quick_facts"]]))
     for n, sec in enumerate(d["sections"], 1):
@@ -664,13 +693,20 @@ def main():
             others.append((folder, d))
             print("built", out.relative_to(ROOT))
     cards = "".join(f'<div class="card"><h3>{d.get("emoji", "⚽")} <a href="sports/{s.lower()}/{d["id"]}.html">{E(d["name"])} {E(d["name_ja"])}</a></h3>'
-                    f'<p>{E(d["summary"])}</p><p class="small">{E(s)} · updated {E(d["updated"])}</p></div>' for s, d in people)
+                    f'<p>{E(d["summary"])}</p><p class="small">{E(s)} · updated {E(d["updated"])}{auto_badge(f"Sports/{s}/" + d["id"])}</p></div>' for s, d in people)
     others.sort(key=lambda x: (x[1].get("order", 5), x[1]["name"]))
     ocards = "".join(f'<div class="card"><h3>{d.get("emoji", "🤝")} <a href="{f.lower()}/{d["id"]}.html">{E(d["name"])} {E(d.get("name_ja", ""))}</a></h3>'
-                     f'<p>{E(d["summary"])}</p><p class="small">{E(f)} · updated {E(d["updated"])}</p></div>' for f, d in others)
+                     f'<p>{E(d["summary"])}</p><p class="small">{E(f)} · updated {E(d["updated"])}{auto_badge(f"{f}/" + d["id"])}</p></div>' for f, d in others)
     body = f"<h1>📚 People I follow</h1><p>My own database: athletes, the people around them, and how the sports business works.</p><h2>🏅 Sports</h2>{cards}"
     if ocards:
         body += f"<h2>🤝 Agents</h2>{ocards}"
+    cfg = ROOT / "tools" / "site_config.json"
+    checks = json.loads(cfg.read_text(encoding="utf-8")).get("auto_checks", []) if cfg.exists() else []
+    if checks:
+        rows = [[E(c["task"]), E(c["when"]), E(c["covers"])] for c in checks]
+        body += ('<h2>🔄 Automatic checks</h2><p>Pages with the green <span class="auto">🔄 Auto-check</span> label are checked for news by a scheduled task. '
+                 'Each run uses some plan usage. To stop one, pause or delete it in Claude’s scheduled tasks list, then remove it from <code>tools/site_config.json</code> so the label disappears.</p>'
+                 + table(["Scheduled task", "When it runs", "Pages it covers"], rows))
     (ROOT / "docs" / "index.html").write_text(page("News: people I follow", body, 0), encoding="utf-8")
     (ROOT / "docs" / ".nojekyll").write_text("", encoding="utf-8")
     update_changelog()

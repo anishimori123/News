@@ -1,4 +1,24 @@
 {
  "goatcounter_code": "anishimori-news",
- "show_in_search": false
+ "show_in_search": false,
+ "auto_checks": [
+  {
+   "task": "Weekly Maya Yoshida news check",
+   "when": "every Sunday at 4:33 PM Pacific",
+   "when_short": "Sundays",
+   "covers": "Every athlete page under Sports/ (Maya Yoshida, Hideo Nomo)",
+   "pages": [
+    "Sports/*"
+   ]
+  },
+  {
+   "task": "Weekly bridging page check (Sasaki, Morii, Oda)",
+   "when": "every Wednesday at 4:47 PM Pacific",
+   "when_short": "Wednesdays",
+   "covers": "Bridging Japanese athletes to the US",
+   "pages": [
+    "Agents/bridging-to-the-us"
+   ]
+  }
+ ]
 }
