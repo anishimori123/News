@@ -49,6 +49,11 @@ One topic each, when something deserves a closer look. Good standing topics: a c
 | Period | Club | Reported pay | OFFICIAL or ESTIMATE | Source |
 |---|---|---|---|---|
 
+### Why pay changed, year by year (always include)
+One row for each change between contracts or seasons. Explain any league rule behind it in simple words (salary cap, posting system and so on). Add the person's own words on why they accepted a cut, when sourced. If no report gives a reason, write "reason not confirmed"; label a guess as "my reading".
+| Years | What changed (⬆️ ⬇️ ➡️ and size) | Why | How sure? | Source |
+|---|---|---|---|---|
+
 ## 9a. In their own words (social posts)
 The person's own account (X first), read through the desktop app's browser. Describe each post in my own words with date and link. First-hand for what they said; a factual claim still needs a second source before it enters the timeline. Say if nothing was posted about the main news.
 | Date | What they posted | What it tells us | Post |
