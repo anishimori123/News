@@ -371,7 +371,7 @@ Short version: he joined because the club was in trouble. In summer 2023 the Gal
 - A new recruiter wanted leaders. Kuntz's first signings were Yoshida and other experienced players for the club's most urgent needs. ([source](https://laxsportsnation.com/2023/12/08/the-la-galaxy-finally-have-a-general-manager/))
 - He did not need a star's contract. He was not one of the three 'designated players', so his $800,000 fitted under the salary limit. ([source](https://www.spotrac.com/mls/player/_/id/85703/maya-yoshida))
 - His own reasons. At 35 he expected European offers to come only late in August and did not want to wait. He thought about the Middle East but worried about his family. When the Galaxy's offer came he thought 'this is it'. ([source](https://sportiva.shueisha.co.jp/clm/football/wfootball/2024/07/08/post_83/))
-- The Japanese link came after him, not before. Japan defender Miki Yamane joined in 2024 and forward Kyogo Furuhashi in 2025. ([source](https://www.lagalaxy.com/news/la-galaxy-announce-2026-roster-decisions))
+- The Japanese link came after him, not before. Japan defender Miki Yamane joined in 2024, and forward Kyogo Furuhashi followed later. ([source](https://en.wikipedia.org/wiki/LA_Galaxy))
 
 #### How MLS brings in players from overseas
 | Route | In simple words | Examples | Source |
