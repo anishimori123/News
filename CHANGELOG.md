@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| 🤖 **v0.4.12** | 2026-11-25 |  | Bridging page: Shoki Oda finished meeting ten MLB clubs (Shotaro Morii joined the Athletics' meeting) and met the Giants for the first time; no decision yet. | 10 | 43,377 | about 10 minutes (automatic, no helpers) |
 | **v0.4.11** | 2026-11-21 |  | Pages that are checked automatically now show a green "🔄 Auto-check" label, and the home page lists the scheduled tasks. | 10 | 43,039 | about 15 minutes |
 | 🤖 **v0.4.10** | 2026-11-21 |  | New automatic weekly check for the "Bridging Japanese athletes to the US" page (Sasaki, Morii, Oda). | 10 | 43,039 | about 10 minutes |
 | **v0.4.9** | 2026-11-21 |  | Record of the full visit-tracking and privacy setup (A, B, C, D), including the parts done outside this repo. | 10 | 43,039 | about 5 minutes |
@@ -49,6 +50,26 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.12 — 2026-11-25
+**🤖 Found by: weekly scheduled check**  
+**Summary:** Bridging page: Shoki Oda finished meeting ten MLB clubs (Shotaro Morii joined the Athletics' meeting) and met the Giants for the first time; no decision yet.  
+**Pages on site:** 10  
+**Words on site:** 43377  
+**Time spent:** about 10 minutes (automatic, no helpers)
+
+**What changed**
+- Oda, 18 Nov: last day of MLB meetings, ten clubs in all; the Athletics brought Shotaro Morii to explain daily life. [Daily Sports](https://www.daily.co.jp/mlb/2026/11/18/0021045940.shtml), [Sankei Sports](https://news.yahoo.co.jp/articles/660869ec321508333b76d01f0a1e4b2e08e19b44)
+- Oda and Morii had been in touch by social media before; Morii's advice was to make a choice with no regrets. [Sports Hochi](https://news.yahoo.co.jp/articles/e2889af8fdf57fcb6446d3eaff4b7f111e0e16cd)
+- Oda, 10 Nov: the Giants' greeting visit took place without him. [Sankei Sports](https://news.yahoo.co.jp/articles/8d92f1e65de880922e1847e3ebcbae5e1463bba1)
+- Oda, 26 Nov (Japan time): first face-to-face meeting with the Giants, about 50 reporters. [Full-Count](https://full-count.jp/2026/11/26/post2050415/)
+- Morii's case study: new row for the 18 Nov meeting.
+- MLB labour talks: no deal as of 24 Nov; owners repeated their international-draft idea on 20 Nov. [CBS Sports](https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/)
+- "Not verified": an unnamed club official's remark that clubs cannot sign during a lockout ([Number](https://number.bunshun.jp/articles/-/872638)), and the unknown outcome of the Giants meeting.
+- Sasaki: no news. Status, date and quick facts updated. Only article headlines and the CBS timeline were read in this run.
+
+**Why**
+- The weekly check found news confirmed by several Japanese sports papers. Oda's decision is still open.
 
 ## v0.4.11 — 2026-11-21
 **Summary:** Pages that are checked automatically now show a green "🔄 Auto-check" label, and the home page lists the scheduled tasks.  

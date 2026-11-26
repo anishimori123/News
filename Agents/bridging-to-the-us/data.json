@@ -4,8 +4,8 @@
  "name_ja": "日本人選手とアメリカをつなぐ",
  "emoji": "🌉",
  "order": 8,
- "updated": "2026-11-21",
- "status": "Three young players are testing three different roads at the same time. Rintaro Sasaki (Stanford, then the Miami Marlins in July 2026) has not yet played a professional game because of a visa delay. Shotaro Morii has finished his second minor-league year with the Athletics. Shoki Oda said in October 2026 that he will go to the US, was still drafted first by the Yomiuri Giants, and cannot sign with an American club before 15 January 2027 at the earliest; a labour stoppage in American baseball may delay that.",
+ "updated": "2026-11-25",
+ "status": "Three young players are testing three different roads at the same time. Rintaro Sasaki (Stanford, then the Miami Marlins in July 2026) has not yet played a professional game because of a visa delay. Shotaro Morii has finished his second minor-league year with the Athletics. Shoki Oda said in October 2026 that he will go to the US and was still drafted first by the Yomiuri Giants. He finished meeting ten MLB clubs on 18 November and met the Giants face to face for the first time on 26 November (Japan time). He has not announced a decision. He cannot sign with an American club before 15 January 2027 at the earliest; MLB's labour agreement ends on 1 December with no new deal yet, and a labour stoppage may delay that.",
  "summary": "A beginner's guide to how a Japanese baseball player gets to America, and who looks after daily life once he is there: language, food, housing, training, school and visas. It compares three routes (Japanese pro baseball then the 'posting' sale; a US college; a minor-league contract straight from high school), uses Rintaro Sasaki, Shotaro Morii and Shoki Oda as case studies, lists the companies already doing this as a business, and marks where support is thin for players who are not stars. Soccer (Maya Yoshida) is used only as a comparison.",
  "quick_facts": [
   [
@@ -34,7 +34,7 @@
   ],
   [
    "Date of research",
-   "21 November 2026"
+   "21 November 2026. Last weekly check: 25 November 2026."
   ]
  ],
  "sections": [
@@ -496,6 +496,13 @@
         "He does not know if this is the shortest road. He wanted to play inside an organisation that has major leaguers in it."
        ],
        "url": "https://www.daily.co.jp/mlb/2026/11/17/0021042439.shtml"
+      },
+      {
+       "cells": [
+        "18 Nov 2026",
+        "He sat in on the Athletics' meeting with Shoki Oda at Yokohama High School, as the 'senior' who took the same road. 「どういう生活かを一番に伝えたかった」 (\"Above all I wanted to tell him what the life is like\")."
+       ],
+       "url": "https://www.daily.co.jp/mlb/2026/11/18/0021045940.shtml"
       }
      ]
     }
@@ -503,7 +510,7 @@
   },
   {
    "emoji": "🔥",
-   "title": "Case study 3: Shoki Oda (undecided, as of 21 November 2026)",
+   "title": "Case study 3: Shoki Oda (undecided, as of 25 November 2026)",
    "intro": "18 years old. Right-handed pitcher from Yokohama High School, fastest pitch 157 km/h. Grew up in Kitakyushu and chose to move to Yokohama for high school. Everything below can change quickly.",
    "parts": [
     {
@@ -578,6 +585,34 @@
       },
       {
        "cells": [
+        "10 Nov",
+        "The Giants made their formal greeting visit after the draft. Oda himself was not there."
+       ],
+       "url": "https://news.yahoo.co.jp/articles/8d92f1e65de880922e1847e3ebcbae5e1463bba1"
+      },
+      {
+       "cells": [
+        "18 Nov",
+        "Last day of the MLB meetings: ten clubs in all. The Athletics came last and brought their own minor leaguer Shotaro Morii to describe daily life. An Athletics executive called Oda one of the best teenage pitchers in the world."
+       ],
+       "url": "https://www.daily.co.jp/mlb/2026/11/18/0021045940.shtml"
+      },
+      {
+       "cells": [
+        "18 Nov (Morii link)",
+        "Oda had already contacted Morii through social media; the meeting was the first time they met in person. Morii's advice: 「後悔がない選択ができれば、それが一番いい」 (\"A choice with no regrets is the best one\")."
+       ],
+       "url": "https://news.yahoo.co.jp/articles/e2889af8fdf57fcb6446d3eaff4b7f111e0e16cd"
+      },
+      {
+       "cells": [
+        "26 Nov (Japan time)",
+        "First face-to-face meeting with the Giants since the draft; about 50 reporters gathered. Before the meeting, the Giants were reported to be bringing a development plan (how they would train him). No decision has been announced."
+       ],
+       "url": "https://full-count.jp/2026/11/26/post2050415/"
+      },
+      {
+       "cells": [
         "Management and agent",
         "US media say a Japanese management company 'with ties to' the one that supported Yoshinobu Yamamoto and Roki Sasaki handles him. No report says he has signed with a US agency. Not confirmed; see the Wasserman page."
        ],
@@ -589,6 +624,13 @@
         "MLB's labour agreement ends on 1 December 2026. A lockout (owners shutting out the players) is expected, the rules for international amateurs are one of the things being argued over, and people close to the talks think his signing could be frozen."
        ],
        "url": "https://news.yahoo.co.jp/articles/8ce7f0699621d9f023616f0d2b3f68ca7a2a2a9f"
+      },
+      {
+       "cells": [
+        "The obstacle (24 Nov)",
+        "Talks timeline: no new agreement as of 24 November. On 20 November MLB repeated its proposal for an international draft (clubs would pick foreign amateurs in turn instead of bidding freely); the players' union has not agreed to one."
+       ],
+       "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"
       }
      ]
     }
@@ -1290,14 +1332,15 @@
   "Sasaki's and Morii's US agents or advisers: none is named in the sources found. Sasaki's management (Nice Guy Partners) is confirmed; whether it or someone else negotiated with the Marlins is not.",
   "A Tokyo Sports article (2024) says a 'skilled agent' introduced Sasaki to US colleges. It gives no name, and it conflicts with accounts that Stanford's coaches found him by video. Left out of the tables.",
   "Which Japanese management company handles Oda. US media describe it only as linked to the company that supported Yamamoto and Roki Sasaki. Tabloid claims that it is the advertising agency Dentsu are not confirmed on the record.",
-  "Whether Oda will sign with Wasserman or any US agency: no report says so as of 21 November 2026.",
-  "Whether international amateur signings will really be frozen during an MLB lockout. Reports disagree; in the 2021–22 lockout such signings went ahead.",
+  "Whether Oda will sign with Wasserman or any US agency: no report says so as of 25 November 2026.",
+  "Whether international amateur signings will really be frozen during an MLB lockout. Reports disagree; in the 2021–22 lockout such signings went ahead. In November 2026 Number quoted an unnamed MLB club official who had 'heard' clubs cannot sign during a lockout (https://number.bunshun.jp/articles/-/872638), and US articles still disagree. Not confirmed as of 25 November 2026.",
   "The value of Sasaki's Stanford scholarship (about ¥50 million over four years) comes from one Japanese sports paper.",
   "Morii's 2026 Single-A games: Daily Sports says 53, Number and Baseball-Reference say 63. The batting average (.227) and pitching line agree.",
   "Sasaki's '140 high-school home runs' includes practice games, as the Japan Times notes.",
   "Which visa type Japanese minor leaguers hold, and who pays visa lawyers. Only the P-1 for major-league athletes and the F-1 for students are sourced here.",
   "Fees charged by Nice Guy Partners, Athlete Brand Japan and amateur advisers: not published in any source found.",
   "The Daily Sports question-and-answer with Morii and parts of the Number and Sportiva articles are behind paywalls; only the free parts were read.",
-  "Whether any MLB club has a written programme for Japanese minor leaguers (language classes, host families). Not found."
+  "Whether any MLB club has a written programme for Japanese minor leaguers (language classes, host families). Not found.",
+  "What was said inside the Giants' 26 November meeting with Oda, and when he will decide: only headlines were seen at the time of the weekly check (25 November US time). No outcome is recorded here yet."
  ]
 }

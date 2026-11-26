@@ -2,8 +2,8 @@
 
 > A beginner's guide to how a Japanese baseball player gets to America, and who looks after daily life once he is there: language, food, housing, training, school and visas. It compares three routes (Japanese pro baseball then the 'posting' sale; a US college; a minor-league contract straight from high school), uses Rintaro Sasaki, Shotaro Morii and Shoki Oda as case studies, lists the companies already doing this as a business, and marks where support is thin for players who are not stars. Soccer (Maya Yoshida) is used only as a comparison.
 
-**Last updated:** 2026-11-21  
-**📌 Status:** Three young players are testing three different roads at the same time. Rintaro Sasaki (Stanford, then the Miami Marlins in July 2026) has not yet played a professional game because of a visa delay. Shotaro Morii has finished his second minor-league year with the Athletics. Shoki Oda said in October 2026 that he will go to the US, was still drafted first by the Yomiuri Giants, and cannot sign with an American club before 15 January 2027 at the earliest; a labour stoppage in American baseball may delay that.
+**Last updated:** 2026-11-25  
+**📌 Status:** Three young players are testing three different roads at the same time. Rintaro Sasaki (Stanford, then the Miami Marlins in July 2026) has not yet played a professional game because of a visa delay. Shotaro Morii has finished his second minor-league year with the Athletics. Shoki Oda said in October 2026 that he will go to the US and was still drafted first by the Yomiuri Giants. He finished meeting ten MLB clubs on 18 November and met the Giants face to face for the first time on 26 November (Japan time). He has not announced a decision. He cannot sign with an American club before 15 January 2027 at the earliest; MLB's labour agreement ends on 1 December with no new deal yet, and a labour stoppage may delay that.
 
 🖨️ **Colour web page:** `docs/agents/bridging-to-the-us.html`
 
@@ -18,7 +18,7 @@ _This file is generated from `data.json` by `tools/build.py`. Edit `data.json`, 
 | Most-named problem | Language. Sasaki, Morii and Oda all name it first; food comes second. |
 | Case studies | Rintaro Sasaki 佐々木麟太郎, Shotaro Morii 森井翔太郎, Shoki Oda 織田翔希 |
 | Money labels | OFFICIAL = announced by a club or league. REPORTED = from news media. ESTIMATE = a rough figure. |
-| Date of research | 21 November 2026 |
+| Date of research | 21 November 2026. Last weekly check: 25 November 2026. |
 
 ## 🧒 1. In short
 - There are three roads from Japan to Major League Baseball (MLB). The old road goes through Japan's pro league and can take up to nine years. The two new roads skip Japan's pro league. ([source](https://www.mlb.com/ja/news/rintaro-sasaki-announces-plan-to-sign-with-marlins-via-social-media))
@@ -103,8 +103,9 @@ Born 15 December 2006 in Tokyo. Hits left-handed, pitches right-handed and also 
 | Who helps day to day | Itsuki Takemoto, a Japanese team-mate and room-mate who had already spent years in the US; hitting coach José Ortiz, who played nine years in Japan; the club's athletic trainer. | [link](https://www.foxsports.com/articles/mlb/as-japanese-threeway-prospect-shotaro-morii-finds-his-footing-in-the-minor-leagues) |
 | Results in 2026 | Single-A Stockton: batting .227 with 4 home runs; as a pitcher 0 wins, 4 losses, 15.26 ERA in 10 short starts. He called it a tough year and said his weak points are now clear. | [link](https://www.daily.co.jp/mlb/2026/11/17/0021042439.shtml) |
 | His own verdict | He does not know if this is the shortest road. He wanted to play inside an organisation that has major leaguers in it. | [link](https://www.daily.co.jp/mlb/2026/11/17/0021042439.shtml) |
+| 18 Nov 2026 | He sat in on the Athletics' meeting with Shoki Oda at Yokohama High School, as the 'senior' who took the same road. 「どういう生活かを一番に伝えたかった」 ("Above all I wanted to tell him what the life is like"). | [link](https://www.daily.co.jp/mlb/2026/11/18/0021045940.shtml) |
 
-## 🔥 6. Case study 3: Shoki Oda (undecided, as of 21 November 2026)
+## 🔥 6. Case study 3: Shoki Oda (undecided, as of 25 November 2026)
 18 years old. Right-handed pitcher from Yokohama High School, fastest pitch 157 km/h. Grew up in Kitakyushu and chose to move to Yokohama for high school. Everything below can change quickly.
 
 | Date | What happened | Source |
@@ -118,8 +119,13 @@ Born 15 December 2006 in Tokyo. Hits left-handed, pitches right-handed and also 
 | Late Oct | A US reporter said he was not yet on MLB's list of signable international amateurs (deadline 1 November). Later reports say he was added. | [link](https://www.ronspo.com/articles/2026/2026102401/) |
 | From 4 Nov | Meetings with MLB clubs at his school. Texas came first with eight people, including two of its own Asian minor leaguers (a Korean and a Japanese player) to describe daily life after the move. | [link](https://www.chunichi.co.jp/article/1334782) |
 | 14 Nov | The Dodgers' meeting lasted about three hours, the longest. Around ten clubs had met him by then. | [link](https://www.chunichi.co.jp/article/1340603) |
+| 10 Nov | The Giants made their formal greeting visit after the draft. Oda himself was not there. | [link](https://news.yahoo.co.jp/articles/8d92f1e65de880922e1847e3ebcbae5e1463bba1) |
+| 18 Nov | Last day of the MLB meetings: ten clubs in all. The Athletics came last and brought their own minor leaguer Shotaro Morii to describe daily life. An Athletics executive called Oda one of the best teenage pitchers in the world. | [link](https://www.daily.co.jp/mlb/2026/11/18/0021045940.shtml) |
+| 18 Nov (Morii link) | Oda had already contacted Morii through social media; the meeting was the first time they met in person. Morii's advice: 「後悔がない選択ができれば、それが一番いい」 ("A choice with no regrets is the best one"). | [link](https://news.yahoo.co.jp/articles/e2889af8fdf57fcb6446d3eaff4b7f111e0e16cd) |
+| 26 Nov (Japan time) | First face-to-face meeting with the Giants since the draft; about 50 reporters gathered. Before the meeting, the Giants were reported to be bringing a development plan (how they would train him). No decision has been announced. | [link](https://full-count.jp/2026/11/26/post2050415/) |
 | Management and agent | US media say a Japanese management company 'with ties to' the one that supported Yoshinobu Yamamoto and Roki Sasaki handles him. No report says he has signed with a US agency. Not confirmed; see the Wasserman page. | [link](https://www.chunichi.co.jp/article/1340603) |
 | The obstacle | MLB's labour agreement ends on 1 December 2026. A lockout (owners shutting out the players) is expected, the rules for international amateurs are one of the things being argued over, and people close to the talks think his signing could be frozen. | [link](https://news.yahoo.co.jp/articles/8ce7f0699621d9f023616f0d2b3f68ca7a2a2a9f) |
+| The obstacle (24 Nov) | Talks timeline: no new agreement as of 24 November. On 20 November MLB repeated its proposal for an international draft (clubs would pick foreign amateurs in turn instead of bidding freely); the players' union has not agreed to one. | [link](https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/) |
 
 ## 🧳 7. Life support: who provides it and who pays
 The same need is met very differently depending on the player's level. 'Not stated' means no source I found says who pays.
@@ -261,8 +267,8 @@ Reader comments are opinions and are never used as a source for facts on this pa
 - Sasaki's and Morii's US agents or advisers: none is named in the sources found. Sasaki's management (Nice Guy Partners) is confirmed; whether it or someone else negotiated with the Marlins is not.
 - A Tokyo Sports article (2024) says a 'skilled agent' introduced Sasaki to US colleges. It gives no name, and it conflicts with accounts that Stanford's coaches found him by video. Left out of the tables.
 - Which Japanese management company handles Oda. US media describe it only as linked to the company that supported Yamamoto and Roki Sasaki. Tabloid claims that it is the advertising agency Dentsu are not confirmed on the record.
-- Whether Oda will sign with Wasserman or any US agency: no report says so as of 21 November 2026.
-- Whether international amateur signings will really be frozen during an MLB lockout. Reports disagree; in the 2021–22 lockout such signings went ahead.
+- Whether Oda will sign with Wasserman or any US agency: no report says so as of 25 November 2026.
+- Whether international amateur signings will really be frozen during an MLB lockout. Reports disagree; in the 2021–22 lockout such signings went ahead. In November 2026 Number quoted an unnamed MLB club official who had 'heard' clubs cannot sign during a lockout (https://number.bunshun.jp/articles/-/872638), and US articles still disagree. Not confirmed as of 25 November 2026.
 - The value of Sasaki's Stanford scholarship (about ¥50 million over four years) comes from one Japanese sports paper.
 - Morii's 2026 Single-A games: Daily Sports says 53, Number and Baseball-Reference say 63. The batting average (.227) and pitching line agree.
 - Sasaki's '140 high-school home runs' includes practice games, as the Japan Times notes.
@@ -270,4 +276,5 @@ Reader comments are opinions and are never used as a source for facts on this pa
 - Fees charged by Nice Guy Partners, Athlete Brand Japan and amateur advisers: not published in any source found.
 - The Daily Sports question-and-answer with Morii and parts of the Number and Sportiva articles are behind paywalls; only the free parts were read.
 - Whether any MLB club has a written programme for Japanese minor leaguers (language classes, host families). Not found.
+- What was said inside the Giants' 26 November meeting with Oda, and when he will decide: only headlines were seen at the time of the weekly check (25 November US time). No outcome is recorded here yet.
 
