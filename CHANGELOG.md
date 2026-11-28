@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.17** | 2026-11-27 |  | Sato and Novak pages updated with the Sankei column of 9 Jan 2026 (free part, read by the owner), the best-sourced account of the agent's demand for a written posting promise. | 13 | 56,419 | about 10 minutes (no helpers) |
 | **v0.4.16** | 2026-11-27 |  | Teruaki Sato's page gains a "Rumours and unofficial reports (NOT facts)" chapter, built from the two Weekly Jitsuwa articles the owner read by hand. | 13 | 56,104 | about 10 minutes (no helpers) |
 | **v0.4.15** | 2026-11-27 |  | Shawn Novak page updated with the Weekly Jitsuwa article the owner read by hand, plus the results of his other manual checks. | 13 | 55,532 | about 10 minutes (no helpers) |
 | **v0.4.14** | 2026-11-27 | 🆕 **🌺 Shawn Novak** | New agent page: Shawn Novak, the agent of Teruaki Sato and Tomoyuki Sugano, with a clearly labelled table of rumours and a list of sources to check by hand. | 13 | 55,147 | about 20 minutes (no helpers) |
@@ -54,6 +55,19 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.17 — 2026-11-27
+**Summary:** Sato and Novak pages updated with the Sankei column of 9 Jan 2026 (free part, read by the owner), the best-sourced account of the agent's demand for a written posting promise.  
+**Pages on site:** 13  
+**Words on site:** 56419  
+**Time spent:** about 10 minutes (no helpers)
+
+**What changed**
+- Novak page: timeline and rumour table now cite the original Sankei column by Tetsuya Uemura, with the club source's reply. The blocked-sources list notes that the rest of the column is paid.
+- Sato page: the column is added to the headlines; the posting timeline gains the late-October 2025 start of talks and the club's December 2024 answer that posting is the club's right.
+
+**Why**
+The owner found the column and pasted its free part. It is summarised in my own words, not copied.
 
 ## v0.4.16 — 2026-11-27
 **Summary:** Teruaki Sato's page gains a "Rumours and unofficial reports (NOT facts)" chapter, built from the two Weekly Jitsuwa articles the owner read by hand.  
