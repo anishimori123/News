@@ -327,7 +327,7 @@ def build_html(d, sport):
              f'<div class="photo"><img src="{E(d["photo"])}" alt="" onerror="this.remove()">'
              + (f'{FIGURE}<div>Generic drawing, not a portrait.<br>📷 Add your own photo: see README.</div>' if d.get("figure", "captain") == "captain"
                 else f'{jersey_svg(d)}<div>Drawing of a jersey back, not a portrait.<br>📷 Add your own photo: see README.</div>' if d.get("figure") == "jersey"
-                else f'{jersey_svg(d)}<div>{E(d.get("figure_note", ""))}{"<br>" if d.get("figure_note") else ""}📷 Add your own photo: see README.</div>' if d.get("figure") == "nameplate"
+                else f'{jersey_svg(d)}<div>{E(d.get("figure_note", ""))}</div>' if d.get("figure") == "nameplate"
                 else f'{PITCHER.replace("{number}", E(str(d.get("figure_number", ""))))}<div>Generic drawing, not a portrait.<br>📷 Add your own photo: see README.</div>' if d.get("figure") == "pitcher"
                 else '<div>📷 Add your own photo: see README.</div>') + '</div></div>')
     if d.get("tiles"):

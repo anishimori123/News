@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.26** | 2026-11-27 |  | The "Add your own photo: see README" line is removed from the name-and-number boxes. | 14 | 57,726 | about 5 minutes |
 | **v0.4.25** | 2026-11-27 |  | Every athlete now has a name-and-number box: NOMO 16, SATO 8 and YOSHIDA 4, each with a one-line note saying which number it is. | 14 | 57,726 | about 15 minutes |
 | **v0.4.24** | 2026-11-27 |  | Hideo Nomo's page now shows only his name and number, NOMO 16, in blue, with no shirt drawn. | 14 | 57,671 | about 5 minutes |
 | **v0.4.23** | 2026-11-27 |  | Hideo Nomo's page now shows the back of a jersey with NOMO and 16 in blue on white. | 14 | 57,671 | about 10 minutes |
@@ -63,6 +64,19 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.26 — 2026-11-27
+**Summary:** The "Add your own photo: see README" line is removed from the name-and-number boxes.  
+**Pages on site:** 14  
+**Words on site:** 57726  
+**Time spent:** about 5 minutes
+
+**What changed**
+- The boxes for Nomo, Sato and Yoshida now show only the name, the number and the one-line note.
+- Adding your own photo still works the same way; the steps are in the README.
+
+**Why**
+- The owner wanted a cleaner box.
 
 ## v0.4.25 — 2026-11-27
 **Summary:** Every athlete now has a name-and-number box: NOMO 16, SATO 8 and YOSHIDA 4, each with a one-line note saying which number it is.  
