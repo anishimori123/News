@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.21** | 2026-11-27 |  | Hideo Nomo's page now shows a simple drawing of a pitcher in a twisting windup with the number 16 on the back. | 14 | 57,671 | about 10 minutes |
 | **v0.4.20** | 2026-11-27 |  | A "PC only" photo rule: Hideo Nomo's photo can sit on the owner's computer without ever being uploaded. | 14 | 57,671 | about 10 minutes |
 | **v0.4.19** | 2026-11-27 |  | New scheduled task: a news check for Teruaki Sato about every 10 days (1st, 11th and 21st of each month). | 14 | 57,671 | about 10 minutes |
 | **v0.4.18** | 2026-11-27 | 🆕 **📚 Reading list** | New page: Reading list, starting with eleven books by Robert Whiting ('You Gotta Have Wa' and others), each tied to a page on this site. | 14 | 57,671 | about 15 minutes (no helpers) |
@@ -58,6 +59,20 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.21 — 2026-11-27
+**Summary:** Hideo Nomo's page now shows a simple drawing of a pitcher in a twisting windup with the number 16 on the back.  
+**Pages on site:** 14  
+**Words on site:** 57671  
+**Time spent:** about 10 minutes
+
+**What changed**
+- New generic drawing for pitchers in `tools/build.py`: a faceless figure seen from behind, arms above the head, one leg lifted. A data file turns it on with `"figure": "pitcher"` and sets the back number with `"figure_number"`.
+- Nomo's profile uses it with 16, the number he wore with the Dodgers.
+- The drawing was made from scratch. It is a symbol, not a portrait: no face, no name, no team logo, and it is not traced from any photo.
+
+**Why**
+- The owner wanted a picture on the public page, and the photo he has cannot be published.
 
 ## v0.4.20 — 2026-11-27
 **Summary:** A "PC only" photo rule: Hideo Nomo's photo can sit on the owner's computer without ever being uploaded.  

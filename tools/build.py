@@ -132,6 +132,26 @@ def chart_hbars(items, unit, mx=None, fmt=str, colors=None):
     return "".join(out)
 
 
+# A plain, faceless pitcher seen from behind at the top of a twisting windup. The number comes from the data file.
+# Drawn from scratch as a symbol, not a portrait of anyone and not copied from any photo.
+PITCHER = """<svg viewBox="0 0 120 160" class="figure" role="img" aria-label="Generic illustration of a pitcher in a twisting windup, seen from behind (not a portrait)">
+<g stroke-linecap="round" stroke-linejoin="round" fill="none">
+<path d="M66 92 L67 141" stroke="#52514e" stroke-width="15"/><path d="M66 92 L67 141" stroke="#eceae3" stroke-width="12"/>
+<path d="M54 92 L33 108 L39 132" stroke="#52514e" stroke-width="15"/><path d="M54 92 L33 108 L39 132" stroke="#eceae3" stroke-width="12"/>
+<path d="M44 54 L50 22" stroke="#52514e" stroke-width="12"/><path d="M44 54 L50 22" stroke="#eceae3" stroke-width="9"/>
+<path d="M76 54 L68 22" stroke="#52514e" stroke-width="12"/><path d="M76 54 L68 22" stroke="#eceae3" stroke-width="9"/>
+</g>
+<path d="M58 152 h18 q4 0 4 -4 q0 -4 -6 -5 h-16 z" fill="#2b2b2b"/>
+<path d="M30 134 l14 3 q3 2 1 6 l-12 -3 q-6 -2 -3 -6 z" fill="#2b2b2b"/>
+<path d="M40 50 q20 -8 40 0 l-3 44 h-34 z" fill="#eceae3" stroke="#52514e" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="43" y="88" width="34" height="6" rx="2" fill="#2a78d6"/>
+<text x="60" y="80" text-anchor="middle" font-size="24" font-weight="700" fill="#2a78d6" font-family="sans-serif">{number}</text>
+<circle cx="60" cy="38" r="11" fill="#d9d7d0"/>
+<path d="M49 36 a11 11 0 0 1 22 0 z" fill="#2a78d6"/>
+<path d="M49 35 h-8 q-2 1 0 3 h8 z" fill="#2a78d6"/>
+<ellipse cx="59" cy="15" rx="10" ry="9" fill="#7a4a21"/>
+</svg>"""
+
 FIGURE = """<svg viewBox="0 0 120 150" class="figure" role="img" aria-label="Generic illustration of a captain (not a portrait)">
 <circle cx="60" cy="26" r="16" fill="#d9d7d0"/>
 <path d="M30 52 q30 -14 60 0 l14 34 -14 6 -6 -14 v52 h-48 v-52 l-6 14 -14 -6 z" fill="#2a78d6"/>
@@ -243,6 +263,7 @@ def build_html(d, sport):
              f'<div class="status"><b>📌 Status ({E(d["updated"])}):</b> {E(d["status"])}</div>{auto_note(f"Sports/{sport}/" + d["id"])}</div>'
              f'<div class="photo"><img src="{E(d["photo"])}" alt="" onerror="this.remove()">'
              + (f'{FIGURE}<div>Generic drawing, not a portrait.<br>📷 Add your own photo: see README.</div>' if d.get("figure", "captain") == "captain"
+                else f'{PITCHER.replace("{number}", E(str(d.get("figure_number", ""))))}<div>Generic drawing, not a portrait.<br>📷 Add your own photo: see README.</div>' if d.get("figure") == "pitcher"
                 else '<div>📷 Add your own photo: see README.</div>') + '</div></div>')
     if d.get("tiles"):
         b.append('<div class="tiles">' + "".join(f'<div class="tile"><b>{E(str(big))}</b><span>{E(small)}</span></div>' for big, small in d["tiles"]) + '</div>')
