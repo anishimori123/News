@@ -184,6 +184,27 @@ PITCHER = """<svg viewBox="0 0 200 300" class="figure" style="width:180px" role=
 <g fill="#1b1b1f"><path d="M150 30 l3 9 l9 3 l-9 3 l-3 9 l-3 -9 l-9 -3 l9 -3 z" fill="#fff" stroke="#1b1b1f" stroke-width="1.2"/><path d="M40 60 l2 6 l6 2 l-6 2 l-2 6 l-2 -6 l-6 -2 l6 -2 z" fill="#fff" stroke="#1b1b1f" stroke-width="1"/></g>
 </svg>"""
 
+# The back of a plain jersey with a name and number. Colours, name and number come from the data file
+# ("figure": "jersey", "figure_name", "figure_number", "figure_color", "figure_body"). No team logo or wordmark.
+JERSEY = """<svg viewBox="0 0 200 222" class="figure" style="width:180px" role="img" aria-label="Drawing of the back of a baseball jersey with a name and number (not a portrait)">
+<path d="M78 16 C88 25 112 25 122 16 L160 28 L195 78 L168 101 L150 80 L150 206 L50 206 L50 80 L32 101 L5 78 L40 28 Z" fill="{body}" stroke="#1b1b1f" stroke-width="3" stroke-linejoin="round"/>
+<path d="M132 20 L160 28 L195 78 L168 101 L150 80 L150 206 L128 206 C134 150 136 80 132 20 Z" fill="#000" opacity=".1"/>
+<path d="M78 16 C88 25 112 25 122 16 L126 19 C114 32 86 32 74 19 Z" fill="{color}" stroke="#1b1b1f" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M50 80 L57 42 M150 80 L143 42 M13 74 L38 96 M187 74 L162 96 M52 198 H148" fill="none" stroke="#1b1b1f" stroke-width="1.4" stroke-linecap="round" opacity=".55"/>
+<path id="figArc" d="M46 84 Q100 50 154 84" fill="none"/>
+<text font-size="27" font-weight="900" fill="{color}" font-family="Arial Black, Arial, Helvetica, sans-serif" letter-spacing="5" text-anchor="middle"><textPath href="#figArc" startOffset="50%">{name}</textPath></text>
+<text x="100" y="178" text-anchor="middle" font-size="96" font-weight="900" fill="{color}" font-family="Arial Black, Arial, Helvetica, sans-serif">{number}</text>
+</svg>"""
+
+
+def jersey_svg(d):
+    out = JERSEY
+    for k, v in (("name", d.get("figure_name", "")), ("number", d.get("figure_number", "")),
+                 ("color", d.get("figure_color", "#1d5aa8")), ("body", d.get("figure_body", "#fbfaf6"))):
+        out = out.replace("{" + k + "}", E(str(v), quote=True))
+    return out
+
+
 FIGURE = """<svg viewBox="0 0 120 150" class="figure" role="img" aria-label="Generic illustration of a captain (not a portrait)">
 <circle cx="60" cy="26" r="16" fill="#d9d7d0"/>
 <path d="M30 52 q30 -14 60 0 l14 34 -14 6 -6 -14 v52 h-48 v-52 l-6 14 -14 -6 z" fill="#2a78d6"/>
@@ -295,6 +316,7 @@ def build_html(d, sport):
              f'<div class="status"><b>📌 Status ({E(d["updated"])}):</b> {E(d["status"])}</div>{auto_note(f"Sports/{sport}/" + d["id"])}</div>'
              f'<div class="photo"><img src="{E(d["photo"])}" alt="" onerror="this.remove()">'
              + (f'{FIGURE}<div>Generic drawing, not a portrait.<br>📷 Add your own photo: see README.</div>' if d.get("figure", "captain") == "captain"
+                else f'{jersey_svg(d)}<div>Drawing of a jersey back, not a portrait.<br>📷 Add your own photo: see README.</div>' if d.get("figure") == "jersey"
                 else f'{PITCHER.replace("{number}", E(str(d.get("figure_number", ""))))}<div>Generic drawing, not a portrait.<br>📷 Add your own photo: see README.</div>' if d.get("figure") == "pitcher"
                 else '<div>📷 Add your own photo: see README.</div>') + '</div></div>')
     if d.get("tiles"):

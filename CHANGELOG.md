@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.23** | 2026-11-27 |  | Hideo Nomo's page now shows the back of a jersey with NOMO and 16 in blue on white. | 14 | 57,671 | about 10 minutes |
 | **v0.4.22** | 2026-11-27 |  | The pitcher drawing on Hideo Nomo's page is redrawn in a Japanese manga style. | 14 | 57,671 | about 15 minutes |
 | **v0.4.21** | 2026-11-27 |  | Hideo Nomo's page now shows a simple drawing of a pitcher in a twisting windup with the number 16 on the back. | 14 | 57,671 | about 10 minutes |
 | **v0.4.20** | 2026-11-27 |  | A "PC only" photo rule: Hideo Nomo's photo can sit on the owner's computer without ever being uploaded. | 14 | 57,671 | about 10 minutes |
@@ -60,6 +61,20 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.23 — 2026-11-27
+**Summary:** Hideo Nomo's page now shows the back of a jersey with NOMO and 16 in blue on white.  
+**Pages on site:** 14  
+**Words on site:** 57671  
+**Time spent:** about 10 minutes
+
+**What changed**
+- New drawing type in `tools/build.py`: the back of a plain jersey. A data file turns it on with `"figure": "jersey"` and sets `figure_name`, `figure_number`, `figure_color` (letters) and `figure_body` (shirt).
+- Nomo's profile uses it: NOMO, 16, blue on white, the colours he wore in Los Angeles. No team logo or wordmark is drawn.
+- The manga-style pitcher drawing stays in the build tool (`"figure": "pitcher"`) for later use.
+
+**Why**
+- The owner preferred a simple jersey back with the name and number.
 
 ## v0.4.22 — 2026-11-27
 **Summary:** The pitcher drawing on Hideo Nomo's page is redrawn in a Japanese manga style.  
