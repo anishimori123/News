@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.16** | 2026-11-27 |  | Teruaki Sato's page gains a "Rumours and unofficial reports (NOT facts)" chapter, built from the two Weekly Jitsuwa articles the owner read by hand. | 13 | 56,104 | about 10 minutes (no helpers) |
 | **v0.4.15** | 2026-11-27 |  | Shawn Novak page updated with the Weekly Jitsuwa article the owner read by hand, plus the results of his other manual checks. | 13 | 55,532 | about 10 minutes (no helpers) |
 | **v0.4.14** | 2026-11-27 | 🆕 **🌺 Shawn Novak** | New agent page: Shawn Novak, the agent of Teruaki Sato and Tomoyuki Sugano, with a clearly labelled table of rumours and a list of sources to check by hand. | 13 | 55,147 | about 20 minutes (no helpers) |
 | **v0.4.13** | 2026-11-27 | 🆕 **⚾ Teruaki Sato, 🧢 VC Sports Group** | New person: Teruaki Sato (baseball), who signed a 6-year contract with the Chicago Cubs, plus a short page for his agency, VC Sports Group. | 12 | 52,618 | about 50 minutes (5 research helpers running in parallel) |
@@ -53,6 +54,20 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.16 — 2026-11-27
+**Summary:** Teruaki Sato's page gains a "Rumours and unofficial reports (NOT facts)" chapter, built from the two Weekly Jitsuwa articles the owner read by hand.  
+**Pages on site:** 13  
+**Words on site:** 56104  
+**Time spent:** about 10 minutes (no helpers)
+
+**What changed**
+- Sato page: new deep dive with seven rumours from January to April 2026 (the "sudden retirement" story, the written-promise demand, the "title reward" salary, and others), each with who said it and how it held up. Four of the seven turned out wrong or did not happen.
+- Novak page: the "sudden retirement" row is now based on the full article (22 Jan 2026), which does not name him.
+- Both pages record that the owner read the articles himself.
+
+**Why**
+The owner pasted the second Weekly Jitsuwa article. It is summarised in my own words, not copied.
 
 ## v0.4.15 — 2026-11-27
 **Summary:** Shawn Novak page updated with the Weekly Jitsuwa article the owner read by hand, plus the results of his other manual checks.  

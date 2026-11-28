@@ -104,7 +104,7 @@
   ],
   [
    "Social media",
-   "An Instagram account, @teruaki_sato_8, is linked from his Japanese Wikipedia page. I did not open it, so it is not confirmed here. No X account found"
+   "An Instagram account, @teruaki_sato_8, is linked from his Japanese Wikipedia page, and magazines credit photos to 'his Instagram'. I did not open it, so the handle is not confirmed here. No X account found"
   ],
   [
    "Now",
@@ -1351,6 +1351,98 @@
       [
        "For Hanshin: about 3.2 billion yen comes in, and the club is already signing replacements, according to the headlines beside your article.",
        "https://www.daily.co.jp/mlb/2026/11/28/0021081649.shtml"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "emoji": "🗣️",
+   "title": "Rumours and unofficial reports (NOT facts)",
+   "intro": "Tabloids and weekly magazines wrote a lot about his contract fight in early 2026. None of this is confirmed, most of it rests on unnamed sources, and several predictions turned out wrong. It is kept here, clearly apart from the facts, because it shows how the fight looked from outside at the time.",
+   "parts": [
+    {
+     "heading": "Claims, who made them, and how they held up",
+     "kind": "table",
+     "headers": [
+      "Claim",
+      "Who says it",
+      "Check"
+     ],
+     "rows": [
+      {
+       "cells": [
+        "He was ready to 'retire' rather than sign, and go to MLB as a free man, accepting a ban from Japanese baseball. A former player said he no longer cared about Japanese baseball and would play in Mexico or quit if MLB failed.",
+        "Weekly Jitsuwa web, 22 Jan 2026; unnamed Hanshin beat reporter, unnamed former player, unnamed desk editor. Read in full by the owner.",
+        "Did not happen. He signed on 30 Jan, played all 143 games, and in October said his Hanshin days were truly fun. The echo of Hideo Nomo's 1995 exit is why the story spread."
+       ],
+       "url": "https://weekly-jitsuwa.jp/archives/22639"
+      },
+      {
+       "cells": [
+        "He asked for posting 'next offseason' and did not give an inch at the table; the club said it was too early.",
+        "Same article.",
+        "Consistent with what better sources say: Sports Hochi reported that he told the club he wanted to go soon. The club approved in October 2026."
+       ],
+       "url": "https://weekly-jitsuwa.jp/archives/22639"
+      },
+      {
+       "cells": [
+        "His agent's side pressed for the posting to be written into the contract.",
+        "Weekly Jitsuwa, 9 Feb 2026; a Sankei column says the same.",
+        "Neither side confirmed it. No written promise was ever reported."
+       ],
+       "url": "https://weekly-jitsuwa.jp/archives/22720"
+      },
+      {
+       "cells": [
+        "200 million of his 500 million yen was a one-off 'title reward', leaving the base for future talks unclear.",
+        "Weekly Jitsuwa, 9 Feb 2026, unnamed insider.",
+        "Unconfirmed, and it no longer matters: there were no further talks with Hanshin."
+       ],
+       "url": "https://weekly-jitsuwa.jp/archives/22720"
+      },
+      {
+       "cells": [
+        "Skipping the early joint training on 29 Jan hurt his standing with teammates.",
+        "Weekly Jitsuwa, 9 Feb 2026, a Kansai reporter.",
+        "He had no contract until 30 Jan and arrived with the team on 31 Jan. No teammate has said this on the record."
+       ],
+       "url": "https://www.daily.co.jp/tigers/2026/01/31/0019969705.shtml"
+      },
+      {
+       "cells": [
+        "A move after 2026 was '100% gone' because the agent's tactics backfired.",
+        "Unnamed former Hanshin player, magazine article of 1 Apr 2026.",
+        "Wrong. Posting was approved on 18 Oct 2026."
+       ],
+       "url": "https://article.auone.jp/detail/1/6/10/218_10_r_20260401_1774995452060848"
+      },
+      {
+       "cells": [
+        "The Dodgers were 'fencing him in' through training with Mookie Betts.",
+        "Tabloids, Dec 2025.",
+        "Wrong. He signed with the Cubs."
+       ],
+       "url": "https://news.livedoor.com/article/detail/30216764/"
+      }
+     ]
+    },
+    {
+     "heading": "What the rumours get right (my analysis)",
+     "kind": "list",
+     "rows": [
+      [
+       "The direction was right even when the details were wrong: he wanted out after 2026, his side pushed hard, and the club resisted until his results made refusal difficult.",
+       ""
+      ],
+      [
+       "The tone was wrong. The weeklies wrote of a break with the club; the public record shows a long negotiation that ended with thanks on both sides.",
+       ""
+      ],
+      [
+       "More on the agent's side of this is on the Shawn Novak page.",
+       "https://anishimori123.github.io/News/agents/shawn-novak.html"
       ]
      ]
     }

@@ -22,7 +22,7 @@ _This file is generated from `data.json` by `tools/build.py`. Edit `data.json`, 
 | Agent | Shawn Novak of VC Sports Group, an American agency. Agency confirmed by several Japanese papers and MLB Trade Rumors; Novak named by Sponichi (Oct 2026). He is also Tomoyuki Sugano's agent. See his page on this site |
 | Management office for ads and media | Not confirmed. No source found |
 | National team | 2026 World Baseball Classic: 3 hits in 10 at-bats, 2 RBI; Japan lost to Venezuela in the quarter-final |
-| Social media | An Instagram account, @teruaki_sato_8, is linked from his Japanese Wikipedia page. I did not open it, so it is not confirmed here. No X account found |
+| Social media | An Instagram account, @teruaki_sato_8, is linked from his Japanese Wikipedia page, and magazines credit photos to 'his Instagram'. I did not open it, so the handle is not confirmed here. No X account found |
 | Now | Between Japan and Chicago. Press conference 30 Nov 2026 at Wrigley Field; spring training in Arizona in February 2027 if the labour dispute allows |
 
 ## 🧭 1. Character: quiet face, loud bat
@@ -307,7 +307,26 @@ What is fixed, what is not, and what to watch. This part will age fast.
 - The trend: Okamoto and Murakami left Japan a year earlier, and Sato and pitcher Kaima Taira (Blue Jays, 5 years) this winter. Japanese hitters are now paid like Japanese pitchers. A teammate, Shota Morishita, is reported to have hired the same agency (blog citing Daily Sports; not confirmed). ([source](https://news.yahoo.co.jp/pickup/6604265))
 - For Hanshin: about 3.2 billion yen comes in, and the club is already signing replacements, according to the headlines beside your article. ([source](https://www.daily.co.jp/mlb/2026/11/28/0021081649.shtml))
 
-### 🔗 8.6 Related pages on this site
+### 🗣️ 8.6 Rumours and unofficial reports (NOT facts)
+Tabloids and weekly magazines wrote a lot about his contract fight in early 2026. None of this is confirmed, most of it rests on unnamed sources, and several predictions turned out wrong. It is kept here, clearly apart from the facts, because it shows how the fight looked from outside at the time.
+
+#### Claims, who made them, and how they held up
+| Claim | Who says it | Check | Source |
+|---|---|---|---|
+| He was ready to 'retire' rather than sign, and go to MLB as a free man, accepting a ban from Japanese baseball. A former player said he no longer cared about Japanese baseball and would play in Mexico or quit if MLB failed. | Weekly Jitsuwa web, 22 Jan 2026; unnamed Hanshin beat reporter, unnamed former player, unnamed desk editor. Read in full by the owner. | Did not happen. He signed on 30 Jan, played all 143 games, and in October said his Hanshin days were truly fun. The echo of Hideo Nomo's 1995 exit is why the story spread. | [link](https://weekly-jitsuwa.jp/archives/22639) |
+| He asked for posting 'next offseason' and did not give an inch at the table; the club said it was too early. | Same article. | Consistent with what better sources say: Sports Hochi reported that he told the club he wanted to go soon. The club approved in October 2026. | [link](https://weekly-jitsuwa.jp/archives/22639) |
+| His agent's side pressed for the posting to be written into the contract. | Weekly Jitsuwa, 9 Feb 2026; a Sankei column says the same. | Neither side confirmed it. No written promise was ever reported. | [link](https://weekly-jitsuwa.jp/archives/22720) |
+| 200 million of his 500 million yen was a one-off 'title reward', leaving the base for future talks unclear. | Weekly Jitsuwa, 9 Feb 2026, unnamed insider. | Unconfirmed, and it no longer matters: there were no further talks with Hanshin. | [link](https://weekly-jitsuwa.jp/archives/22720) |
+| Skipping the early joint training on 29 Jan hurt his standing with teammates. | Weekly Jitsuwa, 9 Feb 2026, a Kansai reporter. | He had no contract until 30 Jan and arrived with the team on 31 Jan. No teammate has said this on the record. | [link](https://www.daily.co.jp/tigers/2026/01/31/0019969705.shtml) |
+| A move after 2026 was '100% gone' because the agent's tactics backfired. | Unnamed former Hanshin player, magazine article of 1 Apr 2026. | Wrong. Posting was approved on 18 Oct 2026. | [link](https://article.auone.jp/detail/1/6/10/218_10_r_20260401_1774995452060848) |
+| The Dodgers were 'fencing him in' through training with Mookie Betts. | Tabloids, Dec 2025. | Wrong. He signed with the Cubs. | [link](https://news.livedoor.com/article/detail/30216764/) |
+
+#### What the rumours get right (my analysis)
+- The direction was right even when the details were wrong: he wanted out after 2026, his side pushed hard, and the club resisted until his results made refusal difficult.
+- The tone was wrong. The weeklies wrote of a break with the club; the public record shows a long negotiation that ended with thanks on both sides.
+- More on the agent's side of this is on the Shawn Novak page. ([source](https://anishimori123.github.io/News/agents/shawn-novak.html))
+
+### 🔗 8.7 Related pages on this site
 Pages that explain the people and rules around this move.
 
 #### Links
