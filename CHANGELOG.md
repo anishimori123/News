@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.19** | 2026-11-27 |  | New scheduled task: a news check for Teruaki Sato about every 10 days (1st, 11th and 21st of each month). | 14 | 57,671 | about 10 minutes |
 | **v0.4.18** | 2026-11-27 | 🆕 **📚 Reading list** | New page: Reading list, starting with eleven books by Robert Whiting ('You Gotta Have Wa' and others), each tied to a page on this site. | 14 | 57,671 | about 15 minutes (no helpers) |
 | **v0.4.17** | 2026-11-27 |  | Sato and Novak pages updated with the Sankei column of 9 Jan 2026 (free part, read by the owner), the best-sourced account of the agent's demand for a written posting promise. | 13 | 56,419 | about 10 minutes (no helpers) |
 | **v0.4.16** | 2026-11-27 |  | Teruaki Sato's page gains a "Rumours and unofficial reports (NOT facts)" chapter, built from the two Weekly Jitsuwa articles the owner read by hand. | 13 | 56,104 | about 10 minutes (no helpers) |
@@ -56,6 +57,20 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.19 — 2026-11-27
+**Summary:** New scheduled task: a news check for Teruaki Sato about every 10 days (1st, 11th and 21st of each month).  
+**Pages on site:** 14  
+**Words on site:** 57671  
+**Time spent:** about 10 minutes
+
+**What changed**
+- New scheduled task "Teruaki Sato 10-day news check", 1:36 PM Pacific on the 1st, 11th and 21st. First run: 1 Dec 2026, the day after his Chicago press conference.
+- It follows his contract details, the lockout, and from 2027 his MLB statistics; it adds rumours only to the labelled rumour table and always lists sources it could not open.
+- `tools/site_config.json`: the task is listed, so Sato's page and the home page show it.
+
+**Why**
+The owner asked for a check every 10 days, because there will be updates as Sato starts to play.
 
 ## v0.4.18 — 2026-11-27
 **Summary:** New page: Reading list, starting with eleven books by Robert Whiting ('You Gotta Have Wa' and others), each tied to a page on this site.  

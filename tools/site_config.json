@@ -3,6 +3,15 @@
  "show_in_search": false,
  "auto_checks": [
   {
+   "task": "Teruaki Sato 10-day news check",
+   "when": "on the 1st, 11th and 21st of each month at 1:36 PM Pacific (about every 10 days)",
+   "when_short": "every 10 days",
+   "covers": "Teruaki Sato (also covered by the Sunday check)",
+   "pages": [
+    "Sports/Baseball/teruaki-sato"
+   ]
+  },
+  {
    "task": "Weekly Maya Yoshida news check",
    "when": "every Sunday at 4:33 PM Pacific",
    "when_short": "Sundays",
