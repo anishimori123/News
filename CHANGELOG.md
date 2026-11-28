@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.22** | 2026-11-27 |  | The pitcher drawing on Hideo Nomo's page is redrawn in a Japanese manga style. | 14 | 57,671 | about 15 minutes |
 | **v0.4.21** | 2026-11-27 |  | Hideo Nomo's page now shows a simple drawing of a pitcher in a twisting windup with the number 16 on the back. | 14 | 57,671 | about 10 minutes |
 | **v0.4.20** | 2026-11-27 |  | A "PC only" photo rule: Hideo Nomo's photo can sit on the owner's computer without ever being uploaded. | 14 | 57,671 | about 10 minutes |
 | **v0.4.19** | 2026-11-27 |  | New scheduled task: a news check for Teruaki Sato about every 10 days (1st, 11th and 21st of each month). | 14 | 57,671 | about 10 minutes |
@@ -59,6 +60,19 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.22 — 2026-11-27
+**Summary:** The pitcher drawing on Hideo Nomo's page is redrawn in a Japanese manga style.  
+**Pages on site:** 14  
+**Words on site:** 57671  
+**Time spent:** about 15 minutes
+
+**What changed**
+- The pitcher figure now has bold ink outlines, flat two-tone shading, spiky hair under the cap, speed lines and a swirl behind him (a nod to the "Tornado"). The number 16 is still on the back.
+- It is still a generic figure seen from behind: no face, no name, no team logo, not traced from a photo, and not a character from any existing manga or anime.
+
+**Why**
+- The owner asked for something more lifelike, in an anime look.
 
 ## v0.4.21 — 2026-11-27
 **Summary:** Hideo Nomo's page now shows a simple drawing of a pitcher in a twisting windup with the number 16 on the back.  

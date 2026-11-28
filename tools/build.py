@@ -132,24 +132,56 @@ def chart_hbars(items, unit, mx=None, fmt=str, colors=None):
     return "".join(out)
 
 
-# A plain, faceless pitcher seen from behind at the top of a twisting windup. The number comes from the data file.
-# Drawn from scratch as a symbol, not a portrait of anyone and not copied from any photo.
-PITCHER = """<svg viewBox="0 0 120 160" class="figure" role="img" aria-label="Generic illustration of a pitcher in a twisting windup, seen from behind (not a portrait)">
-<g stroke-linecap="round" stroke-linejoin="round" fill="none">
-<path d="M66 92 L67 141" stroke="#52514e" stroke-width="15"/><path d="M66 92 L67 141" stroke="#eceae3" stroke-width="12"/>
-<path d="M54 92 L33 108 L39 132" stroke="#52514e" stroke-width="15"/><path d="M54 92 L33 108 L39 132" stroke="#eceae3" stroke-width="12"/>
-<path d="M44 54 L50 22" stroke="#52514e" stroke-width="12"/><path d="M44 54 L50 22" stroke="#eceae3" stroke-width="9"/>
-<path d="M76 54 L68 22" stroke="#52514e" stroke-width="12"/><path d="M76 54 L68 22" stroke="#eceae3" stroke-width="9"/>
+# A faceless pitcher seen from behind at the top of a twisting windup, in a manga style (bold ink lines, flat
+# shading, speed lines). The number comes from the data file. Drawn from scratch as a symbol: not a portrait of
+# anyone, not copied from any photo, and not any existing manga or anime character.
+PITCHER = """<svg viewBox="0 0 200 300" class="figure" style="width:180px" role="img" aria-label="Manga-style illustration of a pitcher at the top of a twisting windup, seen from behind (generic figure, not a portrait)">
+<g stroke-linecap="round"><path d="M191.9 154.6 L289.8 159.5" stroke="#d5dbe8" stroke-width="1.2"/><path d="M203.9 175.9 L286.3 196.5" stroke="#d5dbe8" stroke-width="2.7"/><path d="M191.0 192.0 L278.2 232.4" stroke="#d5dbe8" stroke-width="1.7"/><path d="M196.8 217.9 L265.7 266.2" stroke="#d5dbe8" stroke-width="3.2"/><path d="M180.1 229.0 L249.1 297.2" stroke="#d5dbe8" stroke-width="2.2"/><path d="M163.1 235.4 L228.9 324.5" stroke="#d5dbe8" stroke-width="1.2"/><path d="M159.4 261.3 L205.4 347.6" stroke="#d5dbe8" stroke-width="2.7"/><path d="M141.0 261.3 L179.4 365.8" stroke="#d5dbe8" stroke-width="1.7"/><path d="M130.3 284.8 L151.4 378.6" stroke="#d5dbe8" stroke-width="3.2"/><path d="M112.0 277.9 L122.2 385.9" stroke="#d5dbe8" stroke-width="2.2"/><path d="M96.2 267.4 L92.4 387.3" stroke="#d5dbe8" stroke-width="1.2"/><path d="M78.9 282.4 L62.8 382.9" stroke="#d5dbe8" stroke-width="2.7"/><path d="M65.7 266.1 L34.1 372.8" stroke="#d5dbe8" stroke-width="1.7"/><path d="M44.7 273.2 L7.0 357.1" stroke="#d5dbe8" stroke-width="3.2"/><path d="M35.6 252.0 L-17.7 336.4" stroke="#d5dbe8" stroke-width="2.2"/><path d="M30.2 230.5 L-39.6 311.1" stroke="#d5dbe8" stroke-width="1.2"/><path d="M9.3 225.6 L-58.1 281.8" stroke="#d5dbe8" stroke-width="2.7"/><path d="M9.2 202.2 L-72.6 249.3" stroke="#d5dbe8" stroke-width="1.7"/><path d="M-9.7 188.6 L-82.9 214.3" stroke="#d5dbe8" stroke-width="3.2"/><path d="M-4.3 165.3 L-88.7 177.7" stroke="#d5dbe8" stroke-width="2.2"/><path d="M4.1 145.2 L-89.8 140.5" stroke="#d5dbe8" stroke-width="1.2"/><path d="M-7.9 123.1 L-86.3 103.5" stroke="#d5dbe8" stroke-width="2.7"/><path d="M5.3 106.2 L-78.2 67.6" stroke="#d5dbe8" stroke-width="1.7"/><path d="M19.8 93.7 L-65.7 33.8" stroke="#d5dbe8" stroke-width="3.2"/><path d="M16.8 67.9 L-49.1 2.8" stroke="#d5dbe8" stroke-width="2.2"/><path d="M34.2 60.9 L-28.9 -24.5" stroke="#d5dbe8" stroke-width="1.2"/><path d="M38.4 34.6 L-5.4 -47.6" stroke="#d5dbe8" stroke-width="2.7"/><path d="M57.4 34.2 L20.6 -65.8" stroke="#d5dbe8" stroke-width="1.7"/><path d="M74.8 38.1 L48.6 -78.6" stroke="#d5dbe8" stroke-width="3.2"/><path d="M87.5 17.2 L77.8 -85.9" stroke="#d5dbe8" stroke-width="2.2"/><path d="M103.9 27.6 L107.6 -87.3" stroke="#d5dbe8" stroke-width="1.2"/><path d="M121.9 12.7 L137.2 -82.9" stroke="#d5dbe8" stroke-width="2.7"/><path d="M135.7 29.2 L165.9 -72.8" stroke="#d5dbe8" stroke-width="1.7"/><path d="M146.0 47.5 L193.0 -57.1" stroke="#d5dbe8" stroke-width="3.2"/><path d="M166.9 44.0 L217.7 -36.4" stroke="#d5dbe8" stroke-width="2.2"/><path d="M172.7 66.1 L239.6 -11.1" stroke="#d5dbe8" stroke-width="1.2"/><path d="M194.0 71.6 L258.1 18.2" stroke="#d5dbe8" stroke-width="2.7"/><path d="M194.5 95.7 L272.6 50.7" stroke="#d5dbe8" stroke-width="1.7"/><path d="M191.5 117.8 L282.9 85.7" stroke="#d5dbe8" stroke-width="3.2"/><path d="M208.3 134.1 L288.7 122.3" stroke="#d5dbe8" stroke-width="2.2"/></g>
+<g fill="none" stroke-linecap="round" stroke="#9cc3f5">
+<path d="M14 118 C40 86 156 78 188 108" stroke-width="5" opacity=".55"/>
+<path d="M10 214 C36 252 164 258 192 214" stroke-width="6" opacity=".55"/>
+<path d="M26 170 C22 150 30 136 44 128" stroke-width="3" opacity=".5"/>
+<path d="M176 160 C182 178 176 196 164 206" stroke-width="3" opacity=".5"/>
 </g>
-<path d="M58 152 h18 q4 0 4 -4 q0 -4 -6 -5 h-16 z" fill="#2b2b2b"/>
-<path d="M30 134 l14 3 q3 2 1 6 l-12 -3 q-6 -2 -3 -6 z" fill="#2b2b2b"/>
-<path d="M40 50 q20 -8 40 0 l-3 44 h-34 z" fill="#eceae3" stroke="#52514e" stroke-width="1.5" stroke-linejoin="round"/>
-<rect x="43" y="88" width="34" height="6" rx="2" fill="#2a78d6"/>
-<text x="60" y="80" text-anchor="middle" font-size="24" font-weight="700" fill="#2a78d6" font-family="sans-serif">{number}</text>
-<circle cx="60" cy="38" r="11" fill="#d9d7d0"/>
-<path d="M49 36 a11 11 0 0 1 22 0 z" fill="#2a78d6"/>
-<path d="M49 35 h-8 q-2 1 0 3 h8 z" fill="#2a78d6"/>
-<ellipse cx="59" cy="15" rx="10" ry="9" fill="#7a4a21"/>
+<ellipse cx="108" cy="287" rx="58" ry="6" fill="#b9c0d2"/>
+<g stroke="#1b1b1f" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+<path d="M46 176 C40 198 43 222 48 240 L63 240 C62 220 63 202 67 188 Z" fill="#fbfaf6"/>
+<path d="M48 240 L63 240 L62 259 L50 259 Z" fill="#2f7fe6"/>
+<path d="M50 259 L62 259 L64 268 C58 275 44 274 37 266 C40 262 46 260 50 259 Z" fill="#1b1b1f"/>
+<path d="M74 150 L104 152 L101 174 C88 188 72 196 57 196 C45 196 40 186 45 175 C52 164 62 156 74 150 Z" fill="#fbfaf6"/>
+<path d="M99 150 L131 150 C134 180 131 205 128 224 C127 236 126 243 125 250 L110 250 C109 236 107 220 106 206 C104 186 100 170 99 150 Z" fill="#fbfaf6"/>
+<path d="M110 250 L125 250 L124 271 L111 271 Z" fill="#2f7fe6"/>
+<path d="M109 271 L125 271 C134 273 142 278 142 285 L109 285 Z" fill="#1b1b1f"/>
+</g>
+<path d="M121 152 L130 152 C133 180 130 205 127 224 L124 249 L118 249 C122 220 125 186 121 152 Z" fill="#c5cde2"/>
+<path d="M47 177 C43 186 46 194 57 194 C71 194 87 187 99 174 L100 166 C88 178 70 185 57 183 C51 182 48 180 47 177 Z" fill="#c5cde2"/>
+<path d="M58 192 C57 208 58 226 58 239 L62 239 C61 220 62 203 65 190 Z" fill="#c5cde2"/>
+<path d="M113 172 C115 190 114 204 116 218 M62 166 C70 171 80 174 92 174" fill="none" stroke="#1b1b1f" stroke-width="1.3" stroke-linecap="round"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M61 50 L96 20" stroke="#1b1b1f" stroke-width="17"/><path d="M61 50 L96 20" stroke="#2f7fe6" stroke-width="12.4"/>
+<path d="M141 50 L106 20" stroke="#1b1b1f" stroke-width="17"/><path d="M141 50 L106 20" stroke="#1a4fa0" stroke-width="12.4"/>
+<path d="M74 88 L62 54" stroke="#1b1b1f" stroke-width="26"/><path d="M74 88 L62 54" stroke="#fbfaf6" stroke-width="21.4"/>
+<path d="M128 88 L140 54" stroke="#1b1b1f" stroke-width="26"/><path d="M128 88 L140 54" stroke="#c5cde2" stroke-width="21.4"/>
+</g>
+<path d="M92 60 h18 v18 h-18 z" fill="#f0c6a2"/><path d="M103 60 h7 v18 h-7 z" fill="#d9a47c"/>
+<ellipse cx="85" cy="53" rx="3.4" ry="5.4" fill="#f0c6a2" stroke="#1b1b1f" stroke-width="1.6"/><ellipse cx="117" cy="53" rx="3.4" ry="5.4" fill="#d9a47c" stroke="#1b1b1f" stroke-width="1.6"/>
+<ellipse cx="101" cy="50" rx="15" ry="17" fill="#f0c6a2" stroke="#1b1b1f" stroke-width="2"/>
+<path d="M85 50 L83 60 L88 57 L88 66 L93 61 L95 71 L100 63 L104 72 L108 62 L113 67 L113 58 L119 61 L117 50 Z" fill="#1b1b1f" stroke="#1b1b1f" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M84 52 C81 28 121 28 118 52 C108 57 94 57 84 52 Z" fill="#2f7fe6" stroke="#1b1b1f" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M106 33 C114 36 118 44 117.5 52 C113 54 109 55 105 55.5 C108 48 108 40 106 33 Z" fill="#1a4fa0"/>
+<circle cx="101" cy="33.5" r="2.2" fill="#1b1b1f"/>
+<path d="M90 36 C88 37 87 39 86.5 41" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M68 80 C84 70 118 70 134 80 L138 102 C136 122 133 140 132 152 L72 152 C70 138 67 122 64 102 Z" fill="#fbfaf6" stroke="#1b1b1f" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M120 76 C126 77 130 78 133 81 L136.5 102 C135 122 132 138 131 150 L118 150 C122 128 124 100 120 76 Z" fill="#c5cde2"/>
+<path d="M90 73 C96 80 106 80 112 73" fill="none" stroke="#1b1b1f" stroke-width="1.8"/>
+<path d="M77 96 C81 104 81 114 79 124 M84 142 C94 146 108 146 118 141" fill="none" stroke="#1b1b1f" stroke-width="1.3" stroke-linecap="round"/>
+<text x="99" y="130" text-anchor="middle" font-size="40" font-weight="900" fill="#2f7fe6" stroke="#1b1b1f" stroke-width="1.6" paint-order="stroke" font-family="Arial Black, Arial, Helvetica, sans-serif" letter-spacing="1">{number}</text>
+<path d="M71 148 h62 l-1 9 h-60 z" fill="#1b1b1f"/>
+<path d="M84 148 v9 M101 148 v9 M118 148 v9" stroke="#fbfaf6" stroke-width="2.2"/>
+<path d="M88 20 C84 6 96 -1 104 2 C116 1 122 12 116 22 C112 30 94 31 88 20 Z" fill="#a8642c" stroke="#1b1b1f" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M106 4 C115 5 119 13 115 21 C112 27 104 28 100 27 C106 21 108 12 106 4 Z" fill="#7a4418"/>
+<path d="M95 7 C97 12 97 18 95 23 M102 5 C104 11 104 18 102 25" fill="none" stroke="#1b1b1f" stroke-width="1.3" stroke-linecap="round"/>
+<g fill="#1b1b1f"><path d="M150 30 l3 9 l9 3 l-9 3 l-3 9 l-3 -9 l-9 -3 l9 -3 z" fill="#fff" stroke="#1b1b1f" stroke-width="1.2"/><path d="M40 60 l2 6 l6 2 l-6 2 l-2 6 l-2 -6 l-6 -2 l6 -2 z" fill="#fff" stroke="#1b1b1f" stroke-width="1"/></g>
 </svg>"""
 
 FIGURE = """<svg viewBox="0 0 120 150" class="figure" role="img" aria-label="Generic illustration of a captain (not a portrait)">
