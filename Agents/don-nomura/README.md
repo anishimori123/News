@@ -163,6 +163,7 @@ My reading: this is the same 'local partner plus big foreign firm' pattern seen 
 - Bridging Japanese athletes to the US: today's routes (posting, US college, minor leagues) and who looks after daily life. The posting route exists because of the cases on this page. ([source](https://anishimori123.github.io/News/agents/bridging-to-the-us.html))
 - Wasserman (now THE·TEAM): the American agency he shared Darvish with. ([source](https://anishimori123.github.io/News/agents/wasserman.html))
 - Hideo Nomo: his first and most famous client. ([source](https://anishimori123.github.io/News/sports/baseball/hideo-nomo.html))
+- Reading list: Robert Whiting's books, including the 1999 book built on interviews with Nomura. ([source](https://anishimori123.github.io/News/agents/reading-list.html))
 
 ## ❓ Not verified / sources disagree
 - The exact phrase 'the most hated man in Japanese baseball': not found in a source. The nearest is the 'hated agent' subtitle of Whiting's book.

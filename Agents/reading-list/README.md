@@ -1,0 +1,73 @@
+# 📚 Reading list (読書リスト)
+
+> Books that explain the stories on this site: how Japanese players, clubs and agents think, and why moving to America was so hard for so long. Each row says what the book is about, why it matters for a page on this site, and what to search for, because some books changed their title.
+
+**Last updated:** 2026-11-27  
+**📌 Status:** Started 27 Nov 2026 with the baseball books of Robert Whiting. The 'Read?' column is for the owner: tell Claude when you finish a book and what you thought, and it will be recorded here.
+
+🖨️ **Colour web page:** `docs/agents/reading-list.html`
+
+_This file is generated from `data.json` by `tools/build.py`. Edit `data.json`, not this file._
+
+## Quick facts
+| Item | Detail |
+|---|---|
+| Books listed | 11 (all by Robert Whiting so far) |
+| Start here | You Gotta Have Wa (1989, updated 2009): the owner's first pick |
+| Watch out | 'The Meaning of Ichiro' (2004 hardcover) is sold today as 'The Samurai Way of Baseball' (2005 paperback, revised). Same book, new name |
+| Cost | 💲 Books cost money. Free options: your public library, or its e-book app. Whiting also writes online at Substack, where some posts are free |
+| How to add a book | Tell Claude the title. It checks the title, year and Japanese edition before adding |
+
+## 📌 1. In short
+Robert Whiting is an American who has lived in Tokyo for most of the last sixty years and is widely called the leading English-language writer on Japanese baseball. His books are the background to three pages on this site: Hideo Nomo, Don Nomura, and (through a reported friendship) Shawn Novak.
+
+## ⚾ 2. Robert Whiting: baseball books
+In order of publication. 'On this site' says which page the book helps with.
+
+| Book (English) | Year | Japanese edition | What it is about | On this site | Read? | Source |
+|---|---|---|---|---|---|---|
+| The Chrysanthemum and the Bat | 1977 | 菊とバット | His first book: how Japan plays the same game differently. He says he wrote it on a bet. Time magazine named it the best sports book of its year. | Background for everything | ☐ not yet | [link](https://sabr.org/journal/article/henry-chadwick-award-robert-whiting/) |
+| You Gotta Have Wa | 1989 (updated edition 2009) | 和をもって日本となす (Kadokawa, translated by Masayuki Tamaki; paperback in two volumes) | American players in Japan, and the idea of 'wa' (和, group harmony): the team before the individual. Named one of the top 50 baseball books of the last half-century by the baseball research society SABR. | Why Hanshin fans read Sato's quiet face as 'no fight'; why an agent who talks to the club looks like a troublemaker | ☐ not yet (owner's first pick) | [link](https://en.wikipedia.org/wiki/Robert_Whiting) |
+| Slugging It Out in Japan (with Warren Cromartie) | 1991 | Not checked | The life story of an American star who played for the Yomiuri Giants. | Life as a foreign player in Japan (compare Robert Suarez at Hanshin) | ☐ not yet | [link](https://en.wikipedia.org/wiki/Robert_Whiting) |
+| 日出づる国の「奴隷野球」 憎まれた代理人・団野村の闘い ('Slave baseball in the land of the rising sun: the fight of the hated agent Don Nomura') | 1999 | Japanese only, as far as I found (Bungeishunju, translated by Midori Matsui) | Built on interviews with Don Nomura: what happened behind the moves of Nomo, Irabu and Yoshii, and how little power Japanese players had. | Don Nomura; Hideo Nomo. The closest book to this site's Agents section | ☐ not yet | [link](https://books.bunshun.jp/ud/book/num/9784163556802) |
+| The Meaning of Ichiro = The Samurai Way of Baseball | 2004 hardcover; 2005 paperback under the new title, revised | イチロー革命 (Hayakawa) | The wave of Japanese players to MLB: Ichiro, Nomo, Matsui, Irabu, and the agents and rules behind them. | Hideo Nomo; Don Nomura; the posting system. Search for 'The Samurai Way of Baseball': that is the edition on sale | ☐ not yet | [link](https://aws.baseball-reference.com/bullpen/The_Meaning_of_Ichiro) |
+| The Book of Nomo (SABR's English title) | 2011 | 野茂英雄 日米の野球をどう変えたか (PHP Shinsho) | A short life of Hideo Nomo and how he changed baseball in both countries. I found it only in Japanese. | Hideo Nomo | ☐ not yet | [link](https://www.goodreads.com/work/editions/27081831) |
+| なぜ大谷翔平はメジャーを沸かせるのか ('Why Shohei Ohtani thrills the majors') | about 2018–2021 | Japanese (paperback 'shinsho' and e-book) | Ohtani set against the earlier history: foreign players in Japan, then Nomo's generation going the other way. | Bridging Japanese athletes to the US | ☐ not yet | [link](https://booklive.jp/focus/author/a_id/5940) |
+
+## 🏙️ 3. Robert Whiting: Japan beyond baseball
+Not about agents, but they explain the Japan in which these stories happen.
+
+| Book | Year | Japanese edition | What it is about | Read? | Source |
+|---|---|---|---|---|---|
+| Tokyo Underworld | 1999 | 東京アンダーワールド | An American gangster in post-war Tokyo. It reached number 2 on Japan's book charts, according to Tokyo Weekender. | ☐ not yet | [link](https://www.tokyoweekender.com/art_and_culture/robert-whiting-interview/) |
+| Tokyo Junkie: 60 Years of Bright Lights and Back Alleys... and Baseball | 2021 | ふたつのオリンピック 東京1964/2020 (Kadokawa) covers the same life story | His memoir: arriving as a 19-year-old airman in 1962, and how Tokyo changed. | ☐ not yet | [link](https://www.publishersweekly.com/9781611720679) |
+| Tokyo Outsiders | due in the USA in 2024, according to SABR | Not checked | A follow-up to Tokyo Underworld about foreign criminals in Japan. Whether and when it came out was not checked. | ☐ not yet | [link](https://sabr.org/?p=130589) |
+| 'Robert Whiting's Japan' (online newsletter on Substack) | current | English | His recent writing. Some posts may need a paid subscription. | ☐ not yet | [link](https://sabr.org/journal/article/henry-chadwick-award-robert-whiting/) |
+
+## 🧑‍💼 4. Who is Robert Whiting?
+- Born in New Jersey in 1942, raised in Eureka, California. Came to Tokyo with the US Air Force in 1962 and studied at Sophia University. ([source](https://sabr.org/journal/article/henry-chadwick-award-robert-whiting/))
+- Best known for You Gotta Have Wa, which Wikipedia says sold 125,000 copies; the writer David Halberstam said it applies to almost every side of US–Japan relations. ([source](https://en.wikipedia.org/wiki/Robert_Whiting))
+- Winner of SABR's Henry Chadwick Award for baseball research. ([source](https://sabr.org/awards/winner/robert-whiting/))
+- Still active: he gave a lecture on baseball and US–Japan diplomacy at Occidental College in Los Angeles on 9 Sept 2025. ([source](https://www.oxy.edu/academics/global-engagement/young-initiative/events/diamond-diplomacy-robert-whiting-traces-history))
+- Link to this site (RUMOUR, not fact): Weekly Jitsuwa quoted an unnamed insider in Feb 2026 saying agent Shawn Novak is close to him. ([source](https://weekly-jitsuwa.jp/archives/22720))
+
+## ⚠️ 5. Controversies and criticism
+None found about Whiting himself (27 Nov 2026; not searched in depth).
+
+- A caution this site already applies: on the Nomo page some details rest on Whiting alone. He is the standard source, but one author is still one author. My observation. ([source](https://anishimori123.github.io/News/sports/baseball/hideo-nomo.html))
+- His books side with the players against the clubs, and the 1999 book is built on Don Nomura's own account. Read them as one side of the argument, the side this site's club sources do not give. My observation.
+
+## 🔗 6. Related pages on this site
+- Hideo Nomo: the 1995 move that Whiting chronicled. ([source](https://anishimori123.github.io/News/sports/baseball/hideo-nomo.html))
+- Don Nomura: the agent at the centre of the 1999 book. ([source](https://anishimori123.github.io/News/agents/don-nomura.html))
+- Shawn Novak: reported to be a friend of Whiting's (rumour). ([source](https://anishimori123.github.io/News/agents/shawn-novak.html))
+- Teruaki Sato: the 2026 version of the same fight between a player's wish and a club's rights. ([source](https://anishimori123.github.io/News/sports/baseball/teruaki-sato.html))
+
+## ❓ Not verified / sources disagree
+- Prices and what is in stock: not checked; they change. One US shop listed The Samurai Way of Baseball at a $21.99 list price.
+- Whether 'The Book of Nomo' and the 1999 Don Nomura book exist in English editions. I found only Japanese ones.
+- Japanese editions of Slugging It Out in Japan and Tokyo Outsiders.
+- The exact year of the Ohtani book (a second printing in 2021 is mentioned by a reader).
+- Whether Tokyo Outsiders was published as planned.
+- The Whiting–Novak friendship: one weekly magazine, hearsay.
+

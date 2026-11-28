@@ -14,6 +14,7 @@ The people behind the moves: football and baseball agents, and how Japanese play
 | 🌉 [Bridging Japanese athletes to the US 日本人選手とアメリカをつなぐ](bridging-to-the-us/README.md) | Baseball explainer: three routes to MLB, who pays for interpreter, food, housing and visas, case studies of Sasaki, Morii and Oda, and where the gaps are | 2026-11-21 |
 | 🧢 [VC Sports Group VCスポーツグループ](vc-sports-group/README.md) | American baseball agency of Mookie Betts; took Teruaki Sato to the Cubs (Nov 2026) and handled Tomoyuki Sugano. Clients, firm size, Japanese players | 2026-11-27 |
 | 🌺 [Shawn Novak ショーン・ノバック](shawn-novak/README.md) | Baseball: the Hawaii-based agent of Teruaki Sato and Tomoyuki Sugano; timeline, clients, method, and a labelled table of rumours about his talks with Hanshin | 2026-11-27 |
+| 📚 [Reading list 読書リスト](reading-list/README.md) | Books behind the stories: Robert Whiting's baseball and Japan books, with Japanese editions, renamed titles and a 'Read?' column | 2026-11-27 |
 
 Rules for this folder:
 - Professional role and public sources only.

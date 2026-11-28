@@ -118,6 +118,7 @@ These pages blocked my tools or need a login. I used only their headline or the 
 - Teruaki Sato: the full posting story from the player's side. ([source](https://anishimori123.github.io/News/sports/baseball/teruaki-sato.html))
 - Wasserman (now THE·TEAM) and Joel Wolfe: the big-agency model, for comparison. ([source](https://anishimori123.github.io/News/agents/wasserman.html))
 - Don Nomura: an earlier agent the Japanese clubs saw as a troublemaker. ([source](https://anishimori123.github.io/News/agents/don-nomura.html))
+- Reading list: Robert Whiting's books, including 'You Gotta Have Wa'. ([source](https://anishimori123.github.io/News/agents/reading-list.html))
 
 ## ❓ Not verified / sources disagree
 - The New York lawyer's licence (weekly magazine only; the owner's search of the New York attorney directory found nothing).

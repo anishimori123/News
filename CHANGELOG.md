@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.18** | 2026-11-27 | 🆕 **📚 Reading list** | New page: Reading list, starting with eleven books by Robert Whiting ('You Gotta Have Wa' and others), each tied to a page on this site. | 14 | 57,671 | about 15 minutes (no helpers) |
 | **v0.4.17** | 2026-11-27 |  | Sato and Novak pages updated with the Sankei column of 9 Jan 2026 (free part, read by the owner), the best-sourced account of the agent's demand for a written posting promise. | 13 | 56,419 | about 10 minutes (no helpers) |
 | **v0.4.16** | 2026-11-27 |  | Teruaki Sato's page gains a "Rumours and unofficial reports (NOT facts)" chapter, built from the two Weekly Jitsuwa articles the owner read by hand. | 13 | 56,104 | about 10 minutes (no helpers) |
 | **v0.4.15** | 2026-11-27 |  | Shawn Novak page updated with the Weekly Jitsuwa article the owner read by hand, plus the results of his other manual checks. | 13 | 55,532 | about 10 minutes (no helpers) |
@@ -55,6 +56,21 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.18 — 2026-11-27
+**Summary:** New page: Reading list, starting with eleven books by Robert Whiting ('You Gotta Have Wa' and others), each tied to a page on this site.  
+**New pages:** 📚 Reading list  
+**Pages on site:** 14  
+**Words on site:** 57671  
+**Time spent:** about 15 minutes (no helpers)
+
+**What changed**
+- New page `Agents/reading-list/`: Whiting's baseball books and Japan books with year, Japanese edition, what each is about, which page on this site it helps with, and a "Read?" column for the owner.
+- Solves a search problem: "The Meaning of Ichiro" (2004) is sold today as "The Samurai Way of Baseball" (2005 paperback).
+- Links added from the Shawn Novak and Don Nomura pages; README and Agents/README updated.
+
+**Why**
+The owner wants to read 'You Gotta Have Wa', could not find 'The Meaning of Ichiro' on Amazon, and asked to keep track of reading lists.
 
 ## v0.4.17 — 2026-11-27
 **Summary:** Sato and Novak pages updated with the Sankei column of 9 Jan 2026 (free part, read by the owner), the best-sourced account of the agent's demand for a written posting promise.  
