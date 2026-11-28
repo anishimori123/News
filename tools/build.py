@@ -197,8 +197,16 @@ JERSEY = """<svg viewBox="0 0 200 222" class="figure" style="width:180px" role="
 </svg>"""
 
 
+# Just the name and number, as on the back of a shirt but with no shirt drawn ("figure": "nameplate").
+NAMEPLATE = """<svg viewBox="0 0 200 170" class="figure" style="width:180px" role="img" aria-label="{name} {number}">
+<path id="figArc2" d="M30 62 Q100 22 170 62" fill="none"/>
+<text font-size="36" font-weight="900" fill="{color}" font-family="Arial Black, Arial, Helvetica, sans-serif" letter-spacing="6" text-anchor="middle"><textPath href="#figArc2" startOffset="50%">{name}</textPath></text>
+<text x="100" y="160" text-anchor="middle" font-size="112" font-weight="900" fill="{color}" font-family="Arial Black, Arial, Helvetica, sans-serif">{number}</text>
+</svg>"""
+
+
 def jersey_svg(d):
-    out = JERSEY
+    out = NAMEPLATE if d.get("figure") == "nameplate" else JERSEY
     for k, v in (("name", d.get("figure_name", "")), ("number", d.get("figure_number", "")),
                  ("color", d.get("figure_color", "#1d5aa8")), ("body", d.get("figure_body", "#fbfaf6"))):
         out = out.replace("{" + k + "}", E(str(v), quote=True))
@@ -317,6 +325,7 @@ def build_html(d, sport):
              f'<div class="photo"><img src="{E(d["photo"])}" alt="" onerror="this.remove()">'
              + (f'{FIGURE}<div>Generic drawing, not a portrait.<br>📷 Add your own photo: see README.</div>' if d.get("figure", "captain") == "captain"
                 else f'{jersey_svg(d)}<div>Drawing of a jersey back, not a portrait.<br>📷 Add your own photo: see README.</div>' if d.get("figure") == "jersey"
+                else f'{jersey_svg(d)}<div>📷 Add your own photo: see README.</div>' if d.get("figure") == "nameplate"
                 else f'{PITCHER.replace("{number}", E(str(d.get("figure_number", ""))))}<div>Generic drawing, not a portrait.<br>📷 Add your own photo: see README.</div>' if d.get("figure") == "pitcher"
                 else '<div>📷 Add your own photo: see README.</div>') + '</div></div>')
     if d.get("tiles"):
