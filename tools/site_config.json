@@ -6,7 +6,7 @@
    "task": "Weekly Maya Yoshida news check",
    "when": "every Sunday at 4:33 PM Pacific",
    "when_short": "Sundays",
-   "covers": "Every athlete page under Sports/ (Maya Yoshida, Hideo Nomo)",
+   "covers": "Every athlete page under Sports/ (Maya Yoshida, Hideo Nomo, Teruaki Sato)",
    "pages": [
     "Sports/*"
    ]

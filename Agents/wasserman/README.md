@@ -232,6 +232,8 @@ Facts as reported. No view is taken here on the people involved.
 - Hideo Nomo: the 1995 move that started the Nomura–Tellem partnership. ([source](https://anishimori123.github.io/News/sports/baseball/hideo-nomo.html))
 - Overview: how Japanese players get overseas (soccer side, for comparison). ([source](https://anishimori123.github.io/News/agents/overview.html))
 - Bridging Japanese athletes to the US: the routes (posting, US college, minor leagues), who pays for daily-life support, and the Sasaki, Morii and Oda case studies. ([source](https://anishimori123.github.io/News/agents/bridging-to-the-us.html))
+- VC Sports Group: a rival agency; it took hitter Teruaki Sato to the Cubs in Nov 2026. ([source](https://anishimori123.github.io/News/agents/vc-sports-group.html))
+- Teruaki Sato: a Japanese star who did not choose this agency. ([source](https://anishimori123.github.io/News/sports/baseball/teruaki-sato.html))
 
 ## ❓ Not verified / sources disagree
 - Whether any Japanese national works as an agent inside the firm's baseball group.

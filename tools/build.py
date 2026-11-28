@@ -314,7 +314,9 @@ def build_html(d, sport):
     if m:
         b.append("<h2>💰 9. Money: contracts, salary, sponsors</h2>")
         b.append(f'<div class="box">{E(m["intro"])}</div><h3>{E(m.get("chart_heading", "LA Galaxy salary (official union figures, guaranteed pay per year)"))}</h3>')
-        b.append(chart_hbars(m["salary_chart"], "US dollars", fmt=lambda v: f"${v:,.0f}"))
+        # money.chart_unit / chart_prefix / chart_suffix let a page show pay in another currency (default: US dollars)
+        pre, suf = m.get("chart_prefix", "$"), m.get("chart_suffix", "")
+        b.append(chart_hbars(m["salary_chart"], m.get("chart_unit", "US dollars"), fmt=lambda v: f"{pre}{v:,.0f}{suf}"))
         b.append(table(["Period", "Club", "Reported pay", "How sure?", "Where from"],
                        [[E(s["period"]), E(s["club"]), E(s["figure"]), f'<span class="tag {s["label"]}">{s["label"]}</span>', link(s["note"] or "–", s["url"])] for s in m["salary"]]))
         if m.get("changes"):

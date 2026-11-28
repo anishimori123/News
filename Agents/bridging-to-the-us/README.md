@@ -262,6 +262,8 @@ Reader comments are opinions and are never used as a source for facts on this pa
 - Hideo Nomo: the 1995 move that started it all, made with no posting system and almost no support. ([source](https://anishimori123.github.io/News/sports/baseball/hideo-nomo.html))
 - Overview: how Japanese soccer players get overseas (agents, gateways, who pays). ([source](https://anishimori123.github.io/News/agents/overview.html))
 - Maya Yoshida: the soccer comparison used on this page. ([source](https://anishimori123.github.io/News/sports/soccer/maya-yoshida.html))
+- Teruaki Sato: a fresh posting-system case (Hanshin to the Cubs, Nov 2026). ([source](https://anishimori123.github.io/News/sports/baseball/teruaki-sato.html))
+- VC Sports Group: the agency behind Sato's move. ([source](https://anishimori123.github.io/News/agents/vc-sports-group.html))
 
 ## ❓ Not verified / sources disagree
 - Sasaki's and Morii's US agents or advisers: none is named in the sources found. Sasaki's management (Nice Guy Partners) is confirmed; whether it or someone else negotiated with the Marlins is not.

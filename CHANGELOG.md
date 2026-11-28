@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.13** | 2026-11-27 | 🆕 **⚾ Teruaki Sato, 🧢 VC Sports Group** | New person: Teruaki Sato (baseball), who signed a 6-year contract with the Chicago Cubs, plus a short page for his agency, VC Sports Group. | 12 | 52,618 | about 50 minutes (5 research helpers running in parallel) |
 | 🤖 **v0.4.12** | 2026-11-25 |  | Bridging page: Shoki Oda finished meeting ten MLB clubs (Shotaro Morii joined the Athletics' meeting) and met the Giants for the first time; no decision yet. | 10 | 43,377 | about 10 minutes (automatic, no helpers) |
 | **v0.4.11** | 2026-11-21 |  | Pages that are checked automatically now show a green "🔄 Auto-check" label, and the home page lists the scheduled tasks. | 10 | 43,039 | about 15 minutes |
 | 🤖 **v0.4.10** | 2026-11-21 |  | New automatic weekly check for the "Bridging Japanese athletes to the US" page (Sasaki, Morii, Oda). | 10 | 43,039 | about 10 minutes |
@@ -50,6 +51,25 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.13 — 2026-11-27
+**Summary:** New person: Teruaki Sato (baseball), who signed a 6-year contract with the Chicago Cubs, plus a short page for his agency, VC Sports Group.  
+**New pages:** ⚾ Teruaki Sato, 🧢 VC Sports Group  
+**Pages on site:** 12  
+**Words on site:** 52618  
+**Time spent:** about 50 minutes (5 research helpers running in parallel)
+
+**What changed**
+- New athlete page `Sports/Baseball/teruaki-sato/`: quick facts, character with evidence, honest view, season table 2021 to 2026, timeline, headlines (Japanese with English), roots, controversies, money with "why pay changed", and fan comments on the trigger article (19 comments).
+- Five deep dives: how the door to America opened (posting timeline, why Hanshin said yes, why the Cubs, the lockout clock); the agent and the people around him; what kind of player America is getting; his own words from interviews; now and next.
+- New agency page `Agents/vc-sports-group/` (short first version; the named agent is single-source and marked not confirmed).
+- Links added both ways on the Wasserman and Bridging pages.
+- `tools/build.py`: the pay chart can now show a currency other than US dollars (`money.chart_unit`, `chart_prefix`, `chart_suffix`). Sato's chart is in million yen.
+- `tools/site_config.json`: the weekly check's description now names Teruaki Sato (it already covers every page under `Sports/`).
+- README, Sports/README and Agents/README updated.
+
+**Why**
+The owner sent the Chunichi Sports article on the Cubs deal and asked to track a new baseball person. The trigger news was confirmed: the Cubs announced the deal on 27 Nov 2026 US time. The money ($120 million) is a media report, not a club figure, and one reporter says $125 million; the page says so.
 
 ## v0.4.12 — 2026-11-25
 **🤖 Found by: weekly scheduled check**  
