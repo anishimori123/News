@@ -72,6 +72,8 @@ The same pages are stored in this repo under the `docs/` folder.
 
 Only use photos you are allowed to use (for example, ones you took yourself).
 
+**PC only photos.** A photo from the internet or a news site belongs to its photographer, so do not put it on the public site. You can still see it on your own PC: download the repo (green **Code** button → **Download ZIP**), unzip it, put the photo in the images folder as above, and open `docs/index.html`. The file `.gitignore` lists photos that git will refuse to upload; `hideo-nomo.jpg` is on that list.
+
 ## 🔧 Update a profile (optional, for when you learn more)
 
 1. Edit `data.json` for that person.
