@@ -18,7 +18,8 @@ _This file is generated from `data.json` by `tools/build.py`. Edit `data.json`, 
 | Base | Hawaii, according to Sponichi (Oct 2026) and business directories. The agency itself is listed in Chicago |
 | Japanese language | He interpreted for Tomoyuki Sugano at the Orioles' online press conference in Dec 2024 (MLB.com), so he works in Japanese |
 | Japan-linked clients | Tomoyuki Sugano ✅, Teruaki Sato ✅, Robert Suarez 🟡, Shota Morishita 🟡 (agency confirmed by tabloid and blog; Novak himself not confirmed) |
-| Lawyer? | A weekly magazine says he holds a New York State lawyer's licence. Single source, gossip-grade: not confirmed |
+| Lawyer? | Weekly Jitsuwa (issue of 19 Feb 2026) quotes an unnamed insider saying he holds a New York State lawyer's licence. The owner searched the New York attorney directory on 27 Nov 2026 and found nothing. Not confirmed; a missing entry does not prove the claim false (he could be registered under another name or in another state) |
+| Reported friendship | The same insider says he is close to Robert Whiting, the American author of 'You Gotta Have Wa', the classic book on how Japanese and American baseball differ. Single source, hearsay ('I hear') |
 | Age, education, earlier career | Not found |
 
 ## 📌 1. In short
@@ -66,10 +67,13 @@ You asked for these too. Everything in this table comes from tabloids, weekly ma
 
 | Claim | Who says it | Check | Source |
 |---|---|---|---|
-| He demanded that Hanshin put in writing that Sato could be posted after the 2026 season, a 'hard-line stance'. | Sankei column 'Onifude no Tora Manyuki' (Jan 2026); also 'it is said' by a sportswriter in Naigai Times. | Plausible and from a named columnist, but second-hand. Sato said it was not a fight. No written promise was reported; the club approved in October after the Triple Crown. | [link](https://topics.smt.docomo.ne.jp/article/sankei/sports/sankei-_sports_baseball_LZR37SCNSVLTFD354IXSOYWLVE) |
-| His forceful negotiating 'stirred up' the club, and the 500 million yen contract hid a problem: the club saw 200 million of it as a one-off reward for his titles, so the starting point for the next talks was left unclear. | Weekly Jitsuwa (Feb 2026), a gossip-leaning weekly. | Unconfirmed. Overtaken by events: there were no next talks with Hanshin. | [link](https://weekly-jitsuwa.jp/archives/22720) |
+| He demanded that Hanshin put in writing that Sato could be posted after the 2026 season, a 'hard-line stance'. | Sankei column 'Onifude no Tora Manyuki' (Jan 2026); also 'it is said' by a sportswriter in Naigai Times. Weekly Jitsuwa adds that the agent's side pressed for 'this offseason' to be written into the contract. | Plausible and from a named columnist, but second-hand. Sato said it was not a fight. No written promise was reported; the club approved in October after the Triple Crown. | [link](https://topics.smt.docomo.ne.jp/article/sankei/sports/sankei-_sports_baseball_LZR37SCNSVLTFD354IXSOYWLVE) |
+| Hanshin offered 500 million yen to respect Sato's standing (doubling would have meant 300 million, the same as teammate Takumu Nakano). The club saw 200 million of it as a one-off reward for his titles, and the two sides signed without settling whether next year's talks would start from 300 or 500 million. | Weekly Jitsuwa, issue of 19 Feb 2026 (web 9 Feb), quoting an unnamed insider. Read in full by the owner. | Unconfirmed. Overtaken by events: there were no next talks with Hanshin. | [link](https://weekly-jitsuwa.jp/archives/22720) |
+| Sato did not travel with teammates to the early joint training in Okinawa on 29 Jan 2026, and this 'separate action' may have changed how teammates saw him. | Weekly Jitsuwa, quoting a Kansai reporter. | Context: he had no contract until 30 Jan. Daily Sports reported him arriving in Okinawa with the team on 31 Jan to loud cheers from fans. | [link](https://www.daily.co.jp/tigers/2026/01/31/0019969705.shtml) |
+| He is close to Robert Whiting, author of 'You Gotta Have Wa'. The magazine calls it ironic that an agent who knows the spirit of 'wa' (harmony) stirred up the club. | Weekly Jitsuwa, unnamed insider ('I hear'). | Hearsay. If true it is a notable link: Whiting chronicled Don Nomura and Hideo Nomo's 1995 escape, covered on other pages of this site. | [link](https://weekly-jitsuwa.jp/archives/22720) |
+| Before signing, Sato was close to breaking off talks and considered a sudden 'retirement' to reach MLB as a free man, the route Hideo Nomo used in 1995. | Headline of an earlier Weekly Jitsuwa article (Jan–Feb 2026). I have not read the article. | Gossip-grade and it did not happen. Worth knowing because it shows the Nomo precedent is still the threat Japanese clubs think of. | [link](https://weekly-jitsuwa.jp/archives/22639) |
 | His tactics 'completely backfired' and a move after 2026 was '100% gone', according to a former Hanshin player. | A magazine article carried by au Web Portal (1 Apr 2026); the speaker is not named. | Wrong as a prediction: Hanshin approved the posting six months later. | [link](https://article.auone.jp/detail/1/6/10/218_10_r_20260401_1774995452060848) |
-| He holds a New York State lawyer's licence. | Weekly Jitsuwa. | Single source. Could be checked in the public New York attorney directory; I have not done so. | [link](https://weekly-jitsuwa.jp/archives/22720) |
+| He holds a New York State lawyer's licence. | Weekly Jitsuwa. | Not confirmed. The owner searched the public New York attorney directory on 27 Nov 2026 and found nothing. That weakens the claim but does not disprove it. | [link](https://weekly-jitsuwa.jp/archives/22720) |
 | Sato might 'force through' a move and would not back down. | Nikkan Gendai (Aug 2026), quoting an anonymous management-industry insider. | The same insider guessed he might wait another year. He did not. | [link](https://www.nikkan-gendai.com/articles/view/sports/391747) |
 | Morishita having 'the same agent' will make things harder for Hanshin. | Nikkan Gendai (Oct 2026). | Opinion. The club's stated rule is that a player's wish alone is never enough. | [link](https://topics.smt.docomo.ne.jp/article/nikkangendai/sports/nikkangendai-1257452) |
 | Sato's training with Mookie Betts (also a VC Sports Group client) was the Dodgers 'fencing him in'. | Tabloid pieces, Dec 2025. | He signed with the Cubs. | [link](https://news.livedoor.com/article/detail/30216764/) |
@@ -96,13 +100,17 @@ These pages blocked my tools or need a login. I used only their headline or the 
 
 | Source | What I expect is there | Why I could not read it | Source |
 |---|---|---|---|
-| Weekly Jitsuwa, '球界最遅契約更改...阪神サトテル“国内ラストイヤー”既定路線' (Feb 2026) | The lawyer claim, the Suarez link and the 200 million 'title money' story in full. | Not opened; the Nifty copy returned an error. Try this original link. | [link](https://weekly-jitsuwa.jp/archives/22720) |
 | Sankei, '鬼筆のスポ魂': '佐藤輝明の26年オフMLB移籍容認を文書化せよ 阪神を悩ませる代理人の強硬姿勢' (about 9 Jan 2026) | The first and fullest account of his demands. | I found only the follow-up column; search Sankei for this title. | [link](https://topics.smt.docomo.ne.jp/article/sankei/sports/sankei-_sports_baseball_LZR37SCNSVLTFD354IXSOYWLVE) |
-| Sponichi, '阪神・佐藤輝明 11月に「アメリカ横断ウルトラ下見ツアー」も MLB球団は代理人拠点ハワイ集結の動き' (20 Oct 2026) | More on Novak's Hawaii base and which clubs planned to visit. | Yahoo! News Japan blocks my reader; I saw the preview only. Yahoo deletes articles after about a month, so open it soon. | [link](https://news.yahoo.co.jp/articles/8e92522c6c64927eebf2ce99c7cbd1f0f2c0d5c5) |
+| Sponichi, '阪神・佐藤輝明 11月に「アメリカ横断ウルトラ下見ツアー」も MLB球団は代理人拠点ハワイ集結の動き' (20 Oct 2026) | More on Novak's Hawaii base and which clubs planned to visit. | The Yahoo! News Japan copy was already deleted when the owner tried it on 27 Nov 2026 (Yahoo removes articles on a timer; Sponichi's stay about a month or less). I saw only the search preview. The original may still be on sponichi.co.jp; a search for the headline did not find it. | [link](https://news.yahoo.co.jp/articles/8e92522c6c64927eebf2ce99c7cbd1f0f2c0d5c5) |
 | au Web Portal, '阪神・佐藤輝明「大モメ契約更改」の舞台裏...' (1 Apr 2026) | Which magazine wrote it, and the full 'backfired' quote. | Preview only. | [link](https://article.auone.jp/detail/1/6/10/218_10_r_20260401_1774995452060848) |
 | Nikkan Gendai, 'これから阪神を悩ます森下翔太の“少しでも早くメジャー”問題' (Oct 2026) | Whether it names Novak as Morishita's agent or only the agency. | Preview only. | [link](https://topics.smt.docomo.ne.jp/article/nikkangendai/sports/nikkangendai-1257452) |
 | His LinkedIn profile | Career history and education. | Needs a login. I do not sign in to anything. | [link](https://www.linkedin.com/in/shawn-novak-951732335/) |
-| New York State attorney directory (iapps.courts.state.ny.us/attorneyservices) | Whether a Shawn Novak is registered as a lawyer. A common name, so a match would still need care. | Not tried; it is a search form. | [link](https://iapps.courts.state.ny.us/attorneyservices/search) |
+| Weekly Jitsuwa, '阪神・佐藤輝明“電撃引退”へ 交渉決裂間近で目指す“浪人メジャー移籍”というウルトラC' | The 'sudden retirement' rumour in full. | Not tried yet. If you read it, tell me who is quoted. | [link](https://weekly-jitsuwa.jp/archives/22639) |
+
+#### Checked by the owner
+- Weekly Jitsuwa article of 9 Feb 2026: read in full by the owner on 27 Nov 2026 and summarised in the rumour table. ([source](https://weekly-jitsuwa.jp/archives/22720))
+- New York attorney directory: searched by the owner on 27 Nov 2026, nothing found.
+- Sponichi article on Yahoo! News Japan: page no longer exists (27 Nov 2026). ([source](https://news.yahoo.co.jp/articles/8e92522c6c64927eebf2ce99c7cbd1f0f2c0d5c5))
 
 ## 🔗 11. Related pages on this site
 - VC Sports Group: his agency. ([source](https://anishimori123.github.io/News/agents/vc-sports-group.html))
@@ -111,7 +119,8 @@ These pages blocked my tools or need a login. I used only their headline or the 
 - Don Nomura: an earlier agent the Japanese clubs saw as a troublemaker. ([source](https://anishimori123.github.io/News/agents/don-nomura.html))
 
 ## ❓ Not verified / sources disagree
-- The New York lawyer's licence (weekly magazine only).
+- The New York lawyer's licence (weekly magazine only; the owner's search of the New York attorney directory found nothing).
+- The reported friendship with author Robert Whiting (weekly magazine, hearsay).
 - His age, education, nationality and career before 2019.
 - When he moved from Amuse Sports USA to VC Sports Group, and what Amuse Sports USA is today. Shaun Inouye's current role was not checked.
 - Whether he personally negotiated Robert Suarez's MLB contracts.

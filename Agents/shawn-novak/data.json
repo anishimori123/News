@@ -34,7 +34,11 @@
   ],
   [
    "Lawyer?",
-   "A weekly magazine says he holds a New York State lawyer's licence. Single source, gossip-grade: not confirmed"
+   "Weekly Jitsuwa (issue of 19 Feb 2026) quotes an unnamed insider saying he holds a New York State lawyer's licence. The owner searched the New York attorney directory on 27 Nov 2026 and found nothing. Not confirmed; a missing entry does not prove the claim false (he could be registered under another name or in another state)"
+  ],
+  [
+   "Reported friendship",
+   "The same insider says he is close to Robert Whiting, the American author of 'You Gotta Have Wa', the classic book on how Japanese and American baseball differ. Single source, hearsay ('I hear')"
   ],
   [
    "Age, education, earlier career",
@@ -261,18 +265,42 @@
       {
        "cells": [
         "He demanded that Hanshin put in writing that Sato could be posted after the 2026 season, a 'hard-line stance'.",
-        "Sankei column 'Onifude no Tora Manyuki' (Jan 2026); also 'it is said' by a sportswriter in Naigai Times.",
+        "Sankei column 'Onifude no Tora Manyuki' (Jan 2026); also 'it is said' by a sportswriter in Naigai Times. Weekly Jitsuwa adds that the agent's side pressed for 'this offseason' to be written into the contract.",
         "Plausible and from a named columnist, but second-hand. Sato said it was not a fight. No written promise was reported; the club approved in October after the Triple Crown."
        ],
        "url": "https://topics.smt.docomo.ne.jp/article/sankei/sports/sankei-_sports_baseball_LZR37SCNSVLTFD354IXSOYWLVE"
       },
       {
        "cells": [
-        "His forceful negotiating 'stirred up' the club, and the 500 million yen contract hid a problem: the club saw 200 million of it as a one-off reward for his titles, so the starting point for the next talks was left unclear.",
-        "Weekly Jitsuwa (Feb 2026), a gossip-leaning weekly.",
+        "Hanshin offered 500 million yen to respect Sato's standing (doubling would have meant 300 million, the same as teammate Takumu Nakano). The club saw 200 million of it as a one-off reward for his titles, and the two sides signed without settling whether next year's talks would start from 300 or 500 million.",
+        "Weekly Jitsuwa, issue of 19 Feb 2026 (web 9 Feb), quoting an unnamed insider. Read in full by the owner.",
         "Unconfirmed. Overtaken by events: there were no next talks with Hanshin."
        ],
        "url": "https://weekly-jitsuwa.jp/archives/22720"
+      },
+      {
+       "cells": [
+        "Sato did not travel with teammates to the early joint training in Okinawa on 29 Jan 2026, and this 'separate action' may have changed how teammates saw him.",
+        "Weekly Jitsuwa, quoting a Kansai reporter.",
+        "Context: he had no contract until 30 Jan. Daily Sports reported him arriving in Okinawa with the team on 31 Jan to loud cheers from fans."
+       ],
+       "url": "https://www.daily.co.jp/tigers/2026/01/31/0019969705.shtml"
+      },
+      {
+       "cells": [
+        "He is close to Robert Whiting, author of 'You Gotta Have Wa'. The magazine calls it ironic that an agent who knows the spirit of 'wa' (harmony) stirred up the club.",
+        "Weekly Jitsuwa, unnamed insider ('I hear').",
+        "Hearsay. If true it is a notable link: Whiting chronicled Don Nomura and Hideo Nomo's 1995 escape, covered on other pages of this site."
+       ],
+       "url": "https://weekly-jitsuwa.jp/archives/22720"
+      },
+      {
+       "cells": [
+        "Before signing, Sato was close to breaking off talks and considered a sudden 'retirement' to reach MLB as a free man, the route Hideo Nomo used in 1995.",
+        "Headline of an earlier Weekly Jitsuwa article (Jan–Feb 2026). I have not read the article.",
+        "Gossip-grade and it did not happen. Worth knowing because it shows the Nomo precedent is still the threat Japanese clubs think of."
+       ],
+       "url": "https://weekly-jitsuwa.jp/archives/22639"
       },
       {
        "cells": [
@@ -286,7 +314,7 @@
        "cells": [
         "He holds a New York State lawyer's licence.",
         "Weekly Jitsuwa.",
-        "Single source. Could be checked in the public New York attorney directory; I have not done so."
+        "Not confirmed. The owner searched the public New York attorney directory on 27 Nov 2026 and found nothing. That weakens the claim but does not disprove it."
        ],
        "url": "https://weekly-jitsuwa.jp/archives/22720"
       },
@@ -407,14 +435,6 @@
      "rows": [
       {
        "cells": [
-        "Weekly Jitsuwa, '球界最遅契約更改...阪神サトテル“国内ラストイヤー”既定路線' (Feb 2026)",
-        "The lawyer claim, the Suarez link and the 200 million 'title money' story in full.",
-        "Not opened; the Nifty copy returned an error. Try this original link."
-       ],
-       "url": "https://weekly-jitsuwa.jp/archives/22720"
-      },
-      {
-       "cells": [
         "Sankei, '鬼筆のスポ魂': '佐藤輝明の26年オフMLB移籍容認を文書化せよ 阪神を悩ませる代理人の強硬姿勢' (about 9 Jan 2026)",
         "The first and fullest account of his demands.",
         "I found only the follow-up column; search Sankei for this title."
@@ -425,7 +445,7 @@
        "cells": [
         "Sponichi, '阪神・佐藤輝明 11月に「アメリカ横断ウルトラ下見ツアー」も MLB球団は代理人拠点ハワイ集結の動き' (20 Oct 2026)",
         "More on Novak's Hawaii base and which clubs planned to visit.",
-        "Yahoo! News Japan blocks my reader; I saw the preview only. Yahoo deletes articles after about a month, so open it soon."
+        "The Yahoo! News Japan copy was already deleted when the owner tried it on 27 Nov 2026 (Yahoo removes articles on a timer; Sponichi's stay about a month or less). I saw only the search preview. The original may still be on sponichi.co.jp; a search for the headline did not find it."
        ],
        "url": "https://news.yahoo.co.jp/articles/8e92522c6c64927eebf2ce99c7cbd1f0f2c0d5c5"
       },
@@ -455,12 +475,30 @@
       },
       {
        "cells": [
-        "New York State attorney directory (iapps.courts.state.ny.us/attorneyservices)",
-        "Whether a Shawn Novak is registered as a lawyer. A common name, so a match would still need care.",
-        "Not tried; it is a search form."
+        "Weekly Jitsuwa, '阪神・佐藤輝明“電撃引退”へ 交渉決裂間近で目指す“浪人メジャー移籍”というウルトラC'",
+        "The 'sudden retirement' rumour in full.",
+        "Not tried yet. If you read it, tell me who is quoted."
        ],
-       "url": "https://iapps.courts.state.ny.us/attorneyservices/search"
+       "url": "https://weekly-jitsuwa.jp/archives/22639"
       }
+     ]
+    },
+    {
+     "kind": "list",
+     "heading": "Checked by the owner",
+     "rows": [
+      [
+       "Weekly Jitsuwa article of 9 Feb 2026: read in full by the owner on 27 Nov 2026 and summarised in the rumour table.",
+       "https://weekly-jitsuwa.jp/archives/22720"
+      ],
+      [
+       "New York attorney directory: searched by the owner on 27 Nov 2026, nothing found.",
+       ""
+      ],
+      [
+       "Sponichi article on Yahoo! News Japan: page no longer exists (27 Nov 2026).",
+       "https://news.yahoo.co.jp/articles/8e92522c6c64927eebf2ce99c7cbd1f0f2c0d5c5"
+      ]
      ]
     }
    ]
@@ -494,7 +532,8 @@
   }
  ],
  "unverified": [
-  "The New York lawyer's licence (weekly magazine only).",
+  "The New York lawyer's licence (weekly magazine only; the owner's search of the New York attorney directory found nothing).",
+  "The reported friendship with author Robert Whiting (weekly magazine, hearsay).",
   "His age, education, nationality and career before 2019.",
   "When he moved from Amuse Sports USA to VC Sports Group, and what Amuse Sports USA is today. Shaun Inouye's current role was not checked.",
   "Whether he personally negotiated Robert Suarez's MLB contracts.",

@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.15** | 2026-11-27 |  | Shawn Novak page updated with the Weekly Jitsuwa article the owner read by hand, plus the results of his other manual checks. | 13 | 55,532 | about 10 minutes (no helpers) |
 | **v0.4.14** | 2026-11-27 | 🆕 **🌺 Shawn Novak** | New agent page: Shawn Novak, the agent of Teruaki Sato and Tomoyuki Sugano, with a clearly labelled table of rumours and a list of sources to check by hand. | 13 | 55,147 | about 20 minutes (no helpers) |
 | **v0.4.13** | 2026-11-27 | 🆕 **⚾ Teruaki Sato, 🧢 VC Sports Group** | New person: Teruaki Sato (baseball), who signed a 6-year contract with the Chicago Cubs, plus a short page for his agency, VC Sports Group. | 12 | 52,618 | about 50 minutes (5 research helpers running in parallel) |
 | 🤖 **v0.4.12** | 2026-11-25 |  | Bridging page: Shoki Oda finished meeting ten MLB clubs (Shotaro Morii joined the Athletics' meeting) and met the Giants for the first time; no decision yet. | 10 | 43,377 | about 10 minutes (automatic, no helpers) |
@@ -52,6 +53,20 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.15 — 2026-11-27
+**Summary:** Shawn Novak page updated with the Weekly Jitsuwa article the owner read by hand, plus the results of his other manual checks.  
+**Pages on site:** 13  
+**Words on site:** 55532  
+**Time spent:** about 10 minutes (no helpers)
+
+**What changed**
+- Rumour table: fuller version of the "title money" salary story, the claim that Sato skipped the early joint training (with the context that he was unsigned), a reported friendship with author Robert Whiting, and an earlier headline about a "sudden retirement" route to MLB. All labelled as unconfirmed.
+- Lawyer claim: the owner searched the New York attorney directory and found nothing; the page now says so.
+- "Sources I could not open" now has a "Checked by the owner" list, and notes that the Sponichi article on Yahoo! News Japan has been deleted.
+
+**Why**
+The owner opened the blocked sources himself and pasted the Weekly Jitsuwa article. It is summarised in my own words, not copied.
 
 ## v0.4.14 — 2026-11-27
 **Summary:** New agent page: Shawn Novak, the agent of Teruaki Sato and Tomoyuki Sugano, with a clearly labelled table of rumours and a list of sources to check by hand.  
