@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.25** | 2026-11-27 |  | Every athlete now has a name-and-number box: NOMO 16, SATO 8 and YOSHIDA 4, each with a one-line note saying which number it is. | 14 | 57,726 | about 15 minutes |
 | **v0.4.24** | 2026-11-27 |  | Hideo Nomo's page now shows only his name and number, NOMO 16, in blue, with no shirt drawn. | 14 | 57,671 | about 5 minutes |
 | **v0.4.23** | 2026-11-27 |  | Hideo Nomo's page now shows the back of a jersey with NOMO and 16 in blue on white. | 14 | 57,671 | about 10 minutes |
 | **v0.4.22** | 2026-11-27 |  | The pitcher drawing on Hideo Nomo's page is redrawn in a Japanese manga style. | 14 | 57,671 | about 15 minutes |
@@ -62,6 +63,21 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.25 — 2026-11-27
+**Summary:** Every athlete now has a name-and-number box: NOMO 16, SATO 8 and YOSHIDA 4, each with a one-line note saying which number it is.  
+**Pages on site:** 14  
+**Words on site:** 57726  
+**Time spent:** about 15 minutes
+
+**What changed**
+- Teruaki Sato: SATO 8 in Cubs blue. The Cubs had not announced his number as of 27 Nov 2026, so the box shows 8, his Hanshin number, and says so. This is also listed under "Not verified" so it gets corrected when the club confirms.
+- Maya Yoshida: YOSHIDA 4 in LA Galaxy navy, replacing the generic captain drawing. He is a free agent, so the note says 4 was his number at his last club.
+- Hideo Nomo: a note under the box says 16 was his Dodgers number.
+- Build tool: the name-and-number box takes an optional note (`figure_note`) and shrinks the letters for long names so they fit the arch.
+
+**Why**
+- The owner liked the simple name-and-number look and asked for it on every player.
 
 ## v0.4.24 — 2026-11-27
 **Summary:** Hideo Nomo's page now shows only his name and number, NOMO 16, in blue, with no shirt drawn.  

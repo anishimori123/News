@@ -404,6 +404,7 @@ _Read on 2026-11-27. All 19 top-level comments shown at the time (the page count
 - The sample is tiny because the article was only hours old. A later read may look different.
 
 ## ❓ 12. Not verified / sources disagree
+- His Chicago Cubs uniform number: not announced as of 27 Nov 2026. The club's roster page showed a blank on 25 Nov (Sports Hochi), and Hochi expects him to keep 8. The name-and-number box at the top shows 8, his Hanshin number, until the club confirms; then change figure_number and figure_note in this file.
 - The exact contract total: $120 million (ESPN's Jeff Passan, AP 'reportedly') or $125 million (Bob Nightengale). The club has not published it.
 - Yearly salaries, signing bonus, opt-outs, no-trade clause and incentives in the Cubs contract.
 - The official release fee to Hanshin. About $19.9 million is a calculation from the reported total.

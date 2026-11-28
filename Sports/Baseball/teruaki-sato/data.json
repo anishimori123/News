@@ -3,8 +3,12 @@
  "name": "Teruaki Sato",
  "name_ja": "佐藤 輝明",
  "sport": "Baseball",
+ "figure": "nameplate",
+ "figure_name": "SATO",
+ "figure_number": "8",
+ "figure_color": "#0e3386",
+ "figure_note": "No. 8: his Hanshin number (2021–26). Cubs number not announced yet (27 Nov 2026).",
  "emoji": "⚾",
- "figure": "none",
  "updated": "2026-11-27",
  "status": "Signed with the Chicago Cubs (USA). The club announced a 6-year contract on 27 Nov 2026 (28 Nov in Japan). The reported total is $120 million, about 19.1 billion yen; one reporter says $125 million; the club has not published the money. His first press conference is on 30 Nov at Wrigley Field, Chicago. An MLB lockout (owners shutting the league during a labour dispute) is expected from 2 Dec.",
  "summary": "Left-handed power hitter from Nishinomiya, the city where Hanshin's Koshien Stadium stands. Unknown in high school, a record-breaker at Kindai University, the first pick of four clubs in the 2020 draft. In six seasons with the Hanshin Tigers he went from a rookie with 173 strikeouts, to being sent down to the farm team twice, to league MVP in 2025 and the Triple Crown (best batting average, most home runs, most runs batted in) in 2026. He left through the posting system (the rule that lets a Japanese club release a player to MLB in exchange for a fee) and got the biggest contract ever reported for a Japanese position player.",
@@ -1741,6 +1745,7 @@
   ]
  },
  "unverified": [
+  "His Chicago Cubs uniform number: not announced as of 27 Nov 2026. The club's roster page showed a blank on 25 Nov (Sports Hochi), and Hochi expects him to keep 8. The name-and-number box at the top shows 8, his Hanshin number, until the club confirms; then change figure_number and figure_note in this file.",
   "The exact contract total: $120 million (ESPN's Jeff Passan, AP 'reportedly') or $125 million (Bob Nightengale). The club has not published it.",
   "Yearly salaries, signing bonus, opt-outs, no-trade clause and incentives in the Cubs contract.",
   "The official release fee to Hanshin. About $19.9 million is a calculation from the reported total.",
