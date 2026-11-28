@@ -5,7 +5,7 @@
  "emoji": "🧢",
  "order": 9,
  "updated": "2026-11-27",
- "status": "Active. On 27 Nov 2026 its client Teruaki Sato's 6-year contract with the Chicago Cubs was announced, reported at $120 million. This page is a short first version: the public record I could open is thin.",
+ "status": "Active. On 27 Nov 2026 its client Teruaki Sato's 6-year contract with the Chicago Cubs was announced, reported at $120 million. A small firm: a business directory lists about four staff.",
  "summary": "An American baseball agency best known for Dodgers star Mookie Betts. It has become a second route to MLB for Japanese players, next to the bigger Wasserman (THE·TEAM): it handled pitcher Tomoyuki Sugano's moves and, in 2026, the largest contract ever reported for a Japanese position player.",
  "quick_facts": [
   [
@@ -13,20 +13,24 @@
    "A US agency that represents baseball players in contract talks with MLB clubs"
   ],
   [
-   "Best-known client",
-   "Mookie Betts (Los Angeles Dodgers)"
+   "Founded / base / size",
+   "2018, Chicago, about 4 staff, managing partner Stephen Veltman, according to the business directory RocketReach (not an official source; may be out of date)"
+  ],
+  [
+   "Best-known clients",
+   "Mookie Betts, Jacob deGrom, Robbie Ray (Spotrac's agency list)"
   ],
   [
    "Japanese clients",
-   "Teruaki Sato (confirmed), Tomoyuki Sugano (confirmed). Shota Morishita: reported by a blog citing Daily Sports, not confirmed"
+   "Teruaki Sato ✅, Tomoyuki Sugano ✅. Shota Morishita 🟡 (tabloid and blog)"
   ],
   [
-   "Agent named for Japanese players",
-   "Sean Novak: named by the tabloid Nikkan Gendai and by a blog citing Daily Sports. Not confirmed by a source I could open"
+   "Agent for the Japanese players",
+   "Shawn Novak ✅ (MLB.com for Sugano; Sponichi for Sato). See his page on this site"
   ],
   [
-   "Founders, head office, size, fees",
-   "Not confirmed. Not researched in this first version"
+   "Fees",
+   "Not public"
   ]
  ],
  "sections": [
@@ -47,6 +51,13 @@
       "What happened"
      ],
      "rows": [
+      {
+       "cells": [
+        "2018",
+        "Founded, according to a business directory. Based in Chicago."
+       ],
+       "url": "https://rocketreach.co/vc-sports-group-profile_b4780d6bfc31e727"
+      },
       {
        "cells": [
         "2020",
@@ -110,33 +121,91 @@
        "cells": [
         "Teruaki Sato (Hanshin → Cubs, 2026)",
         "✅",
-        "Sankei Sports, Sports Hochi, Number Web and MLB Trade Rumors all name the agency."
+        "Sankei Sports, Sports Hochi, Number Web and MLB Trade Rumors name the agency; Sponichi names Shawn Novak as his agent."
        ],
-       "url": "https://news.yahoo.co.jp/articles/e9d822e648df975d2ed40b173f562702b22408bf"
+       "url": "https://news.yahoo.co.jp/articles/8e92522c6c64927eebf2ce99c7cbd1f0f2c0d5c5"
       },
       {
        "cells": [
-        "Tomoyuki Sugano (Yomiuri → Orioles 2025 → Rockies)",
+        "Tomoyuki Sugano (Yomiuri → Orioles 2025 → Rockies 2026)",
         "✅",
-        "Number Web says the agency arranged both MLB contracts; Sankei Sports calls him a client."
+        "Tokyo Sports reported the signing in 2024; MLB.com names 'VC Sports Group agent Shawn Novak', who interpreted for him."
        ],
-       "url": "https://number.bunshun.jp/articles/-/872351?page=4"
+       "url": "https://www.mlb.com/news/tomoyuki-sugano-visits-baltimore-after-signing-with-orioles"
       },
       {
        "cells": [
         "Shota Morishita (Hanshin outfielder)",
-        "⚪",
-        "A news-summary blog, citing Daily Sports, says he signed with the same agency in 2026 to prepare for a future move. I did not find the Daily Sports original."
+        "🟡",
+        "Nikkan Gendai says he is with the same agency as Sato; a blog citing Daily Sports says he signed in 2026."
        ],
-       "url": "https://reaitimenews.com/entry/morishita-shota-agent-contract-mlb"
+       "url": "https://topics.smt.docomo.ne.jp/article/nikkangendai/sports/nikkangendai-1257452"
       },
       {
        "cells": [
-        "Roberto Suarez (ex-Hanshin pitcher, not Japanese)",
-        "⚪",
-        "Same blog says the same agent handled him. Not confirmed."
+        "Robert Suarez (ex-Hanshin closer, Venezuelan)",
+        "🟡",
+        "An agent directory lists him as a client; Novak helped negotiate his 2019 Hanshin contract while at another firm."
        ],
-       "url": "https://reaitimenews.com/entry/morishita-shota-agent-contract-mlb"
+       "url": "https://www.athleteagent.com/agencies/133/clients"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "emoji": "📋",
+   "title": "Other clients (Spotrac's list, read 27 Nov 2026)",
+   "intro": "Contract figures as Spotrac shows them. A list like this can lag behind real changes.",
+   "parts": [
+    {
+     "kind": "table",
+     "headers": [
+      "Player",
+      "Contract shown"
+     ],
+     "rows": [
+      {
+       "cells": [
+        "Mookie Betts (Dodgers)",
+        "12 years, $365 million"
+       ],
+       "url": "https://www.spotrac.com/mlb/agents/_/agency/vc-sports-group"
+      },
+      {
+       "cells": [
+        "Jacob deGrom (Rangers)",
+        "5 years, $185 million"
+       ],
+       "url": "https://www.spotrac.com/mlb/agents/_/agency/vc-sports-group"
+      },
+      {
+       "cells": [
+        "Robbie Ray (Padres)",
+        "5 years, $115 million"
+       ],
+       "url": "https://www.spotrac.com/mlb/agents/_/agency/vc-sports-group"
+      },
+      {
+       "cells": [
+        "Jake Bauers (Red Sox)",
+        "4 years, $58 million"
+       ],
+       "url": "https://www.spotrac.com/mlb/agents/_/agency/vc-sports-group"
+      },
+      {
+       "cells": [
+        "Steven Matz (Rays)",
+        "2 years, $15 million"
+       ],
+       "url": "https://www.spotrac.com/mlb/agents/_/agency/vc-sports-group"
+      },
+      {
+       "cells": [
+        "Tomoyuki Sugano (Rockies, 2026)",
+        "1 year, $5.1 million"
+       ],
+       "url": "https://www.spotrac.com/mlb/agents/_/agency/vc-sports-group"
       }
      ]
     }
@@ -254,6 +323,10 @@
      "kind": "list",
      "rows": [
       [
+       "Shawn Novak: the agent who handles its Japanese players.",
+       "https://anishimori123.github.io/News/agents/shawn-novak.html"
+      ],
+      [
        "Teruaki Sato: the player page, with the full posting story.",
        "https://anishimori123.github.io/News/sports/baseball/teruaki-sato.html"
       ],
@@ -271,11 +344,11 @@
   }
  ],
  "unverified": [
-  "Sean Novak as Sato's agent: tabloid and blog only.",
-  "The agency's founders, head office, number of clients and fee rates.",
+  "Founding year, size and managing partner come from a business directory, not from the agency.",
+  "Fee rates.",
   "How and exactly when Sato met and signed with the agency.",
-  "Shota Morishita and Roberto Suarez as clients.",
-  "Whether the agency has Japanese-speaking staff or a Japanese partner office.",
-  "Details of the Betts and deGrom deals come from Number Web's summary; I did not check them against US sources."
+  "Whether Shota Morishita's agent is Novak himself.",
+  "Details of the Betts and deGrom deals come from Number Web's summary and Spotrac; who at the agency negotiated them was not checked.",
+  "Whether the agency has other Japanese-speaking staff or a Japanese partner office."
  ]
 }

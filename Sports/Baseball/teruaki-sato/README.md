@@ -19,7 +19,7 @@ _This file is generated from `data.json` by `tools/build.py`. Edit `data.json`, 
 | Japan (NPB) | Hanshin Tigers 2021 to 2026: 803 games, .271 average, 163 home runs, 518 RBI, OPS .851 |
 | USA (MLB) | Chicago Cubs from 2027. 6-year contract announced 27 Nov 2026 |
 | Nickname | Sato-Teru (サトテル), or just Teru |
-| Agent | VC Sports Group, an American agency (confirmed by several Japanese papers and MLB Trade Rumors). Named agent Sean Novak: single source, a tabloid, so treat as not confirmed |
+| Agent | Shawn Novak of VC Sports Group, an American agency. Agency confirmed by several Japanese papers and MLB Trade Rumors; Novak named by Sponichi (Oct 2026). He is also Tomoyuki Sugano's agent. See his page on this site |
 | Management office for ads and media | Not confirmed. No source found |
 | National team | 2026 World Baseball Classic: 3 hits in 10 at-bats, 2 RBI; Japan lost to Venezuela in the quarter-final |
 | Social media | An Instagram account, @teruaki_sato_8, is linked from his Japanese Wikipedia page. I did not open it, so it is not confirmed here. No X account found |
@@ -180,7 +180,7 @@ No scandal was found: no report of a crime, doping, gambling or a personal-life 
 | Dec 2023 | 🟠 Divided opinion | **Was the raise to 150 million yen too much?**: His salary rose to an estimated 150 million yen after the title. Social media split between 'too much' and 'fair' (headline only). | No consequence. The next winter his pay was frozen. | [link](https://www.ronspo.com/articles/2023/2023120802-2/) |
 | May 2024 | 🟠 Criticised | **The error, the demotion, and 'no fighting spirit'**: On 14 May, with Hanshin leading 1-0 in the eighth, he dropped a throw at third base and the game was lost. He was sent down the next day. Fans attacked his expressionless manner. He ended the year with 23 errors, the most in Japan. | About three weeks on the farm team. He admitted his numbers were down, took a pay freeze, then won MVP in 2025. | [link](https://www.daily.co.jp/opinion-d/2024/05/16/0017657521.shtml) |
 | Jan 2026 | 🟠 Both sides | **The last unsigned player in Japan**: He was the only player in all 12 clubs without a contract four days before spring camp, because he and his agent were pressing Hanshin on posting as well as salary. Sankei Sports described the two sides as running in parallel lines. | He said it was not a fight. Signed 30 Jan with a club-record raise; posting talks continued and were approved in October. | [link](https://news.yahoo.co.jp/articles/e9d822e648df975d2ed40b173f562702b22408bf) |
-| Aug 2026 | 🔵 He was the target | **Tabloid talk of 'forcing through' a move**: Tabloid Nikkan Gendai wrote that he might force a move and would not back down. This is the same article that names his agent. Tabloid-grade: recorded here as what was said, not as fact. | Overtaken by events: the club approved the posting two months later and he thanked it. | [link](https://www.nikkan-gendai.com/articles/view/sports/391747) |
+| Aug 2026 | 🔵 He was the target | **Tabloid talk of 'forcing through' a move**: Tabloid Nikkan Gendai wrote that he might force a move and would not back down. Tabloid-grade: recorded here as what was said, not as fact. More such reports are collected on the Shawn Novak page. | Overtaken by events: the club approved the posting two months later and he thanked it. | [link](https://www.nikkan-gendai.com/articles/view/sports/391747) |
 | Nov 2026 | 🟠 Divided opinion | **Is he worth it?**: US analysts flag the strikeouts; MLB Trade Rumors had predicted 5 years and $80 million, so the deal beat that by $40 million. A few Yahoo! Japan readers called the price too high. | Open question until he plays in 2027. | [link](https://www.mlbtraderumors.com/2026/11/cubs-to-sign-teruaki-sato.html) |
 
 ## 🔎 8. Deep dives
@@ -220,15 +220,15 @@ Short version: in Japan a player needs nine years of service before he can leave
 - Yahoo! News Japan's summary says this made 1 Dec the real deadline for his talks, even though the posting window formally runs longer. ([source](https://news.yahoo.co.jp/pickup/6604265))
 
 ### 🤝 8.2 The agent and the people around him
-Short version: his agency is confirmed, his named agent is not. He hired an American agency two years before he left, and that agency, not a Japanese office, pressed Hanshin for him. Nothing is published about what he pays them.
+Short version: his agent is Shawn Novak of the small American agency VC Sports Group, who works from Hawaii and speaks Japanese. Sato hired the agency two years before he left, and the agent, not a Japanese office, pressed Hanshin for him. Nothing is published about what he pays.
 
 #### Who is who
 | Role | Who | How sure? | What sources say | Source |
 |---|---|---|---|---|
 | MLB agency | VC Sports Group (USA) | ✅ confirmed | Named by Sankei Sports, Sports Hochi, Number Web and MLB Trade Rumors. Same agency as Mookie Betts and Tomoyuki Sugano. See the new VC Sports Group page on this site. | [link](https://news.yahoo.co.jp/articles/e9d822e648df975d2ed40b173f562702b22408bf) |
-| Named agent | Sean Novak | 🟡 single source | Only the tabloid Nikkan Gendai names him, saying he led the request to Hanshin in the 2025–26 winter. Treat as not confirmed. | [link](https://www.nikkan-gendai.com/articles/view/sports/391747) |
+| Named agent | Shawn Novak (ショーン・ノバック) | ✅ confirmed | Sponichi (Oct 2026) names him as Sato's agent, the same as Sugano's, based in Hawaii. MLB.com confirms he is a VC Sports Group agent. He has his own page on this site, including the rumours about his talks with Hanshin. | [link](https://news.yahoo.co.jp/articles/8e92522c6c64927eebf2ce99c7cbd1f0f2c0d5c5) |
 | When hired | 2024 offseason | 🟡 reported | Sports Hochi says he signed with the agency when he formally stated his MLB wish after the 2024 season. It became public about a year later. | [link](https://news.yahoo.co.jp/articles/6f3424a228fe40ccc674bc5bdff5766a875c13ba) |
-| How he met them | Not confirmed | ⚪ unverified | No source explains it. He trained at Driveline in the USA in Dec 2023, before the reported signing; any link is unknown. | [link](https://www.daily.co.jp/tigers/2024/01/15/0017227629.shtml) |
+| How he met them | Not confirmed | ⚪ unverified | No source explains it. One possible link (my reading): Novak helped negotiate ex-Hanshin closer Robert Suarez's contract with the club in 2019, so he was known around Hanshin. | [link](https://sportsvenezuela.com/beisbol/robert-suarez-japon-mlb/) |
 | Who pays the agent, and how much | Not confirmed | ⚪ unverified | No report. In general an MLB agent is paid by the player as a percentage of the contract; the percentage here is not public. |  |
 | Management office for ads and media | Not confirmed | ⚪ unverified | No Japanese management office or sponsor deal was found. A tabloid hints at an advertising agency close to other Japanese stars; not used. |  |
 | The Hanshin decision-maker | Satoshi Shimamura, head of baseball operations | ✅ confirmed | He announced and explained the approval. The owner's and president's roles are not reported. | [link](https://www.daily.co.jp/tigers/2026/10/19/0020945650.shtml) |
@@ -311,6 +311,7 @@ What is fixed, what is not, and what to watch. This part will age fast.
 Pages that explain the people and rules around this move.
 
 #### Links
+- Shawn Novak: his agent, with a labelled table of rumours. ([source](https://anishimori123.github.io/News/agents/shawn-novak.html))
 - VC Sports Group: his American agency. ([source](https://anishimori123.github.io/News/agents/vc-sports-group.html))
 - Wasserman (now THE·TEAM): the bigger agency most Japanese pitchers use, for comparison. ([source](https://anishimori123.github.io/News/agents/wasserman.html))
 - Bridging Japanese athletes to the US: the routes to MLB, including posting. ([source](https://anishimori123.github.io/News/agents/bridging-to-the-us.html))
@@ -385,7 +386,7 @@ _Read on 2026-11-27. All 19 top-level comments shown at the time (the page count
 - The exact contract total: $120 million (ESPN's Jeff Passan, AP 'reportedly') or $125 million (Bob Nightengale). The club has not published it.
 - Yearly salaries, signing bonus, opt-outs, no-trade clause and incentives in the Cubs contract.
 - The official release fee to Hanshin. About $19.9 million is a calculation from the reported total.
-- His named agent. Sean Novak of VC Sports Group appears only in the tabloid Nikkan Gendai.
+- Whether his agent demanded a written posting promise from Hanshin in the 2025–26 winter, as a Sankei column and weeklies say. Neither side has confirmed it.
 - How he met VC Sports Group, the exact month he signed, and what he pays them.
 - Whether he has a Japanese management office for adverts and media, and any sponsor or equipment deal.
 - The Instagram account @teruaki_sato_8: linked from Japanese Wikipedia, not opened or confirmed by me. No X account found.

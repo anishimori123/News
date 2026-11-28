@@ -7,6 +7,7 @@
 
 | Version | Date | 🆕 New people / pages | What changed, in one line | Pages on site | Words on site | Time spent |
 |---|---|---|---|---|---|---|
+| **v0.4.14** | 2026-11-27 | 🆕 **🌺 Shawn Novak** | New agent page: Shawn Novak, the agent of Teruaki Sato and Tomoyuki Sugano, with a clearly labelled table of rumours and a list of sources to check by hand. | 13 | 55,147 | about 20 minutes (no helpers) |
 | **v0.4.13** | 2026-11-27 | 🆕 **⚾ Teruaki Sato, 🧢 VC Sports Group** | New person: Teruaki Sato (baseball), who signed a 6-year contract with the Chicago Cubs, plus a short page for his agency, VC Sports Group. | 12 | 52,618 | about 50 minutes (5 research helpers running in parallel) |
 | 🤖 **v0.4.12** | 2026-11-25 |  | Bridging page: Shoki Oda finished meeting ten MLB clubs (Shotaro Morii joined the Athletics' meeting) and met the Giants for the first time; no decision yet. | 10 | 43,377 | about 10 minutes (automatic, no helpers) |
 | **v0.4.11** | 2026-11-21 |  | Pages that are checked automatically now show a green "🔄 Auto-check" label, and the home page lists the scheduled tasks. | 10 | 43,039 | about 15 minutes |
@@ -51,6 +52,24 @@
 <!-- SUMMARY:END -->
 
 How to add an entry: put it directly below this line, newest first. Start with `## vX.Y.Z — YYYY-MM-DD`, then `**Summary:**` (one sentence) and `**Time spent:**`, `**What changed**` and `**Why**`. `python tools/build.py` fills in `**New pages:**`, `**Pages on site:**` and `**Words on site:**` for the newest entry and updates the chart and table above.
+
+## v0.4.14 — 2026-11-27
+**Summary:** New agent page: Shawn Novak, the agent of Teruaki Sato and Tomoyuki Sugano, with a clearly labelled table of rumours and a list of sources to check by hand.  
+**New pages:** 🌺 Shawn Novak  
+**Pages on site:** 13  
+**Words on site:** 55147  
+**Time spent:** about 20 minutes (no helpers)
+
+**What changed**
+- New page `Agents/shawn-novak/`: timeline (2019 Suarez deal with Hanshin, Sugano 2024, Sato 2026), Japan-linked clients with confidence marks, method, who pays, controversies with the defence, lessons.
+- New kind of section, at the owner's request: "Rumours and unofficial reports (NOT facts)". Each row says who claims it and what speaks against it.
+- New kind of section: "Sources I could not open (for you to check by hand)", listing pages that block the tools or need a login.
+- Name corrected from "Sean" to "Shawn" Novak on the Sato and VC Sports Group pages (English sources use Shawn). He is now marked confirmed as Sato's agent (Sponichi, Oct 2026).
+- VC Sports Group page: founding year, base and size from a business directory, a client list from Spotrac, updated marks for Sugano, Morishita and Suarez.
+- README and Agents/README updated.
+
+**Why**
+The owner asked who Shawn Novak is and whether he has handled Japanese players before, said rumours and unofficial sources are welcome if labelled, and asked to be told which sources the tools cannot open so he can read them himself.
 
 ## v0.4.13 — 2026-11-27
 **Summary:** New person: Teruaki Sato (baseball), who signed a 6-year contract with the Chicago Cubs, plus a short page for his agency, VC Sports Group.  

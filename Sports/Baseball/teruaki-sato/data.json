@@ -92,7 +92,7 @@
   ],
   [
    "Agent",
-   "VC Sports Group, an American agency (confirmed by several Japanese papers and MLB Trade Rumors). Named agent Sean Novak: single source, a tabloid, so treat as not confirmed"
+   "Shawn Novak of VC Sports Group, an American agency. Agency confirmed by several Japanese papers and MLB Trade Rumors; Novak named by Sponichi (Oct 2026). He is also Tomoyuki Sugano's agent. See his page on this site"
   ],
   [
    "Management office for ads and media",
@@ -747,7 +747,7 @@
     "date": "Aug 2026",
     "kind": "🔵 He was the target",
     "title": "Tabloid talk of 'forcing through' a move",
-    "what": "Tabloid Nikkan Gendai wrote that he might force a move and would not back down. This is the same article that names his agent. Tabloid-grade: recorded here as what was said, not as fact.",
+    "what": "Tabloid Nikkan Gendai wrote that he might force a move and would not back down. Tabloid-grade: recorded here as what was said, not as fact. More such reports are collected on the Shawn Novak page.",
     "outcome": "Overtaken by events: the club approved the posting two months later and he thanked it.",
     "url": "https://www.nikkan-gendai.com/articles/view/sports/391747"
    },
@@ -911,7 +911,7 @@
   {
    "emoji": "🤝",
    "title": "The agent and the people around him",
-   "intro": "Short version: his agency is confirmed, his named agent is not. He hired an American agency two years before he left, and that agency, not a Japanese office, pressed Hanshin for him. Nothing is published about what he pays them.",
+   "intro": "Short version: his agent is Shawn Novak of the small American agency VC Sports Group, who works from Hawaii and speaks Japanese. Sato hired the agency two years before he left, and the agent, not a Japanese office, pressed Hanshin for him. Nothing is published about what he pays.",
    "parts": [
     {
      "heading": "Who is who",
@@ -935,11 +935,11 @@
       {
        "cells": [
         "Named agent",
-        "Sean Novak",
-        "🟡 single source",
-        "Only the tabloid Nikkan Gendai names him, saying he led the request to Hanshin in the 2025–26 winter. Treat as not confirmed."
+        "Shawn Novak (ショーン・ノバック)",
+        "✅ confirmed",
+        "Sponichi (Oct 2026) names him as Sato's agent, the same as Sugano's, based in Hawaii. MLB.com confirms he is a VC Sports Group agent. He has his own page on this site, including the rumours about his talks with Hanshin."
        ],
-       "url": "https://www.nikkan-gendai.com/articles/view/sports/391747"
+       "url": "https://news.yahoo.co.jp/articles/8e92522c6c64927eebf2ce99c7cbd1f0f2c0d5c5"
       },
       {
        "cells": [
@@ -955,9 +955,9 @@
         "How he met them",
         "Not confirmed",
         "⚪ unverified",
-        "No source explains it. He trained at Driveline in the USA in Dec 2023, before the reported signing; any link is unknown."
+        "No source explains it. One possible link (my reading): Novak helped negotiate ex-Hanshin closer Robert Suarez's contract with the club in 2019, so he was known around Hanshin."
        ],
-       "url": "https://www.daily.co.jp/tigers/2024/01/15/0017227629.shtml"
+       "url": "https://sportsvenezuela.com/beisbol/robert-suarez-japon-mlb/"
       },
       {
        "cells": [
@@ -1366,6 +1366,10 @@
      "kind": "list",
      "rows": [
       [
+       "Shawn Novak: his agent, with a labelled table of rumours.",
+       "https://anishimori123.github.io/News/agents/shawn-novak.html"
+      ],
+      [
        "VC Sports Group: his American agency.",
        "https://anishimori123.github.io/News/agents/vc-sports-group.html"
       ],
@@ -1632,7 +1636,7 @@
   "The exact contract total: $120 million (ESPN's Jeff Passan, AP 'reportedly') or $125 million (Bob Nightengale). The club has not published it.",
   "Yearly salaries, signing bonus, opt-outs, no-trade clause and incentives in the Cubs contract.",
   "The official release fee to Hanshin. About $19.9 million is a calculation from the reported total.",
-  "His named agent. Sean Novak of VC Sports Group appears only in the tabloid Nikkan Gendai.",
+  "Whether his agent demanded a written posting promise from Hanshin in the 2025–26 winter, as a Sankei column and weeklies say. Neither side has confirmed it.",
   "How he met VC Sports Group, the exact month he signed, and what he pays them.",
   "Whether he has a Japanese management office for adverts and media, and any sponsor or equipment deal.",
   "The Instagram account @teruaki_sato_8: linked from Japanese Wikipedia, not opened or confirmed by me. No X account found.",
